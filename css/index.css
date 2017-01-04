@@ -1,14 +1,31 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 74c52b55d91969fdcc29b3701a5b88752829d591
 /*!
  * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2e641238a36480fd3bb2636c114a7232b4976fa0
+>>>>>>> 74c52b55d91969fdcc29b3701a5b88752829d591
 body 
 {
     width: 100%;
     height: 100%;
+<<<<<<< HEAD
 	font-family: "Meiryo UI";
+=======
+<<<<<<< HEAD
+	font-family: "Meiryo UI";
+=======
+	font-family: 'Lato';
+>>>>>>> 2e641238a36480fd3bb2636c114a7232b4976fa0
+>>>>>>> 74c52b55d91969fdcc29b3701a5b88752829d591
 }
 
 html 
@@ -17,6 +34,10 @@ html
     height: 100%;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 74c52b55d91969fdcc29b3701a5b88752829d591
 /* 
 	SECTION: TOP NAVIGATION BAR
 */
@@ -368,6 +389,12 @@ html
 	LINK: general link for overall page
 */
 .lkgeneral
+<<<<<<< HEAD
+=======
+=======
+.link
+>>>>>>> 2e641238a36480fd3bb2636c114a7232b4976fa0
+>>>>>>> 74c52b55d91969fdcc29b3701a5b88752829d591
 {
 	-moz-transition: opacity 0.25s ease-in-out;
 	-webkit-transition: opacity 0.25s ease-in-out;
@@ -380,11 +407,23 @@ html
 	color: #333333;
 }
 
+<<<<<<< HEAD
 .lkgeneral:hover
+=======
+<<<<<<< HEAD
+.lkgeneral:hover
+=======
+.link:hover
+>>>>>>> 2e641238a36480fd3bb2636c114a7232b4976fa0
+>>>>>>> 74c52b55d91969fdcc29b3701a5b88752829d591
 {
 	text-decoration: none;
 	border-bottom-style: dotted;
 	border-bottom-width: 1px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 74c52b55d91969fdcc29b3701a5b88752829d591
 	color: #333333;
 	background-color: rgba(78, 121, 165, 0.08);
 }
@@ -418,11 +457,24 @@ html
 	text-decoration: none;
 	border-bottom-style: none;
 	border-bottom-width: 1px;
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2e641238a36480fd3bb2636c114a7232b4976fa0
+>>>>>>> 74c52b55d91969fdcc29b3701a5b88752829d591
 	color: rgba(78, 121, 165, 1.0);
 	background-color: rgba(78, 121, 165, 0.25);
 }
 
+<<<<<<< HEAD
 .lkaffi:active
+=======
+<<<<<<< HEAD
+.lkaffi:active
+=======
+.link:active
+>>>>>>> 2e641238a36480fd3bb2636c114a7232b4976fa0
+>>>>>>> 74c52b55d91969fdcc29b3701a5b88752829d591
 {
 	text-decoration: none;
 	border-bottom-style: dotted;
@@ -430,6 +482,10 @@ html
 	color: rgba(78, 121, 165, 1.0);
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 74c52b55d91969fdcc29b3701a5b88752829d591
 /* 
 	LINK: content with bold text in the record section
 */
@@ -454,4 +510,10 @@ html
 {
 	text-decoration: none;
 	color: rgba(36, 101, 167, 1.0);
+<<<<<<< HEAD
 }
+=======
+}
+=======
+>>>>>>> 2e641238a36480fd3bb2636c114a7232b4976fa0
+>>>>>>> 74c52b55d91969fdcc29b3701a5b88752829d591
