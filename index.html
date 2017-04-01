@@ -120,7 +120,18 @@
                 <div class="col-md-6" style="text-align: left; float: left">
     				<span class="p-name">
             			<h4>
-            			<b>Parinya Punpongsanon, Ph.D. (in Engineering)</b>
+						<b>
+							<a id="name-spell-lk" href="#" class="name">Parinya Punpongsanon 
+							<span class="name-tips">click to spell !</span>
+							</a>
+							, Ph.D. (in Engineering)
+						</b>
+						
+						
+						<audio id="name-spell-ad">
+						<source src="audio/parinya.mp3" type="audio/mpeg">
+						</audio>
+                       
                         <br />
                 		</h4>
 					</span>
@@ -152,7 +163,7 @@
                     </span>     
                     <span class="p-bold">
                 		<strong>
-                		Research interests:
+                		Research Focus:
                 		</strong> 
                 		<br />
 					</span>
@@ -204,7 +215,7 @@
                     SoftAR: Visually Manipulating Haptic Softness Perception in Spatial Augmented Reality</a>
                     </strong>
                     <br />
-                    (IEEE ISMAR 2014/2015, IEEE TVCG 2015, ACM SIGGRAPH 2016 [<font color="#2465a7">Invited Talks</font>], and MIRU 2016 [<font color="#2465a7">Invited Talks</font>])
+                    (IEEE ISMAR 2014/2015, IEEE TVCG 2015, ACM SIGGRAPH 2016 [<font color="red">Invited Talks</font>], and MIRU 2016 [<font color="red">Invited Talks</font>])
                     <br />
                     <br />
                     We present SoftAR, a novel spatial augmented reality (AR) technique 
@@ -230,7 +241,7 @@
                     LazyNav: 3D Ground Navigation with Non-Critical Body Parts</a>
                     </strong>
                     <br />
-                    (ICAT-EGVE 2014, IEEE 3DUI 2015 [<font color="red">Best paper award</font>], and IEEE TVCG 2016)                
+                    (ICAT-EGVE 2014, IEEE 3DUI 2015 [<font color="red">Best Paper Award</font>], and IEEE TVCG 2016)                
                     <br />
                     <br />
                     We propose a mid-air ground navigation control model which lets the 
@@ -256,7 +267,7 @@
                     DeforMe: Visualization of Tangential Surface Deformation using Invisible Textures</a>
                     </strong>
                     <br />
-                    (KJMR2013 [<font color="red">Best presentation award</font>], ACM SIGGRAPH Asia 2013: Emerging Technologies, and Springer-Verlag Virtual Reality 2015)
+                    (KJMR2013 [<font color="red">Best Presentation Award</font>], ACM SIGGRAPH Asia 2013: Emerging Technologies, and Springer-Verlag Virtual Reality 2015)
                     <br />
                     <br />
                     We proposed a technique to estimate the surface 
@@ -1109,6 +1120,14 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+    
+    <!-- Spell a name -->
+    <script>
+  	document.getElementById("name-spell-lk").addEventListener("click", function () 
+	{
+    	document.getElementById("name-spell-ad").play();
+  	});
+	</script>
 
 </body>
 </html>
