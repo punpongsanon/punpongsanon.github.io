@@ -539,7 +539,7 @@ html
 /* 
 	LINK: content with bold text in the record section
 */
-.lk-b-teaching
+.lkbteaching
 {
 	-moz-transition: opacity 0.25s ease-in-out;
 	-webkit-transition: opacity 0.25s ease-in-out;
@@ -550,13 +550,13 @@ html
 	color: #333333;
 }
 
-.lk-b-teaching:hover
+.lkbteaching:hover
 {
 	text-decoration: none;
 	color: rgba(36, 101, 167, 1.0);
 }
 
-.lk-b-teaching:active
+.lkbteaching:active
 {
 	text-decoration: none;
 	color: rgba(36, 101, 167, 1.0);
