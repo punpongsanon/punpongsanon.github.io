@@ -110,7 +110,7 @@ html
 .name:hover
 {
 	text-decoration: none;
-	border-bottom-style: dashed;
+	border-bottom-style: none;
 	border-bottom-width: 1px;
 	color: #000000;
 }
@@ -161,10 +161,21 @@ html
 	font-family: 'Arimo', sans-serif;
 }
 
-/*
-	SECTION: RECORDS
+/* 
+	SECTION: TEACHING
 */
-.records-section 
+.teaching-section 
+{
+    padding-top: 30px;
+    text-align: center;
+    background: #fff;
+	font-family: 'Arimo', sans-serif;
+}
+
+/*
+	SECTION: ACHIEVEMENT
+*/
+.achievement-section 
 {
     padding-top: 30px;
     text-align: center;
@@ -521,6 +532,32 @@ html
 }
 
 .lkbrecord:active
+{
+	text-decoration: none;
+	color: rgba(36, 101, 167, 1.0);
+}
+
+/* 
+	LINK: content with bold text in the record section
+*/
+.lk-b-teaching
+{
+	-moz-transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+	-o-transition: opacity 0.25s ease-in-out;
+	-ms-transition: opacity 0.25s ease-in-out;
+	transition: opacity 0.25s ease-in-out;	
+	text-decoration: none;
+	color: #333333;
+}
+
+.lk-b-teaching:hover
+{
+	text-decoration: none;
+	color: rgba(36, 101, 167, 1.0);
+}
+
+.lk-b-teaching:active
 {
 	text-decoration: none;
 	color: rgba(36, 101, 167, 1.0);
