@@ -111,8 +111,6 @@ html
 .name:hover
 {
 	text-decoration: none;
-	border-bottom-style: none;
-	border-bottom-width: 1px;
 	color: #000000;
 }
 
