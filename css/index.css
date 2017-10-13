@@ -352,12 +352,14 @@ html
 /* 
 *	HELPER: BUTTON
 */
-.btn-white {
+.btn-white 
+{
     color: #000;
     background-color: #fff;
     border: 1px solid transparent;
 }
-.btn-white:hover {
+.btn-white:hover 
+{
     color: #fff;
     background: #000;
     border: 1px solid #fff;
@@ -369,7 +371,8 @@ html
     width: 100%;
     border: 1px solid transparent;
 }
-.btn-black:hover, .btn-black:focus {
+.btn-black:hover, .btn-black:focus 
+{
     color: #000;
     background-color: #fff;
     border: 1px solid #000;
@@ -381,13 +384,15 @@ html
     border: 1px solid transparent;
 }
 
-.btn-green:hover, .btn-green:focus {
+.btn-green:hover, .btn-green:focus 
+{
     color: #fff;
     background-color: #1b7d2c;
     border: 1px solid transparent;
 }
 
-.black {
+.black 
+{
     color: #000 !important;
 }
 
@@ -400,10 +405,11 @@ html
     outline: none;
 }
 
-.btn {
+.btn 
+{
     border: 0;
     border-radius: 0;
-    padding: 6px 28px;
+    padding: 5px 25px;
     text-transform: uppercase;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
