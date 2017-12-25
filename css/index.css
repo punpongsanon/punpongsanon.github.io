@@ -18,6 +18,22 @@ html
     height: 100%;
 }
 
+.big-headline
+{
+	font-size: 28px;
+	text-transform: none;
+	font-family: 'Lato';
+	font-weight: 400;
+}
+
+.medium-headline
+{
+	font-size: 20px;
+	text-transform: none;
+	font-family: 'Lato';
+	font-weight: 400;
+}
+
 /* 
 	SECTION: TOP NAVIGATION BAR
 */
@@ -245,7 +261,7 @@ html
 
 .project-site-content
 {
-	font-family: 'Arimo', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .video-container 
