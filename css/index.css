@@ -784,3 +784,48 @@ fieldset[disabled] .btn-pages.focus
 	text-decoration: none;
 	color: rgba(36, 101, 167, 1.0);
 }
+
+/* tag */
+.tag-past-year
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #ffffff;
+	background-color: #565656;
+	border-color: #565656;
+}
+
+.tag-past-institute 
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #ffffff;
+	background-color: #565656;
+	border-color: #565656;
+}
+
+.tag-current-year
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #ffffff;
+	background-color: #004aa3;
+	border-color: #004aa3;
+}
+
+.tag-current-institute 
+{
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #ffffff;
+	background-color: #004aa3;
+	border-color: #004aa3;
+}
