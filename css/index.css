@@ -409,11 +409,12 @@ html
     transition-property: transform;
 }*/
 
-.btn {
+.btn 
+{
   display: inline-block;
   padding: 3px 10px;
   margin-bottom: 0;
-  font-size: 13px;
+  /*font-size: 13px;*/
   font-weight: normal;
   line-height: 1.42857143;
   text-align: center;
