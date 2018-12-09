@@ -600,6 +600,68 @@ fieldset[disabled] .btn-pdf.focus
   border-color: #1f26b4;
 }
 
+/* -- poster -- */
+.btn-poster 
+{
+  color: #f2f2f2;
+  background-color: #5c3a00;
+  border-color: #5c3a00;
+}
+.btn-poster:focus,
+.btn-poster.focus 
+{
+  color: #f2f2f2;
+  background-color: #2f9400;
+  border-color: #5c3a00;
+}
+.btn-poster:hover 
+{
+  color: #f2f2f2;
+  background-color: #2f9400;
+  border-color: #5c3a00;
+}
+.btn-poster:active,
+.btn-poster.active,
+.open > .dropdown-toggle.btn-poster 
+{
+  color: #f2f2f2;
+  background-color: #2f9400;
+  border-color: #5c3a00;
+}
+.btn-poster:active:hover,
+.btn-poster.active:hover,
+.open > .dropdown-toggle.btn-poster:hover,
+.btn-poster:active:focus,
+.btn-poster.active:focus,
+.open > .dropdown-toggle.btn-poster:focus,
+.btn-poster:active.focus,
+.btn-poster.active.focus,
+.open > .dropdown-toggle.btn-poster.focus 
+{
+  color: #f2f2f2;
+  background-color: #5c3a00;
+  border-color: #5c3a00;
+}
+.btn-poster:active,
+.btn-poster.active,
+.open > .dropdown-toggle.btn-poster 
+{
+  background-image: none;
+}
+.btn-poster.disabled:hover,
+.btn-poster[disabled]:hover,
+fieldset[disabled] .btn-poster:hover,
+.btn-poster.disabled:focus,
+.btn-poster[disabled]:focus,
+fieldset[disabled] .btn-poster:focus,
+.btn-poster.disabled.focus,
+.btn-poster[disabled].focus,
+fieldset[disabled] .btn-poster.focus 
+{
+  background-color: #5c3a00;
+  border-color: #2f9400;
+}
+
 /* -- video -- */
 .btn-vdo 
 {
