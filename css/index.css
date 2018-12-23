@@ -43,6 +43,84 @@ html
     overflow   : hidden;
 }
 
+/* --------------------------
+ * search enging (mixitwarp)
+ * ------------------------*/
+
+.portfolio,
+.gap 
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.portfolio 
+{
+    border-radius: 2px;
+    margin-bottom: 1rem;
+    position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	width:100%;
+	margin-bottom:2%;
+	overflow:hidden;
+	font-size:14px;
+}
+
+.portfolio:before 
+{
+    content: '';
+    display: inline-block;
+}
+
+.portfolio img 
+{
+	max-width:100%;
+	position: relative;
+	top:0;
+    -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:         all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);		
+}
+	
+.portfolio .label 
+{
+	position: absolute;
+	width: 100%;
+	height:40px;
+	bottom:-40px;
+    -webkit-transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:         all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.portfolio .label-bg {
+	background: #e95a44;
+	width: 100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	left:0;
+}
+	
+.portfolio .label-text 
+{
+	color:#fff;
+	position: relative;
+	z-index:500;
+	padding:5px 8px;
+}
+			
+.mix .text-category 
+{
+	display:block;
+	font-size:9px;
+}
+	
+.portfolio:hover .label 
+{
+    bottom:0;
+}
+
 /* ---------------------------------------------- /*
  * Preloader
 /* ---------------------------------------------- */
@@ -391,24 +469,10 @@ html
 	text-decoration: none;
 }
 
-/* Button */
-/*.btn 
-{
-    border: 0;
-    border-radius: 0;
-    padding: 5px 25px;
-    text-transform: uppercase;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: -webkit-transform;
-    transition-property: transform;
-}*/
 
+/* -----------
+ * Button 
+------------*/
 .btn 
 {
   display: inline-block;

@@ -23,6 +23,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <!-- Page CSS -->
     <link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/search.css">
     
 	<!-- JQuery -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -134,7 +135,7 @@
 					</span>
  					<span class="p">
                     	Assistant Professor at 
-						<a href="http://www.es.osaka-u.ac.jp/en/index.html" target="_blank" class="lkgeneral">Graduate School of Engineering Science</a>, 
+						<a href="http://iacs.osaka-u.ac.jp/" target="_blank" class="lkgeneral">Institute for Advanced Co-Creation Studies</a>, 
 						<a href="http://www.osaka-u.ac.jp/" target="_blank" class="lkgeneral">Osaka University</a>
 						(<a href="http://www.sens.sys.es.osaka-u.ac.jp/" target="_blank" class="lkgeneral">SENS Laboratory</a>)
 						<br />
@@ -146,6 +147,8 @@
                         [ <a href="https://www.dropbox.com/s/tobphq3680n9ivp/punpongsanon_cv.pdf?dl=0" target="_blank" class="lkaffi">Curriculum Vitae (PDF)</a> ]
                         <br />
                         <br />
+						<b>Office:</b>
+						<br />
                         Graduate School of Engineering Science, Osaka University
                         <br />
                         Building D, room D558 (5F).
@@ -183,222 +186,237 @@
             <!-- row:Projects -->
             <div class="row">
 	            <div class="col-sm-12" style="border-bottom-style: solid; border-bottom-width: 1px; text-align: left; border-color: #d2d2d2;">
-        	    	<h3><b>Projects</b></h3>
+        	    	<h3>
+					<b>Projects</b>
+					</h3>
             	</div>
             </div>
             <!-- row:Projects -->
+			
+			<div class="row portfolio">
+				<div class="col-sm-12" style="text-align: left;">
+					<div class="controls">
+						<br />
+						<input type="button" class="btn btn-reset" data-ref="input-theme-perception" value="perception" />
+						<input type="button" class="btn btn-reset" data-ref="input-theme-vr-ar" value="VR/AR" />
+						<input type="button" class="btn btn-reset" data-ref="input-all" value="all" />
+					</div>
+				</div>
+			</div>
 
 			<!-- row:Projects // Block of research hilight, copy and add a new block -->
-            <div class="row">
-            	<br />
-				<div class="col-sm-2" style="text-align: left;">
-                	<img src="images/project/flyinghand-project-thumbnail.jpg" alt="FlyingHand" width="100%" />
-                </div>
-                <div class="col-sm-10" style="text-align: left; float: right;">
-                    <strong>
-                    <a class="lkproject" href="https://punpongsanon.info/flyinghand/flyinghand.html" target="_blank">
-                    FlyingHand: Extending the Range of Haptic Feedback on Virtual Hand using Drone-based Object Recognition
-					</a>
-                    </strong>
+			<div class="search-included" data-ref="search-included" id="container">
+				<div class="row portfolio perception">
 					<br />
-                    (ACM SIGGRAPH Asia 2018 Technical Briefs)
-                    <br />
-                    <br />
-                    We present an HMD integrated system that uses a drone and a virtual hand to help the users explore and access space of the remote environment regardless of body limitations. The system allows the users to use hand gestures to control the drone and identify the Objects of Interest (OOI) through tactile feedback. The system uses a Convolutional Neural Network to perform object classification with the drone captured image and provides a virtual hand to realize interaction with the object. 
-					Accordingly, tactile feedback is also provided to users' hands to enhance the virtual hand body ownership. 
-					...
-                    <br />
-                    <br />
-                </div>
-				<div class="col-sm-12" style="text-align: left; border-bottom-style: dashed; border-bottom-width: 1px; border-color: #d2d2d2;">
-                </div>       
-            </div>
-            <!-- row:Projects // End block here -->
-            <!-- row:Projects // Block of research hilight, copy and add a new block -->
-            <div class="row">
-            	<br />
-				<div class="col-sm-2" style="text-align: left;">
-                	<img src="images/project/flexeen-project-thumbnail.jpg" alt="FleXeen" width="100%" />
-                </div>
-                <div class="col-sm-10" style="text-align: left; float: right;">
-                    <strong>
-                    <a class="lkproject" href="https://punpongsanon.info/flexeen/flexeen.html" target="_blank">
-                    FleXeen: Visually Manipulating Perceived Fabric Bending Stiffness in Spatial Augmented Reality
-					</a>
-                    </strong>
+					<div class="col-sm-2" style="text-align: left;">
+						<img src="images/project/flyinghand-project-thumbnail.jpg" alt="FlyingHand" width="100%" />
+					</div>
+					<div class="col-sm-10" style="text-align: left; float: right;">
+						<strong>
+						<a class="lkproject" href="https://punpongsanon.info/flyinghand/flyinghand.html" target="_blank">
+						FlyingHand: Extending the Range of Haptic Feedback on Virtual Hand using Drone-based Object Recognition
+						</a>
+						</strong>
+						<br />
+						(ACM SIGGRAPH Asia 2018 Technical Briefs)
+						<br />
+						<br />
+						We present an HMD integrated system that uses a drone and a virtual hand to help the users explore and access space of the remote environment regardless of body limitations. The system allows the users to use hand gestures to control the drone and identify the Objects of Interest (OOI) through tactile feedback. The system uses a Convolutional Neural Network to perform object classification with the drone captured image and provides a virtual hand to realize interaction with the object. 
+						Accordingly, tactile feedback is also provided to users' hands to enhance the virtual hand body ownership. 
+						...
+						<br />
+						<br />
+					</div>
+					<div class="col-sm-12" style="text-align: left; border-bottom-style: dashed; border-bottom-width: 1px; border-color: #d2d2d2;">
+					</div>       
+				</div>
+				<!-- row:Projects // End block here -->
+				<!-- row:Projects // Block of research hilight, copy and add a new block -->
+				<div class="row portfolio perception">
 					<br />
-                    (IEEE TVCG 2018)
-                    <br />
-                    <br />
-                    The appearance of fabric motion is suggested to affect the human perception of bending stiffness. 
-					This study presents a novel spatial augmented reality, or projection mapping, approach that can visually manipulate 
-					the perceived bending stiffness of a fabric.
-					Particularly, we proposed a flow enhancement method that can change the apparent fabric motion by using a simple optical flow analysis technique rather 
-					than complex physical simulations for interactive applications
-					...
-                    <br />
-                    <br />
-                </div>
-				<div class="col-sm-12" style="text-align: left; border-bottom-style: dashed; border-bottom-width: 1px; border-color: #d2d2d2;">
-                </div>       
-            </div>
-            <!-- row:Projects // End block here -->
-            <!-- row:Projects // Block of research hilight, copy and add a new block -->
-            <div class="row">
-            	<br />
-				<div class="col-sm-2" style="text-align: left;">
-                	<img src="images/project/efficient-information-sharing-thumbnail.jpg" alt="CollaborativeVR" width="100%" />
-                </div>
-                <div class="col-sm-10" style="text-align: left; float: right;">
-                    <strong>
-                    <a class="lkproject" href="https://punpongsanon.info/collaborativevr/collaborativevr.html" target="_blank">
-                    Efficient Information Sharing Techniques between Workers of Heterogeneous Tasks in 3D CVE
-					</a>
-                    </strong>
+					<div class="col-sm-2" style="text-align: left;">
+						<img src="images/project/flexeen-project-thumbnail.jpg" alt="FleXeen" width="100%" />
+					</div>
+					<div class="col-sm-10" style="text-align: left; float: right;">
+						<strong>
+						<a class="lkproject" href="https://punpongsanon.info/flexeen/flexeen.html" target="_blank">
+						FleXeen: Visually Manipulating Perceived Fabric Bending Stiffness in Spatial Augmented Reality
+						</a>
+						</strong>
+						<br />
+						(IEEE TVCG 2018)
+						<br />
+						<br />
+						The appearance of fabric motion is suggested to affect the human perception of bending stiffness. 
+						This study presents a novel spatial augmented reality, or projection mapping, approach that can visually manipulate 
+						the perceived bending stiffness of a fabric.
+						Particularly, we proposed a flow enhancement method that can change the apparent fabric motion by using a simple optical flow analysis technique rather 
+						than complex physical simulations for interactive applications
+						...
+						<br />
+						<br />
+					</div>
+					<div class="col-sm-12" style="text-align: left; border-bottom-style: dashed; border-bottom-width: 1px; border-color: #d2d2d2;">
+					</div>       
+				</div>
+				<!-- row:Projects // End block here -->
+				<!-- row:Projects // Block of research hilight, copy and add a new block -->
+				<div class="row portfolio vrar">
 					<br />
-                    (ACM CSCW 2018)
-                    <br />
-                    <br />
-                    We compare different information sharing techniques and determine and efficient technique for the collaboration between workers. 
-					In our user experiment, particinants performed a floor plan design task in a designer and engineer pairing on a desktop VR environment. 
-					The results showed that the proposed information sharing technique, in which objects are updated based on local users' actions, 
-					is more suitable than real-time updates ...
-                    <br />
-                    <br />
-                </div>
-				<div class="col-sm-12" style="text-align: left; border-bottom-style: dashed; border-bottom-width: 1px; border-color: #d2d2d2;">
-                </div>       
-            </div>
-            <!-- row:Projects // End block here -->  
-            <!-- row:Projects // Block of research hilight, copy and add a new block -->
-            <div class="row">
-            	<br />
-				<div class="col-sm-2" style="text-align: left;">
-                	<img src="images/project/colormod-project-thumbnail.jpg" alt="ColorMod" width="100%" />
-                </div>
-                <div class="col-sm-10" style="text-align: left; float: right;">
-                    <strong>
-                    <a class="lkproject" href="https://hcie.csail.mit.edu/research/colormod/colormod.html" target="_blank">
-                    ColorMod: Recoloring 3D Printed Objects using Photochromic Inks
-					</a>
-                    </strong>
+					<div class="col-sm-2" style="text-align: left;">
+						<img src="images/project/efficient-information-sharing-thumbnail.jpg" alt="CollaborativeVR" width="100%" />
+					</div>
+					<div class="col-sm-10" style="text-align: left; float: right;">
+						<strong>
+						<a class="lkproject" href="https://punpongsanon.info/collaborativevr/collaborativevr.html" target="_blank">
+						Efficient Information Sharing Techniques between Workers of Heterogeneous Tasks in 3D CVE
+						</a>
+						</strong>
+						<br />
+						(ACM CSCW 2018)
+						<br />
+						<br />
+						We compare different information sharing techniques and determine and efficient technique for the collaboration between workers. 
+						In our user experiment, particinants performed a floor plan design task in a designer and engineer pairing on a desktop VR environment. 
+						The results showed that the proposed information sharing technique, in which objects are updated based on local users' actions, 
+						is more suitable than real-time updates ...
+						<br />
+						<br />
+					</div>
+					<div class="col-sm-12" style="text-align: left; border-bottom-style: dashed; border-bottom-width: 1px; border-color: #d2d2d2;">
+					</div>       
+				</div>
+				<!-- row:Projects // End block here -->  
+				<!-- row:Projects // Block of research hilight, copy and add a new block -->
+				<div class="row fabrication">
 					<br />
-                    (ACM CHI 2018 Papers, and ACM CHI 2018 Extended Abstracts)
-                    <br />
-                    <br />
-                    We present ColorMod, a method for changing the color of a 3D-printed object even after fabrication. 
-					ColorMod works based on photochromic inks that can switch their appearance from transparent to colored when exposed to light of a certain wavelength. 
-					The color remains even when the object is removed from the light source. 
-					The process is fully reversible allowing users to recolor the object as many times as they want ...
-                    <br />
-                    <br />
-                </div>
-				<div class="col-sm-12" style="text-align: left; border-bottom-style: dashed; border-bottom-width: 1px; border-color: #d2d2d2;">
-                </div>       
-            </div>
-            <!-- row:Projects // End block here -->  
-            <!-- row:Projects // Block of research hilight, copy and add a new block -->
-            <div class="row">
-            	<br />
-				<div class="col-sm-2" style="text-align: left;">
-                	<img src="images/project/fabpub-project-thumbmail.jpg" alt="Personal Fabrication Overview" width="100%" />
-                </div>
-                <div class="col-sm-10" style="text-align: left; float: right;">
-                    <strong>
-                    <a class="lkproject" href="https://hcie.csail.mit.edu/fabpub/" target="_blank">
-                    Personal Fabrication Research in HCI and Graphics: An Overview of Related Work
-					</a>
-                    </strong>
+					<div class="col-sm-2" style="text-align: left;">
+						<img src="images/project/colormod-project-thumbnail.jpg" alt="ColorMod" width="100%" />
+					</div>
+					<div class="col-sm-10" style="text-align: left; float: right;">
+						<strong>
+						<a class="lkproject" href="https://hcie.csail.mit.edu/research/colormod/colormod.html" target="_blank">
+						ColorMod: Recoloring 3D Printed Objects using Photochromic Inks
+						</a>
+						</strong>
+						<br />
+						(ACM CHI 2018 Papers, and ACM CHI 2018 Extended Abstracts)
+						<br />
+						<br />
+						We present ColorMod, a method for changing the color of a 3D-printed object even after fabrication. 
+						ColorMod works based on photochromic inks that can switch their appearance from transparent to colored when exposed to light of a certain wavelength. 
+						The color remains even when the object is removed from the light source. 
+						The process is fully reversible allowing users to recolor the object as many times as they want ...
+						<br />
+						<br />
+					</div>
+					<div class="col-sm-12" style="text-align: left; border-bottom-style: dashed; border-bottom-width: 1px; border-color: #d2d2d2;">
+					</div>       
+				</div>
+				<!-- row:Projects // End block here -->  
+				<!-- row:Projects // Block of research hilight, copy and add a new block -->
+				<div class="row">
 					<br />
-                    (This project hosted by <a href="http://stefaniemueller.org/" target="_blank" class="lkgeneral">Prof. Stefanie Mueller</a> at MIT CSAIL)
-                    <br />
-                    <br />
-                    This website provides all papers publushed in personal fabrication in the HCI and Graphics communities. 
-					Each paper comes with an image, a short description, and links to the pdf, video, and a webpage if available. 
-					In addition, all papers can be sorted by conference and year.
-					We hope this will help newcomers in personal fabrication to quickly get an overview of the field and for everyone else 
-					to quickly scan for related work.
-                    <br />
-                    <br />
-                </div>
-				<div class="col-sm-12" style="text-align: left; border-bottom-style: dashed; border-bottom-width: 1px; border-color: #d2d2d2;">
-                </div>       
-            </div>
-            <!-- row:Projects // End block here -->  
-            <!-- row:Projects // Block of research hilight, copy and add a new block -->
-            <div class="row">
-            	<br />
-				<div class="col-sm-2" style="text-align: left;">
-                	<img src="images/project/softar-project-thumbnail.jpg" alt="SoftAR" width="100%" />
-                </div>
-                <div class="col-sm-10" style="text-align: left; float: right;">
-                    <strong>
-                    <a class="lkproject" href="https://punpongsanon.info/softar/softar.html" target="_blank">
-                    SoftAR: Visually Manipulating Haptic Softness Perception in Spatial Augmented Reality
-					</a>
-                    </strong>
-                    <br />
-                    (IEEE ISMAR 2014/2015, IEEE TVCG 2015, ACM SIGGRAPH 2016 [<font color="red">Invited Talks</font>], and MIRU 2016 [<font color="red">Invited Talks</font>])
-                    <br />
-                    <br />
-					We present SoftAR, a novel spatial augmented reality (AR) technique based on a pseudo-haptics mechanism that visually manipulates the sense of softness perceived by a user pushing a soft physical object. Considering the limitations of projection-based approaches that change only the surface appearance of a physical object, we propose two projection visual effects on the basis of the observations of humans pushing physical objects.
-                    <br />
-                    <br />
-                </div>
-				<div class="col-sm-12" style="text-align: left; border-bottom-style: dashed; border-bottom-width: 1px; border-color: #d2d2d2;">
-                </div>       
-            </div>
-            <!-- row:Projects // End block here -->   
-            <!-- row:Projects // Block of research hilight, copy and add a new block -->
-            <div class="row">
-            	<br />
-				<div class="col-sm-2" style="text-align: right;">
-                	<img src="images/project/lazynav-project-thumbnail.jpg" alt="LazyNav" width="100%" />
-                </div>
-                <div class="col-sm-10" style="text-align: left; float: right;">
-                    <strong>
-                    <a class="lkproject" href="https://punpongsanon.info/lazynav/" target="_blank">
-                    LazyNav: 3D Ground Navigation with Non-Critical Body Parts
-					</a>
-                    </strong>
-                    <br />
-                    (ICAT-EGVE 2014, IEEE 3DUI 2015 [<font color="red">Best Paper Award</font>], and IEEE TVCG 2016)                
-                    <br />
-                    <br />
-					While classical input devices have their own ground navigation standards, natural input techniques still lack acknowledged mechanisms for travelling in a 3D scene. In particular, navigation is not the primary interaction. Thus, the user should navigate in the scene while still being able to perform other interactions with her hands, and observe the displayed content by moving her eyes and locally rotating her head.
-                    <br />
-                    <br />           
-                </div>
-				<div class="col-sm-12" style="text-align: left; border-bottom-style: dashed; border-bottom-width: 1px; border-color: #d2d2d2;">
-                </div>  
-            </div>
-            <!-- row:Projects // End block here -->           
-            <!-- row:Projects // Block of research hilight, copy and add a new block -->
-            <div class="row">
-            	<br />
-				<div class="col-sm-2" style="text-align: right;">
-                	<img src="images/project/deforme-project-thumbnail.jpg" alt="DeforMe" width="100%" />
-                </div>
-                <div class="col-sm-10" style="text-align: left; float: right;">
-                    <strong>
-                    <a class="lkproject" href="https://punpongsanon.info/deforme/" target="_blank">
-                    DeforMe: Visualization of Tangential Surface Deformation using Invisible Textures
-					</a>
-                    </strong>
-                    <br />
-                    (KJMR2013 [<font color="red">Best Presentation Award</font>], ACM SIGGRAPH Asia 2013: Emerging Technologies, and Springer-Verlag Virtual Reality 2015)
-                    <br />
-                    <br />
-					We propose a projection-based mixed reality system that visualizes the tangential deformation of a nonrigid surface by superimposing graphics directly onto the surface by projected imagery. The superimposed graphics is deformed according to the surface deformation. We develop a computer vision technique that estimates the tangential deformation by measuring the frame-by-frame movement of an infrared (IR) texture on the surface.
-                    <br />
-                    <br />            
-                </div>
-				<!--
-				<div class="col-sm-12" style="text-align: left; border-bottom-style: dashed; border-bottom-width: 1px; border-color: #d2d2d2;">
-                </div> 
-				--> 
-            </div>
-            <!-- row:Projects // End block here -->    
+					<div class="col-sm-2" style="text-align: left;">
+						<img src="images/project/fabpub-project-thumbmail.jpg" alt="Personal Fabrication Overview" width="100%" />
+					</div>
+					<div class="col-sm-10" style="text-align: left; float: right;">
+						<strong>
+						<a class="lkproject" href="https://hcie.csail.mit.edu/fabpub/" target="_blank">
+						Personal Fabrication Research in HCI and Graphics: An Overview of Related Work
+						</a>
+						</strong>
+						<br />
+						(This project hosted by <a href="http://stefaniemueller.org/" target="_blank" class="lkgeneral">Prof. Stefanie Mueller</a> at MIT CSAIL)
+						<br />
+						<br />
+						This website provides all papers publushed in personal fabrication in the HCI and Graphics communities. 
+						Each paper comes with an image, a short description, and links to the pdf, video, and a webpage if available. 
+						In addition, all papers can be sorted by conference and year.
+						We hope this will help newcomers in personal fabrication to quickly get an overview of the field and for everyone else 
+						to quickly scan for related work.
+						<br />
+						<br />
+					</div>
+					<div class="col-sm-12" style="text-align: left; border-bottom-style: dashed; border-bottom-width: 1px; border-color: #d2d2d2;">
+					</div>       
+				</div>
+				<!-- row:Projects // End block here -->  
+				<!-- row:Projects // Block of research hilight, copy and add a new block -->
+				<div class="row perception">
+					<br />
+					<div class="col-sm-2" style="text-align: left;">
+						<img src="images/project/softar-project-thumbnail.jpg" alt="SoftAR" width="100%" />
+					</div>
+					<div class="col-sm-10" style="text-align: left; float: right;">
+						<strong>
+						<a class="lkproject" href="https://punpongsanon.info/softar/softar.html" target="_blank">
+						SoftAR: Visually Manipulating Haptic Softness Perception in Spatial Augmented Reality
+						</a>
+						</strong>
+						<br />
+						(IEEE ISMAR 2014/2015, IEEE TVCG 2015, ACM SIGGRAPH 2016 [<font color="red">Invited Talks</font>], and MIRU 2016 [<font color="red">Invited Talks</font>])
+						<br />
+						<br />
+						We present SoftAR, a novel spatial augmented reality (AR) technique based on a pseudo-haptics mechanism that visually manipulates the sense of softness perceived by a user pushing a soft physical object. Considering the limitations of projection-based approaches that change only the surface appearance of a physical object, we propose two projection visual effects on the basis of the observations of humans pushing physical objects.
+						<br />
+						<br />
+					</div>
+					<div class="col-sm-12" style="text-align: left; border-bottom-style: dashed; border-bottom-width: 1px; border-color: #d2d2d2;">
+					</div>       
+				</div>
+				<!-- row:Projects // End block here -->   
+				<!-- row:Projects // Block of research hilight, copy and add a new block -->
+				<div class="row">
+					<br />
+					<div class="col-sm-2" style="text-align: right;">
+						<img src="images/project/lazynav-project-thumbnail.jpg" alt="LazyNav" width="100%" />
+					</div>
+					<div class="col-sm-10" style="text-align: left; float: right;">
+						<strong>
+						<a class="lkproject" href="https://punpongsanon.info/lazynav/" target="_blank">
+						LazyNav: 3D Ground Navigation with Non-Critical Body Parts
+						</a>
+						</strong>
+						<br />
+						(ICAT-EGVE 2014, IEEE 3DUI 2015 [<font color="red">Best Paper Award</font>], and IEEE TVCG 2016)                
+						<br />
+						<br />
+						While classical input devices have their own ground navigation standards, natural input techniques still lack acknowledged mechanisms for travelling in a 3D scene. In particular, navigation is not the primary interaction. Thus, the user should navigate in the scene while still being able to perform other interactions with her hands, and observe the displayed content by moving her eyes and locally rotating her head.
+						<br />
+						<br />           
+					</div>
+					<div class="col-sm-12" style="text-align: left; border-bottom-style: dashed; border-bottom-width: 1px; border-color: #d2d2d2;">
+					</div>  
+				</div>
+				<!-- row:Projects // End block here -->           
+				<!-- row:Projects // Block of research hilight, copy and add a new block -->
+				<div class="row vrar">
+					<br />
+					<div class="col-sm-2" style="text-align: right;">
+						<img src="images/project/deforme-project-thumbnail.jpg" alt="DeforMe" width="100%" />
+					</div>
+					<div class="col-sm-10" style="text-align: left; float: right;">
+						<strong>
+						<a class="lkproject" href="https://punpongsanon.info/deforme/" target="_blank">
+						DeforMe: Visualization of Tangential Surface Deformation using Invisible Textures
+						</a>
+						</strong>
+						<br />
+						(KJMR2013 [<font color="red">Best Presentation Award</font>], ACM SIGGRAPH Asia 2013: Emerging Technologies, and Springer-Verlag Virtual Reality 2015)
+						<br />
+						<br />
+						We propose a projection-based mixed reality system that visualizes the tangential deformation of a nonrigid surface by superimposing graphics directly onto the surface by projected imagery. The superimposed graphics is deformed according to the surface deformation. We develop a computer vision technique that estimates the tangential deformation by measuring the frame-by-frame movement of an infrared (IR) texture on the surface.
+						<br />
+						<br />            
+					</div>
+					<!--
+					<div class="col-sm-12" style="text-align: left; border-bottom-style: dashed; border-bottom-width: 1px; border-color: #d2d2d2;">
+					</div> 
+					--> 
+				</div>
+				<!-- row:Projects // End block here -->  
+			</div>
 		</div>
 	</section>
     
@@ -1705,7 +1723,27 @@
                 </div>
 				<div class="col-sm-8" style="text-align: left;">
 					<strong>
-					Assistant Professor (04/2018 - Present)
+					Assistant Professor (01/2019 - Present)
+					</strong>
+					, Institute for Advanced Co-Creation Studies, Osaka University, Japan
+					<br />
+					Research Fields: <em>Spatial Augmented Reality, Digital Fabrication, Human Perception</em>.
+					<br />
+					<br />
+					<br />
+				</div>
+				<div class="col-sm-2" style="text-align: right;">
+					<img src="images/logo/OU.jpg" alt="Osaka University" width="60" />
+				</div>
+            </div>
+            <!-- row:Records: Employment//Main block -->
+            <!-- row:Records: Employment//Main block -->
+            <div class="row">
+            	<div class="col-sm-2" style="text-align: left;">            	
+                </div>
+				<div class="col-sm-8" style="text-align: left;">
+					<strong>
+					Assistant Professor (04/2018 - 12/2018)
 					</strong>
 					, Graduate School of Engineering Science, Osaka University, Japan
 					<br />
@@ -1854,17 +1892,20 @@
 	</footer>
 	<!-- .footer -->	
 
-<!-- Bootstrap Core JavaScript -->
+<!-- ## script ## -->
+<!-- Bootstrap -->
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-<!-- Scrolling Nav JavaScript -->
+<!-- Scrolling -->
 <script type="text/javascript" src="js/jquery.easing.min.js"></script>
 <script type="text/javascript" src="js/scrolling-nav.js"></script>
-	
 <!-- Page preloader -->
 <script type="text/javascript" src="js/scripts.js"></script>
-<!-- header -->
-<script type="text/javascript" src="https://punpongsanon.info/js/loadheader.js"></script> 
+<!-- Page header -->
+<script type="text/javascript" src="https://punpongsanon.info/js/loadheader.js"></script>
+<!-- MixItUp -->
+<script type="text/javascript" src="js/mixitup.min.js"></script>
+<script type="text/javascript" src="js/mixitup.search.js"></script>
+<!-- ############ -->
 
 </body>
 </html>
