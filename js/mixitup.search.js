@@ -4,6 +4,7 @@
 	var btnAll = document.querySelector('[data-ref="input-all"]');
 	var btnThemePerception = document.querySelector('[data-ref="input-theme-perception"]');
 	var btnThemeVRAR = document.querySelector('[data-ref="input-theme-vr-ar"]');
+	var btnThemeFabrication = document.querySelector('[data-ref="input-theme-fabrication"]');
 	
     var keyupTimeout;
 
@@ -41,6 +42,11 @@
 	btnThemeVRAR.addEventListener('click', function() 
 	{
 		mixer.filter('[class*=vrar]');
+	});
+	
+	btnThemeFabrication.addEventListener('click', function() 
+	{
+		mixer.filter('[class*=fabrication]');
 	});
 
 	function filterByString(searchValue) 
