@@ -1,10 +1,10 @@
 	// Search inside tag 'search-included'
-	var container = document.querySelector('[data-ref="search-included"]');
+	var container = document.querySelector('[data-project-toggle="search-included"]');
 	
-	var btnAll = document.querySelector('[data-ref="input-all"]');
-	var btnThemePerception = document.querySelector('[data-ref="input-theme-perception"]');
-	var btnThemeVRAR = document.querySelector('[data-ref="input-theme-vr-ar"]');
-	var btnThemeFabrication = document.querySelector('[data-ref="input-theme-fabrication"]');
+	var btnAll = document.querySelector('[data-project-toggle="input-all"]');
+	var btnThemePerception = document.querySelector('[data-project-toggle="input-theme-perception"]');
+	var btnThemeVRAR = document.querySelector('[data-project-toggle="input-theme-vr-ar"]');
+	var btnThemeFabrication = document.querySelector('[data-project-toggle="input-theme-fabrication"]');
 	
     var keyupTimeout;
 
@@ -15,17 +15,21 @@
 			duration: 350
 		},
 		
-		callbacks: 
-		{
-			onMixClick: function() 
-			{
+		//callbacks: 
+		//{
+		//	onMixClick: function() 
+		//	{
 				// Reset the search if a filter is clicked
-				if (this.matches('[data-filter]')) 
-				{
-					inputSearch.value = '';
-				}
-			}
-		}
+		//		if (this.matches('[data-project-toggle]')) 
+		//		{
+		//			inputSearch.value = '';
+		//		}
+		//	}
+		//}
+		controls: 
+		{
+			toggleLogic: 'and'
+        }		
 	});
 
 	// Set up a handler to listen for "click" events from the search input
@@ -41,7 +45,7 @@
 	
 	btnThemeVRAR.addEventListener('click', function() 
 	{
-		mixer.filter('[class*=vrar]');
+		mixer.filter('[class*=vr-ar]');
 	});
 	
 	btnThemeFabrication.addEventListener('click', function() 

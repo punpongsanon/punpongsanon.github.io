@@ -1,9 +1,11 @@
-/* Controls
----------------------------------------------------------------------- */
+/* This CSS for search area at the projects section */
+
+/* ----------------
+ * Controls
+ * ------------- */
 
 .controls 
 {
-	padding: 1rem;
 	width: 100%;
 	position: relative; 
 	margin: 0 auto; 
@@ -11,21 +13,21 @@
   	-moz-transition: all 1s ease;
   	-o-transition: all 1s ease;
   	transition: all 1s ease;	
-	background: #FFF;
+	background: #FFFFFF;
 	font-family: 'roboto', arial, sans-serif;
-	color: #333;
+	color: #333333;
 }
 
 .control-text
 {
-	color: #fff;
+	color: #FFFFFF;
 }
 
 .control 
 {
 	position: relative;
 	display: inline-block;
-	padding: 3px 10px;
+	padding: 2px 7px 2px 7px; /* up, right, down, left */
 	margin-bottom: 0;
 	font-weight: normal;
 	line-height: 1.42857143;
@@ -57,55 +59,11 @@
 	border-radius: 4px;
 }
 
-.control[data-filter]:after 
+.control[data-project-toggle]:after 
 {
-    content: '';
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    top: calc(50% - 6px);
-    left: calc(50% - 6px);
-    border: 2px solid currentColor;
-    border-radius: 2px;
-    background: currentColor;
-    transition: background-color 150ms, border-color 150ms;
-}
-
-.control[data-sort]:after 
-{
-    content: '';
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    border-top: 2px solid;
-    border-left: 2px solid;
-    top: calc(50% - 6px);
-    left: calc(50% - 6px);
-    transform:  translateY(1px) rotate(45deg);
-}
-
-.control[data-sort*=":desc"]:after 
-{
-    transform:  translateY(-4px) rotate(-135deg);
-}
-
-.control[data-ref]:after 
-{
-	/*
-    content: '';
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    top: calc(50% - 6px);
-    left: calc(50% - 6px);
-    border: 2px solid currentColor;
-    border-radius: 2px;
-    background: currentColor;
-    transition: background-color 150ms, border-color 150ms;
-	*/
 	color: #333333;
 	position: absolute;
-    background-color: #CCCCCC;
+    background-color: currentColor;
 	border: 1.1px solid currentColor;
 	border-color: #CCCCCC;
 	border-radius: 4px;
@@ -114,86 +72,46 @@
 
 .mixitup-control-active 
 {
-    background: #393939;
+    background: #333333;
 }
 
-.mixitup-control-active[data-filter]:after 
+.mixitup-control-active[data-project-toggle]:after 
 {
     background: transparent;
 }
 
-.mixitup-control-active[data-ref]:after 
+/* -----------------------------
+ * Tag area at each project
+ ---------------------------- */
+.data-project-tag
 {
-    background: transparent;
+	position: relative;
+	display: inline-block;
+	padding: 1.5px 3px 1.5px 3px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	color: #CCCCCC;
+	background-image: none;
+	background-color: #FFFFFF;
+	border: 1.1px solid transparent;
+	border-color: #CCCCCC;
+	border-radius: 4px;
 }
 
-/*******************************************************/
-
-.btn-doi 
-{
-  color: #f2f2f2;
-  background-color: #e95a44;
-  border-color: #e95a44;
-}
-.btn-doi:focus,
-.btn-doi.focus 
-{
-  color: #f2f2f2;
-  background-color: #f87560;
-  border-color: #e95a44;
-}
-.btn-doi:hover 
-{
-  color: #f2f2f2;
-  background-color: #f87560;
-  border-color: #e95a44;
-}
-.btn-doi:active,
-.btn-doi.active,
-.open > .dropdown-toggle.btn-doi 
-{
-  color: #f2f2f2;
-  background-color: #f87560;
-  border-color: #e95a44;
-}
-.btn-doi:active:hover,
-.btn-doi.active:hover,
-.open > .dropdown-toggle.btn-doi:hover,
-.btn-doi:active:focus,
-.btn-doi.active:focus,
-.open > .dropdown-toggle.btn-doi:focus,
-.btn-doi:active.focus,
-.btn-doi.active.focus,
-.open > .dropdown-toggle.btn-doi.focus 
-{
-  color: #f2f2f2;
-  background-color: #e95a44;
-  border-color: #e95a44;
-}
-.btn-doi:active,
-.btn-doi.active,
-.open > .dropdown-toggle.btn-doi 
-{
-  background-image: none;
-}
-.btn-doi.disabled:hover,
-.btn-doi[disabled]:hover,
-fieldset[disabled] .btn-doi:hover,
-.btn-doi.disabled:focus,
-.btn-doi[disabled]:focus,
-fieldset[disabled] .btn-doi:focus,
-.btn-doi.disabled.focus,
-.btn-doi[disabled].focus,
-fieldset[disabled] .btn-doi.focus 
-{
-  background-color: #e95a44;
-  border-color: #f87560;
-}
-
-/*******************************************************/
-
-/* Selection engine
----------------------------------------------------------------------- */
+/* -----------------------
+ * Selection engine
+ * --------------------- */
 
 .portfolio,
 .gap 
