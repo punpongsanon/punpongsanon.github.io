@@ -312,6 +312,29 @@ html
 	font-size: 13px;
 }
 
+.project-title-link
+{
+	-moz-transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+	-o-transition: opacity 0.25s ease-in-out;
+	-ms-transition: opacity 0.25s ease-in-out;
+	transition: opacity 0.25s ease-in-out;	
+	text-decoration: none;
+	color: #333333;
+}
+
+.project-title-link:hover
+{
+	text-decoration: none;
+	color: rgba(36, 101, 167, 1.0);
+}
+
+.project-title-link:active
+{
+	text-decoration: none;
+	color: rgba(36, 101, 167, 1.0);
+}
+
 /*
 *	SECTION: RSS (Quick update)
 */
@@ -454,8 +477,7 @@ html
 
 .textlink-black:hover
 {
-	text-transform: uppercase;
-	color: #494949;
+	background-color: #cccccc;
 }
 
 .textlink-black:active
@@ -909,31 +931,10 @@ fieldset[disabled] .btn-pages.focus
 /* 
 	LINK: firstpage to each project page
 */
-.lkproject
-{
-	-moz-transition: opacity 0.25s ease-in-out;
-	-webkit-transition: opacity 0.25s ease-in-out;
-	-o-transition: opacity 0.25s ease-in-out;
-	-ms-transition: opacity 0.25s ease-in-out;
-	transition: opacity 0.25s ease-in-out;	
-	text-decoration: none;
-	color: #333333;
-}
 
-.lkproject:hover
-{
-	text-decoration: none;
-	color: rgba(36, 101, 167, 1.0);
-}
-
-.lkproject:active
-{
-	text-decoration: none;
-	color: rgba(36, 101, 167, 1.0);
-}
 
 /* 
-	LINK: general link for overall page
+	LINK: general link for overall page (only work for project page)
 */
 .lkgeneral
 {
@@ -965,10 +966,40 @@ fieldset[disabled] .btn-pages.focus
 	color: #333333;
 }
 
-/* 
-	LINK: special for affiation
-*/
-.lkaffi
+/* ------------------------
+ * link
+ * --------------------- */
+.underline-highlight-link
+{
+	-moz-transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+	-o-transition: opacity 0.25s ease-in-out;
+	-ms-transition: opacity 0.25s ease-in-out;
+	transition: opacity 0.25s ease-in-out;	
+	text-decoration: none;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+	color: #333333;
+}
+
+.underline-highlight-link:hover
+{
+	text-decoration: none;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+	color: #333333;
+	background-color: rgba(78, 121, 165, 0.08);
+}
+
+.underline-highlight-link:active
+{
+	text-decoration: none;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+	color: #333333;
+}
+
+.no-underline-highlight-link
 {
 	-moz-transition: opacity 0.25s ease-in-out;
 	-webkit-transition: opacity 0.25s ease-in-out;
@@ -981,7 +1012,7 @@ fieldset[disabled] .btn-pages.focus
 	color: #333333;
 }
 
-.lkaffi:hover
+.no-underline-highlight-link:hover
 {
 	text-decoration: none;
 	border-bottom-style: none;
@@ -990,7 +1021,7 @@ fieldset[disabled] .btn-pages.focus
 	background-color: rgba(78, 121, 165, 0.25);
 }
 
-.lkaffi:active
+.no-underline-highlight-link:active
 {
 	text-decoration: none;
 	border-bottom-style: dotted;
@@ -998,10 +1029,7 @@ fieldset[disabled] .btn-pages.focus
 	color: rgba(78, 121, 165, 1.0);
 }
 
-/* 
-	LINK: content with bold text in the record section
-*/
-.lkbrecord
+.headline-bold-link
 {
 	-moz-transition: opacity 0.25s ease-in-out;
 	-webkit-transition: opacity 0.25s ease-in-out;
@@ -1012,85 +1040,71 @@ fieldset[disabled] .btn-pages.focus
 	color: #333333;
 }
 
-.lkbrecord:hover
+.headline-bold-link:hover
 {
 	text-decoration: none;
 	color: rgba(36, 101, 167, 1.0);
 }
 
-.lkbrecord:active
+.headline-bold-link:active
 {
 	text-decoration: none;
 	color: rgba(36, 101, 167, 1.0);
 }
 
-/* 
-	LINK: content with bold text in the record section
-*/
-.lkbteaching
+/* ------------------------
+ * mentoring and teaching
+ ------------------------ */
+.tag-mentor-previously
 {
-	-moz-transition: opacity 0.25s ease-in-out;
-	-webkit-transition: opacity 0.25s ease-in-out;
-	-o-transition: opacity 0.25s ease-in-out;
-	-ms-transition: opacity 0.25s ease-in-out;
-	transition: opacity 0.25s ease-in-out;	
-	text-decoration: none;
-	color: #333333;
-}
-
-.lkbteaching:hover
-{
-	text-decoration: none;
-	color: rgba(36, 101, 167, 1.0);
-}
-
-.lkbteaching:active
-{
-	text-decoration: none;
-	color: rgba(36, 101, 167, 1.0);
-}
-
-/* tag */
-.tag-past-year
-{
-	padding-left: 3px;
-	padding-right: 3px;
-	padding-top: 2px;
-	padding-bottom: 2px;
+	position: relative;
+	display: inline-block;
+	padding: 0px 2px 0px 2px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 	color: #ffffff;
-	background-color: #565656;
-	border-color: #565656;
+	background-color: #cccccc;
+	border: 1.1px solid transparent;
+	border-color: #cccccc;
+	border-radius: 4px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
 }
 
-.tag-past-institute 
+.tag-mentor-currently
 {
-	padding-left: 3px;
-	padding-right: 3px;
-	padding-top: 2px;
-	padding-bottom: 2px;
+	position: relative;
+	display: inline-block;
+	padding: 0px 2px 0px 2px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 	color: #ffffff;
-	background-color: #565656;
-	border-color: #565656;
-}
-
-.tag-current-year
-{
-	padding-left: 3px;
-	padding-right: 3px;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	color: #ffffff;
-	background-color: #004aa3;
-	border-color: #004aa3;
-}
-
-.tag-current-institute 
-{
-	padding-left: 3px;
-	padding-right: 3px;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	color: #ffffff;
-	background-color: #004aa3;
-	border-color: #004aa3;
+	background-color: rgba(36, 101, 167, 1.0);
+	border: 1.1px solid transparent;
+	border-color: rgba(36, 101, 167, 1.0);
+	border-radius: 4px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
 }
