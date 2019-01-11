@@ -1,3 +1,6 @@
+	// ********************
+	// Project Section
+	// ********************
 	// Search inside tag 'search-included'
 	var container = document.querySelector('[data-project-toggle="search-included"]');
 	
@@ -5,8 +8,6 @@
 	var btnThemePerception = document.querySelector('[data-project-toggle="input-theme-perception"]');
 	var btnThemeVRAR = document.querySelector('[data-project-toggle="input-theme-vr-ar"]');
 	var btnThemeFabrication = document.querySelector('[data-project-toggle="input-theme-fabrication"]');
-	
-    var keyupTimeout;
 
     var mixer = mixitup(container, 
 	{
@@ -15,17 +16,6 @@
 			duration: 350
 		},
 		
-		//callbacks: 
-		//{
-		//	onMixClick: function() 
-		//	{
-				// Reset the search if a filter is clicked
-		//		if (this.matches('[data-project-toggle]')) 
-		//		{
-		//			inputSearch.value = '';
-		//		}
-		//	}
-		//}
 		controls: 
 		{
 			toggleLogic: 'and'
