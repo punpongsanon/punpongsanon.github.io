@@ -520,60 +520,6 @@ html
     height: 100%;
 }
 
-.textlink-black
-{
-	-moz-transition: opacity 0.25s ease-in-out;
-	-webkit-transition: opacity 0.25s ease-in-out;
-	-o-transition: opacity 0.25s ease-in-out;
-	-ms-transition: opacity 0.25s ease-in-out;
-	transition: opacity 0.25s ease-in-out;	
-	text-decoration: none;
-	color: #333333;
-}
-
-.textlink-black:hover
-{
-	background-color: #cccccc;
-}
-
-.textlink-black:active
-{
-}
-
-.textlink-black:visited
-{
-	color: #333333;
-}
-
-.textlink-black-big
-{
-}
-
-.textlink-black-norm
-{
-	-moz-transition: opacity 0.25s ease-in-out;
-	-webkit-transition: opacity 0.25s ease-in-out;
-	-o-transition: opacity 0.25s ease-in-out;
-	-ms-transition: opacity 0.25s ease-in-out;
-	transition: opacity 0.25s ease-in-out;	
-	text-decoration: none;
-	color: #333333;
-}
-
-.textlink-black-norm:hover
-{
-	color: #494949;
-}
-
-.textlink-black-norm:active
-{
-}
-
-.textlink-black-norm:visited
-{
-	color: #333333;
-}
-
 .imagelink
 {
 	-moz-transition: opacity 0.25s ease-in-out;
@@ -1111,7 +1057,7 @@ fieldset[disabled] .btn-pages.focus
 /* ------------------------
  * mentoring and teaching
  ------------------------ */
-.tag-mentor-previously
+.tag-mentor-information
 {
 	position: relative;
 	display: inline-block;
@@ -1129,37 +1075,11 @@ fieldset[disabled] .btn-pages.focus
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	color: #ffffff;
-	background-color: #cccccc;
+	color: #393939;
+	background-image: none;
+	background-color: #FFFFFF;
 	border: 1.1px solid transparent;
-	border-color: #cccccc;
-	border-radius: 4px;
-	font-family: 'Roboto', sans-serif;
-	font-size: 13px;
-}
-
-.tag-mentor-currently
-{
-	position: relative;
-	display: inline-block;
-	padding: 0px 2px 0px 2px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	font-weight: normal;
-	line-height: 1.42857143;
-	text-align: center;
-	white-space: nowrap;
-	vertical-align: middle;
-	-ms-touch-action: manipulation;
-	touch-action: manipulation;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	color: #ffffff;
-	background-color: rgba(36, 101, 167, 1.0);
-	border: 1.1px solid transparent;
-	border-color: rgba(36, 101, 167, 1.0);
+	border-color: #393939;
 	border-radius: 4px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
