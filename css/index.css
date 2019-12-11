@@ -216,7 +216,7 @@ html
     visibility: visible;
 }
 
-.name .name-tips::after 
+.name .name-tips:after 
 {
     content: " ";
     position: absolute;
@@ -284,6 +284,11 @@ html
 	border-radius: 4px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
+}
+
+.project-publication-type:hover
+{
+	text-decoration: none;
 }
 
 .project-recent-accepted
