@@ -310,7 +310,8 @@ html
 	-ms-user-select: none;
 	user-select: none;
 	color: #ffffff;
-	background-color: #729063;
+	/*background-color: #729063;*/
+	background-color: #6f87ad;
 	border: 1.1px solid transparent;
 	border-radius: 4px;
 	font-family: 'Roboto', sans-serif;
@@ -336,7 +337,8 @@ html
 	-ms-user-select: none;
 	user-select: none;
 	color: #ffffff;
-	background-color: #ad872b;
+	/*background-color: #ad872b;*/
+	background-color: #6f87ad;
 	border: 1.1px solid transparent;
 	border-radius: 4px;
 	font-family: 'Roboto', sans-serif;
@@ -369,12 +371,11 @@ html
 /*
 *	SECTION: RSS (Quick update)
 */
-.rss-section 
+.sub-section-header
 {
-    padding-top: 30px;
-    text-align: center;
-    background: #fff;
-	font-family: 'Arimo', sans-serif;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
 }
 
 /*
