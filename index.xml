@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Parinya Punpongsanon</title>
+    <link>http://punpongsanon.info/</link>
+      <atom:link href="http://punpongsanon.info/index.xml" rel="self" type="application/rss+xml" />
+    <description>Parinya Punpongsanon</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Since 2011</copyright><lastBuildDate>Sun, 02 Aug 2020 15:57:38 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Parinya Punpongsanon</title>
+      <link>http://punpongsanon.info/</link>
+    </image>
+    
+    <item>
+      <title>ColorMod: Recoloring 3D Printed Objects using Photochromic Inks</title>
+      <link>http://punpongsanon.info/project/recoloring-3d-printed-objects-using-photochromic-inks/</link>
+      <pubDate>Sun, 02 Aug 2020 15:57:38 +0900</pubDate>
+      <guid>http://punpongsanon.info/project/recoloring-3d-printed-objects-using-photochromic-inks/</guid>
+      <description>&lt;p&gt;
+  &lt;i class=&#34;fas fa-quote-left  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Presented at&lt;/strong&gt; ACM CHI 2018&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-angle-double-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Keyword&lt;/strong&gt; Fabrication.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DeforMe: Visualization of Tangential Surface Deformation using Invisible Textures</title>
+      <link>http://punpongsanon.info/project/projection-visualization-deformation/</link>
+      <pubDate>Sun, 02 Aug 2020 15:57:38 +0900</pubDate>
+      <guid>http://punpongsanon.info/project/projection-visualization-deformation/</guid>
+      <description>&lt;p&gt;
+  &lt;i class=&#34;fas fa-quote-left  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Presented at&lt;/strong&gt; KJMR 2013, ACM SIGGRAPH Asia 2013: Emerging Technologies, Springer-Verlag Virtual Reality 2015&lt;br&gt;
+&lt;span class=&#34;markup-quote&#34;&gt;&lt;i class=&#34;fas fa-award  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;BEST PRESENTATION AWARD&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-angle-double-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Keyword&lt;/strong&gt; XR.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Efficient Information Sharing Techniques between Workers of Heterogeneous Tasks in 3D CVE</title>
+      <link>http://punpongsanon.info/project/efficient-information-sharing-techniques-between-workers/</link>
+      <pubDate>Sun, 02 Aug 2020 15:57:38 +0900</pubDate>
+      <guid>http://punpongsanon.info/project/efficient-information-sharing-techniques-between-workers/</guid>
+      <description>&lt;p&gt;
+  &lt;i class=&#34;fas fa-quote-left  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Presented at&lt;/strong&gt; ACM CSCW 2018&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-angle-double-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Keyword&lt;/strong&gt; XR.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>fARFEEL: Providing Haptic Sensation of Touched Objects using Visuo-Haptic Feedback</title>
+      <link>http://punpongsanon.info/project/providing-haptic-sensation-of-touched-objects/</link>
+      <pubDate>Sun, 02 Aug 2020 15:57:38 +0900</pubDate>
+      <guid>http://punpongsanon.info/project/providing-haptic-sensation-of-touched-objects/</guid>
+      <description>&lt;p&gt;
+  &lt;i class=&#34;fas fa-quote-left  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Presented at&lt;/strong&gt; IEEE VR 2019&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-angle-double-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Keyword&lt;/strong&gt; XR, Human Perception.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FleXeen: Visually Manipulating Perceived Fabric Bending Stiffness in Spatial Augmented Reality</title>
+      <link>http://punpongsanon.info/project/visually-manipulating-perceived-fabric-bending-stiffness/</link>
+      <pubDate>Sun, 02 Aug 2020 15:57:38 +0900</pubDate>
+      <guid>http://punpongsanon.info/project/visually-manipulating-perceived-fabric-bending-stiffness/</guid>
+      <description>&lt;p&gt;
+  &lt;i class=&#34;fas fa-quote-left  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Presented at&lt;/strong&gt; IEEE VR 2019, IEEE TVCG 2020&lt;br&gt;
+&lt;span class=&#34;markup-quote&#34;&gt;&lt;i class=&#34;fas fa-award  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;INVITED TALK&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-angle-double-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Keyword&lt;/strong&gt; XR, Human perception.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FlyingHand: Extending the Range of Haptic Feedback on Virtual Hand using Drone-based Object Recognition</title>
+      <link>http://punpongsanon.info/project/extending-range-of-haptic-feedback-on-virtual-hand/</link>
+      <pubDate>Sun, 02 Aug 2020 15:57:38 +0900</pubDate>
+      <guid>http://punpongsanon.info/project/extending-range-of-haptic-feedback-on-virtual-hand/</guid>
+      <description>&lt;p&gt;
+  &lt;i class=&#34;fas fa-quote-left  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Presented at&lt;/strong&gt; ACM SIGGRAPH Asia 2018 Technical Briefs&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-angle-double-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Keyword&lt;/strong&gt; XR, Human perception.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FoodFab: Creating Food Perception Illusions using Food 3D Printing</title>
+      <link>http://punpongsanon.info/project/creating-food-perception-illusions-using-food-3d-printing/</link>
+      <pubDate>Sun, 02 Aug 2020 15:57:38 +0900</pubDate>
+      <guid>http://punpongsanon.info/project/creating-food-perception-illusions-using-food-3d-printing/</guid>
+      <description>&lt;p&gt;
+  &lt;i class=&#34;fas fa-quote-left  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Presented at&lt;/strong&gt; Workshop on Food Computing 2019, ACM CHI 2020, ACM CHI 2020, AsianCHI Symposium 2020, SIGCHI Japan 2020, STT 2020&lt;br&gt;
+&lt;span class=&#34;markup-quote&#34;&gt;&lt;i class=&#34;fas fa-award  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Best Presentation Award&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-angle-double-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Keyword&lt;/strong&gt; Fabrication, Human perception.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LazyNav: 3D Ground Navigation with Non-Critical Body Parts</title>
+      <link>http://punpongsanon.info/project/ground-navigation-with-non-critical-body-parts/</link>
+      <pubDate>Sun, 02 Aug 2020 15:57:38 +0900</pubDate>
+      <guid>http://punpongsanon.info/project/ground-navigation-with-non-critical-body-parts/</guid>
+      <description>&lt;p&gt;
+  &lt;i class=&#34;fas fa-quote-left  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Presented at&lt;/strong&gt; ICAT-EGVE 2014, ACM 3DUI 2015, TVCG 2016&lt;br&gt;
+&lt;span class=&#34;markup-quote&#34;&gt;&lt;i class=&#34;fas fa-award  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;BEST PAPER AWARD&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-angle-double-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Keyword&lt;/strong&gt; XR.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ObserVAR: Visualization System for Observing Virtual Reality Users using Augmented Reality</title>
+      <link>http://punpongsanon.info/project/visualization-system-for-observing-virtual-reality-users/</link>
+      <pubDate>Sun, 02 Aug 2020 15:57:38 +0900</pubDate>
+      <guid>http://punpongsanon.info/project/visualization-system-for-observing-virtual-reality-users/</guid>
+      <description>&lt;p&gt;
+  &lt;i class=&#34;fas fa-quote-left  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Presented at&lt;/strong&gt; IEEE VR 2019, IEEE ISMAR 2019&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-angle-double-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Keyword&lt;/strong&gt; XR.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Photo-Chromeleon: Re-Programmable Multi-Color Textures Using Photochromic Dyes</title>
+      <link>http://punpongsanon.info/project/re-programmable-multi-color-textures-using-photochromic-dyes/</link>
+      <pubDate>Sun, 02 Aug 2020 15:57:38 +0900</pubDate>
+      <guid>http://punpongsanon.info/project/re-programmable-multi-color-textures-using-photochromic-dyes/</guid>
+      <description>&lt;p&gt;
+  &lt;i class=&#34;fas fa-quote-left  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Presented at&lt;/strong&gt; ACM UIST 2019&lt;br&gt;
+&lt;span class=&#34;markup-quote&#34;&gt;&lt;i class=&#34;fas fa-award  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Best Paper Award&lt;/strong&gt;&lt;/span&gt;
+&lt;span class=&#34;markup-quote&#34;&gt;&lt;i class=&#34;fas fa-award  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Best Talk Award&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-angle-double-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Keyword&lt;/strong&gt; Fabrication.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Programmable Filament: Printed Filaments for Multi-material 3D Printing</title>
+      <link>http://punpongsanon.info/project/printed-filaments-for-multi-material-3d-printing/</link>
+      <pubDate>Sun, 02 Aug 2020 15:57:38 +0900</pubDate>
+      <guid>http://punpongsanon.info/project/printed-filaments-for-multi-material-3d-printing/</guid>
+      <description>&lt;p&gt;
+  &lt;i class=&#34;fas fa-quote-left  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Presented at&lt;/strong&gt; ACM UIST 2020&lt;br&gt;
+&lt;span class=&#34;markup-quote&#34;&gt;&lt;i class=&#34;fas fa-award  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;HONORABLE MENTION AWARD&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-angle-double-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Keyword&lt;/strong&gt; Fabrication, Human perception.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Remote Environment Exploration with Drone Agent and Haptic Force Feedback</title>
+      <link>http://punpongsanon.info/project/remote-environment-exploration-with-drone-agent/</link>
+      <pubDate>Sun, 02 Aug 2020 15:57:38 +0900</pubDate>
+      <guid>http://punpongsanon.info/project/remote-environment-exploration-with-drone-agent/</guid>
+      <description>&lt;p&gt;
+  &lt;i class=&#34;fas fa-quote-left  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Presented at&lt;/strong&gt; IEEE AIVR 2019&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-angle-double-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Keyword&lt;/strong&gt; XR, Human Perception.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sequential Support: 3D Printing Dissolvable Support Material for Time-Dependent Mechanisms</title>
+      <link>http://punpongsanon.info/project/3d-printing-dissolvable-support-material-for-time-dependent-mechanisms/</link>
+      <pubDate>Sun, 02 Aug 2020 15:57:38 +0900</pubDate>
+      <guid>http://punpongsanon.info/project/3d-printing-dissolvable-support-material-for-time-dependent-mechanisms/</guid>
+      <description>&lt;p&gt;
+  &lt;i class=&#34;fas fa-quote-left  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Presented at&lt;/strong&gt; ACM TEI 2019&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-angle-double-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Keyword&lt;/strong&gt; Fabrication.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SoftAR: Visually Manipulating Haptic Softness Perception in Spatial Augmented Reality</title>
+      <link>http://punpongsanon.info/project/visually-manipulating-haptic-softness-perception/</link>
+      <pubDate>Sun, 02 Aug 2020 15:57:38 +0900</pubDate>
+      <guid>http://punpongsanon.info/project/visually-manipulating-haptic-softness-perception/</guid>
+      <description>&lt;p&gt;
+  &lt;i class=&#34;fas fa-quote-left  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Presented at&lt;/strong&gt; IEEE ISMAR 2014/2015, IEEE TVCG 2015, ACM SIGGRAPH 2016, MIRU 2016&lt;br&gt;
+&lt;span class=&#34;markup-quote&#34;&gt;&lt;i class=&#34;fas fa-award  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;INVITED TALK&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-angle-double-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Keyword&lt;/strong&gt; XR, Human perception.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
