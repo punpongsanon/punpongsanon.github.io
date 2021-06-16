@@ -5,12 +5,24 @@
     <link>http://punpongsanon.info/</link>
       <atom:link href="http://punpongsanon.info/index.xml" rel="self" type="application/rss+xml" />
     <description>Parinya Punpongsanon</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Since 2011</copyright><lastBuildDate>Tue, 08 Sep 2020 15:57:38 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Since 2011</copyright><lastBuildDate>Mon, 03 May 2021 15:57:38 +0900</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Parinya Punpongsanon</title>
       <link>http://punpongsanon.info/</link>
     </image>
+    
+    <item>
+      <title>Color Reproduction Framework for Inkjet FDM 3D Printers</title>
+      <link>http://punpongsanon.info/project/color-reproduction-framework-for-inkjet-fdm-3d-printers/</link>
+      <pubDate>Mon, 03 May 2021 15:57:38 +0900</pubDate>
+      <guid>http://punpongsanon.info/project/color-reproduction-framework-for-inkjet-fdm-3d-printers/</guid>
+      <description>&lt;p&gt;
+  &lt;i class=&#34;fas fa-quote-left  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Presented at&lt;/strong&gt; EUROGRAPHICS 2021 (Poster)&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-angle-double-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Keyword&lt;/strong&gt; Fabrication.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Wearable Sanitizer: Design and Implementation of an Open-source, On-body Sanitizer for a Post-Pandemic</title>
