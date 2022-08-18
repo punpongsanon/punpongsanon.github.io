@@ -5,12 +5,24 @@
     <link>http://punpongsanon.info/</link>
       <atom:link href="http://punpongsanon.info/index.xml" rel="self" type="application/rss+xml" />
     <description>Parinya Punpongsanon</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Since 2011</copyright><lastBuildDate>Mon, 20 Dec 2021 09:00:38 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Since 2011</copyright><lastBuildDate>Wed, 20 Apr 2022 09:50:50 +0900</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Parinya Punpongsanon</title>
       <link>http://punpongsanon.info/</link>
     </image>
+    
+    <item>
+      <title>Enhancing Asynchronous Shared-Space Demonstrations with Spatial-temporal Assistive Toolsets for Effective Learning in Immersive Virtual Laboratories</title>
+      <link>http://punpongsanon.info/project/enhancing-asynchronous-shared-space-demonstrations-in-immersive-virtual-laboratories/</link>
+      <pubDate>Wed, 20 Apr 2022 09:50:50 +0900</pubDate>
+      <guid>http://punpongsanon.info/project/enhancing-asynchronous-shared-space-demonstrations-in-immersive-virtual-laboratories/</guid>
+      <description>&lt;p&gt;
+  &lt;i class=&#34;fas fa-quote-left  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Presented at&lt;/strong&gt; ACM CSCW 2022&lt;br&gt;
+
+  &lt;i class=&#34;fas fa-angle-double-right  pr-1 fa-fw&#34;&gt;&lt;/i&gt;&lt;strong&gt;Keyword&lt;/strong&gt; XR, Virtual Laboratory.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>AI-generated Characters for Supporting Personalized Learning and Well-being</title>
