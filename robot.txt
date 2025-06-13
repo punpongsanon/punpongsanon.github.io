@@ -1,7 +1,0 @@
-# robots.txt for http://sens.sys.es.osaka-u.ac.jp/users/punpongsanon/
-
-User-agent: *
-Disallow: /files/pub/*.pdf$ 
-Disallow: /files/cv/*.pdf$ 
-Disallow: /files/*.pdf$ 
-# This is an infinite virtual URL space
