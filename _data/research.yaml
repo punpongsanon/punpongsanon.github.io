@@ -1,34 +1,34 @@
 categories:
 
-  - data-filter: perception manipulation
-    category-name: perception + manipulation
+  - data-filter: xR
+    category-name: xR
 
-  - data-filter: slam
-    category-name: slam
+  - data-filter: human perception
+    category-name: human perception
 
-  - data-filter: framework
-    category-name: framework
+  - data-filter: digital fabrication
+    category-name: digital fabrication
 
 
 projects:
 
-  - title: Volumetric Mapping with Panoptic Refinement via Kernel Density Estimation for Mobile Robots
+  - title: Reconfigurable Soft Pneumatic Actuators Using Multi-Material Self-Healing Polymers
     system-name: 
     gif: assets/img/demo_refined_mapping.gif
-    conference: IROS 2024 (Abu Dhabi, United Arab Emirates) 
+    conference: IEEE Robotics and Automation Letters
     conference-web: https://iros2024-abudhabi.org/
     status:
-    authors: <u>Khang Nguyen</u>, Tuan Dang, Manfred Huber.
+    authors: Shota Kosaka, Kentaro Kimura, Seiichi Yamamoto, Hiroki Ishizuka, Yoichi Masuda, <u>Parinya Punpongsanon</u>, Sei Ikeda, Osamu Oshiro.
     pdf: https://mkhangg.com/assets/papers/nguyen2024volumetric.pdf
-    code: https://github.com/mkhangg/refined_panoptic_mapping
+    code: 
     demo: https://youtu.be/u214kCms27M
-    slides: https://mkhangg.com/assets/slides/iros24b_slides.pdf
-    talk: https://youtu.be/vQZMQApcTCY
-    poster: https://mkhangg.com/assets/posters/iros24b_poster.pdf
+    slides: 
+    talk: 
+    poster: 
     abstract-less: Reconstructing three-dimensional (3D) scenes with semantic understanding is vital in many robotic applications. Robots need to identify which objects, along with their positions and shapes, to manipulate them precisely with given tasks. Mobile robots, especially, usually use lightweight networks to segment objects on RGB images and then localize them via depth maps; however, they 
     abstract-more: often encounter out-of-distribution scenarios where masks over-cover the objects. In this paper, we address the problem of panoptic segmentation quality in 3D scene reconstruction by refining segmentation errors using non-parametric statistical methods. To enhance mask precision, we map the predicted masks into a depth frame to estimate their distribution via kernel densities. The outliers in depth perception are then rejected without the need for additional parameters in an adaptive manner to out-of-distribution scenarios, followed by 3D reconstruction using projective signed distance functions (SDFs). We validate our method on a synthetic dataset, which shows improvements in both quantitative and qualitative results for panoptic mapping. Through real-world testing, the results furthermore show our method's capability to be deployed on a real-robot system.
     tag: more_refined_mapping
-    category: slam
+    category: digital fabrication
 
   - title: Robust RGB-D SLAM in Dynamic Environments with 3D Semantic Geometry Voting
     system-name: V3D-SLAM
