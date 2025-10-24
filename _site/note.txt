@@ -7,3 +7,6 @@ To run different PC
 
 https://github.com/academicportfolio/academicportfolio.github.io?ref=jekyll-themes.com
 https://github.com/mkhangg/academic-website?ref=jekyll-themes.com
+
+simulation
+- bundle exec jekyll serve
