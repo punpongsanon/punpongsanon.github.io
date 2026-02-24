@@ -278,6 +278,10 @@ code {
     border: 5px solid #333333
 }
 
+/* Style for alert information */
+.highlight-alert {
+  background: #E5E4E2;
+}
 
 /* Styles for emoji indicator with emoji */
 .emoji-indicator {

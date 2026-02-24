@@ -1,0 +1,57 @@
+publication_list:
+  
+  - title: Reconfigurable Soft Pneumatic Actuators Using Multi-Material Self-Healing Polymers
+    event: IEEE Robotics and Automation Letters 
+    event-web: https://ieeexplore.ieee.org/document/10368213/
+    pages: Vol. 10, Issue 5, pp. 4938-4945
+    date: 2025
+    team: Shota Kosaka, Kentaro Kimura, Seiichi Yamamoto, Hiroki Ishizuka, Yoichi Masuda, <u>Parinya Punpongsanon</u>, Sei Ikeda, Osamu Oshiro
+    pdf: 
+    code: 
+    demo:
+    doi: https://doi.org/10.1109/LRA.2025.3554971
+    remark:
+    accept_rate:
+    prize: 
+    
+  - title: Visually Manipulating Perceived Food Texture in Projection Mapping
+    event: Transactions of the Virtual Reality Society of Japan
+    event-web: https://vrsj.org/
+    pages: Vol. 29, Issue 2, pp. 81-84
+    date: 2024
+    team: Atsushi Maki, <u>Parinya Punpongsanon</u>, Daisuke Iwai, Kosuke Sato
+    pdf: https://www.dropbox.com/scl/fi/0ceis5dbx2u2azi8ziohd/TVRSJ_2024_Maki.pdf?rlkey=5gil4zg89efn7q02nwoq4p56d&st=hwkzrx1z&dl=0
+    code: 
+    demo:
+    doi: https://doi.org/10.18974/tvrsj.29.2_81
+    remark: Short Article
+    accept_rate:
+    prize: 
+    
+  - title: 食品端材への低視認度画像マーカ埋込による料理識別
+    event: システム制御情報学会論文誌
+    event-web: https://www.iscie.or.jp/pub/journal
+    pages: 37巻 12号, pp. 313-315
+    date: 2024
+    team: 松田 綾美, <u>プンポンサノン・パリンヤ</u>, 岩井 大輔, 佐藤 宏介
+    pdf: 
+    code: 
+    demo:
+    doi: https://doi.org/10.5687/iscie.37.313
+    remark: In Japanese
+    accept_rate:
+    prize: 
+    
+  - title: Topology Optimization with Text-Guided Stylization
+    event: Springer Structural and Multidisciplinary Optimization
+    event-web: https://link.springer.com/journal/158
+    pages: Vol. 66, Article No. 256
+    date: November 2023
+    team: Shengze Zhong, <u>Parinya Punpongsanon</u>, Daisuke Iwai, Kosuke Sato
+    pdf: https://arxiv.org/pdf/2310.15506v1.pdf
+    code: 
+    demo:
+    doi: https://doi.org/10.1007/s00158-023-03686-7
+    remark: 
+    accept_rate:
+    prize: 

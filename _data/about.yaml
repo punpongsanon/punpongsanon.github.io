@@ -12,7 +12,7 @@ pronunciation-emoji: 🎧
 scholar: https://scholar.google.com/citations?user=QEG4f_0AAAAJ&hl
 researchgate: https://www.researchgate.net/profile/Parinya-Punpongsanon
 github: https://github.com/punpongsanon
-youtube: https://www.youtube.com/channel/UCCuVfLXrSyjpVNsM2hJDMoQ
+youtube: https://www.youtube.com/@fipresearch
 resume: 
 projects: show # delete "show" or leave it blank to hide this icon
 location: 
@@ -21,12 +21,12 @@ orcid: https://orcid.org/0000-0003-2720-7768
 contact: show # delete "show" or leave it blank to hide this icon
 
 # information for contact card
-dept: cse @ uta
-lab: learn lab @ erb 128
-email: khang.nguyen@uta.edu
-phone: +1 (470) 815-5812
-website: https://mkhangg.com/
-web-dns: mkhangg.com
+dept: 
+lab: 
+email: 
+phone: 
+website: https://punpongsanon.info/
+web-dns: punpongsanon.info
 
 # about me
 first-paragraph: I am an Associate Professor at the <hightlight>Graduate School of Science and Engineering</hightlight> affiliated with the <a href="https://www.saitama-u.ac.jp/rikogaku/" target="_blank" rel="noopener">Saitama University</a>.

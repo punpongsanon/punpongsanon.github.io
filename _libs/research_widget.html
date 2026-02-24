@@ -12,19 +12,43 @@
             <br>
             {{ project.authors }}
             <br>
-            {% if project.pdf %} <a href="{{ project.pdf }}" target="_blank" rel="noopener">[PDF]</a> {% else %} <a href="">[PDF]</a> {% endif %}
-            {% if project.code %} | <a href="{{ project.code }}" target="_blank" rel="noopener">[CODE]</a> {% endif %}
-            {% if project.demo %} | <a href="{{ project.demo }}" target="_blank" rel="noopener">[DEMO]</a> {% endif %}
-            {% if project.slides %} | <a href="{{ project.slides }}" target="_blank" rel="noopener">[SLIDES]</a> {% endif %}
-            {% if project.talk %} | <a href="{{ project.talk }}" target="_blank" rel="noopener">[TALK]</a> {% endif %}
-            {% if project.poster %} | <a href="{{ project.poster }}" target="_blank" rel="noopener">[POSTER]</a> {% endif %}
+			{% if project.doi %}
+			<a href="{{ project.doi }}" target="_blank" rel="noopener">
+			<i class="fa-solid fa-arrow-right-to-bracket"></i></a> 
+			{% endif %}
+            {% if project.pdf %}
+			<a href="{{ project.pdf }}" target="_blank" rel="noopener">
+			<i class="fa-regular fa-file-pdf"></i></a> {% else %} 
+			<a href=""><i class="fa-regular fa-file-pdf"></i></a> 
+			{% endif %}
+            {% if project.code %}
+			<a href="{{ project.code }}" target="_blank" rel="noopener">
+			<i class="fa-regular fa-file-code"></i></a> 
+			{% endif %}
+            {% if project.demo %}
+			<a href="{{ project.demo }}" target="_blank" rel="noopener">
+			<i class="fa-brands fa-youtube"></i></a> 
+			{% endif %}
+            {% if project.slides %}
+			<a href="{{ project.slides }}" target="_blank" rel="noopener">
+			<i class="fa-regular fa-file-powerpoint"></i></a> 
+			{% endif %}
+            {% if project.talk %}
+			<a href="{{ project.talk }}" target="_blank" rel="noopener">
+			<i class="fa-regular fa-message"></i></a> 
+			{% endif %}
+            {% if project.poster %}
+			<a href="{{ project.poster }}" target="_blank" rel="noopener">
+			<i class="fa-regular fa-note-sticky"></i></a> 
+			{% endif %}
             <br>
             <u><b><i>Abstract</i></b>:</u> 
             {{ project.abstract-less }}
             <span class="collapse" id="{{ project.tag }}">
                 {{ project.abstract-more }}
             </span> 
-            <span> <a href="#{{ project.tag }}" data-toggle="collapse" onclick="toggleText(this)" id="link-{{ project.tag }}">... See More</a></span>
+            <span> 
+			<a href="#{{ project.tag }}" data-toggle="collapse" onclick="toggleText(this)" id="link-{{ project.tag }}">... See More</a></span>
         </div>                       
     </div>
 </div>

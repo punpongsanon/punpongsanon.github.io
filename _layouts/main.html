@@ -7,12 +7,15 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <meta name="description" content="website"/>
-        <meta name="author" content="khang nguyen"/>
+        <meta name="author" content="Parinya Punpongsanon"/>
         <title>{{ site.title }} | {{ site.info }}</title>
         <link rel="icon" type="image/x-icon" href="{{ site.icon-pic }}"/>
         
         <!-- Font Awesome icons -->
-        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+        <script src="https://use.fontawesome.com/releases/v7.2.0/js/all.js"></script>
+		
+		<!-- Hugeicon -->
+		<link rel="stylesheet" href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css" />
 		
         <!-- Google fonts-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">        
@@ -23,6 +26,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
 
         <!-- Core theme CSS -->
         <link href="styles/styles.css" rel="stylesheet"/>
@@ -63,12 +67,12 @@
                 <span></span>
             </a>
             <ul>
-                <li><p onclick="scrollToTopDiv('html')"><span class="emoji">🏡</span> <span class="text">home</span></p></li>
-				<li><p onclick="scrollToTopDiv('#updates')"><span class="emoji">📜</span> <span class="text">updates</span></p></li>
-                <li><p onclick="scrollToTopDiv('#research')"><span class="emoji">📚</span> <span class="text">publications</span></p></li>
-                <li><p onclick="scrollToTopDiv('#outreach')"><span class="emoji">🧩</span> <span class="text">outreach</span></p></li>
-                <li><p onclick="scrollToTopDiv('#resources')"><span class="emoji">⛏️</span> <span class="text">resources</span></p></li>
-                <li><p onclick="scrollToTopDiv('#gallery')"><span class="emoji">🖼️</span> <span class="text">gallery</span></p></li>
+                <li><p onclick="scrollToTopDiv('html')"><i class="hgi hgi-stroke hgi-home-09"></i> <span class="text">home</span></p></li>
+				<!--<li><p onclick="scrollToTopDiv('#updates')"><span class="emoji">📜</span> <span class="text">updates</span></p></li>-->
+                <li><p onclick="scrollToTopDiv('#research')"><i class="fa-solid fa-book"></i> <span class="text">researches</span></p></li>
+                <li><p onclick="scrollToTopDiv('#publication')"><i class="fa-brands fa-firstdraft"></i> <span class="text">publications</span></p></li>
+                <li><p onclick="scrollToTopDiv('#resources')"><i class="hgi hgi-stroke hgi-teacher"></i> <span class="text">teaching</span></p></li>
+                <li><p onclick="scrollToTopDiv('#gallery')"><i class="hgi hgi-stroke hgi-school-tie"></i> <span class="text">activities</span></p></li>
             </ul>
         </nav>
 

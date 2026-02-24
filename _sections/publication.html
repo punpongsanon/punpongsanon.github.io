@@ -1,0 +1,21 @@
+<!-- Publication section -->
+
+<hr>
+<div class="row" id="publication">
+    <div class="col">
+        <h2 clss="mb-5"><i class="fa-brands fa-firstdraft"></i> Publications</h2>
+        <p></p>
+        {% for publication_list in site.data.publication.publication_list %}
+            {% include_relative _libs/publication_widget.html %}
+        {% endfor %}
+        <p></p>
+		
+		<span class ="highlight-alert">
+		<i class="fa-solid fa-arrows-rotate"></i>
+		The website is underconstruction, the old list of publication will be available shortly.
+		</span>
+		<br>
+		<i class="fa-solid fa-circle-exclamation"></i> 
+		For list of <b>Conference Proceedings (Talks, Posters and Demonstration)</b>, please see (scholar)
+    </div>
+</div>
