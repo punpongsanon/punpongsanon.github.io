@@ -1,0 +1,23 @@
+introduction: all software releases of the above projects can also be found here!
+
+categories:
+
+  - data-filter: teaching
+    category-name: teaching
+    
+  - data-filter: mentoring
+    category-name: mentoring
+  
+  - data-filter: funding
+    category-name: funding
+    
+  - data-filter: award
+    category-name: award
+    
+  - data-filter: outreach
+    category-name: outreach
+
+activities_list:
+
+  - subject: プログラミング入門
+    category: teaching

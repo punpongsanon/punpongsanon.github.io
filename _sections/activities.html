@@ -1,22 +1,22 @@
-<!-- Resources section -->
+<!-- Activities section -->
 
 <hr>
-<div class="row" id="resources">
+<div class="row" id="activities">
     <div class="col">
-        <h2 clss="mb-5">⛏️ resources</h2>
+        <h2 clss="mb-5">⛏️ Activities</h2>
         <p></p>
-        {{ site.data.resources.introduction }}
+        {{ site.data.activities.introduction }}
         <p></p>
         <div id="filters-resources">
             <button class="filter-button active" data-filter="*">all</button>
-            {% for category in site.data.resources.categories %}
+            {% for category in site.data.activities.categories %}
                 <button class="filter-button" data-filter="{{ category.data-filter }}">{{ category.category-name }}</button>
             {% endfor %}
         </div>
         <p></p>
         <div id="github-cards" class="isotope">
-            {% for link in site.data.resources.links %}
-                {% include_relative _libs/resources_widget.html %}
+            {% for activities_list in site.data.activities.activities_list %}
+                {% include_relative _libs/activities_widget.html %}
             {% endfor %}
         </div>
         <p></p>

@@ -4,7 +4,9 @@
             <img width="100%" height="auto" class="w-full rounded-lg" src="{{ project.gif }}">
         </div>
         <div class="col-sm-8">
-            {% if project.system-name %} <b><i>{{ project.system-name }}</i>:</b> {% endif %}
+            {% if project.system-name %} 
+			<b><i>{{ project.system-name }}</i>:</b> 
+			{% endif %}
             <b>{{ project.title }}</b>
             <br>
             <i><a href="{{ project.conference-web }}" target="_blank" rel="noopener">{{ project.conference }}</a></i> 
@@ -14,7 +16,7 @@
             <br>
 			{% if project.doi %}
 			<a href="{{ project.doi }}" target="_blank" rel="noopener">
-			<i class="fa-solid fa-arrow-right-to-bracket"></i></a> 
+			<i class="fa-brands fa-researchgate"></i></a> 
 			{% endif %}
             {% if project.pdf %}
 			<a href="{{ project.pdf }}" target="_blank" rel="noopener">
@@ -40,6 +42,10 @@
             {% if project.poster %}
 			<a href="{{ project.poster }}" target="_blank" rel="noopener">
 			<i class="fa-regular fa-note-sticky"></i></a> 
+			{% endif %}
+            {% if project.project-web %}
+			<a href="{{ project.project-web }}" target="_blank" rel="noopener">
+			<i class="fa-solid fa-bookmark"></i></a> 
 			{% endif %}
             <br>
             <u><b><i>Abstract</i></b>:</u> 

@@ -2,11 +2,11 @@
 name: Parinya Punpongsanon, Ph.D.
 profile-pic: assets/img/parinya.jpg
 pronunciation: /pa rin ya/
-pronunciation-emoji: 🎧
+##pronunciation-emoji: 🎧
 
 # emoji indicator
-#emoji: 🍀
-#desc-emoji: four-leaf clover
+##emoji: 🍀
+##desc-emoji: four-leaf clover
 
 # social links
 scholar: https://scholar.google.com/citations?user=QEG4f_0AAAAJ&hl
