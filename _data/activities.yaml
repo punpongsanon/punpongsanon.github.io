@@ -20,10 +20,10 @@ categories:
 teaching_list:
 
   - subject: プログラミング入門
-    category: teaching
+    when: teaching
     
   - subject: Will add later
-    category: award
+    when: award
     
 mentoring_list:
 

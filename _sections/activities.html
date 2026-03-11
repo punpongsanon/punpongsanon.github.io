@@ -9,13 +9,13 @@
         <p></p>
 		<div class="col-6">
 		<h2 clss="mb-5">Teaching</h2>
-		{% for activities_list in site.data.activities.teaching_list %}
+		{% for teaching_list in site.data.activities.teaching_list %}
 		    {% include_relative _libs/teaching_widget.html %}
         {% endfor %}
 		</div>
 		<div class="col-6">
 		<h2 clss="mb-5">Mentoring</h2>
-		{% for activities_list in site.data.activities.mentoring_list %}
+		{% for mentoring_list in site.data.activities.mentoring_list %}
 		    {% include_relative _libs/mentoring_widget.html %}
         {% endfor %}
 		</div>
