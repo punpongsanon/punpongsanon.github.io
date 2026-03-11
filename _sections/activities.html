@@ -7,18 +7,17 @@
         <p></p>
         {{ site.data.activities.introduction }}
         <p></p>
-        <div id="filters-resources">
-            <button class="filter-button active" data-filter="*">all</button>
-            {% for category in site.data.activities.categories %}
-                <button class="filter-button" data-filter="{{ category.data-filter }}">{{ category.category-name }}</button>
-            {% endfor %}
-        </div>
-        <p></p>
-        <div id="github-cards" class="isotope">
-            {% for activities_list in site.data.activities.activities_list %}
-                {% include_relative _libs/activities_widget.html %}
-            {% endfor %}
-        </div>
-        <p></p>
+		<div class="col-6">
+		<h2 clss="mb-5">Teaching</h2>
+		{% for activities_list in site.data.activities.teaching_list %}
+		    {% include_relative _libs/teaching_widget.html %}
+        {% endfor %}
+		</div>
+		<div class="col-6">
+		<h2 clss="mb-5">Mentoring</h2>
+		{% for activities_list in site.data.activities.mentoring_list %}
+		    {% include_relative _libs/mentoring_widget.html %}
+        {% endfor %}
+		</div>
     </div>
 </div>

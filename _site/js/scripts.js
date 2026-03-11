@@ -20,10 +20,10 @@ btn.on('click', function(e) {
 
 
 // Play pronunciation audio when the emoji is clicked
-document.getElementById('volumeEmoji').addEventListener('click', function() {
-    const pronunicationAudio = new Audio('assets/sounds/khang.mp3');
-    pronunicationAudio.play();
-});
+///document.getElementById('volumeEmoji').addEventListener('click', function() {
+///    const pronunicationAudio = new Audio('assets/sounds/khang.mp3');
+///    pronunicationAudio.play();
+///});
 
 
 // Toggle navigation menu bar
@@ -208,30 +208,30 @@ function progressBar() {
 
 
 // Scripts to activate/deactivate contact info card 
-var overlaybg = document.getElementById('overlay-bg');
+///var overlaybg = document.getElementById('overlay-bg');
+///
+///document.getElementById('contact-card-trigger').onclick = function() {
+///    overlaybg.style.display = 'flex';
+///};
 
-document.getElementById('contact-card-trigger').onclick = function() {
-    overlaybg.style.display = 'flex';
-};
-
-overlaybg.addEventListener('click', function(event) {
-    if (event.target === overlaybg) {
-        overlaybg.style.display = 'none';
-    }
-});
+///overlaybg.addEventListener('click', function(event) {
+///    if (event.target === overlaybg) {
+///        overlaybg.style.display = 'none';
+///    }
+///});
 
 
 // Play the flipping-card sound when user flips the contact info card
-document.getElementById('front_end_card').addEventListener('click', function() {
-    this.classList.toggle('flip');
-    const flipAudio = new Audio('assets/sounds/flipcard_sound.mp3');
-    flipAudio.play();
-});
+///document.getElementById('front_end_card').addEventListener('click', function() {
+///    this.classList.toggle('flip');
+///    const flipAudio = new Audio('assets/sounds/flipcard_sound.mp3');
+///    flipAudio.play();
+///});
 
 
 // Get all filter buttons and change their active status as user clicks
 var filterButtonsProject = document.querySelectorAll('#filters-project .filter-button'); 
-var filterButtonsGithub = document.querySelectorAll('#filters-resources .filter-button'); 
+var filterButtonsGithub = document.querySelectorAll('#filters-resources .filter-button');
 var speechBalloon = document.querySelector('.speech-balloon');
 
 filterButtonsProject.forEach(function(filterButtonProject) {

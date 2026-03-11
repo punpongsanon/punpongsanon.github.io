@@ -17,7 +17,15 @@ categories:
   - data-filter: outreach
     category-name: outreach
 
-activities_list:
+teaching_list:
 
   - subject: プログラミング入門
     category: teaching
+    
+  - subject: Will add later
+    category: award
+    
+mentoring_list:
+
+  - name: Parinya Punpongsanon
+    class: 2026
