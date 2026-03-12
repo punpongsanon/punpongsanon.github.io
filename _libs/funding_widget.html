@@ -1,12 +1,14 @@
-<!--
-<div class="github-card" data-filter="{{ link.category }}">
-    <div data-url="{{ link.git-api }}"></div>
-</div>
--->
-
 <div class="row mb-4">
 	<div class="col-sm-12">
-		{{ mentoring_list.name }}. 
+		[{{ funding_list.from }} - {{ funding_list.to }}]
+		<br>
+		<i><a href="{{ funding_list.url }}" target="_blank" rel="noopener">{{ funding_list.funding }}</a></i>
+		<br>
+		{{ funding_list.topic }}
+	</div>
+</div>
+
+
 			<!--
 			<b>{{ publication_list.title }}</b>, 
 			<i><a href="{{ publication_list.event-web }}" target="_blank" rel="noopener">{{ publication_list.event }}</a></i>. 
@@ -39,5 +41,7 @@
 			<i class="fa-brands fa-youtube"></i></a> 
 			{% endif %}
 			-->
+<!--
 	</div>
 </div>
+-->

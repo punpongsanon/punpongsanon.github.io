@@ -1,31 +1,36 @@
-introduction: all software releases of the above projects can also be found here!
+funding_list:
 
-categories:
+  - funding: RIEC Nation-wide Cooperative Research Projects
+    url: https://www.riec.tohoku.ac.jp/ja/nation-wide/
+    from: May 2023
+    to: Mar 2025
+    topic: 人工知能による表情やジェスチャーを通じた非言語コミュニケーションの強化 (Project No. R05/A32)
+    
+  - funding: JSPS Grants-in-Aid for Scientific Research (Scientific Research C)
+    url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-23K11198/
+    from: Apr 2023
+    to: Mar 2026
+    topic: 基盤C/デジタルファブリケーションを利用した食品へのデータ埋め込みに関する研究 (Project No. 23K11198）
+    
+award_list:
 
-  - data-filter: teaching
-    category-name: teaching
+  - awarding: 2025年度学会賞奨励賞
+    url: https://www.ipsj.or.jp/award/taikaigakusei.html
+    title: 遠藤碧海, プンポンサノン・パリンヤ, “咀嚼情報と色の情動を利用した摂食行動改善のための拡張視覚化システムの開発”, 第87回情報処理学会全国大会
     
-  - data-filter: mentoring
-    category-name: mentoring
-  
-  - data-filter: funding
-    category-name: funding
+  - awarding: 2022年度学会賞奨励賞
+    url: https://sci22.iscie.or.jp/award/
+    title: 松田綾美, 宮武大和, プンポンサノン・パリンヤ, 岩井大輔, 佐藤宏介, “センサ内蔵スマートテーブルウェアの構築とロボットアームによるフィー ドバックの検討”, 第66回 システム制御情報学会研究発表講演会
     
-  - data-filter: award
-    category-name: award
+  - awarding: IEEE ISMAR 2021 Best Journal Paper Awards
+    url: 
+    title: Sorashi Kimura, Daisuke Iwai, Parinya Punpongsanon, and Kosuke Sato. “Multifocal Stereoscopic Projection Mapping”, IEEE International Symposium on Mixed and Augmented Reality ({{ ISMAR }}), 2021
     
-  - data-filter: outreach
-    category-name: outreach
-
-teaching_list:
-
-  - subject: プログラミング入門
-    when: teaching
+  - awarding: IEEE LifeTech 2021 Outstanding Paper Awards for Oral Presentation
+    url: http://www.ieee-lifetech.org/2021/awards.html
+    title: Parinya Punpongsanon, and Hiroki Ishizuka. “EdiSensor - Facilitating Food Electricity for Eating Habits Analysis”, IEEE 3rd Global Conference on Life Sciences and Technologies ({{ LifeTech }}), 2021
     
-  - subject: Will add later
-    when: award
+  - awarding: ACM SUI 2020 Best Poster Award
+    url: https://sui.acm.org/2020/program-posters
+    title: Santawat Thanyadit, Parinya Punpongsanon, Thammathip Piumsomboon, and Ting-Chuen Pong. “Substituting Teleportation Visualization for Collaborative Virtual Environments”, ACM Symposium on Spatial User Interaction ({{ SUI }}), 2020
     
-mentoring_list:
-
-  - name: Parinya Punpongsanon
-    class: 2026

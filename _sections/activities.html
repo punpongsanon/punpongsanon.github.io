@@ -2,22 +2,27 @@
 
 <hr>
 <div class="row" id="activities">
-    <div class="col">
-        <h2 clss="mb-5">⛏️ Activities</h2>
-        <p></p>
-        {{ site.data.activities.introduction }}
-        <p></p>
-		<div class="col-6">
-		<h2 clss="mb-5">Teaching</h2>
-		{% for teaching_list in site.data.activities.teaching_list %}
-		    {% include_relative _libs/teaching_widget.html %}
-        {% endfor %}
+	<div class="col-12">
+		<h2 clss="mb-5"><i class="hgi hgi-stroke hgi-presentation-online"></i> Professional Activities</h2>
+	</div>
+	<div class="col-sm-6">
+		<div class="card bg-light mb-3">
+			<div class="card-body">
+				<h5 class="card-title">Funding</h5>
+				{% for funding_list in site.data.activities.funding_list %}
+					{% include_relative _libs/funding_widget.html %}
+				{% endfor %}
+			</div>
 		</div>
-		<div class="col-6">
-		<h2 clss="mb-5">Mentoring</h2>
-		{% for mentoring_list in site.data.activities.mentoring_list %}
-		    {% include_relative _libs/mentoring_widget.html %}
-        {% endfor %}
+	</div>
+	<div class="col-sm-6">
+		<div class="card bg-light mb-3">
+			<div class="card-body">
+				<h5 class="card-title">Awards</h5>
+				{% for award_list in site.data.activities.award_list %}
+					{% include_relative _libs/award_widget.html %}
+				{% endfor %}
+			</div>
 		</div>
-    </div>
+	</div>
 </div>
