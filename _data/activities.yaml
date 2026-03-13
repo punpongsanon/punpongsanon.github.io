@@ -28,9 +28,60 @@ award_list:
     
   - awarding: IEEE LifeTech 2021 Outstanding Paper Awards for Oral Presentation
     url: http://www.ieee-lifetech.org/2021/awards.html
-    title: Parinya Punpongsanon, and Hiroki Ishizuka. “EdiSensor\: Facilitating Food Electricity for Eating Habits Analysis”, IEEE 3rd Global Conference on Life Sciences and Technologies (LifeTech), 2021
+    title: Parinya Punpongsanon, and Hiroki Ishizuka. “EdiSensor&#58; Facilitating Food Electricity for Eating Habits Analysis”, IEEE 3rd Global Conference on Life Sciences and Technologies (LifeTech), 2021
     
   - awarding: ACM SUI 2020 Best Poster Award
     url: https://sui.acm.org/2020/program-posters
     title: Santawat Thanyadit, Parinya Punpongsanon, Thammathip Piumsomboon, and Ting-Chuen Pong. “Substituting Teleportation Visualization for Collaborative Virtual Environments”, ACM Symposium on Spatial User Interaction (SUI), 2020
+
+  - awarding: ACM UIST 2020 Honorable Mention Award
+    url: https://uist.acm.org/uist2020/
+    title: Haruki Takahashi, Parinya Punpongsanon, and Jeeeun Kim, “Programmable Filament&#58; Printed Filaments for Multi-material 3D Printing”, ACM Symposium on User Interface Software and Technology (UIST), 2020
+
+  - awarding: IEEE GCCE 2020 Excellent Student Paper Award
+    url: http://www.ieee-gcce.org/2020/index.html
+    title: Liyuan Duan, Haruka Matsukura, Parinya Punpongsanon, Takefumi Hiraki, Daisuke Iwai, and Kosuke Sato, “Adaptive Visualization of Gas Distribution Using Augmented Reality Glasses”, IEEE 9th Global Conference on Consumer Electronics (GCCE), 2020
     
+  - awarding: Asian CHI Symposium 2020 Best Presentation Award (Showcase)
+    url: https://asian-chi.github.io/2020/awards/
+    title: Parinya Punpongsanon, Ying-Ju Lin, Xin Wen, Daisuke Iwai, Kosuke Sato, Marianna Obrist, and Stefanie Mueller, “FoodFab&#58; Creating Food Perception Illusions using Food 3D Printing”
+    
+  - awarding: 2019年度学会賞奨励賞
+    url: https://sci19.iscie.or.jp/award/
+    title: 佐藤優志，田辺育暉，森田耕平，プンポンサノンパリンヤ，松倉悠，岩井大輔，佐藤宏介， “投影バーチャルハンドにおける疑似触覚フィードバックによる接触感呈示”，第63回システム制御情報学会研究発表講演会
+    
+  - awarding: 2019年度学会賞奨励賞
+    url: https://sci19.iscie.or.jp/award/
+    title: 三好幹, プンポンサノン パリンヤ, 岩井大輔, 佐藤宏介, “3Dプリンタ出力に対して知覚される硬軟度操作のための表面微細形状と内部構造設計”, 第63回システム制御情報学会研究発表講演会
+    
+  - awarding: ACM UIST 2019 Best Paper Award
+    url: https://uist.acm.org/uist2019/
+    title: Yuhua Jin, Isabel Qamar, Michael Wessely, Aradhana Adhikari, Katarina Bulovic, Parinya Punpongsanon, and Stefanie Mueller, “Photo-Chromeleon&#58; Re-Programmable Multi-Color Textures Using Photochromic Dyes”, ACM Symposium on User Interface Software and Technology (UIST), 2019
+
+  - awarding: ACM UIST 2019 Best Talk Award
+    url: https://uist.acm.org/uist2019/
+    title: Yuhua Jin, Isabel Qamar, Michael Wessely, Aradhana Adhikari, Katarina Bulovic, Parinya Punpongsanon, and Stefanie Mueller, “Photo-Chromeleon&#58; Re-Programmable Multi-Color Textures Using Photochromic Dyes”, ACM Symposium on User Interface Software and Technology (UIST), 2019
+
+  - awarding: IEEE VR 2019 Best Research Demonstration Runner-up Award
+    url: https://photos.app.goo.gl/PR2FsqQVbDnNQGvh7
+    title: Kosuke Hiratani, Daisuke Iwai, Parinya Punpongsanon, and Kosuke Sato, “Shadowless Projector#58; Suppressing Shadows in Projection Mapping with Micro Mirror Array Plate”, IEEE Conference in Virtual Reality and 3D User Interfaces (VR), 2019
+
+  - awarding: IEEE Kansai Section Best Student Research Award 2016
+    url: http://www.ieee-jp.org/section/kansai/activity/members/pdf/annual2017.pdf
+    title: Student Research award at IEEE Kansai Section (IEEE 関西支部　学生研究奨励賞) 2016
+
+  - awarding: ACM UIST 2016 Best Student Volunteer Award
+    url: https://uist.acm.org/uist2016/schedule#awards
+    title: Student Volunteers award at the 29th ACM User Interface Software and Technology Symposium 2016
+    
+  - awarding: IEEE 3DUI 2015 Best Paper Award
+    url: http://www.3dui.org/2015/
+    title: Emilie Guy, Parinya Punpongsanon, Daisuke Iwai, Kosuke Sato, Tamy Boubekeur, “LazyNav&#58; 3D Ground Navigation with Non-Critical Body Parts”, IEEE Symposium on 3D User Interfaces (3DUI), 2015
+    
+  - awarding: Highest Commendation for Volunteer Services SIGGRAPH Asia 2014
+    url: 
+    title: Student Volunteers award of the 7th ACM SIGGRAPH Asia 2014
+
+  - awarding: KJMR 2013 Best Presentation Award
+    url: http://ypcex.naist.jp/kjmr2013/
+    title: Parinya Punpongsanon, Daisuke Iwai, and Kosuke Sato, “Projection-based Mixed Reality for Deformable Surfaces,” Korea-Japan Workshop on Mixed Reality, 2013
