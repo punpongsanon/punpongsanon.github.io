@@ -1,0 +1,8 @@
+<div class="row mb-4">
+	<div class="col-sm-12">
+		{{ ipc_list.conference }}
+		{% for ipc_year in site.data.activities.ipc_list.year %}
+		<a href="{{ chair_list.url }}" target="_blank" rel="noopener">{{ ipc_year }}</a> 
+		{% endfor %}
+	</div>
+</div>
