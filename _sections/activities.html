@@ -7,7 +7,7 @@
 	</div>
 	<div class="col-sm-6">
 		<div class="card bg-light mb-3">
-			<div class="card-body">
+			<div class="card-body card-font-small">
 				<h5 class="card-title">Funding</h5>
 				{% for funding_list in site.data.activities.funding_list %}
 					{% include_relative _libs/funding_widget.html %}
@@ -17,7 +17,7 @@
 	</div>
 	<div class="col-sm-6">
 		<div class="card bg-light mb-3">
-			<div class="card-body">
+			<div class="card-body card-font-small">
 				<h5 class="card-title">Awards</h5>
 				{% for award_list in site.data.activities.award_list %}
 					{% include_relative _libs/award_widget.html %}

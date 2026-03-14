@@ -11,7 +11,79 @@ funding_list:
     from: Apr 2023
     to: Mar 2026
     topic: 基盤C/デジタルファブリケーションを利用した食品へのデータ埋め込みに関する研究 (Project No. 23K11198）
+
+  - funding: NAGAMORI Foundation Award
+    url: https://www.nidec.com/jp/nagamori-f/subsidy/winner/2015.html
+    from: Oct 2022
+    to: Sep 2023
+    topic: 研究助成/Development of Haptic Thermal Perception Device for VR Controller using Flexible Thermoelectric Material
+
+  - funding: JSPS Grants-in-Aid for Scientific Research (Scientific Research B)
+    url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-22H01447/
+    from: Apr 2022
+    to: Mar 2025
+    topic: 基盤B/ポリマー光造形と知覚処理機構を融合したヒトに迫る質感認識能力を有するソフトハンド (Project No. 22H01447/Co-Investigator)
     
+  - funding: NAGAMORI Foundation Award
+    url: https://www.nidec.com/jp/nagamori-f/subsidy/winner/2015.html
+    from: Oct 2021
+    to: Sep 2022
+    topic: 研究助成/Development of Haptics Display that Simulate Liquid Material Properties using Electromagnet
+    
+  - funding: JST ACT-X (AI powered Research Innovation)
+    url: https://www.jst.go.jp/kisoken/act-x/index.html
+    from: Dec 2020
+    to: Mar 2023
+    topic: Computational Food Textures for Enhancing Eating Experience using Food 3D Printer and AI
+    
+  - funding: Osaka University Multidisciplinary Research Laboratory
+    url: http://mrl.es.osaka-u.ac.jp/
+    from: Oct 2020
+    to: Sep 2022
+    topic: 共同研究/フード3Dプリンターと人工知能を使用して食事体験を向上させる計算フードテクスチャ
+    
+  - funding: NAGAMORI Foundation Award
+    url: https://www.nidec.com/jp/nagamori-f/subsidy/report/2020.html
+    from: Oct 2020
+    to: Sep 2021
+    topic: 研究助成/Development of 3D Printed Soft Actuators for Haptics Display by Varying the Materials and Air Pressure
+    
+  - funding: JSPS Grants-in-Aid for Scientific Research (Early-Career Scientists)
+    url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-19K20321/
+    from: Apr 2019
+    to: Mar 2021
+    topic: 若手研究/3Dプリンタの柔らかさ表現能力を拡張する計算論的ファブリケーション研究 (Project No. 19K20321）
+    
+  - funding: Osaka University Multidisciplinary Research Laboratory
+    url: http://mrl.es.osaka-u.ac.jp/
+    from: Oct 2018
+    to: Sep 2019
+    topic: 個人研究/色の変化できる素材を使って日常物の持続性を高める研究
+    
+  - funding: JSPS Specially Promoted Research (DC2/PD)
+    url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-16J00049/
+    from: Apr 2016
+    to: Mar 2018
+    topic: 特別研究員奨励費/身体および接触対象への映像重畳投影が触質感知覚に及ぼす影響の解明 (Project No. 16J00049）
+    
+  - funding: Student Dispatch Program (Short-term Visiting Researcher)
+    url: 
+    from: Dec 2012
+    to: Feb 2013
+    topic: Funding by Graduate School of Engineering Science, Osaka University
+    
+  - funding: MEXT Scholarship
+    url: 
+    from: Oct 2011
+    to: Sep 2016
+    topic: Scholarship by the Ministry of Education, Culture, Sports, Science and Technology of Japan (MEXT)
+    
+  - funding: JASSO Scholarship
+    url: 
+    from: Oct 2008
+    to: Sep 2009
+    topic: Scholarship by the Japan Student Services Organization, Ministry of Education, Culture, Sports, Science and Technology of Japan
+
 award_list:
 
   - awarding: 2025年度学会賞奨励賞

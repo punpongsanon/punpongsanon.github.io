@@ -1,8 +1,8 @@
 <div class="row mb-4">
 	<div class="col-sm-12">
-		[{{ funding_list.from }} - {{ funding_list.to }}]
+		<span class="text-secondary">[{{ funding_list.from }} - {{ funding_list.to }}]</span>
 		<br>
-		<i><a href="{{ funding_list.url }}" target="_blank" rel="noopener">{{ funding_list.funding }}</a></i>
+		<a href="{{ funding_list.url }}" target="_blank" rel="noopener">{{ funding_list.funding }}</a>
 		<br>
 		{{ funding_list.topic }}
 	</div>

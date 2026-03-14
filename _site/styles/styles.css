@@ -1027,3 +1027,9 @@ canvas {
     height: 100%;
     z-index: -1;
 }
+
+
+/* Styles for activities card */
+.card-font-small {
+	font-size: small;
+}
