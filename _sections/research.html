@@ -6,7 +6,8 @@
         <h2 clss="mb-5"><i class="fa-solid fa-book"></i> Research Projects</h2>
         <p></p>
         <div id="filters-project">
-            <button class="filter-button" data-filter="*">all</button> | 
+            <button class="filter-button active" data-filter="*">all</button> 
+			<i class="fa-solid fa-angles-right"></i>
             {% for category in site.data.research.categories %}
                 <button class="filter-button" data-filter="{{ category.data-filter }}">{{ category.category-name }}</button>
             {% endfor %}

@@ -5,6 +5,7 @@
 	<div class="col-12">
 		<h2 clss="mb-5"><i class="hgi hgi-stroke hgi-presentation-online"></i> Professional Activities</h2>
 	</div>
+	
 	<div class="col-sm-6">
 		<div class="card bg-light mb-3">
 			<div class="card-body card-font-small">
@@ -29,9 +30,11 @@
 		<div class="card bg-light mb-3">
 			<div class="card-body card-font-small">
 				<h5 class="card-title">Academic Services</h5>
+				<div class="row mb-4">
 				{% for chair_list in site.data.activities.chair_list %}
 					{% include_relative _libs/chair_widget.html %}
 				{% endfor %}
+				</div>
 			</div>
 		</div>
 	</div>
@@ -39,9 +42,11 @@
 		<div class="card bg-light mb-3">
 			<div class="card-body card-font-small">
 				<h6 class="card-title">Program Committee member</h6>
+				<div class="row mb-4">
 				{% for ipc_list in site.data.activities.ipc_list %}
 					{% include_relative _libs/ipc_widget.html %}
 				{% endfor %}
+				</div>
 			</div>
 		</div>
 	</div>
@@ -49,9 +54,11 @@
 		<div class="card bg-light mb-3">
 			<div class="card-body card-font-small">
 				<h6 class="card-title">Peer Review activities</h6>
+				<div class="row mb-4">
 				{% for reviewer_list in site.data.activities.reviewer_list %}
 					{% include_relative _libs/reviewer_widget.html %}
 				{% endfor %}
+				</div>
 			</div>
 		</div>
 	</div>

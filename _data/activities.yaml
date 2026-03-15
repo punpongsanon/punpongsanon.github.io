@@ -86,6 +86,10 @@ funding_list:
 
 award_list:
 
+  - awarding: IEEE GCCE 2025 Best Presentation Award
+    url: https://www.ieee-gcce.org/2025/awards.html
+    title: Jiaqi Gu and Parinya Punpongsanon, "Exploratory Study of AR Hand Redirection Using Augmented Virtual Hand", IEEE 2025 Global Conference on Consumer Electronics (GCCE), 2025
+
   - awarding: 2025年度学会賞奨励賞
     url: https://www.ipsj.or.jp/award/taikaigakusei.html
     title: 遠藤碧海, プンポンサノン・パリンヤ, “咀嚼情報と色の情動を利用した摂食行動改善のための拡張視覚化システムの開発”, 第87回情報処理学会全国大会
@@ -94,7 +98,7 @@ award_list:
     url: https://sci22.iscie.or.jp/award/
     title: 松田綾美, 宮武大和, プンポンサノン・パリンヤ, 岩井大輔, 佐藤宏介, “センサ内蔵スマートテーブルウェアの構築とロボットアームによるフィー ドバックの検討”, 第66回 システム制御情報学会研究発表講演会
     
-  - awarding: IEEE ISMAR 2021 Best Journal Paper Awards
+  - awarding: IEEE ISMAR 2021 Best Journal Paper Award
     url: 
     title: Sorashi Kimura, Daisuke Iwai, Parinya Punpongsanon, and Kosuke Sato. “Multifocal Stereoscopic Projection Mapping”, IEEE International Symposium on Mixed and Augmented Reality (ISMAR), 2021
     
@@ -140,7 +144,7 @@ award_list:
 
   - awarding: IEEE Kansai Section Best Student Research Award 2016
     url: http://www.ieee-jp.org/section/kansai/activity/members/pdf/annual2017.pdf
-    title: Student Research award at IEEE Kansai Section (IEEE 関西支部　学生研究奨励賞) 2016
+    title: Student Research award at IEEE Kansai Section 2016
 
   - awarding: ACM UIST 2016 Best Student Volunteer Award
     url: https://uist.acm.org/uist2016/schedule#awards
@@ -157,3 +161,207 @@ award_list:
   - awarding: KJMR 2013 Best Presentation Award
     url: http://ypcex.naist.jp/kjmr2013/
     title: Parinya Punpongsanon, Daisuke Iwai, and Kosuke Sato, “Projection-based Mixed Reality for Deformable Surfaces,” Korea-Japan Workshop on Mixed Reality, 2013
+    
+chair_list:
+
+  - conference: The 11th annual ACM Symposium on Computational Fabrication 2026, Tokyo, Japan
+    position: Demo Co-chairs
+    url: https://scf.acm.org/2026/organizers.html
+    year: 2026
+
+  - conference: The 8th IEEE conference on AI and Extended and Virtual Reality 2026, Osaka, Japan
+    position: Registration Chair
+    url: https://aivr.science.uu.nl/2026/
+    year: 2026
+    
+  - conference: The 2025 IEEE 14th Global Conference on Consumer Electronics (GCCE) 2025, Osaka, Japan
+    position: Session Chair (User Interfaces)
+    url: https://www.ieee-gcce.org/2025/index.html
+    year: 2025
+
+  - conference: The 2025 IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR), Saint-Malo, France
+    position: Tutorial Co-chairs
+    url: https://ieeevr.org/2025/committees/conference-committee/
+    year: 2025
+
+  - conference: ACM Spatial User Interaction (SUI) 2022, Virtual
+    position: Poster Chair
+    url: https://sui.acm.org/2022/organization
+    year: 2022
+    
+  - conference: Frontier Virtual Reality (2021) Supernatural Enhancements of Perception, Interaction, and Collaboration in Mixed Reality
+    position: Guest Editor
+    url: https://www.frontiersin.org/research-topics/15338/supernatural-enhancements-of-perception-interaction-and-collaboration-in-mixed-reality
+    year: 2021
+
+  - conference: The 27th ACM Symposium on Virtual Reality Software and Technology (VRST) 2021, Osaka, Japan
+    position: Program Chair
+    url: https://vrst.acm.org/vrst2021/organizers/
+    year: 2021
+    
+  - conference: The 2021 IEEE 3rd Global Conference on Life Sciences and Technologies (LifeTech) 2021, Nara, Japan
+    position: Session Chair (Healthcare Technologies)
+    url: http://www.ieee-lifetech.org/2021/index.html
+    year: 2021   
+    
+  - conference: ACM CSCW Asia Winter School 2019, Kyoto, Japan
+    position: Web Chair
+    url: https://cf-collaborator.github.io/cscw-aws2019/
+    year: 2019  
+    
+  - conference: ACM ISS'18 Workshop on Computational Augmented Reality Displays 2018, Tokyo, Japan
+    position: Workshop Co-Organizer
+    url: https://computationalardisplays2018.github.io/
+    year: 2018 
+    
+  - conference: ACM International Conference on Interactive Surfaces and Spaces (ISS) 2018, Tokyo, Japan
+    position: Doctoral Consortium Co-Chair
+    url: https://iss.acm.org/2018/organization/
+    year: 2018 
+    
+  - conference: Symposium on Computational Fabrication (SCF) 2017, Cambridge, USA
+    position: Local Arrangements Chair
+    url: http://scf.acm.org/
+    year: 2017 
+    
+  - conference: SIGCHI Summer School on Computational Fabrication and Smart Matter 2017, Cambridge, USA
+    position: Local Arrangements Chair
+    url: http://scf.acm.org/
+    year: 2017 
+    
+  - conference: ACM Conference on Human Factors in Computing Systems (CHI) 2017, Denver, USA
+    position: Session Chair (Experiences with Virtual Reality)
+    url: https://chi2017.acm.org/program/?tab=chi2017-schedule&slot=5_10_17_11_30_12_50&session=paper_66&day=Wednesday
+    year: 2017 
+    
+  - conference: ACM User Interface Software and Technology Symposium (UIST) 2017, Quebec City, Canada
+    position: Documentations Chair
+    url: https://uist.acm.org/uist2017/
+    year: 2017 
+    
+  - conference: ACM Symposium on Spatial User Interaction (SUI) 2016, Tokyo, Japan
+    position: AV Chair
+    url: http://sui-symposium.org/
+    year: 2016
+    
+  - conference: The 20th Anniversary of The Virtual Reality Society of Japan
+    position: Visual Design and Web Chair 
+    url: http://20th.vrsj.org/
+    year: 2015
+    
+  - conference: The 25th International Conference on Artificial Reality and Telexistence and Symposium on Virtual Environments (ICAT-EGVE) 2015, Kyoto, Japan
+    position: Chief Graphics Designer
+    url: http://www.ic-at.org/2015/
+    year: 2015
+    
+ipc_list:
+
+  - conference: ACM CHI
+    url: https://chi2025.acm.org/for-authors/presenting/papers/selecting-a-subcommittee#Design
+    year: 2025 (Design area), 2022 (Design area), 2021 (Design area)
+   
+  - conference: ACM DIS
+    url: 
+    year: 2026 (Artifact area)
+   
+  - conference: ACM TEI
+    url: https://tei.acm.org/2021/participate/work-in-progress/
+    year: 2021 (WIP)
+    
+  - conference: ACM SIGGRAPH Asia (Emerging Technologies Track)
+    url: https://asia.siggraph.org/2025/about-the-event/siggraph-asia-2025-committee/emerging-technologies-committee/
+    year: 2025, 2024, 2023, 2021, 2020, 2018, 2017
+    
+  - conference: ACM SUI
+    url: https://sui.acm.org/2024/
+    year: 2024 , 2023 , 2022
+    
+  - conference: ACM UIST
+    url: https://uist.acm.org/uist2020/organizers.html
+    year: 2020 
+    
+  - conference: ICAT-EGVE
+    url: 
+    year: 2018, 2017
+    
+  - conference: IEEE ISMAR
+    url: https://www.ieeeismar.net/2025/committee/international-program/
+    year: 2025 (IPC), 2024 (IPC, Conference Track)
+    
+  - conference: IEEE VR
+    url: https://www.dropbox.com/s/bm7ngalnaw4digh/IEEE-VR-2020-program-comittee.pdf?dl=0
+    year: 2026 (IPC), 2020 (IPC, Conference Track)
+    
+reviewer_list:
+
+  - conference: Springer IJIDeM
+    year: 2023
+    
+  - conference: Elsevier Computer & Graphics
+    year: 2024, 2023, 2021, 2019
+    
+  - conference: MDPI sensors
+    year: 2020, 2019
+    
+  - conference: APMAR 
+    year: 2022, 2020, 2019
+    
+  - conference: ACM CSCW 
+    year: 2020, 2018
+    
+  - conference: ACM CHI
+    year: 2026, 2025, 2024, 2023, 2022, 2021, 2020, 2018, 2017
+    
+  - conference: ACM DIS
+    year: 2026, 2023, 2022
+    
+  - conference: ACM HRI
+    year: 2020, 2017
+    
+  - conference: ACM ISS
+    year: 2026, 2025, 2023, 2022, 2020, 2019, 2018
+    
+  - conference: ACM TEI
+    year: 2026, 2024, 2021, 2019, 2018
+    
+  - conference: ACM SIGGRAPH
+    year: 2026, 2022, 2020, 2019
+    
+  - conference: ACM SIGGRAPH Asia
+    year: 2022, 2021, 2020, 2018, 2017, 2016
+    
+  - conference: ACM SUI
+    year: 2024, 2021, 2018, 2016
+    
+  - conference: ACM UIST
+    year: 2025, 2024, 2021, 2020, 2019, 2018, 2017, 2016
+    
+  - conference: ACM VRST
+    year: 2023, 2022, 2021, 2019, 2018, 2017, 2016
+    
+  - conference: ACM IMWUT
+    year: 2026, 2023, 2022
+    
+  - conference: IEEE TOH
+    year: 2026, 2022, 2020, 2019
+    
+  - conference: IEEE VR
+    year: 2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017
+    
+  - conference: IEEE ISMAR
+    year: 2025, 2024, 2023, 2022, 2021, 2020, 2018, 2017, 2016
+    
+  - conference: IEEE TVCG
+    year: 2025, 2024, 2023, 2022, 2020
+    
+  - conference: IEEE WHC 
+    year: 2019
+    
+  - conference: ICAT-EGVE
+    year: 2022, 2020, 2018, 2017
+    
+  - conference: INTERACT 
+    year: 2022, 2021, 2019
+    
+  - conference: TVRSJ 
+    year: 2024, 2023

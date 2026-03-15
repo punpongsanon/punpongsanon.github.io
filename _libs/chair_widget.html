@@ -1,7 +1,9 @@
-<div class="row mb-4">
-	<div class="col-sm-12">
-		<a href="{{ chair_list.url }}" target="_blank" rel="noopener">{{ chair_list.awarding }}</a> 
-		<i class="hgi hgi-stroke hgi-first-bracket-square"></i> 
-		{{ chair_list.title }}
-	</div>
+<div class="col-sm-12">
+	<span class="text-secondary">{{ chair_list.year }}</span>
+	<a href="{{ chair_list.url }}" target="_blank" rel="noopener">
+		{{ chair_list.position }} 
+		<i class="fa-regular fa-share-from-square"></i>
+	</a> 
+	{{ chair_list.conference }}
 </div>
+
