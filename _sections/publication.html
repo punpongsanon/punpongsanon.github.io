@@ -5,23 +5,15 @@
     <div class="col">
         <h2 clss="mb-5"><i class="fa-brands fa-firstdraft"></i> Publications</h2>
         <p></p>
-        {% for publication_list in site.data.publication.publication_list %}
-            {% include_relative _libs/publication_widget.html %}
-        {% endfor %}
-        <p></p>
-		
-		<span class ="highlight-alert">
-		<i class="fa-solid fa-arrows-rotate"></i>
-		The website is underconstruction, the old list of publication will be available shortly.
-		</span>
-		<br>
-		<i class="fa-solid fa-circle-exclamation"></i> 
-		For list of <b>Conference Proceedings (Talks, Posters and Demonstration)</b>, please see (scholar)
     </div>
 </div>
 
 <p>
- <button class="btn btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#Journal" aria-expanded="false" aria-controls="Journal">
+<button class="btn btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="Paper Poster">
+All
+</button>
+<i class="fa-solid fa-angles-right"></i>
+<button class="btn btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#Journal" aria-expanded="false" aria-controls="Journal">
 Journals/Articles
 </button>
 <button class="btn btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#Paper" aria-expanded="false" aria-controls="Paper">
@@ -32,16 +24,16 @@ Talks, Posters and Demonstration
 </button>
 </p>
 <div class="collapse.show" id="Journal">
-	<div class="card card-body">
-		<h5 class="card-title">Journals and Research Articles</h5>
-        {% for publication_list in site.data.publication.publication_list %}
-            {% include_relative _libs/publication_widget.html %}
+	<div class="card card-body card-font-small">
+		<h5 class="card-title">Journals and Articles</h5>
+        {% for journal_list in site.data.publication.journal_list %}
+            {% include_relative _libs/journal_widget.html %}
         {% endfor %}
 	</div>
 </div>
 <p></p>
-<div class="collapse" id="Paper">
-	<div class="card card-body">
+<div class="collapse multi-collapse" id="Paper">
+	<div class="card card-body card-font-small">
 		<h5 class="card-title">Conference Proceedings (Full Papers, Short Papers)</h5>
         {% for paper_list in site.data.publication.paper_list %}
             {% include_relative _libs/paper_widget.html %}
@@ -49,8 +41,8 @@ Talks, Posters and Demonstration
 	</div>
 </div>
 <p></p>
-<div class="collapse" id="Poster">
-	<div class="card card-body">
+<div class="collapse multi-collapse" id="Poster">
+	<div class="card card-body card-font-small">
 		<h5 class="card-title">Conference Proceedings (Talks, Posters and Demonstration)</h5>
         {% for poster_list in site.data.publication.poster_list %}
             {% include_relative _libs/poster_widget.html %}
