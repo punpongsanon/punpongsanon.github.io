@@ -3,11 +3,12 @@
 <hr>
 <div class="row">
     <div class="col-12">
-        <h2 clss="mb-5"><i class="fa-regular fa-building"></i> Employment and Education History</h2>
+        <h4 clss="mb-5"><i class="fa-regular fa-building"></i> Employment and Education History</h4>
+		<p></p>
     </div>
 	
 	<div class="col-sm-6">
-		<div class="card bg-light mb-3">
+		<div class="card mb-3">
 			<div class="card-body card-font-small">
 				<h5 class="card-title">Employment History</h5>
 				{% for employment_list in site.data.employment.employment_list %}
@@ -17,7 +18,7 @@
 		</div>
 	</div>
 	<div class="col-sm-6">
-		<div class="card bg-light mb-3">
+		<div class="card mb-3">
 			<div class="card-body card-font-small">
 				<h5 class="card-title">Education History</h5>
 				{% for education_list in site.data.employment.education_list %}

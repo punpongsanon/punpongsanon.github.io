@@ -6,25 +6,114 @@ employment_list:
     from: Apr 2023
     to: Present
     location: Saitama, Japan
-    desc: Fabrication, Interaction and Perception Laboratory (FIP Lab) as a PI
+    desc: Fabrication, Interaction and Perception Laboratory as a Principle Investigator
     logo: assets/img/logo_saitama_university.jpg
     
-  - place:
-    position:
-    from:
-    to:
-    location:
-    desc:
-    logo:
+  - place: Graduate School of Engineering Science, The University of Osaka
+    url: https://www.es.osaka-u.ac.jp/en/
+    position: Assistant Professor
+    from: Apr 2021
+    to: Mar 2023
+    location: Toyonaka, Japan
+    desc: Prof. Kosuke Sato Laboratory (Augmented Reality, Haptic Perception, Digital Fabrication)
+    logo: assets/img/logo_osaka_university.jpg
 
+  - place: Institute for Advanced Co-Creation Studies, The University of Osaka
+    url: http://iacs.osaka-u.ac.jp/en/
+    position: Assistant Professor
+    from: Jan 2019
+    to: Mar 2021
+    location: Toyonaka, Japan
+    desc: Prof. Kosuke Sato Laboratory (Augmented Reality, Haptic Perception, Digital Fabrication)
+    logo: assets/img/logo_osaka_university.jpg
+    
+  - place: Graduate School of Engineering Science, The University of Osaka
+    url: https://www.es.osaka-u.ac.jp/en/
+    position: Assistant Professor
+    from: Apr 2018
+    to: Dec 2018
+    location: Toyonaka, Japan
+    desc: Prof. Kosuke Sato Laboratory (Augmented Reality, Haptic Perception, Digital Fabrication)
+    logo: assets/img/logo_osaka_university.jpg
+    
+  - place: HCI Engineering Group, MIT CSAIL
+    url: https://hcie.csail.mit.edu/
+    position: Postdoctoral Associate
+    from: Jan 2017
+    to: Mar 2018
+    location: Cambridge, MA, USA
+    desc: Prof. Stefanie Mueller Laboratory (Personal Fabrication, 3D Printing, HCI)
+    logo: assets/img/logo_mit_csail.jpg
+    
+  - place: Japan Society for the Promotion of Science
+    url: https://www.jsps.go.jp/english/e-fellow/
+    position: Postdoctoral Fellow
+    from: Oct 2016
+    to: Mar 2018
+    location: Cambridge, MA, USA
+    desc: Prof. Stefanie Mueller Laboratory (Personal Fabrication, 3D Printing, HCI)
+    logo: assets/img/logo_jsps.jpg
+    
+  - place: Computer Graphics Group, TSI, Telecom ParisTech (ENST), University Paris-Saclay
+    url: https://www.tsi.telecom-paristech.fr/cg/
+    position: Visiting Researcher
+    from: Dec 2013
+    to: Feb 2014
+    location: Paris, France
+    desc: Prof. Tamy Boubekeur Laboratory (Natural Interaction Interfaces and Systems)
+    logo: assets/img/logo_telecom_paristech.jpg
+    
+  - place: Kiatnakin Bank Public Limited Company
+    url: https://www.kiatnakin.co.th/
+    position: Programmer Analysis
+    from: Jun 2010
+    to: Sep 2011
+    location: Bangkok, Thailand
+    desc: Core Banking Systems (Data Management), Information System Department
+    logo: assets/img/logo_kiatnakin_bank.jpg
 
-education:
+education_list:
 
-  - place:
-    position:
-    from:
-    to:
-    location:
-    advisor:
-    thesis:
-    logo:
+  - place: Graduate School of Engineering Science, The University of Osaka
+    url: https://www.sens.sys.es.osaka-u.ac.jp/
+    position: Ph.D in Engineering
+    from: Oct 2013
+    to: Sep 2016
+    location: Toyonaka, Osaka, Japan
+    advisors: Prof. Daisuke Iwai and Prof. Kosuke Sato
+    thesis: Spatial Augmented Reality for Deformable Objects
+    pdf: http://hdl.handle.net/11094/59626
+    logo: assets/img/logo_osaka_university.jpg
+    
+  - place: Graduate School of Engineering Science, The University of Osaka
+    url: https://www.sens.sys.es.osaka-u.ac.jp/
+    position: Master of Engineering
+    from: Oct 2011
+    to: Sep 2013
+    location: Toyonaka, Osaka, Japan
+    advisors: Prof. Daisuke Iwai and Prof. Kosuke Sato
+    thesis: Projection-based Mixed Reality for Deformable Surfaces using Infrared Textures
+    pdf: 
+    logo: assets/img/logo_osaka_university.jpg
+    
+  - place: Electrical Engineering, School of Engineering, University of Fukui
+    url: https://www.u-fukui.ac.jp/eng/
+    position: Exchange Student
+    from: Oct 2008
+    to: Sep 2009
+    location: Fukui, Japan
+    advisors: 
+    thesis: Natural Language Processing and Artificial Intelligence
+    pdf: 
+    logo: assets/img/logo_university_of_fukui.jpg
+    
+  - place: Applied Computer Science in Multimedia, Information Technology, Faculty of Education and Industrial Engineering, King Mongkut’s University of Technology Thonburi
+    url: https://cit.kmutt.ac.th/cit3/index.html
+    position: Bachelor of Science
+    from: May 2006
+    to: Apr 2010
+    location: Bangkok, Thailand
+    advisors: Prof. Suriyong Lertkulvanich
+    thesis: English Composition game on the computer using a Natural Language Processing
+    pdf: 
+    logo: assets/img/logo_kmutt.jpg
