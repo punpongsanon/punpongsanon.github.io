@@ -1,0 +1,30 @@
+employment_list:
+
+  - place: Gradaute School of Science and Engineering, Saitama University
+    url: http://www.ics.saitama-u.ac.jp/
+    position: Associate Professor
+    from: Apr 2023
+    to: Present
+    location: Saitama, Japan
+    desc: Fabrication, Interaction and Perception Laboratory (FIP Lab) as a PI
+    logo: assets/img/logo_saitama_university.jpg
+    
+  - place:
+    position:
+    from:
+    to:
+    location:
+    desc:
+    logo:
+
+
+education:
+
+  - place:
+    position:
+    from:
+    to:
+    location:
+    advisor:
+    thesis:
+    logo:
