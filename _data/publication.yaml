@@ -310,6 +310,76 @@ journal_list:
     
 paper_list:
 
+  - title: ChewTect&#58; Designing Temporal Food Texture via Computational Molding
+    event: In Proceedings of the 2026 ACM Designing Interactive Systems Conference (DIS)
+    event-web: https://dis.acm.org/2026/
+    pages: pp. XX-YY
+    date: June 2026
+    team: Yamato Miyatake, Aoi Yamada, Huaishu Peng and <u>Parinya Punpongsanon</u>
+    pdf: 
+    code: 
+    demo:
+    doi: 
+    remark: 
+    accept_rate: 21%
+    prize: 
+    
+  - title: 内部構造を制御した食品の咀嚼音特性に基づく食事摂取量推定 
+    event: 電子情報通信学会総合大会
+    event-web: https://www.ieice.org/jpn_r/activities/taikai/general/2026/index.html
+    pages: H-2-01
+    date: 2026年3月10日
+    team: 山田蒼, 宮武大和, 雨坂宇宙, 岩井大輔, <u>プンポンサノン パリンヤ</u>
+    pdf: 
+    code: 
+    demo:
+    doi: 
+    remark: 
+    accept_rate: 
+    prize: 
+    
+  - title: 機能推定による自動パラメータ生成を用いた3Dモデル編集の検討
+    event: 電子情報通信学会総合大会
+    event-web: https://www.ieice.org/jpn_r/activities/taikai/general/2026/index.html
+    pages: H-2-10
+    date: 2026年3月10日
+    team: 岡部兼也, 宮武大和, <u>プンポンサノン パリンヤ</u>
+    pdf: 
+    code: 
+    demo:
+    doi: 
+    remark: 
+    accept_rate: 
+    prize: 
+    
+  - title: 代替食品における食感と構造改変との関連性に関する研究 
+    event: 電子情報通信学会総合大会
+    event-web: https://www.ieice.org/jpn_r/activities/taikai/general/2026/index.html
+    pages: H-2-20
+    date: 2026年3月10日
+    team: 大澤璃乙, 山田蒼, 岡部兼也, 宮武大和, <u>プンポンサノン パリンヤ</u>
+    pdf: 
+    code: 
+    demo:
+    doi: 
+    remark: 
+    accept_rate: 
+    prize: 
+    
+  - title: 着色要因による食欲変化と味覚への影響 ―クッキー事例として― 
+    event: 電子情報通信学会総合大会
+    event-web: https://www.ieice.org/jpn_r/activities/taikai/general/2026/index.html
+    pages: H-2-21
+    date: 2026年3月10日
+    team: 見澤宏紀, 岡部兼也, 山田蒼, 宮武大和, <u>プンポンサノン パリンヤ</u>
+    pdf: 
+    code: 
+    demo:
+    doi: 
+    remark: 
+    accept_rate: 
+    prize: 
+
   - title: ViWeight&#58; Manipulating Virtual Liquid Weight Perception Using Vibrating Illusion
     event: In Proceedings of 2025 IEEE 9th Global Conference on Consumer Electronics (GCCE)
     event-web: https://www.ieee-gcce.org/2025/index.html
@@ -351,6 +421,20 @@ paper_list:
     remark: 
     accept_rate: 40%
     prize: 
+
+  - title: SubtleMove&#58; 微小動作による最小限インタラクション型ナビゲーションに関する研究 
+    event: ヒューマンインタフェースシンポジウム 2025
+    event-web: https://www.ieee-gcce.org/2025/index.html
+    pages: pp. 896-899
+    date: 2025年9月10日
+    team: 彭 勃, <u>プンポンサノン パリンヤ</u>
+    pdf: 
+    code: 
+    demo:
+    doi: 
+    remark: 
+    accept_rate: 
+    prize:   
 
 poster_list:
 
