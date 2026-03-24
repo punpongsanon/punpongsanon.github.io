@@ -423,18 +423,466 @@ paper_list:
     prize: 
 
   - title: SubtleMove&#58; 微小動作による最小限インタラクション型ナビゲーションに関する研究 
-    event: ヒューマンインタフェースシンポジウム 2025
+    event: ヒューマンインタフェースシンポジウム2025
     event-web: https://www.ieee-gcce.org/2025/index.html
     pages: pp. 896-899
     date: 2025年9月10日
-    team: 彭 勃, <u>プンポンサノン パリンヤ</u>
+    team: 彭勃, <u>プンポンサノン パリンヤ</u>
+    pdf: https://www.dropbox.com/scl/fi/stj5x5hx2xjgxbv23xtyb/HIJ_2025_SubtleMove_Bo.pdf
+    code: 
+    demo:
+    doi: 
+    remark: In Japanese
+    accept_rate: 
+    prize:   
+    
+  - title: 咀嚼情報と色の情動を利用した摂食行動改善のための拡張視覚化システムの開発
+    event: 第87回情報処理学会全国大会
+    event-web: https://www.ipsj.or.jp/event/taikai/87/index.html
+    pages: pp. 4:95-4:96
+    date: 2025年3月
+    team: 遠藤碧海, <u>プンポンサノン パリンヤ</u>
+    pdf: https://www.dropbox.com/scl/fi/lazeecoowcdcrtf85rhfd/IPSJ_2025_endo.pdf
+    code: 
+    demo:
+    doi: 
+    remark: In Japanese
+    accept_rate: 
+    prize: 学会賞奨励賞
+    
+  - title: 食品の電気抵抗情報を用いた可食センサーに関する研究
+    event: 第87回情報処理学会全国大会
+    event-web: https://www.ipsj.or.jp/event/taikai/87/index.html
+    pages: pp. 4:67-4:68
+    date: 2025年3月
+    team: 神尾幸希, <u>プンポンサノン パリンヤ</u>
+    pdf: https://www.dropbox.com/scl/fi/tjwn6h7pob5phk19qllra/IPSJ_2025_kamio.pdf
+    code: 
+    demo:
+    doi: 
+    remark: In Japanese
+    accept_rate: 
+    prize: 
+    
+   - title: 調理を考慮した食品への情報埋め込みに関する一考察
+    event: 第28回パターン計測シンポジウム(第108回パターン計測部会研究会)
+    event-web: https://www.sice.or.jp/org/pattern/
+    pages: 
+    date: 2023年11月
+    team: 松田綾美, <u>プンポンサノン パリンヤ</u>, 岩井大輔, 佐藤宏介
+    pdf: https://www.dropbox.com/scl/fi/k56a2muaxui9a0c13njkk/SICE_2023_matsuda.pdf?dl=0
+    code: 
+    demo:
+    doi: https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202402275616649541
+    remark: In Japanese
+    accept_rate: 
+    prize: 
+    
+   - title: 自己修復性材料片からソフトロボットを構築する Wizard bits の提案
+    event: ロボティクス・メカトロニクス講演会
+    event-web: https://robomech.org/2025/
+    pages: 
+    date: 2023年6月
+    team: 石塚裕己, 鈴木智大, 佐々木大輔, <u>プンポンサノン パリンヤ</u>
+    pdf: 
+    code: 
+    demo:
+    doi: 
+    remark: In Japanese
+    accept_rate: 
+    prize: 
+    
+   - title: 食体験変容のための投影型ARによる食品動的質感変調に関する研究
+    event: 第67回システム制御情報学会研究発表講演会
+    event-web: https://sci23.iscie.or.jp/
+    pages: pp.  338-341
+    date: 2023年5月
+    team: 牧篤司, <u>プンポンサノン パリンヤ</u>, 岩井大輔, 佐藤宏介
+    pdf: https://www.dropbox.com/s/8ydsuua4lsf920e/SCI_2023_Maki.pdf?dl=0
+    code: 
+    demo:
+    doi: 
+    remark: In Japanese
+    accept_rate: 
+    prize: 
+    
+   - title: OST-HMDを用いた幽体ハンド食事支援システム
+    event: 第67回システム制御情報学会研究発表講演会
+    event-web: https://sci23.iscie.or.jp/
+    pages: pp.  328-331
+    date: 2023年5月
+    team: 松元龍馬, <u>プンポンサノン パリンヤ</u>, 岩井大輔, 佐藤宏介
+    pdf: https://www.dropbox.com/s/sz7sk6n4olbo29r/SCI_2023_Matsumoto.pdf?dl=0
+    code: 
+    demo:
+    doi: 
+    remark: In Japanese
+    accept_rate: 
+    prize: 
+    
+   - title: Structure Design with Text-Guided Stylization
+    event: 第67回システム制御情報学会研究発表講演会
+    event-web: https://sci23.iscie.or.jp/
+    pages: pp.  202-203
+    date: 2023年5月
+    team: Zhong Shengze, <u>プンポンサノン パリンヤ</u>, 岩井大輔, 佐藤宏介
     pdf: 
     code: 
     demo:
     doi: 
     remark: 
     accept_rate: 
-    prize:   
+    prize: 
+
+   - title: 柔らかい食品上への情報埋め込みシステムの開発
+    event: 第85回情報処理学会全国大会
+    event-web: https://www.ipsj.or.jp/event/taikai/85/index.html
+    pages: pp.  4:137-4:138
+    date: 2023年3月
+    team: 松田綾美, <u>プンポンサノン パリンヤ</u>, 岩井大輔, 佐藤宏介
+    pdf: https://www.dropbox.com/s/kbay4jjy97mc2uy/IPSJT_2023_matsuda.pdf?dl=0
+    code: 
+    demo:
+    doi: 
+    remark: In Japanese
+    accept_rate: 
+    prize: 
+    
+   - title: interiqr&#58; Unobtrusive Edible Tags using Food 3D Printing
+    event: In Proceedings of the ACM Symposium on User Interface Software and Technology (UIST) 2022
+    event-web: https://uist.acm.org/uist2022/
+    pages: pp. 1-11
+    date: October 2022
+    team: Yamamoto Miyatake, <u>Parinya Punpongsanon</u>, Daisuke Iwai, Kosuke Sato
+    pdf: https://www.dropbox.com/s/0v4rypppd5t4pc8/UIST_2022_Interiqr_Miyatake.pdf?dl=0
+    code: 
+    demo:https://youtu.be/vAMmxEroSzs
+    doi: https://doi.org/10.1145/3526113.3545669
+    remark: 
+    accept_rate: 26.3%
+    prize: 
+    
+   - title: センサ内蔵スマートテーブルウェアの構築とロボットアームによるフィー ドバックの検討
+    event: 第66回 システム制御情報学会研究発表講演会
+    event-web: https://sci22.iscie.or.jp/
+    pages: pp. 981-983
+    date: 2022年5月
+    team: 松田綾美, <u>プンポンサノン パリンヤ</u>, 岩井大輔, 佐藤宏介
+    pdf: https://www.dropbox.com/s/a8x4g0c6z5ggpzr/SCI_2022_matsuda.pdf?dl=0
+    code: 
+    demo:
+    doi: 
+    remark: In Japanese
+    accept_rate: 
+    prize: 学会賞奨励賞
+    
+   - title: 3Dプリント食品内部への情報埋め込み
+    event: 第84回情報処理学会全国大会
+    event-web: https://www.ipsj.or.jp/event/taikai/84/index.html
+    pages: pp. 4:189-4:190
+    date: 2022年3月
+    team: 宮武大和, <u>プンポンサノン パリンヤ</u>, 岩井大輔, 佐藤宏介
+    pdf: https://www.dropbox.com/s/ttkcrce1s1yz6ln/IPSJT_2022_miyatake.pdf?dl=0
+    code: 
+    demo:
+    doi: 
+    remark: In Japanese
+    accept_rate: 
+    prize:
+    
+   - title: サーモクロミック材と情報コードをRGB-Cストライプ構造化した表面色制御
+    event: 第84回情報処理学会全国大会
+    event-web: https://www.ipsj.or.jp/event/taikai/84/index.html
+    pages: pp. 3:143-3:144
+    date: 2022年3月
+    team: 堀悠太郎, <u>プンポンサノン パリンヤ</u>, 岩井大輔, 佐藤宏介
+    pdf: https://www.dropbox.com/s/sd8un04d7v76csr/IPSJT_2022_hori.pdf?dl=0
+    code: 
+    demo:
+    doi: 
+    remark: In Japanese
+    accept_rate: 
+    prize:
+    
+   - title: Hugmon&#58; Exploration of Affective Movements for Hug Interaction using Tensegrity Robot
+    event: In Companion Proceedings of ACM/IEEE International Conference on Human-Robot Interaction (HRI) 2022
+    event-web: https://humanrobotinteraction.org/2022/toc.html
+    pages: pp. 1105-1109
+    date: March 2022
+    team: Naoya Yoshimura, Yushi Sato, Yuta Kageyama, Jun Murao, Satoshi Yagi, <u>Parinya Punpongsanon</u>
+    pdf: https://www.dropbox.com/s/atfele5h28cnyz9/HRI_2022_Hugmon_Naoya.pdf?dl=0
+    code: 
+    demo: https://youtu.be/deNWUUbrSNM
+    doi: https://dl.acm.org/doi/10.5555/3523760.3523944
+    remark: 
+    accept_rate: 
+    prize:
+    
+   - title: A Simple Calibration of Material Constitutive Model for FDM 3D Printers
+    event: In Proceedings of Conference on 4D and Functional Fabrication (4DFF) 2021
+    event-web: https://sig4dff.org/conference/2021/proceeding/
+    pages: pp. 29-31
+    date:  October 2021
+    team: Shengze Zhong, <u>Parinya Punpongsanon</u>, Daisuke Iwai, and Kosuke Sato
+    pdf: https://www.dropbox.com/s/ewq1u4z6fe3zaaa/4DFF_2021_Shengze.pdf?dl=0
+    code: 
+    demo: 
+    doi: https://sig4dff.org/conference/2021/proceeding/
+    remark: In Japanese
+    accept_rate: 
+    prize:
+    
+   - title: EdiSensor&#58; Facilitating Food Electricity for Eating Habits Analysis
+    event: In Proceedings of 2021 IEEE 3rd Global Conference on Life Sciences and Technologies (LifeTech)
+    event-web: https://www.ieee-lifetech.org/2021/
+    pages: pp. 108-109
+    date: March 2021
+    team: <u>Parinya Punpongsanon</u>, Hiroki Ishizuka
+    pdf: https://www.dropbox.com/s/6v5e4347dpugi93/LifeTech_2021_Punpongsanon.pdf?dl=0
+    code: 
+    demo: 
+    doi: https://doi.org/10.1109/LifeTech52111.2021.9391948
+    remark: 
+    accept_rate: 
+    prize: Outstanding Paper Award
+    
+   - title: Investigation of Soft Display using Digital Fabrication and Phase-change Material
+    event: In Proceedings of 2021 IEEE 3rd Global Conference on Life Sciences and Technologies (LifeTech)
+    event-web: https://www.ieee-lifetech.org/2021/
+    pages: pp. 513-514
+    date: March 2021
+    team: Motoki Miyoshi, <u>Parinya Punpongsanon</u>, Daisuke Iwai, Kosuke Sato
+    pdf: https://www.dropbox.com/s/whnugz148yr2gdj/LifeTech_2021_Miyoshi.pdf?dl=0
+    code: 
+    demo: 
+    doi: https://doi.org/10.1109/LifeTech52111.2021.9391833
+    remark: 
+    accept_rate: 
+    prize: Outstanding Paper Award
+    
+   - title: Programmable Filament&#58; Printed Filaments for Multi-material 3D Printing
+    event: In Proceedings of ACM Symposium on User Interface Software and Technology (UIST) 2020
+    event-web: https://uist.acm.org/uist2020/
+    pages: pp. 1209-1221
+    date: October 2020
+    team: Haruki Takahashi, <u>Parinya Punpongsanon</u>, Jeeeun Kim
+    pdf: https://www.dropbox.com/s/c1mlp6fq7szsqsf/UIST_2020_ProgrammableFilament_haruki.pdf?dl=0
+    code: 
+    demo: https://www.youtube.com/watch?v=XkZ5qyRDW4Y
+    doi: https://doi.org/10.1145/3379337.3415863
+    remark: 
+    accept_rate: 21.5%
+    prize: Honorable Mention Award
+    
+   - title: Adaptive Visualization of Gas Distribution Using Augmented Reality Glasses
+    event: In Proceedings of 2020 IEEE 9th Global Conference on Consumer Electronics (GCCE)
+    event-web: https://www.ieee-gcce.org/2020/
+    pages: pp. 658-659
+    date: October 2020
+    team: Liyuan Duan, Haruka Matsukura, <u>Parinya Punpongsanon</u>, Takefumi Hiraki, Daisuke Iwai, Kosuke Sato
+    pdf: https://www.dropbox.com/s/wgcp8yzhpdiqh1s/GCCE_2020_duan.pdf?dl=0
+    code: 
+    demo: https://youtu.be/G5Rn1ThXUKE
+    doi: https://doi.org/10.1109/GCCE50665.2020.9291811
+    remark: 
+    accept_rate: 
+    prize: Excellent Student Paper Award
+    
+   - title: FoodFab&#58; Creating Food Perception Illusions using Food 3D Printing
+    event: In Proceedings of ACM SIGCHI Conference on Human Factors in Computing Systems (CHI) 2020
+    event-web: https://chi2020.acm.org/
+    pages: pp. 294:1-294:13
+    date: April 2020
+    team: Ying-Ju Lin, <u>Parinya Punpongsanon</u>, Xin Wen, Daisuke Iwai, Kosuke Sato, Marianna Obrist, Stefanie Mueller
+    pdf: https://www.dropbox.com/s/wstggg847r24pd6/CHI_2020_FoodFab_lin.pdf?dl=0
+    code: 
+    demo: https://youtu.be/kBojJIUhHS8
+    doi: https://doi.org/10.1145/3313831.3376421
+    remark: 
+    accept_rate: 24.3%
+    prize: Best Presentation Award (Asian CHI Symposium)
+
+   - title: Remote Environment Exploration with Drone Agent and Haptic Force Feedback
+    event: In Proceedings of IEEE International Conference on Artificial Intelligence & Virtual Reality (AIVR) 2019
+    event-web: https://aivr.science.uu.nl/2019/CFP-AIVR2019_2019-09-04.pdf
+    pages: pp. 167-170
+    date: December 2019
+    team: Tinglin Duan, <u>Parinya Punpongsanon</u>, Sheng Jia, Daisuke Iwai, Kosuke Sato, Konstantinos N. Plataniotis
+    pdf: https://www.dropbox.com/s/9hegg0bcp3zptpn/AIVR_2019_Drone_francis.pdf?dl=0
+    code: https://www.dropbox.com/s/40hw8dyjj7xm594/presentation_IEEE_AIVR_2019_Drone_francis.pdf?dl=0
+    demo: 
+    doi: https://doi.org/10.1109/AIVR46125.2019.00034
+    remark: 
+    accept_rate: 31.3%
+    prize: 
+    
+   - title: Photo-Chromeleon&#58; Re-Programmable Multi-Color Textures Using Photochromic Dyes
+    event: In Proceedings of ACM Symposium on User Interface Software and Technology (UIST) 2019
+    event-web: https://uist.acm.org/uist2019/
+    pages: pp. 701-712
+    date: October 2019
+    team: Yuhua Jin, Isabel Qamar, Michael Wessely, Aradhana Adhikari, Katarina Bulovic, <u>Parinya Punpongsanon</u>, Stefanie Mueller
+    pdf: http://groups.csail.mit.edu/hcie/files/research-projects/photochromeleon/2019-uist-photochromeleon-paper.pdf
+    code: 
+    demo: https://www.youtube.com/watch?v=rGnAAJEBFUU
+    doi: https://doi.org/10.1145/3332165.3347905
+    remark: 
+    accept_rate: 24.4%
+    prize: Best Paper Award, Best Talk Award
+
+   - title: ObserVAR&#58; Visualization System for Observing Virtual Reality Users using Augmented Reality
+    event: In Proceedings of IEEE International Symposium on Mixed and Augmented Reality (ISMAR) 2019
+    event-web: https://ismar2019.ismar.net/
+    pages: pp. 386-396
+    date: October 2019
+    team: Santawat Thanyadit, <u>Parinya Punpongsanon</u>, Ting-Chuen Pong
+    pdf: https://www.dropbox.com/s/df9bvaiaxwjcnw4/ismar_2019_observar_thanyadit.pdf?dl=0
+    code: 
+    demo: https://youtu.be/uDVf6QtCLiQ
+    doi: https://doi.org/10.1109/ISMAR.2019.00023
+    remark: 
+    accept_rate: 25.6%
+    prize: 
+    
+- title: 3Dプリンタ出力に対して知覚される硬軟度操作のための表面微細形状と内部構造設計
+    event: 第63回システム制御情報学会研究発表講演会
+    event-web: https://sci19.iscie.or.jp/
+    pages: pp. 1203-1207
+    date: 2019年5月
+    team: 三好幹, <u>プンポンサノン・パリンヤ</u>, 岩井大輔, 佐藤宏介
+    pdf: 
+    code: 
+    demo:
+    doi: https://ci.nii.ac.jp/naid/40021912225/
+    remark: In Japanese
+    accept_rate: 
+    prize: 学会賞奨励賞
+
+  - title: 頭部方向を用いた投影型拡張仮想手の操作範囲の拡張
+    event: 第63回システム制御情報学会研究発表講演会
+    event-web: https://sci19.iscie.or.jp/
+    pages: pp. 1375-1381
+    date: 2019年5月
+    team: 森田耕平, 田辺育暉, 佐藤優志, <u>プンポンサノン・パリンヤ</u>, 松倉悠, 岩井大輔, 佐藤宏介
+    pdf: 
+    code: 
+    demo:
+    doi: https://ci.nii.ac.jp/naid/40021912531/
+    remark: In Japanese
+    accept_rate: 
+    prize: 
+
+  - title: 投影バーチャルハンドの疑似触覚フィードバックによる接触感呈示
+    event: 第63回システム制御情報学会研究発表講演会
+    event-web: https://sci19.iscie.or.jp/
+    pages: pp. 1367-1374
+    date: 2019年5月
+    team: 佐藤優志, 田辺育暉, 森田耕平, <u>プンポンサノン・パリンヤ</u>, 松倉悠, 岩井大輔, 佐藤宏介
+    pdf: 
+    code: 
+    demo:
+    doi: https://ci.nii.ac.jp/naid/40021912520/
+    remark: In Japanese
+    accept_rate: 
+    prize: 学会賞奨励賞
+
+  - title: Sequential Support&#58; 3D Printing Dissolvable Support Material for Time-Dependent Mechanisms
+    event: In Proceedings of ACM Annual Conference in Tangible, Embedded, and Embodied Interaction (TEI) 2019
+    event-web: https://tei.acm.org/2019/
+    pages: pp. 669-676
+    date: March 2019
+    team: Martin Nisser, Junyi Zhu, Tianye Chen, Katarina Bulovic, <u>Parinya Punpongsanon</u>, Stefanie Mueller
+    pdf: http://groups.csail.mit.edu/hcie/files/research-projects/sequential-support/2019-TEI-SequentialSupport-paper.pdf
+    code: 
+    demo: https://www.youtube.com/watch?v=T-22KOGFLoQ&t=0s
+    doi: https://doi.org/10.1145/3294109.3295630
+    remark: 
+    accept_rate: 31%
+    prize: 
+
+  - title: FlyingHand&#58; Extending the Range of Haptic Feedback on Virtual Hand using Drone-based Object Recognition
+    event: In Proceedings of ACM SIGGRAPH Asia 2018: Technical Briefs
+    event-web: https://sa2018.siggraph.org/
+    pages: Article 28
+    date: December 2018
+    team: Tinglin Duan, <u>Parinya Punpongsanon</u>, Daisuke Iwai, Kosuke Sato
+    pdf: https://www.dropbox.com/s/4gfnmzv0t2x005r/SA_2018_FlyingHand_francis.pdf?dl=0
+    code: 
+    demo: https://youtu.be/c_y5MIAgVI8
+    doi: https://doi.org/10.1145/3283254.3283258
+    remark: 
+    accept_rate: 30%
+    prize: 
+
+  - title: ColorMod&#58; Recoloring 3D Printed Objects using Photochromic Inks
+    event: In Proceedings of ACM SIGCHI Conference on Human Factors in Computing Systems (CHI) 2018
+    event-web: https://chi2018.acm.org/
+    pages: pp. 213:1-213:12
+    date: April 2018
+    team: <u>Parinya Punpongsanon</u>, Xin Wen, David Kim, Stefanie Mueller
+    pdf: http://groups.csail.mit.edu/hcie/files/research-projects/colormod/2018-chi-colormod-paper.pdf
+    code: 
+    demo: https://youtu.be/F9FxWZ9IKBA
+    doi: https://doi.org/10.1145/3173574.3173787
+    remark: 
+    accept_rate: 25.7%
+    prize: 
+
+  - title: LazyNav&#58; 3D Ground Navigation with Non-Critical Body Parts
+    event: In Proceedings of IEEE Symposium on 3D User Interfaces (3DUI) 2015
+    event-web: https://ieeevr.org/2015/index.html
+    pages: pp. 43-50
+    date: March 2015
+    team: Emilie Guy, <u>Parinya Punpongsanon</u>, Daisuke Iwai, Kosuke Sato, and Tamy Boubekeur
+    pdf: https://www.dropbox.com/s/znir2zhupvuv92f/3DUI_2015_LazyNav_guy.pdf?dl=0
+    code: 
+    demo: https://youtu.be/Y6zgFUl01Mo
+    doi: http://dx.doi.org/10.1109/3DUI.2015.7131725
+    remark: 
+    accept_rate: 
+    prize: Best Paper Award
+
+  - title: Projection-based Mixed Reality for Deformable Surfaces
+    event: The 6th Korea-Japan Workshop on Mixed Reality (KJMR2013)
+    event-web: http://ypcex.naist.jp/kjmr2013/
+    pages: 
+    date: February 2013
+    team: <u>Parinya Punpongsanon</u>, Daisuke Iwai, and Kosuke Sato
+    pdf: 
+    code: 
+    demo:
+    doi: 
+    remark: 
+    accept_rate: 
+    prize: Best Presentation Award
+
+  - title: 表面変形のビジュアルトラッキングによる粘弾性曲面上での射影に基づく複合現実感
+    event: 第88回パターン計測シンポジウム, 計測自動制御学会
+    event-web: https://www.sice.jp/division/meas/pattern/pattern_old/
+    pages: pp. 35-40
+    date: 2012年12月
+    team: <u>Parinya Punpongsanon</u>, Daisuke Iwai, and Kosuke Sato
+    pdf: https://www.dropbox.com/s/au663o44q4kg57v/SICE_2012_DeforMe_punpongsanon.pdf?dl=0
+    code: 
+    demo:
+    doi: http://jglobal.jst.go.jp/public/20090422/201302272895929403#jgid201302272895929403
+    remark: In Japanese
+    accept_rate: 
+    prize: 
+
+  - title: English Composition game on the computer using a Natural Language Processing through online learning
+    event: In Proceedings of the 4th TCU International e-Learning Conference (IEC2012)
+    event-web: 
+    pages: 
+    date: June 2012
+    team: Suriyong Lertkulvanich, and <u>Parinya Punpongsanon</u>
+    pdf: 
+    code: 
+    demo:
+    doi: 
+    remark: 
+    accept_rate: 
+    prize:
 
 poster_list:
 
@@ -449,7 +897,7 @@ poster_list:
     demo: https://youtu.be/P8MXEitdVKE
     doi: 
     remark: Poster
-    accept_rate:
+    accept_rate: 66.2%
     prize: 
     
   - title: An Exploratory Study on Edible Conductive Materials Using Water and Oil-based Gels for Human-Food Interaction
@@ -493,3 +941,327 @@ poster_list:
     remark: Poster
     accept_rate:
     prize: 
+    
+  - title: An Exploratory Study on Fabricating of Unobtrusive Edible Tags
+    event: In Proceedings of ACM SIGGRAPH Asia 2024 Poster
+    event-web: 
+    pages: Article No. 51
+    date: 2024
+    team: Yamato Miyatake, <u>Parinya Punpongsanon</u>
+    pdf: https://www.dropbox.com/scl/fi/p9o6e68m0b3ohpoti5utd/SA_2024_Miyatake.pdf?rlkey=s3kpwrhb5wdg0ihf66tatnc7x&st=lsrxpitn&dl=0
+    code: 
+    demo: 
+    doi: https://doi.org/10.1145/3681756.3697910
+    remark: Poster
+    accept_rate: 
+    prize: 
+
+  - title: 感情認識とヒト観察によるアバターの感情性の調査
+    event: 第29回日本バーチャルリアリティ学会大会論文集
+    event-web: 
+    pages: ページ 2A1-09
+    date: 2024年9月
+    team: 淺井魁将, <u>プンポンサノン・パリンヤ</u>
+    pdf: https://www.dropbox.com/scl/fi/ibtbxs01l16vankdvylds/VRSJ_2024_asai.pdf
+    code: 
+    demo: 
+    doi: https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202502214327983120
+    remark: In Japanese
+    accept_rate: 
+    prize: 
+
+  - title: VR環境との同期のため嗅覚ドローンの飛行経路に関する探索的研究
+    event: 第29回日本バーチャルリアリティ学会大会論文集
+    event-web: 
+    pages: ページ 1D1-09
+    date: 2024年9月
+    team: 鵜木亮成, <u>プンポンサノン・パリンヤ</u>
+    pdf: https://www.dropbox.com/scl/fi/zgh04ohjc43ylznelbmdx/VRSJ_2024_unoki.pdf
+    code: 
+    demo: 
+    doi: https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202502290399490561
+    remark: In Japanese
+    accept_rate: 
+    prize: 
+
+  - title: InfiniteShader&#58; Color Changeable 3D Printed Objects using Bi-Stable Thermochromic Materials
+    event: In Proceedings of ACM SIGGRAPH Asia 2022: Technical Communications and Poster
+    event-web: 
+    pages: Article No. 38
+    date: 2022
+    team: Yuto Umetsu, <u>Parinya Punpongsanon</u>, and Takefumi Hiraki
+    pdf: https://www.dropbox.com/s/yjyhix2aps58jm5/SA_2022_InfiniteShader_Umetsu.pdf?dl=0
+    code: 
+    demo: 
+    doi: https://doi.org/10.1145/3550082.3564209
+    remark: Poster
+    accept_rate: 
+    prize: 
+
+  - title: Demonstration of interiqr: Unobtrusive Edible Tags using Food 3D Printing
+    event: In Proceedings of the Adjunct Publication of ACM Symposium on User Interface Software and Technology (UIST) 2022
+    event-web: 
+    pages: pp. 1-2
+    date: October 2022
+    team: <u>Parinya Punpongsanon</u>, Yamamoto Miyatake, Daisuke Iwai, and Kosuke Sato
+    pdf: 
+    code: 
+    demo: 
+    doi: https://doi.org/10.1145/3526114.3558630
+    remark: Demonstration
+    accept_rate: 
+    prize: 
+
+  - title: AI-Generated Characters&#58; Putting Deepfakes to Good Use
+    event: Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems (CHI 2022)
+    event-web: https://www.media.mit.edu/events/chi-2022-deepfakes/
+    pages: pp. 1-5
+    date: 2022
+    team: Valdemar Danry, Joanne Leong, Pat Pataranutaporn, Pulkit Tandon, Yimeng Liu, Roy Shilkrot, <u>Parinya Punpongsanon</u>, Tsachy Weissman, Pattie Maes, Misha Sra
+    pdf: https://www.dropbox.com/s/67p91dqgiqkdccc/CHI_2022_EA_AI_pat.pdf?dl=0
+    code: 
+    demo: 
+    doi: https://doi.org/10.1145/3491101.3503736
+    remark: Workshop
+    accept_rate: 
+    prize: 
+
+  - title: Color Reproduction Framework for Inkjet FDM 3D Printers
+    event: In Proceedings of the 42nd Annual Conference of the European Association for Computer Graphics (EUROGRAPHICS) 2021
+    event-web: https://diglib.eg.org/bitstream/handle/10.2312/egp20211027/poster1004_005-006.pdf?sequence=2&isAllowed=y
+    pages: 
+    date: 2021
+    team: Piyarat Silapasuphakornwong, <u>Parinya Punpongsanon</u>, Chulapong Panichkriangkrai, Suchitra Sueeprasan, Kazutake Uehira
+    pdf: https://www.dropbox.com/s/0v9oitghuif40pd/EG_2021_ColorFDM_silapasuphakornwong.pdf?dl=0
+    code: 
+    demo: 
+    doi: https://doi.org/10.2312/egp.20211027
+    remark: Poster
+    accept_rate: 
+    prize: 
+
+  - title: 双安定性サーモクロミックインクの選択的加熱を用いた造形後に表面色・模様を制御可能な立体物造形手法
+    event: インタラクション2021
+    event-web: https://www.interaction-ipsj.org/proceedings/2021/data/bib/2P01.html
+    pages: ページ 662-667
+    date: 2021年2月
+    team: 堀 悠太郎, 平木 剛史, <u>プンポンサノン・パリンヤ</u>, 岩井 大輔, 川原 圭博, 佐藤 宏介
+    pdf: https://www.interaction-ipsj.org/proceedings/2021/data/pdf/2P01.pdf
+    code: 
+    demo: 
+    doi: 
+    remark: In Japanese, Poster
+    accept_rate: 
+    prize: 
+
+  - title: Wearable Sanitizer: Design and Implementation of an Open-source, On-body Sanitizer for a Post-Pandemic
+    event: In Proceedings of ACM SIGGRAPH Asia 2020: Emerging Technologies (eTech)
+    event-web: 
+    pages: Article No. 1
+    date: 2020
+    team: Pat Pataranutaporn, Ali Shtarbanov, Glenn Fernandes, Jingwen Li, <u>Parinya Punpongsanon</u>, Joe Paradiso, and Pattie Maes
+    pdf: https://www.dropbox.com/s/gs5ecte3wbvye3r/SA_2020_WearableSanitizer_pat.pdf?dl=0
+    code: 
+    demo: 
+    doi: https://dl.acm.org/doi/10.1145/3415255.3422897
+    remark: Demonstration
+    accept_rate: 
+    prize: 
+
+  - title: Demonstration of ObserVAR&#58; Visualization System for Observing Virtual Reality Users using Augmented Reality
+    event: In Proceedings of ACM SIGGRAPH Asia 2020: Extended Reality (XR)
+    event-web: 
+    pages: Article No. 13
+    date: 2020
+    team: Santawat Thanyadit, <u>Parinya Punpongsanon</u>, and Ting-Chuen Pong
+    pdf: https://www.dropbox.com/s/a83fu2vh1cximl5/SA_2020_DemoObserVAR_thanyadit.pdf?dl=0
+    code: 
+    demo: 
+    doi: https://dl.acm.org/doi/10.1145/3415256.3421495
+    remark: Demonstration
+    accept_rate: 
+    prize: 
+
+  - title: Substituting Teleportation Visualization for Collaborative Virtual Environments
+    event: In Proceedings of 2020 ACM Symposium on Spatial User Interaction (SUI)
+    event-web: 
+    pages: Article No. 31
+    date: 2020
+    team: Santawat Thanyadit, <u>Parinya Punpongsanon</u>, Thammathip Piumsomboon, and Ting-Chuen Pong
+    pdf: https://www.dropbox.com/s/a7f4w9zq504aogp/SUI_2020_Teleporatory__thanyadit.pdf?dl=0
+    code: 
+    demo: https://youtu.be/FaYiqoB6dSg
+    doi: https://doi.org/10.1145/3385959.3422698
+    remark: Poster
+    accept_rate: 
+    prize: Best Poster Award
+
+  - title: Demonstration of FoodFab&#58; Creating Food Perceptual Illusions using Food 3D Printing
+    event: Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (CHI 2020)
+    event-web: 
+    pages: pp. 16&#58;1-16&#58;4
+    date: April 2020
+    team: <u>Parinya Punpongsanon</u>, Ying-Ju Lin, Xin Wen, Daisuke Iwai, Kosuke Sato, Marianna Obrist, and Stefanie Mueller
+    pdf: https://www.dropbox.com/s/lhi21ktk2eoo0fg/CHI_2020_Demonstration_FoodFab_punpongsanon.pdf?dl=0
+    code: 
+    demo: https://youtu.be/kBojJIUhHS8
+    doi: https://doi.org/10.1145/3334480.3383144
+    remark: Demonstration
+    accept_rate: 
+    prize: 
+
+  - title: Preliminary Study on Surface Texture to Manipulate perceived Softness of 3D Printed Objects
+    event: In Proceedings of International Conference on Artificial Reality and Telexistence with Eurographics Symposium on Virtual Environments (ICAT-EGVE) 2019
+    event-web: 
+    pages: pp. 17-18
+    date: September 2019
+    team: Motoki Miyoshi, <u>Parinya Punpongsanon</u>, Daisuke Iwai, and Kosuke Sato
+    pdf: https://www.dropbox.com/s/budpxsskev8m1li/ICAT_2019_SoftPrint_motoki.pdf?dl=0
+    code: 
+    demo: 
+    doi: http://dx.doi.org/10.2312/egve.20191296
+    remark: Poster
+    accept_rate: 
+    prize: 
+
+  - title: Investigating Visualization Techniques for Observing a Group of Virtual Reality Users Using Augmented Reality
+    event: In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces (VR) 2019
+    event-web: 
+    pages: pp. 1189-1190
+    date: March 2019
+    team: Santawat Thanyadit, <u>Parinya Punpongsanon</u>, and Ting-Chuen Pong
+    pdf: https://www.dropbox.com/s/32gg8s04syogaww/VR_2019_santawat.pdf?dl=0
+    code: 
+    demo: 
+    doi: https://doi.org/10.1109/VR.2019.8798123
+    remark: Poster
+    accept_rate: 
+    prize: 
+
+  - title: Shadowless Projector&#58; Suppressing Shadows in Projection Mapping with Micro Mirror Array Plate
+    event: In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces (VR) 2019
+    event-web: 
+    pages: pp. 1309-1310
+    date: March 2019
+    team: Kosuke Hiratani, Daisuke Iwai, <u>Parinya Punpongsanon</u>, and Kosuke Sato
+    pdf: https://www.dropbox.com/s/yiickw760ickvbb/VR_2019_hiratani.pdf?dl=0
+    code: 
+    demo: https://www.youtube.com/watch?v=xrKRMNlvkVg
+    doi: https://doi.org/10.1109/VR.2019.8798245
+    remark: Demonstration
+    accept_rate: 
+    prize: Best Research Demonstration Runner-up Award
+
+  - title: fARFEEL&#58; Providing Haptic Sensation of Touched Objects Using Visuo-Haptic Feedback
+    event: In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces (VR) 2019
+    event-web: 
+    pages: pp. 1355-1356
+    date: March 2019
+    team: Naruki Tanabe, Yushi Sato, Kohei Morita, Michiya Inagaki, Yuichi Fujino, <u>Parinya Punpongsanon</u>, Haruka Matsukura, Daisuke Iwai, and Kosuke Sato
+    pdf: https://www.dropbox.com/s/ed6tupk9xmnresb/VR_2019_fARFEEL_tanabe.pdf?dl=0
+    code: 
+    demo: https://www.youtube.com/watch?v=WekmX3iYCRI
+    doi: https://doi.org/10.1109/VR.2019.8798195
+    remark: Demonstration
+    accept_rate: 
+    prize: 
+
+  - title: ColorMod&#58; Demonstration of Recoloring 3D Printed Objects using Photochromic Inks
+    event: Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems (CHI) 2018
+    event-web: 
+    pages: D320
+    date: April 2018
+    team: <u>Parinya Punpongsanon</u>, Xin Wen, David Kim, and Stefanie Mueller
+    pdf: https://www.dropbox.com/s/c5whrzek3y66pew/CHI_2018_EA_ColorMod_punpongsanon.pdf?dl=0
+    code: 
+    demo: https://www.youtube.com/watch?v=ZwdvzUFEZe0
+    doi: https://doi.org/10.1145/3170427.3186507
+    remark: Demonstration
+    accept_rate: 
+    prize: 
+
+  - title: Ground Navigation in 3D Scenes using Simple Body Motions
+    event: In Proceedings of International Conference on Artificial Reality and Telexistence with Eurographics Symposium on Virtual Environments (ICAT-EGVE) 2014
+    event-web: 
+    pages: pp. 19-20
+    date: December 2014
+    team: <u>Parinya Punpongsanon</u>, Emilie Guy, Tamy Boubekeur, Daisuke Iwai, and Kosuke Sato
+    pdf: https://www.dropbox.com/s/3tygn6ymdqdr40n/ICAT_2014_LazyNav_punpongsanon.pdf?dl=0
+    code: 
+    demo: 
+    doi: http://dx.doi.org/10.2312/ve.20141377
+    remark: Demonstration
+    accept_rate: 
+    prize: 
+
+  - title: A Preliminary Study on Altering Surface Softness Perception using Augmented Color and Deformation
+    event: In Proceedings of IEEE International Symposium on Mixed and Augmented Reality (ISMAR) 2014
+    event-web: 
+    pages: pp. 301-302
+    date: September 2014
+    team: <u>Parinya Punpongsanon</u>, Daisuke Iwai, and Kosuke Sato
+    pdf: https://www.dropbox.com/s/ywu34qa1rcg5u3r/ISMAR_2014_SoftAR_punpongsanon.pdf?dl=0
+    code: 
+    demo: https://www.youtube.com/watch?v=X0-M1rbA-Zw&t=4s
+    doi: http://dx.doi.org/10.1109/ISMAR.2014.6948460
+    remark: Poster
+    accept_rate: 
+    prize: 
+
+  - title: Altering Surface Softness Perception in Spatial Augmented Reality by Visually Superimposing Projection Appearance
+    event: International Symposium on Future of SHITSUKAN research
+    event-web: http://shitsukan.jp/sites/default/files/sympoposter.pdf
+    pages: 
+    date: July 2014
+    team: <u>Parinya Punpongsanon</u>, Daisuke Iwai, Kosuke Sato, and Shinsaku Hiura
+    pdf: 
+    code: 
+    demo: 
+    doi: 
+    remark: Poster
+    accept_rate: 
+    prize: 
+
+  - title: Projection-based Visualization of Viscoelastic Surfaces Deformation using Infrared Vision Technique
+    event: In Proceedings of 6th Thailand-Japan International Academic Conference (TJIA)
+    event-web: http://tsaj.org/tjia2013/
+    pages: 
+    date: November 2013
+    team: <u>Parinya Punpongsanon</u>, Daisuke Iwai, and Kosuke Sato
+    pdf: 
+    code: 
+    demo: 
+    doi: 
+    remark: Poster
+    accept_rate: 
+    prize: 
+
+  - title: DeforMe&#58; projection-based visualization of deformable surfaces using invisible textures
+    event: In Proceedings of ACM SIGGRAPH Asia 2013: Emerging Technologies (e-Tech)
+    event-web: 
+    pages: Article 8
+    date: November 2013
+    team: <u>Parinya Punpongsanon</u>, Daisuke Iwai, and Kosuke Sato
+    pdf: https://www.dropbox.com/s/7tdfrgqfz6vtfhn/SA_2013_DeforMe_punpongsanon.pdf?dl=0
+    code: 
+    demo: https://www.youtube.com/watch?v=i3U93QTfzlg
+    doi: https://doi.org/10.1145/2542284.2542292
+    remark: Demonstration
+    accept_rate: 
+    prize:
+    
+book_list:
+
+  - title: AIとバイオの融合最前線 (Prospective AI-fused Biotechnology)
+    event: シーエムシー出版
+    event-web: 
+    pages: ISBN 978-4-7813-1867-7
+    date:  2025年5月28日
+    team: 植田充美
+    pdf: 
+    code: 
+    demo: 
+    doi: https://www.cmcbooks.co.jp/products/detail.php?product_id=115906
+    remark: 
+    accept_rate: 
+    prize:
