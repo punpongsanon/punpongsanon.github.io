@@ -439,7 +439,7 @@ paper_list:
   - title: 咀嚼情報と色の情動を利用した摂食行動改善のための拡張視覚化システムの開発
     event: 第87回情報処理学会全国大会
     event-web: https://www.ipsj.or.jp/event/taikai/87/index.html
-    pages: pp. 4:95-4:96
+    pages: pp. 4&#58;95-4&#58;96
     date: 2025年3月
     team: 遠藤碧海, <u>プンポンサノン パリンヤ</u>
     pdf: https://www.dropbox.com/scl/fi/lazeecoowcdcrtf85rhfd/IPSJ_2025_endo.pdf
@@ -453,7 +453,7 @@ paper_list:
   - title: 食品の電気抵抗情報を用いた可食センサーに関する研究
     event: 第87回情報処理学会全国大会
     event-web: https://www.ipsj.or.jp/event/taikai/87/index.html
-    pages: pp. 4:67-4:68
+    pages: pp. 4&#58;67-4&#58;68
     date: 2025年3月
     team: 神尾幸希, <u>プンポンサノン パリンヤ</u>
     pdf: https://www.dropbox.com/scl/fi/tjwn6h7pob5phk19qllra/IPSJ_2025_kamio.pdf
@@ -495,7 +495,7 @@ paper_list:
    - title: 食体験変容のための投影型ARによる食品動的質感変調に関する研究
     event: 第67回システム制御情報学会研究発表講演会
     event-web: https://sci23.iscie.or.jp/
-    pages: pp.  338-341
+    pages: pp. 338-341
     date: 2023年5月
     team: 牧篤司, <u>プンポンサノン パリンヤ</u>, 岩井大輔, 佐藤宏介
     pdf: https://www.dropbox.com/s/8ydsuua4lsf920e/SCI_2023_Maki.pdf?dl=0
@@ -509,7 +509,7 @@ paper_list:
    - title: OST-HMDを用いた幽体ハンド食事支援システム
     event: 第67回システム制御情報学会研究発表講演会
     event-web: https://sci23.iscie.or.jp/
-    pages: pp.  328-331
+    pages: pp. 328-331
     date: 2023年5月
     team: 松元龍馬, <u>プンポンサノン パリンヤ</u>, 岩井大輔, 佐藤宏介
     pdf: https://www.dropbox.com/s/sz7sk6n4olbo29r/SCI_2023_Matsumoto.pdf?dl=0
@@ -523,7 +523,7 @@ paper_list:
    - title: Structure Design with Text-Guided Stylization
     event: 第67回システム制御情報学会研究発表講演会
     event-web: https://sci23.iscie.or.jp/
-    pages: pp.  202-203
+    pages: pp. 202-203
     date: 2023年5月
     team: Zhong Shengze, <u>プンポンサノン パリンヤ</u>, 岩井大輔, 佐藤宏介
     pdf: 
@@ -537,7 +537,7 @@ paper_list:
    - title: 柔らかい食品上への情報埋め込みシステムの開発
     event: 第85回情報処理学会全国大会
     event-web: https://www.ipsj.or.jp/event/taikai/85/index.html
-    pages: pp.  4:137-4:138
+    pages: pp. 4&#58;137-4&#58;138
     date: 2023年3月
     team: 松田綾美, <u>プンポンサノン パリンヤ</u>, 岩井大輔, 佐藤宏介
     pdf: https://www.dropbox.com/s/kbay4jjy97mc2uy/IPSJT_2023_matsuda.pdf?dl=0
@@ -579,7 +579,7 @@ paper_list:
    - title: 3Dプリント食品内部への情報埋め込み
     event: 第84回情報処理学会全国大会
     event-web: https://www.ipsj.or.jp/event/taikai/84/index.html
-    pages: pp. 4:189-4:190
+    pages: pp. 4&#58;189-4&#58;190
     date: 2022年3月
     team: 宮武大和, <u>プンポンサノン パリンヤ</u>, 岩井大輔, 佐藤宏介
     pdf: https://www.dropbox.com/s/ttkcrce1s1yz6ln/IPSJT_2022_miyatake.pdf?dl=0
@@ -593,7 +593,7 @@ paper_list:
    - title: サーモクロミック材と情報コードをRGB-Cストライプ構造化した表面色制御
     event: 第84回情報処理学会全国大会
     event-web: https://www.ipsj.or.jp/event/taikai/84/index.html
-    pages: pp. 3:143-3:144
+    pages: pp. 3&#58;143-3&#58;144
     date: 2022年3月
     team: 堀悠太郎, <u>プンポンサノン パリンヤ</u>, 岩井大輔, 佐藤宏介
     pdf: https://www.dropbox.com/s/sd8un04d7v76csr/IPSJT_2022_hori.pdf?dl=0
@@ -691,7 +691,7 @@ paper_list:
    - title: FoodFab&#58; Creating Food Perception Illusions using Food 3D Printing
     event: In Proceedings of ACM SIGCHI Conference on Human Factors in Computing Systems (CHI) 2020
     event-web: https://chi2020.acm.org/
-    pages: pp. 294:1-294:13
+    pages: pp. 294&#58;1-294&#58;13
     date: April 2020
     team: Ying-Ju Lin, <u>Parinya Punpongsanon</u>, Xin Wen, Daisuke Iwai, Kosuke Sato, Marianna Obrist, Stefanie Mueller
     pdf: https://www.dropbox.com/s/wstggg847r24pd6/CHI_2020_FoodFab_lin.pdf?dl=0
@@ -817,7 +817,7 @@ paper_list:
   - title: ColorMod&#58; Recoloring 3D Printed Objects using Photochromic Inks
     event: In Proceedings of ACM SIGCHI Conference on Human Factors in Computing Systems (CHI) 2018
     event-web: https://chi2018.acm.org/
-    pages: pp. 213:1-213:12
+    pages: pp. 213&#58;1-213&#58;12
     date: April 2018
     team: <u>Parinya Punpongsanon</u>, Xin Wen, David Kim, Stefanie Mueller
     pdf: http://groups.csail.mit.edu/hcie/files/research-projects/colormod/2018-chi-colormod-paper.pdf
@@ -959,7 +959,7 @@ poster_list:
   - title: 感情認識とヒト観察によるアバターの感情性の調査
     event: 第29回日本バーチャルリアリティ学会大会論文集
     event-web: 
-    pages: ページ 2A1-09
+    pages: 2A1-09
     date: 2024年9月
     team: 淺井魁将, <u>プンポンサノン・パリンヤ</u>
     pdf: https://www.dropbox.com/scl/fi/ibtbxs01l16vankdvylds/VRSJ_2024_asai.pdf
@@ -973,7 +973,7 @@ poster_list:
   - title: VR環境との同期のため嗅覚ドローンの飛行経路に関する探索的研究
     event: 第29回日本バーチャルリアリティ学会大会論文集
     event-web: 
-    pages: ページ 1D1-09
+    pages: 1D1-09
     date: 2024年9月
     team: 鵜木亮成, <u>プンポンサノン・パリンヤ</u>
     pdf: https://www.dropbox.com/scl/fi/zgh04ohjc43ylznelbmdx/VRSJ_2024_unoki.pdf
@@ -998,7 +998,7 @@ poster_list:
     accept_rate: 
     prize: 
 
-  - title: Demonstration of interiqr: Unobtrusive Edible Tags using Food 3D Printing
+  - title: Demonstration of interiqr&#58; Unobtrusive Edible Tags using Food 3D Printing
     event: In Proceedings of the Adjunct Publication of ACM Symposium on User Interface Software and Technology (UIST) 2022
     event-web: 
     pages: pp. 1-2
