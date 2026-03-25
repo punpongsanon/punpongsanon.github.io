@@ -478,7 +478,7 @@ paper_list:
     accept_rate: 
     prize: 
     
-   - title: 自己修復性材料片からソフトロボットを構築する Wizard bits の提案
+  - title: 自己修復性材料片からソフトロボットを構築する Wizard bits の提案
     event: ロボティクス・メカトロニクス講演会
     event-web: https://robomech.org/2025/
     pages: 
@@ -492,7 +492,7 @@ paper_list:
     accept_rate: 
     prize: 
     
-   - title: 食体験変容のための投影型ARによる食品動的質感変調に関する研究
+  - title: 食体験変容のための投影型ARによる食品動的質感変調に関する研究
     event: 第67回システム制御情報学会研究発表講演会
     event-web: https://sci23.iscie.or.jp/
     pages: pp. 338-341
@@ -506,7 +506,7 @@ paper_list:
     accept_rate: 
     prize: 
     
-   - title: OST-HMDを用いた幽体ハンド食事支援システム
+  - title: OST-HMDを用いた幽体ハンド食事支援システム
     event: 第67回システム制御情報学会研究発表講演会
     event-web: https://sci23.iscie.or.jp/
     pages: pp. 328-331
@@ -520,7 +520,7 @@ paper_list:
     accept_rate: 
     prize: 
     
-   - title: Structure Design with Text-Guided Stylization
+  - title: Structure Design with Text-Guided Stylization
     event: 第67回システム制御情報学会研究発表講演会
     event-web: https://sci23.iscie.or.jp/
     pages: pp. 202-203
@@ -534,7 +534,7 @@ paper_list:
     accept_rate: 
     prize: 
 
-   - title: 柔らかい食品上への情報埋め込みシステムの開発
+  - title: 柔らかい食品上への情報埋め込みシステムの開発
     event: 第85回情報処理学会全国大会
     event-web: https://www.ipsj.or.jp/event/taikai/85/index.html
     pages: pp. 4&#58;137-4&#58;138
@@ -548,7 +548,7 @@ paper_list:
     accept_rate: 
     prize: 
     
-   - title: interiqr&#58; Unobtrusive Edible Tags using Food 3D Printing
+  - title: interiqr&#58; Unobtrusive Edible Tags using Food 3D Printing
     event: In Proceedings of the ACM Symposium on User Interface Software and Technology (UIST) 2022
     event-web: https://uist.acm.org/uist2022/
     pages: pp. 1-11
@@ -562,7 +562,7 @@ paper_list:
     accept_rate: 26.3%
     prize: 
     
-   - title: センサ内蔵スマートテーブルウェアの構築とロボットアームによるフィー ドバックの検討
+  - title: センサ内蔵スマートテーブルウェアの構築とロボットアームによるフィー ドバックの検討
     event: 第66回 システム制御情報学会研究発表講演会
     event-web: https://sci22.iscie.or.jp/
     pages: pp. 981-983
@@ -576,7 +576,7 @@ paper_list:
     accept_rate: 
     prize: 学会賞奨励賞
     
-   - title: 3Dプリント食品内部への情報埋め込み
+  - title: 3Dプリント食品内部への情報埋め込み
     event: 第84回情報処理学会全国大会
     event-web: https://www.ipsj.or.jp/event/taikai/84/index.html
     pages: pp. 4&#58;189-4&#58;190
@@ -590,7 +590,7 @@ paper_list:
     accept_rate: 
     prize:
     
-   - title: サーモクロミック材と情報コードをRGB-Cストライプ構造化した表面色制御
+  - title: サーモクロミック材と情報コードをRGB-Cストライプ構造化した表面色制御
     event: 第84回情報処理学会全国大会
     event-web: https://www.ipsj.or.jp/event/taikai/84/index.html
     pages: pp. 3&#58;143-3&#58;144
@@ -604,7 +604,7 @@ paper_list:
     accept_rate: 
     prize:
     
-   - title: Hugmon&#58; Exploration of Affective Movements for Hug Interaction using Tensegrity Robot
+  - title: Hugmon&#58; Exploration of Affective Movements for Hug Interaction using Tensegrity Robot
     event: In Companion Proceedings of ACM/IEEE International Conference on Human-Robot Interaction (HRI) 2022
     event-web: https://humanrobotinteraction.org/2022/toc.html
     pages: pp. 1105-1109
@@ -618,7 +618,7 @@ paper_list:
     accept_rate: 
     prize:
     
-   - title: A Simple Calibration of Material Constitutive Model for FDM 3D Printers
+  - title: A Simple Calibration of Material Constitutive Model for FDM 3D Printers
     event: In Proceedings of Conference on 4D and Functional Fabrication (4DFF) 2021
     event-web: https://sig4dff.org/conference/2021/proceeding/
     pages: pp. 29-31
@@ -646,7 +646,7 @@ paper_list:
     accept_rate: 
     prize: Outstanding Paper Award
     
-   - title: Investigation of Soft Display using Digital Fabrication and Phase-change Material
+  - title: Investigation of Soft Display using Digital Fabrication and Phase-change Material
     event: In Proceedings of 2021 IEEE 3rd Global Conference on Life Sciences and Technologies (LifeTech)
     event-web: https://www.ieee-lifetech.org/2021/
     pages: pp. 513-514
@@ -660,7 +660,7 @@ paper_list:
     accept_rate: 
     prize: Outstanding Paper Award
     
-   - title: Programmable Filament&#58; Printed Filaments for Multi-material 3D Printing
+  - title: Programmable Filament&#58; Printed Filaments for Multi-material 3D Printing
     event: In Proceedings of ACM Symposium on User Interface Software and Technology (UIST) 2020
     event-web: https://uist.acm.org/uist2020/
     pages: pp. 1209-1221
@@ -674,7 +674,7 @@ paper_list:
     accept_rate: 21.5%
     prize: Honorable Mention Award
     
-   - title: Adaptive Visualization of Gas Distribution Using Augmented Reality Glasses
+  - title: Adaptive Visualization of Gas Distribution Using Augmented Reality Glasses
     event: In Proceedings of 2020 IEEE 9th Global Conference on Consumer Electronics (GCCE)
     event-web: https://www.ieee-gcce.org/2020/
     pages: pp. 658-659
@@ -688,7 +688,7 @@ paper_list:
     accept_rate: 
     prize: Excellent Student Paper Award
     
-   - title: FoodFab&#58; Creating Food Perception Illusions using Food 3D Printing
+  - title: FoodFab&#58; Creating Food Perception Illusions using Food 3D Printing
     event: In Proceedings of ACM SIGCHI Conference on Human Factors in Computing Systems (CHI) 2020
     event-web: https://chi2020.acm.org/
     pages: pp. 294&#58;1-294&#58;13
@@ -702,7 +702,7 @@ paper_list:
     accept_rate: 24.3%
     prize: Best Presentation Award (Asian CHI Symposium)
 
-   - title: Remote Environment Exploration with Drone Agent and Haptic Force Feedback
+  - title: Remote Environment Exploration with Drone Agent and Haptic Force Feedback
     event: In Proceedings of IEEE International Conference on Artificial Intelligence & Virtual Reality (AIVR) 2019
     event-web: https://aivr.science.uu.nl/2019/CFP-AIVR2019_2019-09-04.pdf
     pages: pp. 167-170
@@ -716,7 +716,7 @@ paper_list:
     accept_rate: 31.3%
     prize: 
     
-   - title: Photo-Chromeleon&#58; Re-Programmable Multi-Color Textures Using Photochromic Dyes
+  - title: Photo-Chromeleon&#58; Re-Programmable Multi-Color Textures Using Photochromic Dyes
     event: In Proceedings of ACM Symposium on User Interface Software and Technology (UIST) 2019
     event-web: https://uist.acm.org/uist2019/
     pages: pp. 701-712
@@ -730,7 +730,7 @@ paper_list:
     accept_rate: 24.4%
     prize: Best Paper Award, Best Talk Award
 
-   - title: ObserVAR&#58; Visualization System for Observing Virtual Reality Users using Augmented Reality
+  - title: ObserVAR&#58; Visualization System for Observing Virtual Reality Users using Augmented Reality
     event: In Proceedings of IEEE International Symposium on Mixed and Augmented Reality (ISMAR) 2019
     event-web: https://ismar2019.ismar.net/
     pages: pp. 386-396
@@ -744,7 +744,7 @@ paper_list:
     accept_rate: 25.6%
     prize: 
     
-- title: 3Dプリンタ出力に対して知覚される硬軟度操作のための表面微細形状と内部構造設計
+  - title: 3Dプリンタ出力に対して知覚される硬軟度操作のための表面微細形状と内部構造設計
     event: 第63回システム制御情報学会研究発表講演会
     event-web: https://sci19.iscie.or.jp/
     pages: pp. 1203-1207
