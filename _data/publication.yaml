@@ -464,7 +464,7 @@ paper_list:
     accept_rate: 
     prize: 
     
-   - title: 調理を考慮した食品への情報埋め込みに関する一考察
+  - title: 調理を考慮した食品への情報埋め込みに関する一考察
     event: 第28回パターン計測シンポジウム(第108回パターン計測部会研究会)
     event-web: https://www.sice.or.jp/org/pattern/
     pages: 
@@ -556,14 +556,14 @@ paper_list:
     team: Yamamoto Miyatake, <u>Parinya Punpongsanon</u>, Daisuke Iwai, Kosuke Sato
     pdf: https://www.dropbox.com/s/0v4rypppd5t4pc8/UIST_2022_Interiqr_Miyatake.pdf?dl=0
     code: 
-    demo:https://youtu.be/vAMmxEroSzs
+    demo: https://youtu.be/vAMmxEroSzs
     doi: https://doi.org/10.1145/3526113.3545669
     remark: 
     accept_rate: 26.3%
     prize: 
     
   - title: センサ内蔵スマートテーブルウェアの構築とロボットアームによるフィー ドバックの検討
-    event: 第66回 システム制御情報学会研究発表講演会
+    event: 第66回システム制御情報学会研究発表講演会
     event-web: https://sci22.iscie.or.jp/
     pages: pp. 981-983
     date: 2022年5月
@@ -622,7 +622,7 @@ paper_list:
     event: In Proceedings of Conference on 4D and Functional Fabrication (4DFF) 2021
     event-web: https://sig4dff.org/conference/2021/proceeding/
     pages: pp. 29-31
-    date:  October 2021
+    date: October 2021
     team: Shengze Zhong, <u>Parinya Punpongsanon</u>, Daisuke Iwai, and Kosuke Sato
     pdf: https://www.dropbox.com/s/ewq1u4z6fe3zaaa/4DFF_2021_Shengze.pdf?dl=0
     code: 
@@ -632,7 +632,7 @@ paper_list:
     accept_rate: 
     prize:
     
-   - title: EdiSensor&#58; Facilitating Food Electricity for Eating Habits Analysis
+  - title: EdiSensor&#58; Facilitating Food Electricity for Eating Habits Analysis
     event: In Proceedings of 2021 IEEE 3rd Global Conference on Life Sciences and Technologies (LifeTech)
     event-web: https://www.ieee-lifetech.org/2021/
     pages: pp. 108-109
@@ -801,7 +801,7 @@ paper_list:
     prize: 
 
   - title: FlyingHand&#58; Extending the Range of Haptic Feedback on Virtual Hand using Drone-based Object Recognition
-    event: In Proceedings of ACM SIGGRAPH Asia 2018: Technical Briefs
+    event: In Proceedings of ACM SIGGRAPH Asia 2018&#58; Technical Briefs
     event-web: https://sa2018.siggraph.org/
     pages: Article 28
     date: December 2018
@@ -944,7 +944,7 @@ poster_list:
     
   - title: An Exploratory Study on Fabricating of Unobtrusive Edible Tags
     event: In Proceedings of ACM SIGGRAPH Asia 2024 Poster
-    event-web: 
+    event-web: https://asia.siggraph.org/2024/
     pages: Article No. 51
     date: 2024
     team: Yamato Miyatake, <u>Parinya Punpongsanon</u>
@@ -958,7 +958,7 @@ poster_list:
 
   - title: 感情認識とヒト観察によるアバターの感情性の調査
     event: 第29回日本バーチャルリアリティ学会大会論文集
-    event-web: 
+    event-web: https://conference.vrsj.org/ac2024/
     pages: 2A1-09
     date: 2024年9月
     team: 淺井魁将, <u>プンポンサノン・パリンヤ</u>
@@ -972,7 +972,7 @@ poster_list:
 
   - title: VR環境との同期のため嗅覚ドローンの飛行経路に関する探索的研究
     event: 第29回日本バーチャルリアリティ学会大会論文集
-    event-web: 
+    event-web: https://conference.vrsj.org/ac2024/
     pages: 1D1-09
     date: 2024年9月
     team: 鵜木亮成, <u>プンポンサノン・パリンヤ</u>
@@ -985,8 +985,8 @@ poster_list:
     prize: 
 
   - title: InfiniteShader&#58; Color Changeable 3D Printed Objects using Bi-Stable Thermochromic Materials
-    event: In Proceedings of ACM SIGGRAPH Asia 2022: Technical Communications and Poster
-    event-web: 
+    event: In Proceedings of ACM SIGGRAPH Asia 2022&#58; Technical Communications and Poster
+    event-web: https://sa2022.siggraph.org/
     pages: Article No. 38
     date: 2022
     team: Yuto Umetsu, <u>Parinya Punpongsanon</u>, and Takefumi Hiraki
@@ -1000,7 +1000,7 @@ poster_list:
 
   - title: Demonstration of interiqr&#58; Unobtrusive Edible Tags using Food 3D Printing
     event: In Proceedings of the Adjunct Publication of ACM Symposium on User Interface Software and Technology (UIST) 2022
-    event-web: 
+    event-web: https://uist.acm.org/uist2022/
     pages: pp. 1-2
     date: October 2022
     team: <u>Parinya Punpongsanon</u>, Yamamoto Miyatake, Daisuke Iwai, and Kosuke Sato
@@ -1054,9 +1054,9 @@ poster_list:
     accept_rate: 
     prize: 
 
-  - title: Wearable Sanitizer: Design and Implementation of an Open-source, On-body Sanitizer for a Post-Pandemic
-    event: In Proceedings of ACM SIGGRAPH Asia 2020: Emerging Technologies (eTech)
-    event-web: 
+  - title: Wearable Sanitizer&#58; Design and Implementation of an Open-source, On-body Sanitizer for a Post-Pandemic
+    event: In Proceedings of ACM SIGGRAPH Asia 2020&#58; Emerging Technologies (eTech)
+    event-web: https://sa2020.siggraph.org/
     pages: Article No. 1
     date: 2020
     team: Pat Pataranutaporn, Ali Shtarbanov, Glenn Fernandes, Jingwen Li, <u>Parinya Punpongsanon</u>, Joe Paradiso, and Pattie Maes
@@ -1069,8 +1069,8 @@ poster_list:
     prize: 
 
   - title: Demonstration of ObserVAR&#58; Visualization System for Observing Virtual Reality Users using Augmented Reality
-    event: In Proceedings of ACM SIGGRAPH Asia 2020: Extended Reality (XR)
-    event-web: 
+    event: In Proceedings of ACM SIGGRAPH Asia 2020&#58; Extended Reality (XR)
+    event-web: https://sa2020.siggraph.org/
     pages: Article No. 13
     date: 2020
     team: Santawat Thanyadit, <u>Parinya Punpongsanon</u>, and Ting-Chuen Pong
@@ -1084,7 +1084,7 @@ poster_list:
 
   - title: Substituting Teleportation Visualization for Collaborative Virtual Environments
     event: In Proceedings of 2020 ACM Symposium on Spatial User Interaction (SUI)
-    event-web: 
+    event-web: https://sui.acm.org/2020
     pages: Article No. 31
     date: 2020
     team: Santawat Thanyadit, <u>Parinya Punpongsanon</u>, Thammathip Piumsomboon, and Ting-Chuen Pong
@@ -1098,7 +1098,7 @@ poster_list:
 
   - title: Demonstration of FoodFab&#58; Creating Food Perceptual Illusions using Food 3D Printing
     event: Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (CHI 2020)
-    event-web: 
+    event-web: https://chi2020.acm.org/
     pages: pp. 16&#58;1-16&#58;4
     date: April 2020
     team: <u>Parinya Punpongsanon</u>, Ying-Ju Lin, Xin Wen, Daisuke Iwai, Kosuke Sato, Marianna Obrist, and Stefanie Mueller
@@ -1112,7 +1112,7 @@ poster_list:
 
   - title: Preliminary Study on Surface Texture to Manipulate perceived Softness of 3D Printed Objects
     event: In Proceedings of International Conference on Artificial Reality and Telexistence with Eurographics Symposium on Virtual Environments (ICAT-EGVE) 2019
-    event-web: 
+    event-web: https://conference.vrsj.org/icat-egve2019/
     pages: pp. 17-18
     date: September 2019
     team: Motoki Miyoshi, <u>Parinya Punpongsanon</u>, Daisuke Iwai, and Kosuke Sato
@@ -1126,7 +1126,7 @@ poster_list:
 
   - title: Investigating Visualization Techniques for Observing a Group of Virtual Reality Users Using Augmented Reality
     event: In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces (VR) 2019
-    event-web: 
+    event-web: https://ieeevr.org/2019/
     pages: pp. 1189-1190
     date: March 2019
     team: Santawat Thanyadit, <u>Parinya Punpongsanon</u>, and Ting-Chuen Pong
@@ -1140,7 +1140,7 @@ poster_list:
 
   - title: Shadowless Projector&#58; Suppressing Shadows in Projection Mapping with Micro Mirror Array Plate
     event: In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces (VR) 2019
-    event-web: 
+    event-web: https://ieeevr.org/2019/
     pages: pp. 1309-1310
     date: March 2019
     team: Kosuke Hiratani, Daisuke Iwai, <u>Parinya Punpongsanon</u>, and Kosuke Sato
@@ -1154,7 +1154,7 @@ poster_list:
 
   - title: fARFEEL&#58; Providing Haptic Sensation of Touched Objects Using Visuo-Haptic Feedback
     event: In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces (VR) 2019
-    event-web: 
+    event-web: https://ieeevr.org/2019/
     pages: pp. 1355-1356
     date: March 2019
     team: Naruki Tanabe, Yushi Sato, Kohei Morita, Michiya Inagaki, Yuichi Fujino, <u>Parinya Punpongsanon</u>, Haruka Matsukura, Daisuke Iwai, and Kosuke Sato
@@ -1168,7 +1168,7 @@ poster_list:
 
   - title: ColorMod&#58; Demonstration of Recoloring 3D Printed Objects using Photochromic Inks
     event: Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems (CHI) 2018
-    event-web: 
+    event-web: https://chi2018.acm.org/
     pages: D320
     date: April 2018
     team: <u>Parinya Punpongsanon</u>, Xin Wen, David Kim, and Stefanie Mueller
@@ -1182,7 +1182,7 @@ poster_list:
 
   - title: Ground Navigation in 3D Scenes using Simple Body Motions
     event: In Proceedings of International Conference on Artificial Reality and Telexistence with Eurographics Symposium on Virtual Environments (ICAT-EGVE) 2014
-    event-web: 
+    event-web: http://icategve14.uni-bremen.de/resources/ICAT-EGVE_CfP.pdf
     pages: pp. 19-20
     date: December 2014
     team: <u>Parinya Punpongsanon</u>, Emilie Guy, Tamy Boubekeur, Daisuke Iwai, and Kosuke Sato
@@ -1196,7 +1196,7 @@ poster_list:
 
   - title: A Preliminary Study on Altering Surface Softness Perception using Augmented Color and Deformation
     event: In Proceedings of IEEE International Symposium on Mixed and Augmented Reality (ISMAR) 2014
-    event-web: 
+    event-web: https://ismar2014.vgtc.org/
     pages: pp. 301-302
     date: September 2014
     team: <u>Parinya Punpongsanon</u>, Daisuke Iwai, and Kosuke Sato
@@ -1237,8 +1237,8 @@ poster_list:
     prize: 
 
   - title: DeforMe&#58; projection-based visualization of deformable surfaces using invisible textures
-    event: In Proceedings of ACM SIGGRAPH Asia 2013: Emerging Technologies (e-Tech)
-    event-web: 
+    event: In Proceedings of ACM SIGGRAPH Asia 2013&#58; Emerging Technologies (e-Tech)
+    event-web: https://sa2013.siggraph.org/
     pages: Article 8
     date: November 2013
     team: <u>Parinya Punpongsanon</u>, Daisuke Iwai, and Kosuke Sato

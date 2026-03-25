@@ -23,6 +23,15 @@ Full Papers, Short Papers
 Talks, Posters and Demonstration
 </button>
 </p>
+<div class="collapse.show" id="publication">
+	<div class="card card-body card-font-small">
+		<h5 class="card-title">Books</h5>
+        {% for book_list in site.data.publication.book_list %}
+            {% include_relative _libs/book_widget.html %}
+        {% endfor %}
+	</div>
+</div>
+<p></p>
 <div class="collapse.show" id="Journal">
 	<div class="card card-body card-font-small">
 		<h5 class="card-title">Journals and Articles</h5>

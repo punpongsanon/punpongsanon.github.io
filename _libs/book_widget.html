@@ -1,0 +1,37 @@
+<div class="row mb-4">
+    <div class="col-sm-12">
+		{{ book_list.team }}. 
+		<b>{{ book_list.title }}</b>, 
+		<i><a href="{{ book_list.event-web }}" target="_blank" rel="noopener">{{ book_list.event }}</a></i>. 
+		{% if book_list.pages %}
+		{{ book_list.pages }},
+		{% endif %}
+		{% if book_list.date %}
+		{{ book_list.date }}.
+		{% endif %}
+		{% if book_list.remark %} 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>{{ book_list.remark }}</strong></span>
+		{% endif %}
+		{% if book_list.accept_rate %} 
+		<span class="badge bg-light"><i class="fa-solid fa-percent"></i><strong>Acceptance Rate {{ book_list.accept_rate }}</strong></span>
+		{% endif %}
+        {% if book_list.prize %} 
+		<span class="badge bg-warning text-dark"><i class="fa-solid fa-award"></i><strong>{{ book_list.prize }}</strong></span>
+		{% endif %}
+        {% if book_list.doi %} 
+		<a href="{{ book_list.doi }}" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		{% endif %}
+		{% if book_list.pdf %}
+		<a href="{{ book_list.pdf }}" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		{% endif %}
+        {% if book_list.code %}
+		<a href="{{ book_list.code }}" target="_blank" rel="noopener"><i class="fa-regular fa-file-code"></i></a> 
+		{% endif %}
+        {% if book_list.demo %}
+		<a href="{{ book_list.demo }}" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		{% endif %}
+    </div>
+</div>
+
+

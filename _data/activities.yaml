@@ -1,3 +1,59 @@
+talk_list:
+
+  - date: 2025/05/23
+    where: 日本信号 (NIPPON SIGNAL) 第60回出張講義
+    url: https://www.signal.co.jp/
+    place: 久喜事業所
+    topic: ドローンとの感覚認識研究
+    
+  - date: 2020/04/28
+    where: CHI2020 - Japan Chapter local meeting
+    url: https://sigchi.jp/event/chi2020-japan-chapter/
+    place: Virtual event
+    topic: FoodFab&#58; Creating Food Perception Illusions using Food 3D Printing
+    
+  - date: 2020/06/30
+    where: CHI 2020 Smell, taste and tempurature
+    url: https://dl.acm.org/doi/10.1145/3411763.3441317
+    place: Virtual event
+    topic: FoodFab&#58; Creating Food Perception Illusions using Food 3D Printing
+    
+  - date: 2019/09/02
+    where: Human Interface Symposium 2019
+    url: https://www.his.gr.jp/sympo/his2019.html
+    place: Kyoto, Japan
+    topic: My Research Paper Submission Experience at CHI2018 and UIST2019
+    
+  - date: 2019/03/25
+    where: IEEE VR 2019
+    url: http://ieeevr.org/2019/
+    place: Osaka, Japan
+    topic: FleXeen&#58; Visually Manipulating Perceived Fabric Bending Stiffness in Spatial Augmented Reality
+    
+  - date: 2018/12/12
+    where: ACM SIGCHI Asian Symposium 2018
+    url: https://sigchi.jp/symposium/2018/
+    place: Sendai, Japan
+    topic: Providing Target Haptics Sensation to Everyday Objects&#58; From Digital to Physical Reality
+    
+  - date: 2016/08/01
+    where: MIRU 2016
+    url: https://sites.google.com/site/miru2016hamamatsu/program#IS1
+    place: Shizuoka, Japan
+    topic: SoftAR&#58; Visually Manipulating Haptic Softness Perception in Spatial Augmented Reality
+    
+  - date: 2016/07/24
+    where: ACM SIGGRAPH 2016&#58; IEEE TVCG Special Session on VR/AR
+    url: http://s2016.siggraph.org/
+    place: Anaheim, USA
+    topic: SoftAR&#58; Visually Manipulating Haptic Softness Perception in Spatial Augmented Reality
+    
+  - date: 2015/09/09
+    where: VRSJ 2015&#58; 世界を目指せ！ ― トップコンファレンス採択論文 紹介
+    url: https://vrsj.org/events/schedule/y2015/
+    place: Tokyo, Japan
+    topic: LazyNav&#58; 3D Ground Navigation with Non-Critical Body Parts
+
 funding_list:
 
   - funding: RIEC Nation-wide Cooperative Research Projects

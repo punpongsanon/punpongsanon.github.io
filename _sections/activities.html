@@ -6,6 +6,18 @@
 		<h2 clss="mb-5"><i class="hgi hgi-stroke hgi-presentation-online"></i> Professional Activities</h2>
 	</div>
 	
+	<div class="col-sm-12">
+		<div class="card bg-light mb-3">
+			<div class="card-body card-font-small">
+				<h5 class="card-title">Invited Talks</h5>
+				<div class="row mb-4">
+				{% for talk_list in site.data.activities.talk_list %}
+					{% include_relative _libs/talk_widget.html %}
+				{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="col-sm-6">
 		<div class="card bg-light mb-3">
 			<div class="card-body card-font-small">
