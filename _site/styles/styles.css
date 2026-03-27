@@ -13,16 +13,16 @@ body.dark-theme {
 
 /* Hyperlink, hightlight, and text styles */
 a {
-    color: #bd5d38;
+    color: #B6771D;
     text-decoration: none;
     background-color: transparent;
 }
 a:hover {
-    color: #824027;
+    color: #7B542F;
     text-decoration: underline;
 }
 hightlight {
-    color: #bd5d38;
+    color: #B6771D;
     text-decoration: none;
     background-color: transparent;
 }

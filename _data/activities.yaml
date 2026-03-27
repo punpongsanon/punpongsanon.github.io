@@ -1,5 +1,17 @@
 talk_list:
 
+  - date: 2025/12/12
+    where: 電子情報通信学会 スマートインフォメディアシステム研究会
+    url: https://www.ieice-sis.org/?p=2482
+    place: 名城大学
+    topic: XRにおける知覚・インタラクション・共同作業の人間拡張
+
+  - date: 2025/10/30
+    where: 第12回視覚科学技術コンソーシアム
+    url: https://www.vsat.jp/
+    place: TKP大宮ビジネスセンター
+    topic: 視覚認識とデジタルファブリケーション 
+
   - date: 2025/05/23
     where: 日本信号 (NIPPON SIGNAL) 第60回出張講義
     url: https://www.signal.co.jp/

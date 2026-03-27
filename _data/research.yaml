@@ -71,3 +71,23 @@ projects:
     abstract-more:  feature synthesized faces, bodies and voices of anyone, from a fictional character to a historical figure, or even a deceased family member. Although negative use cases of this technology have dominated the conversation so far, in this Perspective we highlight emerging positive use cases of AI-generated characters, specifically in supporting learning and well-being. We demonstrate an easy-to-use AI character generation pipeline to enable such outcomes and discuss ethical implications as well as the need for including traceability to help maintain trust in the generated media. As we look towards the future, we foresee generative media as a crucial part of the ever growing landscape of human–AI interaction.
     tag: 
     category: human perception
+    
+  - title: Enhancing Asynchronous Shared-Space Demonstrations with Spatial-temporal Assistive Toolsets for Effective Learning in Immersive Virtual Laboratories
+    system-name: 
+    gif: assets/research/CSCW_2022_Thanyadit.png
+    conference: ACM CSCW 2022 (Published at ACM PHCI 2022)
+    conference-web: https://cscw.acm.org/2022/
+    status:
+    authors: Santawat Thanyadit, <u>Parinya Punpongsanon</u>, Thammathip Piumsomboon, Ting-Chuen Pong.
+    doi: https://doi.org/10.1145/3512983
+    pdf: https://www.dropbox.com/s/t8iino9xfnhte4r/CSCW_2022_XRLIVE_thanyadit.pdf?dl=0
+    code: 
+    demo: 
+    slides: 
+    talk: 
+    poster:
+    project-web: 
+    abstract-less: An immersive virtual laboratory (VL) could offer flexibility of time and space, as well as safety, for remote students to conduct laboratory activities through online experiential learning. Recording an instructor's demonstration inside a VL is an approach that allows students to learn directly from a demonstration. However, students have to learn from a recording while controlling the playback, 
+    abstract-more:  which requires attention spent on additional spatial and temporal cues. This additional cognitive load could lead to errors during the laboratory procedure. To address these challenges, we have identified four design requirements to reduce attention load in VLs; namely, organized learning steps, improved student sense of co-presence, reduction of task-instructor split-attention, and learning independent of interpersonal distance. Based on these requirements, we have designed and implemented spatial-temporal assistive toolsets for laboratories in a virtual environment, namely XR-LIVE, to reduce cognitive load and enhance learning in an asynchronous shared-space demonstration, implemented based on the setup of a standard civil engineering laboratory. We also analyzed students' behavior in the VL demonstration to design guidelines applicable to generic VLs.
+    tag: 
+    category: xR

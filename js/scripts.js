@@ -90,14 +90,14 @@ function toggleTheme() {
 
 
 // Handle scroll event to hide/show back-to-top and toggle theme button
-window.addEventListener('scroll', function() {
-    const buttonEl = document.querySelector('.toggle-theme-button');
-    if (window.scrollY > 0) {
-        buttonEl.style.display = 'none';
-    } else {
-        buttonEl.style.display = 'block';
-    }
-});
+//window.addEventListener('scroll', function() {
+//    const buttonEl = document.querySelector('.toggle-theme-button');
+//    if (window.scrollY > 0) {
+//        buttonEl.style.display = 'none';
+//    } else {
+//        buttonEl.style.display = 'block';
+//    }
+//});
 
 
 // Owl carousel for updates
@@ -128,21 +128,21 @@ let endEvent = isMobile ? 'touchend' : 'mouseup';
 
 
 // Capture mouse down (desktop) or touch start (mobile) events
-popupIconContainer.addEventListener(startEvent, (e) => {
-    e.preventDefault();
-    isDragging = true;
-    let clientX = isMobile ? e.touches[0].clientX : e.clientX;
-    let clientY = isMobile ? e.touches[0].clientY : e.clientY;
-
-    startX = clientX;
-    startY = clientY;
-    originalX = popupIconContainer.getBoundingClientRect().left;
-    originalY = popupIconContainer.getBoundingClientRect().top;
-    dismissalArea.style.display = 'flex';
-    
-    // Hide the speech balloon as users start dragging and drag the icon
-    document.querySelector('.speech-balloon').classList.add('hidden');
-});
+//popupIconContainer.addEventListener(startEvent, (e) => {
+//    e.preventDefault();
+//    isDragging = true;
+//    let clientX = isMobile ? e.touches[0].clientX : e.clientX;
+//    let clientY = isMobile ? e.touches[0].clientY : e.clientY;
+//
+//    startX = clientX;
+//    startY = clientY;
+//    originalX = popupIconContainer.getBoundingClientRect().left;
+//    originalY = popupIconContainer.getBoundingClientRect().top;
+//    dismissalArea.style.display = 'flex';
+//    
+//    // Hide the speech balloon as users start dragging and drag the icon
+//    document.querySelector('.speech-balloon').classList.add('hidden');
+//});
 
 
 // Capture mouse move (desktop) or touch move (mobile) events
@@ -411,48 +411,48 @@ function initializeIsotopeProjects() {
 
 
 // Function load GitHub repositories
-document.addEventListener('DOMContentLoaded', () => {
-
-    const container = document.getElementById('github-cards');
-    const repoElements = container.querySelectorAll('div[data-url]');
-
-    repoElements.forEach(repoElement => {
-        const repoUrl = repoElement.getAttribute('data-url');
-        
-        axios.get(repoUrl)
-            .then(response => {
-                const { name, description, html_url, stargazers_count, forks_count, language } = response.data;
-                const cardHtml = `
-                        <div class="repo-header">
-                            <i class="far fa-bookmark bookmark-icon"></i>
-                            <a href="${html_url}" target="_blank" class="repo-name">${name}</a>
-                        </div>
-                        <div class="repo-description">${description || 'No description provided.'}</div>
-                        <div class="repo-stats">
-                            <i class="fas fa-code language-icon"></i>
-                            <span class="language">${language}</span>
-                            <div>
-                                <i class="fas fa-star star-icon"></i>
-                                <span class="stats-number">${stargazers_count}</span>
-                            </div>
-                            <div>
-                                <i class="fas fa-code-branch fork-icon"></i>
-                                <span class="stats-number">${forks_count}</span>
-                            </div>
-                        </div>
-                `;
-
-                repoElement.outerHTML = cardHtml;
-                
-                // Refresh GitHub cards isotope layout
-                $cards.isotope('layout');
-                
-            })
-            .catch(error => {
-                console.error('Error fetching repository data for', repoUrl, error);
-            });
-    });
-});
+//document.addEventListener('DOMContentLoaded', () => {
+//
+//    const container = document.getElementById('github-cards');
+//    const repoElements = container.querySelectorAll('div[data-url]');
+//
+//    repoElements.forEach(repoElement => {
+//        const repoUrl = repoElement.getAttribute('data-url');
+//        
+//        axios.get(repoUrl)
+//            .then(response => {
+//                const { name, description, html_url, stargazers_count, forks_count, language } = response.data;
+//                const cardHtml = `
+//                        <div class="repo-header">
+//                            <i class="far fa-bookmark bookmark-icon"></i>
+//                            <a href="${html_url}" target="_blank" class="repo-name">${name}</a>
+//                        </div>
+//                        <div class="repo-description">${description || 'No description provided.'}</div>
+//                        <div class="repo-stats">
+//                            <i class="fas fa-code language-icon"></i>
+//                            <span class="language">${language}</span>
+//                            <div>
+//                                <i class="fas fa-star star-icon"></i>
+//                                <span class="stats-number">${stargazers_count}</span>
+//                            </div>
+//                            <div>
+//                                <i class="fas fa-code-branch fork-icon"></i>
+//                                <span class="stats-number">${forks_count}</span>
+//                            </div>
+//                        </div>
+//                `;
+//
+//                repoElement.outerHTML = cardHtml;
+//                
+//                // Refresh GitHub cards isotope layout
+//                $cards.isotope('layout');
+//                
+//            })
+//            .catch(error => {
+//                console.error('Error fetching repository data for', repoUrl, error);
+//            });
+//    });
+//});
 
 
 // Modified from https://codepen.io/SohRonery/pen/wvvBLyP
