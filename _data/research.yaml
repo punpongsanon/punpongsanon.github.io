@@ -91,3 +91,23 @@ projects:
     abstract-more:  which requires attention spent on additional spatial and temporal cues. This additional cognitive load could lead to errors during the laboratory procedure. To address these challenges, we have identified four design requirements to reduce attention load in VLs; namely, organized learning steps, improved student sense of co-presence, reduction of task-instructor split-attention, and learning independent of interpersonal distance. Based on these requirements, we have designed and implemented spatial-temporal assistive toolsets for laboratories in a virtual environment, namely XR-LIVE, to reduce cognitive load and enhance learning in an asynchronous shared-space demonstration, implemented based on the setup of a standard civil engineering laboratory. We also analyzed students' behavior in the VL demonstration to design guidelines applicable to generic VLs.
     tag: 
     category: xR
+    
+  - title: SoftPrint&#58; Investigating Haptic Softness Perception of 3D Printed Soft Object in FDM 3D Printers
+    system-name: 
+    gif: assets/research/JIST_2021_SoftPrint.png
+    conference: Journal of Imaging Science and Technology
+    conference-web: https://www.imaging.org/IST/IST/Publications/Journal_of_Imaging_Science_and_Technology.aspx
+    status:
+    authors: Motoki Miyoshi, <u>Parinya Punpongsanon</u>, Daisuke Iwai, Kosuke Sato.
+    doi: https://doi.org/10.2352/J.ImagingSci.Technol.2021.65.4.040406
+    pdf: https://www.dropbox.com/s/4fm4p1b6kmwkkk6/JIST_2021_SoftPrint_miyoshi_preprint.pdf?dl=0
+    code: 
+    demo: 
+    slides: 
+    talk: 
+    poster:
+    project-web: 
+    abstract-less: FDM 3D printers allow massive creativity in personal products, but their potential has been limited due to inability to manipulating material properties. Previous work had demonstrated that the desired roughness could be presented simply by controlling the spatial density of tiny pins on a printed surface. This article offers a means of providing the desired softness perception of a printed 
+    abstract-more:  surface and the desired roughness to expand the haptic dimension over which a user can exert control. Specifically, we control the softness by manipulating the infill structures of a printed surface. However, it is known that a skin contact area affects softness perception. The roughness, which is controlled by pins’ density, may also affect the perceived softness of a printed surface. Therefore, we investigate how the internal structures and the density of the pins affect softness perception. Through psychophysical experiments, we derive a computational model that estimates the perceived softness from the density of the pins and the infill density of a printed surface.
+    tag: 
+    category: digital fabrication
