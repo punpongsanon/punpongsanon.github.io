@@ -131,3 +131,43 @@ projects:
     abstract-more:  sanitizer. We present an open-source, wearable sanitizer that provides just-in-time, automatic dispensing of alcohol to the wearer’s hand or nearby objects using sensors and programmable cues. We systematically explore the design space for wearable sanitizers aiming to create a device that not only seamlessly integrates with the user’s body and behavior but also frees their physical and mental faculties for other tasks. With these insights, we demonstrate our prototype and present the design process, device characterization, and our efforts for open-sourcing this project.
     tag: 
     category: digital fabrication
+    
+  - title: Programmable Filament&#58; Printed Filaments for Multi-material 3D Printing
+    system-name: 
+    gif: assets/research/UIST_2020_ProgrammableFilament.png
+    conference: ACM UIST 2020
+    conference-web: https://uist.acm.org/uist2020/
+    status:
+    authors: Haruki Takahashi, <u>Parinya Punpongsanon</u>, Jeeeun Kim.
+    doi: https://doi.org/10.1145/3379337.3415863
+    pdf: https://www.dropbox.com/s/c1mlp6fq7szsqsf/UIST_2020_ProgrammableFilament_haruki.pdf?dl=0
+    code: 
+    demo: https://www.youtube.com/watch?v=XkZ5qyRDW4Y
+    slides: 
+    talk: 
+    poster:
+    project-web: 
+    abstract-less: From full-color objects to functional capacitive artifacts, 3D printing multi-materials became essential to broaden the application areas of digital fabrication. We present Programmable Filament, a novel technique that enables multi-material printing using a commodity FDM 3D printer, requiring no hardware upgrades. Our technique builds upon an existing printing technique in which multiple
+    abstract-more:  filament segments are printed and spliced into a single threaded filament. We propose an end-to-end pipeline for 3D printing an object in multi-materials, with an introduction of the design systems for end-users. Optimized for low-cost, single-nozzle FDM 3D printers, the system is built upon our computational analysis and experiments to enhance its validity over various printers and materials to design and produce a programmable filament. Finally, we discuss application examples and speculate the future with its potential, such as custom filament manufacturing on-demand.
+    tag: 
+    category: digital fabrication
+    
+  - title: FoodFab&#58; Creating Food Perception Illusions using Food 3D Printing
+    system-name: 
+    gif: assets/research/CHI_2020_FoodFab.png
+    conference: ACM CHI 2020
+    conference-web: https://chi2020.acm.org/
+    status:
+    authors: Ying-Ju Lin, <u>Parinya Punpongsanon</u>, Xin Wen, Daisuke Iwai, Kosuke Sato, Marianna Obrist, Stefanie Mueller.
+    doi: https://doi.org/10.1145/3313831.3376421
+    pdf: https://www.dropbox.com/s/wstggg847r24pd6/CHI_2020_FoodFab_lin.pdf?dl=0
+    code: 
+    demo: https://youtu.be/kBojJIUhHS8
+    slides: 
+    talk: 
+    poster:
+    project-web: https://hcie.csail.mit.edu/research/foodfab/foodfab.html
+    abstract-less: Food 3D printing enables the creation of customized food structures based on a person's individual needs. In this paper, we explore the use of food 3D printing to create perceptual illusions for controlling the level of perceived satiety given a defined amount of calories. We present FoodFab, a system that allows users to control their food intake through modifying a food's internal structure via two
+    abstract-more:  3D printing parameters&#58; infill pattern and infill density. In two experiments with a total of 30 participants, we studied the effect of these parameters on users' chewing time that is known to affect people's feeling of satiety. Our results show that we can indeed modify the chewing time by varying infill pattern and density, and thus control perceived satiety. Based on the results, we propose two computational models and integrate them into a user interface that simplifies the creation of personalized food structures.
+    tag: 
+    category: digital fabrication
