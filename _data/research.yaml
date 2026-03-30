@@ -111,3 +111,23 @@ projects:
     abstract-more:  surface and the desired roughness to expand the haptic dimension over which a user can exert control. Specifically, we control the softness by manipulating the infill structures of a printed surface. However, it is known that a skin contact area affects softness perception. The roughness, which is controlled by pins’ density, may also affect the perceived softness of a printed surface. Therefore, we investigate how the internal structures and the density of the pins affect softness perception. Through psychophysical experiments, we derive a computational model that estimates the perceived softness from the density of the pins and the infill density of a printed surface.
     tag: 
     category: digital fabrication
+    
+  - title: Wearable Sanitizer&#58; Design and Implementation of an Open-source, On-body Sanitizer for a Post-Pandemic
+    system-name: 
+    gif: assets/research/SA_2020_WearableSanitizer.png
+    conference: ACM SIGGRAPH Asia 2020 (Emerging Technologies)
+    conference-web: https://dl.acm.org/doi/proceedings/10.1145/3415255
+    status:
+    authors: Pat Pataranutaporn, Ali Shtarbanov, Glenn Fernandes, Jingwen Li, <u>Parinya Punpongsanon</u>, Joe Paradiso, Pattie Maes.
+    doi: https://dl.acm.org/doi/10.1145/3415255.3422897
+    pdf: https://www.dropbox.com/s/gs5ecte3wbvye3r/SA_2020_WearableSanitizer_pat.pdf?dl=0
+    code: 
+    demo: 
+    slides: 
+    talk: 
+    poster:
+    project-web: https://www.media.mit.edu/projects/wearable-sanitizer/overview/
+    abstract-less: Regular disinfection of hands and frequently touched surfaces is a critical factor in preventing the spread of infectious diseases and disorders ranging from the common cold and flu to SARS and COVID-19. This activity of frequent disinfection requires a high degree of discipline and leads to increased cognitive and physical effort involved in frequent washing of hands, or the use of a pocket
+    abstract-more:  sanitizer. We present an open-source, wearable sanitizer that provides just-in-time, automatic dispensing of alcohol to the wearer’s hand or nearby objects using sensors and programmable cues. We systematically explore the design space for wearable sanitizers aiming to create a device that not only seamlessly integrates with the user’s body and behavior but also frees their physical and mental faculties for other tasks. With these insights, we demonstrate our prototype and present the design process, device characterization, and our efforts for open-sourcing this project.
+    tag: 
+    category: digital fabrication
