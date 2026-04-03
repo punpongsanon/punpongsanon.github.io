@@ -132,7 +132,7 @@ Some hosting services you can use are:
 1. Amazon Web Service (AWS) - [tutorial](https://youtu.be/-l83oqcaTHg).
 2. GitHub - [tutorial](https://youtu.be/M5mg0r4ajt4).
 
-Hope you enjoy this tutorial and succesfully deploy for webpage!
+Hope you enjoy this tutorial and successfully deploy for the webpage!
 
 <!-- NOTE -->
 
