@@ -2,10 +2,6 @@
 
 This repository contains source code of [my academic website](https://mkhangg.com/) using Jekyll as a static website generator. Feel free to clone this code for your personal use!
 
-<p align="center">
-  <img src="https://mkhangg.com/assets/img/devices_mockup_transparent.png" data-canonical-src="https://mkhangg.com/assets/img/devices_mockup_transparent.png" width="700"/><br/>
-</p>
-
 <!-- Update -->
 ## Update
 List of updates (in terms of functionalities):
