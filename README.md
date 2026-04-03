@@ -1,6 +1,6 @@
 # punpongsanon.info
 
-This repository contains source code of [my academic website](https://mkhangg.com/) using Jekyll as a static website generator. Feel free to clone this code for your personal use!
+This repository contains the source code of [my academic website](https://mkhangg.com/) using Jekyll as a static website generator. Feel free to clone this code for your personal use!
 
 <!-- Update -->
 ## Update
