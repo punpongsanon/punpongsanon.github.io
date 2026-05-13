@@ -342,11 +342,15 @@ ipc_list:
     
   - conference: ACM SUI
     url: https://sui.acm.org/2024/
-    year: 2024 , 2023 , 2022
+    year: 2024, 2023, 2022
     
   - conference: ACM UIST
     url: https://uist.acm.org/uist2020/organizers.html
     year: 2020 
+
+  - conference: ACM VRST
+    url: https://vrst.acm.org/
+    year: 2026
     
   - conference: ICAT-EGVE
     url: 
