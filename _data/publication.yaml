@@ -1,6 +1,6 @@
 journal_list:
 
-  - title: TastePrint: A 3D food printing system for layer-wise taste distribution via airbrushed liquid seasoning
+  - title: TastePrint&#58; A 3D food printing system for layer-wise taste distribution via airbrushed liquid seasoning
     event: Applied Food Research
     event-web: https://www.sciencedirect.com/journal/applied-food-research
     pages: Vol. 6, 102242
@@ -14,7 +14,7 @@ journal_list:
     accept_rate:
     prize: 
 
-  - title: Investigating Unobtrusive Edible Tags using Digital Food Fabrication
+  - title: EateryTag&#58; Investigating Unobtrusive Edible Tags using Digital Food Fabrication
     event: Frontiers in Nutrition
     event-web: https://www.frontiersin.org/journals/nutrition/
     pages: Vol. 12, 1641849
