@@ -12,6 +12,26 @@ categories:
 
 projects:
 
+- title: ChewTect&#58; Designing Temporal Food Texture via Computational Molding
+    system-name: 
+    gif: assets/research/DIS_2026_ChewTect.png
+    conference: ACM DIS 2026
+    conference-web: 
+    status:
+    authors: Yamato Miyatake, Aoi Yamada, Huaishu Peng, <u>Parinya Punpongsanon</u>.
+    doi: 
+    pdf: 
+    code: 
+    demo: 
+    slides: 
+    talk: 
+    poster:
+    project-web: 
+    abstract-less: 
+    abstract-more:  
+    tag: 
+    category: digital fabrication
+    
   - title: Reconfigurable Soft Pneumatic Actuators Using Multi-Material Self-Healing Polymers
     system-name: 
     gif: assets/research/RAL_2025_Ishizuka.png
