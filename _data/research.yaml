@@ -12,14 +12,14 @@ categories:
 
 projects:
 
-- title: ChewTect&#58; Designing Temporal Food Texture via Computational Molding
+  - title: ChewTect&#58; Designing Temporal Food Texture via Computational Molding
     system-name: 
     gif: assets/research/DIS_2026_ChewTect.png
     conference: ACM DIS 2026
     conference-web: 
-    status:
+    status: 
     authors: Yamato Miyatake, Aoi Yamada, Huaishu Peng, <u>Parinya Punpongsanon</u>.
-    doi: 
+    doi: https://dl.acm.org/doi/10.1145/3800645.3812893
     pdf: 
     code: 
     demo: 
@@ -27,8 +27,8 @@ projects:
     talk: 
     poster:
     project-web: 
-    abstract-less: 
-    abstract-more:  
+    abstract-less: Food texture plays a crucial role in the overall sensory experience and the functional properties of food, evolving dynamically from the first bite to the final chew. Traditional methods for modifying food texture, such as adjusting cooking parameters, often compromise other key attributes, including appearance and nutritional value, whereas existing computational approaches 
+    abstract-more: largely treat texture as a static, monolithic attribute. This paper presents a computational method that modulates the internal structure of food to design temporal food texture experiences. Our method generates a silicone mold based on the desired food texture experience. This approach decouples textural properties from visual and amount attributes, enabling independent tuning of sensory factors during different oral processing stages. 
     tag: 
     category: digital fabrication
     
