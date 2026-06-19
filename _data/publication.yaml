@@ -11,7 +11,7 @@ journal_list:
     demo:
     doi: https://doi.org/10.1016/j.afres.2026.102242
     remark: 
-    accept_rate:
+    accept_rate: IF (2025)&#58; 5.4
     prize: 
 
   - title: EateryTag&#58; Investigating Unobtrusive Edible Tags using Digital Food Fabrication
