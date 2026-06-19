@@ -327,13 +327,13 @@ paper_list:
   - title: ChewTect&#58; Designing Temporal Food Texture via Computational Molding
     event: In Proceedings of the 2026 ACM Designing Interactive Systems Conference (DIS)
     event-web: https://dis.acm.org/2026/
-    pages: pp. XX-YY
+    pages: pp. 3060-3073
     date: June 2026
     team: Yamato Miyatake, Aoi Yamada, Huaishu Peng and <u>Parinya Punpongsanon</u>
     pdf: 
     code: 
     demo:
-    doi: 
+    doi: https://doi.org/10.1145/3800645.3812893
     remark: 
     accept_rate: 21%
     prize: Honorable Mention Award
