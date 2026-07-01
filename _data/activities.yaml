@@ -363,8 +363,19 @@ ipc_list:
   - conference: IEEE VR
     url: https://www.dropbox.com/s/bm7ngalnaw4digh/IEEE-VR-2020-program-comittee.pdf?dl=0
     year: 2026 (IPC), 2020 (IPC, Conference Track)
+
+  - conference: IEEE TVCG
+    url: https://www.computer.org/csdl/journal/tg/about/107398?title=Editorial%20Board&periodical=IEEE%20Transactions%20on%20Visualization%20and%20Computer%20Graphics
+    year: Associate Editor (since 2026)
+
+  - conference: ICXR
+    url: https://icxr.net/2026/index.html
+    year: 2026
     
 reviewer_list:
+
+  - conference: Wiley Advanced Science
+    year: 2026
 
   - conference: Springer IJIDeM
     year: 2023
