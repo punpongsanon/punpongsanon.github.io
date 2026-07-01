@@ -1,0 +1,5012 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+
+        <!-- Metadata -->
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <meta name="description" content="website"/>
+        <meta name="author" content="Parinya Punpongsanon"/>
+        <title>Parinya Punpongsanon | /pa rin ya/</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/parinya_icon.png"/>
+        
+        <!-- Font Awesome icons -->
+        <script src="https://use.fontawesome.com/releases/v7.2.0/js/all.js"></script>
+		
+		<!-- Hugeicon -->
+		<link rel="stylesheet" href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css" />
+		
+        <!-- Google fonts-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css">        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+        <!-- Core theme CSS -->
+        <link href="styles/styles.css" rel="stylesheet"/>
+
+    </head>
+
+    <body>
+
+        <!-- Moving particles -->
+        <canvas id="canvas"></canvas>
+
+        <!-- Progress bar on top -->
+		<!--
+        <div class="progress-bar-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+		-->
+
+        <!-- Back to top button -->
+        <a id="back-to-top-button"></a>
+
+        <!-- Toggle dark/light theme button -->
+        <!--
+		<button class="toggle-theme-button" onclick="toggleTheme()">☀️</button>
+		-->
+        
+        <!-- Assitant icon saying about theme changes -->
+		<!--
+        <div class="popup-icon-container" id="popupIconContainer" draggable="true">
+            <div class="icon"><img src="assets/img/parinya_icon.png" width="65" height="65"></div>
+            <div class="speech-balloon"></div>
+        </div>
+		-->
+        
+        <!-- Dismissal area for assistant icon -->
+        <div class="dismissal-area" id="dismissalArea">&#10006;</div>
+
+        <!-- Navigation bar -->
+        <!-- 
+		Fusion of jQuery slidebar (https://codepen.io/BeshoyRomany/pen/qmNPwN) and animated hamburger menu (https://codepen.io/amberweinberg/pen/yeqJgG) 
+		-->
+        <nav>
+            <a class="nav-toggle-btn" onclick="toggleNav()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <ul>
+                <li>
+					<p onclick="scrollToTopDiv('html')"><i class="hgi hgi-stroke hgi-home-09"></i> <span class="text">home</span></p>
+				</li>
+                <li>
+					<p onclick="scrollToTopDiv('#research')"><i class="fa-solid fa-book"></i> <span class="text">researches</span></p>
+				</li>
+                <li>
+					<p onclick="scrollToTopDiv('#publication')"><i class="fa-brands fa-firstdraft"></i> <span class="text">publications</span></p>
+				</li>
+                <li>
+					<p onclick="scrollToTopDiv('#activities')"><i class="hgi hgi-stroke hgi-presentation-online"></i> <span class="text">activities</span></p>
+				</li>
+                <li>
+					<p onclick="scrollToTopDiv('#employment')"><i class="fa-regular fa-building"></i> <span class="text">employment</span></p>
+				</li>
+            </ul>
+        </nav>
+
+        <!-- Content -->
+        <div class="container" style="padding-top: 3rem;">
+            <!-- About section -->
+
+<div class="row mb-4">
+    <div class="col-lg-2 col-md-4">
+        <div class="ring-container">
+            <div class="ring">
+                <div class="hollow-ring">
+                    <img class="profile-image" src="assets/img/parinya.jpg" alt="Parinya Punpongsanon, Ph.D." />
+                    
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="social-icons">
+             
+			<a class="social-icon" href="https://scholar.google.com/citations?user=QEG4f_0AAAAJ&amp;hl" target="_blank" rel="noopener" title="Google Scholar">
+			<i class="fa fa-graduation-cap" style="font-size: 35px; color: #4285f4"></i>
+			</a> 
+			
+			<!--
+             
+			<a class="social-icon" href="https://www.researchgate.net/profile/Parinya-Punpongsanon" target="_blank" rel="noopener" title="ResearchGate">
+			<i class="fab fa-researchgate" style="font-size: 35px; color: #00D0BB"></i>
+			</a> 
+			
+			-->
+             
+			<a class="social-icon" href="https://github.com/punpongsanon" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github" style="font-size: 35px; color: #171515"></i>
+			</a>
+			
+             
+			<a class="social-icon" href="https://www.youtube.com/@fipresearch" target="_blank" rel="noopener" title="YouTube">
+			<i class="fab fa-youtube" style="font-size: 35px; color: #FF0000"></i>
+			</a>
+			
+             
+			<a class="social-icon" href="https://orcid.org/0000-0003-2720-7768" target="_blank" rel="noopener" title="ORCID">
+			<i class="fab fa-orcid" style="font-size: 35px; color: #a6ce39"></i>
+			</a>
+			
+			<!--
+            
+			-->
+        </div>
+        <div class="social-icons">
+			<!--
+            
+			-->
+			<!--
+             
+			<a class="social-icon" onclick="scrollToTopDiv('#research');" title="Projects">
+			<i class="fa fa-shapes" style="font-size: 35px; color: #e8828c"></i>
+			</a>
+			
+			-->
+			<!--
+            
+			-->
+			<!--
+             
+			<a class="social-icon" id="contact-card-trigger" title="Contact Info">
+			<i class="fa fa-id-card" style="font-size: 35px; color: #cbbb5f"></i>
+			</a> 
+			
+			-->
+        </div>
+        <p></p>
+    </div>
+
+    <!-- Inspired by Thanh Tran -- https://codepen.io/thanhrossi/pen/pvOEzq -->
+    <!-- Re-written, redesigned, and integrated (from HTML (Pug) and CSS (Less) to pure HTML and CSS) -->
+	<!--
+    <div class="contact-card-overlay" id="overlay-bg">
+        <div class="information_card">
+            <div id="front_end_card">
+                <div class="front">
+                    <div class="contact-info-card">
+                        <div class="code-line"><span class="line-number">1</span><span class="code-content"><span class="keyword">class</span> <span class="namespace">ContactInformationCard</span>: </span></div>
+                        <div class="code-line"><span class="line-number">2</span><span class="code-content">  <span class="keyword">def</span> <span class="function">__init__</span>(<span class="self">self</span>):</span></div>
+                        <div class="code-line"><span class="line-number">3</span><span class="code-content">    <span class="self">self</span>.<span class="self">dept</span>  = <span class="string">""</span> </span></div>
+                        <div class="code-line"><span class="line-number">4</span><span class="code-content">    <span class="self">self</span>.<span class="self">lab</span>   = <span class="string">""</span> </span></div>
+                        <div class="code-line"><span class="line-number">5</span><span class="code-content">    <span class="self">self</span>.<span class="self">email</span> = <span class="string">""</span> </span></div>
+                        <div class="code-line"><span class="line-number">6</span><span class="code-content">    <span class="self">self</span>.<span class="self">phone</span> = <span class="string">""</span> </span></div>
+                        <div class="code-line"><span class="line-number">7</span><span class="code-content"></span></div>
+                        <div class="code-line"><span class="line-number">8</span><span class="code-content">  <span class="keyword">def</span> <span class="function">flipCard</span>(<span class="self">self</span>):</span></div>
+                        <div class="code-line"><span class="line-number">9</span><span class="code-content">    <span class="function">print</span>(<span class="string">"tap on the card to flip."</span>)</span></div>
+                        <div class="code-line"><span class="line-number">10</span><span class="code-content"></span></div>
+                        <div class="code-line"><span class="line-number">11</span><span class="code-content">  <span class="keyword">def</span> <span class="function">closeCard</span>(<span class="self">self</span>):</span></div>
+                        <div class="code-line"><span class="line-number">12</span><span class="code-content">    <span class="function">print</span>(<span class="string">"tap outside to close it."</span>)</span></div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="contact-info-card">
+                        <p class="card-name">Parinya Punpongsanon, Ph.D.</p>
+                        <a href="https://punpongsanon.info/" target="_blank" rel="noopener" class="card-website-link" title="Website">punpongsanon.info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	-->
+
+    <div class="col-lg-10 col-md-8">
+        <h2>
+            Parinya Punpongsanon, Ph.D. 
+             
+			<span class="text-primary"> /pa rin ya/ </span> 
+			
+			<!--
+            
+			-->
+        </h2>
+        <p></p>
+        I am an Associate Professor at the <hightlight>Graduate School of Science and Engineering</hightlight> affiliated with the <a href="https://www.saitama-u.ac.jp/rikogaku/" target="_blank" rel="noopener">Saitama University</a>.
+        <p></p>
+        I am also the Principal Investigator of the <a href="https://www.fip.ics.saitama-u.ac.jp/" target="_blank" rel="noopener">Fabrication, Interaction, and Perception Laboratory</a>, where our lab interest in the research across the personal interaction and interactive systems in HCI.      
+        <p></p>
+        <div class="codebox">
+            <code>Contact Information</code> Graduate School of Science and Engineering, Building for Research and Project, 8F, 805-2 (255 SHIMO-OKUBO, Sakura-ku, Saitama 338-8570, Japan). <code>email</code> parinya[at]mail.saitama-u.ac.jp
+            <p></p> 
+            
+                <b>xR:</b> locomotion interface, pseudo-haptics 
+<br />
+            
+                <b>Human Perception:</b> visual illusion, enhancing recognition abilities 
+<br />
+            
+                <b>Digital Fabrication:</b> personal fabrication, human-food interaction 
+<br />
+            
+        </div>
+    </div>
+</div>
+
+<!-- Research section -->
+
+<hr />
+
+<div class="row" id="research">
+    <div class="col">
+        <h2 clss="mb-5"><i class="fa-solid fa-book"></i> Research Projects</h2>
+        <p></p>
+        <div id="filters-project">
+            <button class="filter-button active" data-filter="*">all</button> 
+			<i class="fa-solid fa-angles-right"></i>
+            
+                <button class="filter-button" data-filter="xR">xR</button>
+            
+                <button class="filter-button" data-filter="human perception">human perception</button>
+            
+                <button class="filter-button" data-filter="digital fabrication">digital fabrication</button>
+            
+        </div>
+        <p></p>
+        <div id="projects" class="isotope">
+            
+                <div class="project" data-filter="digital fabrication">
+    <div class="row mb-4">
+        <div class="col-sm-4">
+            <img width="100%" height="auto" class="w-full rounded-lg" src="assets/research/DIS_2026_ChewTect.png" />
+        </div>
+        <div class="col-sm-8">
+            
+            <b>ChewTect&#58; Designing Temporal Food Texture via Computational Molding</b>
+            <br />
+            <i><a href="" target="_blank" rel="noopener">ACM DIS 2026</a></i> 
+            
+            <br />
+            Yamato Miyatake, Aoi Yamada, Huaishu Peng, <u>Parinya Punpongsanon</u>.
+            <br />
+			
+			<a href="https://dl.acm.org/doi/10.1145/3800645.3812893" target="_blank" rel="noopener">
+			<i class="fa-brands fa-researchgate"></i></a> 
+			
+             
+			<a href=""><i class="fa-regular fa-file-pdf"></i></a> 
+			
+            
+            
+            
+            
+            
+            
+            <br />
+            <u><b><i>Abstract</i></b>:</u> 
+            Food texture plays a crucial role in the overall sensory experience and the functional properties of food, evolving dynamically from the first bite to the final chew. Traditional methods for modifying food texture, such as adjusting cooking parameters, often compromise other key attributes, including appearance and nutritional value, whereas existing computational approaches
+            <span class="collapse">
+                largely treat texture as a static, monolithic attribute. This paper presents a computational method that modulates the internal structure of food to design temporal food texture experiences. Our method generates a silicone mold based on the desired food texture experience. This approach decouples textural properties from visual and amount attributes, enabling independent tuning of sensory factors during different oral processing stages.
+            </span> 
+            <span> 
+			<a href="#" data-toggle="collapse" onclick="toggleText(this)" id="link-">... See More</a></span>
+        </div>                       
+    </div>
+</div>
+
+            
+                <div class="project" data-filter="digital fabrication">
+    <div class="row mb-4">
+        <div class="col-sm-4">
+            <img width="100%" height="auto" class="w-full rounded-lg" src="assets/research/RAL_2025_Ishizuka.png" />
+        </div>
+        <div class="col-sm-8">
+            
+            <b>Reconfigurable Soft Pneumatic Actuators Using Multi-Material Self-Healing Polymers</b>
+            <br />
+            <i><a href="https://iros25.org/zzjg" target="_blank" rel="noopener">IEEE Robotics and Automation Letters, (Presented at IROS 2025)</a></i> 
+            
+            <br />
+            Shota Kosaka, Kentaro Kimura, Seiichi Yamamoto, Hiroki Ishizuka, Yoichi Masuda, <u>Parinya Punpongsanon</u>, Sei Ikeda, Osamu Oshiro.
+            <br />
+			
+			<a href="https://doi.org/10.1109/LRA.2025.3554971" target="_blank" rel="noopener">
+			<i class="fa-brands fa-researchgate"></i></a> 
+			
+            
+			<a href="https://www.dropbox.com/scl/fi/e9o8lfbbxwrrvvrw0ah5l/RAL_2025_Ishizuka.pdf?rlkey=hf2ncw98rsz9tgoxlb6l0tphy&amp;st=4qisvghj&amp;dl=0" target="_blank" rel="noopener">
+			<i class="fa-regular fa-file-pdf"></i></a> 
+            
+            
+            
+            
+            
+            
+            <br />
+            <u><b><i>Abstract</i></b>:</u> 
+            Reconstructing three-dimensional (3D) scenes with semantic understanding is vital in many robotic applications. Robots need to identify which objects, along with their positions and shapes, to manipulate them precisely with given tasks. Mobile robots, especially, usually use lightweight networks to segment objects on RGB images and then localize them via depth maps; however, they
+            <span class="collapse">
+                often encounter out-of-distribution scenarios where masks over-cover the objects. In this paper, we address the problem of panoptic segmentation quality in 3D scene reconstruction by refining segmentation errors using non-parametric statistical methods. To enhance mask precision, we map the predicted masks into a depth frame to estimate their distribution via kernel densities. The outliers in depth perception are then rejected without the need for additional parameters in an adaptive manner to out-of-distribution scenarios, followed by 3D reconstruction using projective signed distance functions (SDFs). We validate our method on a synthetic dataset, which shows improvements in both quantitative and qualitative results for panoptic mapping. Through real-world testing, the results furthermore show our method's capability to be deployed on a real-robot system.
+            </span> 
+            <span> 
+			<a href="#" data-toggle="collapse" onclick="toggleText(this)" id="link-">... See More</a></span>
+        </div>                       
+    </div>
+</div>
+
+            
+                <div class="project" data-filter="digital fabrication">
+    <div class="row mb-4">
+        <div class="col-sm-4">
+            <img width="100%" height="auto" class="w-full rounded-lg" src="assets/research/FNUT_2025_eatarytag.png" />
+        </div>
+        <div class="col-sm-8">
+            
+            <b>Unobtrusive Edible Tags using Food 3D Printing</b>
+            <br />
+            <i><a href="" target="_blank" rel="noopener">Frontiers in Nutrition, and ACM UIST 2022</a></i> 
+            
+            <br />
+            Yamato Miyatake, <u>Parinya Punpongsanon</u>.
+            <br />
+			
+			<a href="https://doi.org/10.3389/fnut.2025.1641849" target="_blank" rel="noopener">
+			<i class="fa-brands fa-researchgate"></i></a> 
+			
+            
+			<a href="https://www.dropbox.com/scl/fi/j1u7a6tfrinq8u8uj2m28/FNUT_2025_eatarytag.pdf" target="_blank" rel="noopener">
+			<i class="fa-regular fa-file-pdf"></i></a> 
+            
+            
+            
+            
+            
+            
+			<a href="https://fip.ics.saitama-u.ac.jp/pubs/eaterytag/" target="_blank" rel="noopener">
+			<i class="fa-solid fa-bookmark"></i></a> 
+			
+            <br />
+            <u><b><i>Abstract</i></b>:</u> 
+            Human-Food Interaction (HFI) examines how digital integration can enhance dining experiences, with food tagging playing a crucial role in connecting physical dining environments with digital information. Attaching optical tags to the surface or sides of food often detracts from its aesthetics, negatively impacting the perceived taste and overall dining experience. To address this issue,
+            <span class="collapse">
+                we propose an unobtrusive food tagging approach that embeds tags inside the food, maintaining both its visual appeal and sensory qualities. We first developed a tagging method using a 3D printer and proposed an end-to-end pipeline for embedding and retrieving the tags. We evaluated this method in terms of tag detectability, concealability, and the eating experience. Additionally, we developed tagging methods using molding and stamping to extend acceptability to the traditional cooking environment. Through a workshop with three home chefs, we found that these methods are accessible and easy to adopt for novice users. Our findings demonstrate the potential of embedded food tagging to integrate digital information into the dining experience without compromising culinary integrity. This approach offers new directions for HFI research and practical applications.
+            </span> 
+            <span> 
+			<a href="#" data-toggle="collapse" onclick="toggleText(this)" id="link-">... See More</a></span>
+        </div>                       
+    </div>
+</div>
+
+            
+                <div class="project" data-filter="human perception">
+    <div class="row mb-4">
+        <div class="col-sm-4">
+            <img width="100%" height="auto" class="w-full rounded-lg" src="assets/research/NATMI_2021_Pataranutaporn.gif" />
+        </div>
+        <div class="col-sm-8">
+            
+            <b>AI-generated characters for supporting personalized learning and well-being</b>
+            <br />
+            <i><a href="" target="_blank" rel="noopener">Nature Machine Intelligence</a></i> 
+            
+            <br />
+            Pat Pataranutaporn, Valdemar Danry, Joanne Leong, <u>Parinya Punpongsanon</u>, Dan Novy, Pattie Maes, Misha Sra.
+            <br />
+			
+			<a href="https://doi.org/10.1038/s42256-021-00417-9" target="_blank" rel="noopener">
+			<i class="fa-brands fa-researchgate"></i></a> 
+			
+            
+			<a href="https://www.dropbox.com/scl/fi/j8b49tmah3znwm2ym8mao/NATMI_2021_Pataranutaporn.pdf?rlkey=jwho4g59dvg3vv25szutxgf0z&amp;st=s1ja8uvg&amp;dl=0" target="_blank" rel="noopener">
+			<i class="fa-regular fa-file-pdf"></i></a> 
+            
+            
+            
+            
+            
+            
+			<a href="https://www.media.mit.edu/projects/Ai-generated-characters/overview/" target="_blank" rel="noopener">
+			<i class="fa-solid fa-bookmark"></i></a> 
+			
+            <br />
+            <u><b><i>Abstract</i></b>:</u> 
+            Advancements in machine learning have recently enabled the hyper-realistic synthesis of prose, images, audio and video data, in what is referred to as artificial intelligence (AI)-generated media. These techniques offer novel opportunities for creating interactions with digital portrayals of individuals that can inspire and intrigue us. AI-generated portrayals of characters can
+            <span class="collapse">
+                feature synthesized faces, bodies and voices of anyone, from a fictional character to a historical figure, or even a deceased family member. Although negative use cases of this technology have dominated the conversation so far, in this Perspective we highlight emerging positive use cases of AI-generated characters, specifically in supporting learning and well-being. We demonstrate an easy-to-use AI character generation pipeline to enable such outcomes and discuss ethical implications as well as the need for including traceability to help maintain trust in the generated media. As we look towards the future, we foresee generative media as a crucial part of the ever growing landscape of human–AI interaction.
+            </span> 
+            <span> 
+			<a href="#" data-toggle="collapse" onclick="toggleText(this)" id="link-">... See More</a></span>
+        </div>                       
+    </div>
+</div>
+
+            
+                <div class="project" data-filter="xR">
+    <div class="row mb-4">
+        <div class="col-sm-4">
+            <img width="100%" height="auto" class="w-full rounded-lg" src="assets/research/CSCW_2022_Thanyadit.png" />
+        </div>
+        <div class="col-sm-8">
+            
+            <b>Enhancing Asynchronous Shared-Space Demonstrations with Spatial-temporal Assistive Toolsets for Effective Learning in Immersive Virtual Laboratories</b>
+            <br />
+            <i><a href="https://cscw.acm.org/2022/" target="_blank" rel="noopener">ACM CSCW 2022 (Published at ACM PHCI 2022)</a></i> 
+            
+            <br />
+            Santawat Thanyadit, <u>Parinya Punpongsanon</u>, Thammathip Piumsomboon, Ting-Chuen Pong.
+            <br />
+			
+			<a href="https://doi.org/10.1145/3512983" target="_blank" rel="noopener">
+			<i class="fa-brands fa-researchgate"></i></a> 
+			
+            
+			<a href="https://www.dropbox.com/s/t8iino9xfnhte4r/CSCW_2022_XRLIVE_thanyadit.pdf?dl=0" target="_blank" rel="noopener">
+			<i class="fa-regular fa-file-pdf"></i></a> 
+            
+            
+            
+            
+            
+            
+            <br />
+            <u><b><i>Abstract</i></b>:</u> 
+            An immersive virtual laboratory (VL) could offer flexibility of time and space, as well as safety, for remote students to conduct laboratory activities through online experiential learning. Recording an instructor's demonstration inside a VL is an approach that allows students to learn directly from a demonstration. However, students have to learn from a recording while controlling the playback,
+            <span class="collapse">
+                which requires attention spent on additional spatial and temporal cues. This additional cognitive load could lead to errors during the laboratory procedure. To address these challenges, we have identified four design requirements to reduce attention load in VLs; namely, organized learning steps, improved student sense of co-presence, reduction of task-instructor split-attention, and learning independent of interpersonal distance. Based on these requirements, we have designed and implemented spatial-temporal assistive toolsets for laboratories in a virtual environment, namely XR-LIVE, to reduce cognitive load and enhance learning in an asynchronous shared-space demonstration, implemented based on the setup of a standard civil engineering laboratory. We also analyzed students' behavior in the VL demonstration to design guidelines applicable to generic VLs.
+            </span> 
+            <span> 
+			<a href="#" data-toggle="collapse" onclick="toggleText(this)" id="link-">... See More</a></span>
+        </div>                       
+    </div>
+</div>
+
+            
+                <div class="project" data-filter="digital fabrication">
+    <div class="row mb-4">
+        <div class="col-sm-4">
+            <img width="100%" height="auto" class="w-full rounded-lg" src="assets/research/JIST_2021_SoftPrint.png" />
+        </div>
+        <div class="col-sm-8">
+            
+            <b>SoftPrint&#58; Investigating Haptic Softness Perception of 3D Printed Soft Object in FDM 3D Printers</b>
+            <br />
+            <i><a href="https://www.imaging.org/IST/IST/Publications/Journal_of_Imaging_Science_and_Technology.aspx" target="_blank" rel="noopener">Journal of Imaging Science and Technology</a></i> 
+            
+            <br />
+            Motoki Miyoshi, <u>Parinya Punpongsanon</u>, Daisuke Iwai, Kosuke Sato.
+            <br />
+			
+			<a href="https://doi.org/10.2352/J.ImagingSci.Technol.2021.65.4.040406" target="_blank" rel="noopener">
+			<i class="fa-brands fa-researchgate"></i></a> 
+			
+            
+			<a href="https://www.dropbox.com/s/4fm4p1b6kmwkkk6/JIST_2021_SoftPrint_miyoshi_preprint.pdf?dl=0" target="_blank" rel="noopener">
+			<i class="fa-regular fa-file-pdf"></i></a> 
+            
+            
+            
+            
+            
+            
+            <br />
+            <u><b><i>Abstract</i></b>:</u> 
+            FDM 3D printers allow massive creativity in personal products, but their potential has been limited due to inability to manipulating material properties. Previous work had demonstrated that the desired roughness could be presented simply by controlling the spatial density of tiny pins on a printed surface. This article offers a means of providing the desired softness perception of a printed
+            <span class="collapse">
+                surface and the desired roughness to expand the haptic dimension over which a user can exert control. Specifically, we control the softness by manipulating the infill structures of a printed surface. However, it is known that a skin contact area affects softness perception. The roughness, which is controlled by pins’ density, may also affect the perceived softness of a printed surface. Therefore, we investigate how the internal structures and the density of the pins affect softness perception. Through psychophysical experiments, we derive a computational model that estimates the perceived softness from the density of the pins and the infill density of a printed surface.
+            </span> 
+            <span> 
+			<a href="#" data-toggle="collapse" onclick="toggleText(this)" id="link-">... See More</a></span>
+        </div>                       
+    </div>
+</div>
+
+            
+                <div class="project" data-filter="digital fabrication">
+    <div class="row mb-4">
+        <div class="col-sm-4">
+            <img width="100%" height="auto" class="w-full rounded-lg" src="assets/research/SA_2020_WearableSanitizer.png" />
+        </div>
+        <div class="col-sm-8">
+            
+            <b>Wearable Sanitizer&#58; Design and Implementation of an Open-source, On-body Sanitizer for a Post-Pandemic</b>
+            <br />
+            <i><a href="https://dl.acm.org/doi/proceedings/10.1145/3415255" target="_blank" rel="noopener">ACM SIGGRAPH Asia 2020 (Emerging Technologies)</a></i> 
+            
+            <br />
+            Pat Pataranutaporn, Ali Shtarbanov, Glenn Fernandes, Jingwen Li, <u>Parinya Punpongsanon</u>, Joe Paradiso, Pattie Maes.
+            <br />
+			
+			<a href="https://dl.acm.org/doi/10.1145/3415255.3422897" target="_blank" rel="noopener">
+			<i class="fa-brands fa-researchgate"></i></a> 
+			
+            
+			<a href="https://www.dropbox.com/s/gs5ecte3wbvye3r/SA_2020_WearableSanitizer_pat.pdf?dl=0" target="_blank" rel="noopener">
+			<i class="fa-regular fa-file-pdf"></i></a> 
+            
+            
+            
+            
+            
+            
+			<a href="https://www.media.mit.edu/projects/wearable-sanitizer/overview/" target="_blank" rel="noopener">
+			<i class="fa-solid fa-bookmark"></i></a> 
+			
+            <br />
+            <u><b><i>Abstract</i></b>:</u> 
+            Regular disinfection of hands and frequently touched surfaces is a critical factor in preventing the spread of infectious diseases and disorders ranging from the common cold and flu to SARS and COVID-19. This activity of frequent disinfection requires a high degree of discipline and leads to increased cognitive and physical effort involved in frequent washing of hands, or the use of a pocket
+            <span class="collapse">
+                sanitizer. We present an open-source, wearable sanitizer that provides just-in-time, automatic dispensing of alcohol to the wearer’s hand or nearby objects using sensors and programmable cues. We systematically explore the design space for wearable sanitizers aiming to create a device that not only seamlessly integrates with the user’s body and behavior but also frees their physical and mental faculties for other tasks. With these insights, we demonstrate our prototype and present the design process, device characterization, and our efforts for open-sourcing this project.
+            </span> 
+            <span> 
+			<a href="#" data-toggle="collapse" onclick="toggleText(this)" id="link-">... See More</a></span>
+        </div>                       
+    </div>
+</div>
+
+            
+                <div class="project" data-filter="digital fabrication">
+    <div class="row mb-4">
+        <div class="col-sm-4">
+            <img width="100%" height="auto" class="w-full rounded-lg" src="assets/research/UIST_2020_ProgrammableFilament.png" />
+        </div>
+        <div class="col-sm-8">
+            
+            <b>Programmable Filament&#58; Printed Filaments for Multi-material 3D Printing</b>
+            <br />
+            <i><a href="https://uist.acm.org/uist2020/" target="_blank" rel="noopener">ACM UIST 2020</a></i> 
+            
+            <br />
+            Haruki Takahashi, <u>Parinya Punpongsanon</u>, Jeeeun Kim.
+            <br />
+			
+			<a href="https://doi.org/10.1145/3379337.3415863" target="_blank" rel="noopener">
+			<i class="fa-brands fa-researchgate"></i></a> 
+			
+            
+			<a href="https://www.dropbox.com/s/c1mlp6fq7szsqsf/UIST_2020_ProgrammableFilament_haruki.pdf?dl=0" target="_blank" rel="noopener">
+			<i class="fa-regular fa-file-pdf"></i></a> 
+            
+            
+			<a href="https://www.youtube.com/watch?v=XkZ5qyRDW4Y" target="_blank" rel="noopener">
+			<i class="fa-brands fa-youtube"></i></a> 
+			
+            
+            
+            
+            
+            <br />
+            <u><b><i>Abstract</i></b>:</u> 
+            From full-color objects to functional capacitive artifacts, 3D printing multi-materials became essential to broaden the application areas of digital fabrication. We present Programmable Filament, a novel technique that enables multi-material printing using a commodity FDM 3D printer, requiring no hardware upgrades. Our technique builds upon an existing printing technique in which multiple
+            <span class="collapse">
+                filament segments are printed and spliced into a single threaded filament. We propose an end-to-end pipeline for 3D printing an object in multi-materials, with an introduction of the design systems for end-users. Optimized for low-cost, single-nozzle FDM 3D printers, the system is built upon our computational analysis and experiments to enhance its validity over various printers and materials to design and produce a programmable filament. Finally, we discuss application examples and speculate the future with its potential, such as custom filament manufacturing on-demand.
+            </span> 
+            <span> 
+			<a href="#" data-toggle="collapse" onclick="toggleText(this)" id="link-">... See More</a></span>
+        </div>                       
+    </div>
+</div>
+
+            
+                <div class="project" data-filter="digital fabrication">
+    <div class="row mb-4">
+        <div class="col-sm-4">
+            <img width="100%" height="auto" class="w-full rounded-lg" src="assets/research/CHI_2020_FoodFab.png" />
+        </div>
+        <div class="col-sm-8">
+            
+            <b>FoodFab&#58; Creating Food Perception Illusions using Food 3D Printing</b>
+            <br />
+            <i><a href="https://chi2020.acm.org/" target="_blank" rel="noopener">ACM CHI 2020</a></i> 
+            
+            <br />
+            Ying-Ju Lin, <u>Parinya Punpongsanon</u>, Xin Wen, Daisuke Iwai, Kosuke Sato, Marianna Obrist, Stefanie Mueller.
+            <br />
+			
+			<a href="https://doi.org/10.1145/3313831.3376421" target="_blank" rel="noopener">
+			<i class="fa-brands fa-researchgate"></i></a> 
+			
+            
+			<a href="https://www.dropbox.com/s/wstggg847r24pd6/CHI_2020_FoodFab_lin.pdf?dl=0" target="_blank" rel="noopener">
+			<i class="fa-regular fa-file-pdf"></i></a> 
+            
+            
+			<a href="https://youtu.be/kBojJIUhHS8" target="_blank" rel="noopener">
+			<i class="fa-brands fa-youtube"></i></a> 
+			
+            
+            
+            
+            
+			<a href="https://hcie.csail.mit.edu/research/foodfab/foodfab.html" target="_blank" rel="noopener">
+			<i class="fa-solid fa-bookmark"></i></a> 
+			
+            <br />
+            <u><b><i>Abstract</i></b>:</u> 
+            Food 3D printing enables the creation of customized food structures based on a person's individual needs. In this paper, we explore the use of food 3D printing to create perceptual illusions for controlling the level of perceived satiety given a defined amount of calories. We present FoodFab, a system that allows users to control their food intake through modifying a food's internal structure via two
+            <span class="collapse">
+                3D printing parameters&#58; infill pattern and infill density. In two experiments with a total of 30 participants, we studied the effect of these parameters on users' chewing time that is known to affect people's feeling of satiety. Our results show that we can indeed modify the chewing time by varying infill pattern and density, and thus control perceived satiety. Based on the results, we propose two computational models and integrate them into a user interface that simplifies the creation of personalized food structures.
+            </span> 
+            <span> 
+			<a href="#" data-toggle="collapse" onclick="toggleText(this)" id="link-">... See More</a></span>
+        </div>                       
+    </div>
+</div>
+
+            
+        </div>
+        <p></p>
+    </div>
+</div>
+
+<!-- Publication section -->
+
+<hr />
+
+<div class="row" id="publication">
+    <div class="col">
+        <h2 clss="mb-5"><i class="fa-brands fa-firstdraft"></i> Publications</h2>
+        <p></p>
+    </div>
+</div>
+
+<p>
+<button class="btn btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="Paper Poster">
+All
+</button>
+<i class="fa-solid fa-angles-right"></i>
+<button class="btn btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#Journal" aria-expanded="false" aria-controls="Journal">
+Journals/Articles
+</button>
+<button class="btn btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#Paper" aria-expanded="false" aria-controls="Paper">
+Full Papers, Short Papers
+</button>
+<button class="btn btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#Poster" aria-expanded="false" aria-controls="Poster">
+Talks, Posters and Demonstration
+</button>
+</p>
+<div class="collapse.show" id="publication">
+	<div class="card card-body card-font-small">
+		<h5 class="card-title">Books</h5>
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		植田充美. 
+		<b>AIとバイオの融合最前線 (Prospective AI-fused Biotechnology)</b>, 
+		<i><a href="" target="_blank" rel="noopener">シーエムシー出版</a></i>. 
+		
+		ISBN 978-4-7813-1867-7,
+		
+		
+		2025年5月28日.
+		
+		
+		
+        
+         
+		<a href="https://www.cmcbooks.co.jp/products/detail.php?product_id=115906" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+	</div>
+</div>
+<p></p>
+<div class="collapse.show" id="Journal">
+	<div class="card card-body card-font-small">
+		<h5 class="card-title">Journals and Articles</h5>
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Yamato Miyatake and <u>Parinya Punpongsanon</u>. 
+		<b>TastePrint&#58; A 3D food printing system for layer-wise taste distribution via airbrushed liquid seasoning</b>, 
+		<i><a href="https://www.sciencedirect.com/journal/applied-food-research" target="_blank" rel="noopener">Applied Food Research</a></i>. 
+		
+		Vol. 6, 102242,
+		
+		
+		June 2026.
+		
+		
+		 
+		<span class="badge bg-light"><i class="fa-solid fa-percent"></i><strong>Acceptance Rate IF (2025)&#58; 5.4</strong></span>
+		
+        
+         
+		<a href="https://doi.org/10.1016/j.afres.2026.102242" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Yamato Miyatake and <u>Parinya Punpongsanon</u>. 
+		<b>EateryTag&#58; Investigating Unobtrusive Edible Tags using Digital Food Fabrication</b>, 
+		<i><a href="https://www.frontiersin.org/journals/nutrition/" target="_blank" rel="noopener">Frontiers in Nutrition</a></i>. 
+		
+		Vol. 12, 1641849,
+		
+		
+		October 2025.
+		
+		
+		
+        
+         
+		<a href="https://doi.org/10.3389/fnut.2025.1641849" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/scl/fi/j1u7a6tfrinq8u8uj2m28/FNUT_2025_eatarytag.pdf?rlkey=p25pr0rftxmmq876ivq8eorsx&amp;st=tprqnty8&amp;dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Shota Kosaka, Kentaro Kimura, Seiichi Yamamoto, Hiroki Ishizuka, Yoichi Masuda, <u>Parinya Punpongsanon</u>, Sei Ikeda, Osamu Oshiro. 
+		<b>Reconfigurable Soft Pneumatic Actuators Using Multi-Material Self-Healing Polymers</b>, 
+		<i><a href="https://ieeexplore.ieee.org/document/10368213/" target="_blank" rel="noopener">IEEE Robotics and Automation Letters</a></i>. 
+		
+		Vol. 10, Issue 5, pp. 4938-4945,
+		
+		
+		2025.
+		
+		
+		
+        
+         
+		<a href="https://doi.org/10.1109/LRA.2025.3554971" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Atsushi Maki, <u>Parinya Punpongsanon</u>, Daisuke Iwai, Kosuke Sato. 
+		<b>Visually Manipulating Perceived Food Texture in Projection Mapping</b>, 
+		<i><a href="https://vrsj.org/" target="_blank" rel="noopener">Transactions of the Virtual Reality Society of Japan</a></i>. 
+		
+		Vol. 29, Issue 2, pp. 81-84,
+		
+		
+		2024.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Short Article</strong></span>
+		
+		
+        
+         
+		<a href="https://doi.org/10.18974/tvrsj.29.2_81" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/scl/fi/0ceis5dbx2u2azi8ziohd/TVRSJ_2024_Maki.pdf?rlkey=5gil4zg89efn7q02nwoq4p56d&amp;st=hwkzrx1z&amp;dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		松田 綾美, <u>プンポンサノン・パリンヤ</u>, 岩井 大輔, 佐藤 宏介. 
+		<b>食品端材への低視認度画像マーカ埋込による料理識別</b>, 
+		<i><a href="https://www.iscie.or.jp/pub/journal" target="_blank" rel="noopener">システム制御情報学会論文誌</a></i>. 
+		
+		37巻 12号, pp. 313-315,
+		
+		
+		2024.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>In Japanese</strong></span>
+		
+		
+        
+         
+		<a href="https://doi.org/10.5687/iscie.37.313" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Shengze Zhong, <u>Parinya Punpongsanon</u>, Daisuke Iwai, Kosuke Sato. 
+		<b>Topology Optimization with Text-Guided Stylization</b>, 
+		<i><a href="https://link.springer.com/journal/158" target="_blank" rel="noopener">Springer Structural and Multidisciplinary Optimization</a></i>. 
+		
+		Vol. 66, Article No. 256,
+		
+		
+		November 2023.
+		
+		
+		
+        
+         
+		<a href="https://doi.org/10.1007/s00158-023-03686-7" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://arxiv.org/pdf/2310.15506v1.pdf" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		<u>プンポンサノン・パリンヤ</u>. 
+		<b>食品3Dプリンタと人工知能による食体験の向上に関する研究</b>, 
+		<i><a href="https://www.jstage.jst.go.jp/browse/jrsj/-char/ja" target="_blank" rel="noopener">日本ロボット学会誌</a></i>. 
+		
+		41巻 8号, pp. 676-679,
+		
+		
+		2023年.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Invited Review Article</strong></span>
+		
+		
+        
+         
+		<a href="https://doi.org/10.7210/jrsj.41.676" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Shengze Zhong, <u>Parinya Punpongsanon</u>, Daisuke Iwai, Kosuke Sato. 
+		<b>Estimation of Fused-Filament-Fabrication Structural Vibro-Acoustic Performance by Modal Impact Sound</b>, 
+		<i><a href="https://www.jstage.jst.go.jp/browse/jrsj/-char/ja" target="_blank" rel="noopener">Elsevier Computers &amp; Graphics (Special Issues on Computer-Aided Design and Computer Graphics 2023)</a></i>. 
+		
+		Vol. 115, pp. 137-147,
+		
+		
+		October 2023.
+		
+		
+		
+        
+         
+		<a href="https://doi.org/10.1016/j.cag.2023.07.010" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/scl/fi/e5wfkadhsj1i3052drivg/CAG_2023_Zhong.pdf?rlkey=k7vzfwd3b5db4p7c5xuq0mq4c&amp;dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		<u>Parinya Punpongsanon</u>, Yamamoto Miyatake, Daisuke Iwai, Kosuke Sato. 
+		<b>Food DX Through Unobtrusive Edible Tags using Food 3D Printing</b>, 
+		<i><a href="https://www.imaging-society-japan.org/www/jp/en/journal-menu/journal-of-the-imaging-society-of-japan/" target="_blank" rel="noopener">Journal of the Imaging Society of Japan</a></i>. 
+		
+		Vol. 62, No. 2, pp. 121-127,
+		
+		
+		April 2023.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Invited Review Article</strong></span>
+		
+		
+        
+         
+		<a href="https://doi.org/10.11370/isj.62.121" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/sqeh54a93546ca2/JISJ_2023_punpongsanon.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Kosuke Hiratani, Daisuke Iwai, Yuta Kageyama, <u>Parinya Punpongsanon</u>, Takefumi Hiraki, Kosuke Sato. 
+		<b>Shadowless Projection Mapping using Retrotransmissive Optics</b>, 
+		<i><a href="https://www.computer.org/csdl/journal/tg" target="_blank" rel="noopener">IEEE Transactions on Visualization and Computer Graphics (Special Issues on IEEE Virtual Reality 2023)</a></i>. 
+		
+		Vol. 29, No. 5, pp. 2280-2290,
+		
+		
+		May 2023.
+		
+		
+		
+        
+         
+		<a href="https://doi.org/10.1109/TVCG.2023.3247104" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/u5w6cb8sn5bjjd1/TVCG_2023_Shadowless_hiratani.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://youtu.be/xrKRMNlvkVg" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Thammathip Piumsomboon, Youngho Lee, <u>Parinya Punpongsanon</u>. 
+		<b>Editorial&#58; Supernatural enhancements of perception, interaction, and collaboration in mixed reality</b>, 
+		<i><a href="https://www.frontiersin.org/journals/virtual-reality/sections/augmented-reality" target="_blank" rel="noopener">Frontiers in Virtual Reality (Section Augmented Reality)</a></i>. 
+		
+		Vol 4, No. 2023,
+		
+		
+		February 2023.
+		
+		
+		
+        
+         
+		<a href="https://doi.org/10.3389/frvir.2023.1132921" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/re25xuc292vt1bv/FVR_2023_piumsomboon.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Shengze Zhong, <u>Parinya Punpongsanon</u>, Daisuke Iwai, and Kosuke Sato. 
+		<b>NSTO&#58; Neural Synthesizing Topology Optimization for Modulated Structure Generation</b>, 
+		<i><a href="https://onlinelibrary.wiley.com/doi/10.1111/cgf.14708" target="_blank" rel="noopener">Computer Graphics Forum (Special Issue on Pacific Graphics 2022)</a></i>. 
+		
+		Vol 41, Number 7,
+		
+		
+		October 2022.
+		
+		
+		
+        
+         
+		<a href="https://doi.org/10.1111/cgf.14700" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/ktmn3gwbgi45j4c/PG_2022_NSTO_Zhong.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Santawat Thanyadit, <u>Parinya Punpongsanon</u>, Thammathip Piumsomboon, and Ting-Chuen Pong. 
+		<b>XR-LIVE&#58; Enhancing Asynchronous Shared-Space Demonstrations with Spatial-temporal Assistive Toolsets for Effective Learning in Immersive Virtual Laboratories</b>, 
+		<i><a href="https://dl.acm.org/toc/pacmhci/2022/6/CSCW2" target="_blank" rel="noopener">Proceedings of the ACM on Human-Computer Interaction (In Proceedings of the ACM Conference on Computer-Supported Cooperative Work &amp; Social Computing 2022)</a></i>. 
+		
+		Vol 6, CSCW 1, Article 136,
+		
+		
+		April 2022.
+		
+		
+		
+        
+         
+		<a href="https://doi.org/10.1145/3512983" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/t8iino9xfnhte4r/CSCW_2022_XRLIVE_thanyadit.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://youtu.be/J9v6hAPiTuA" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Piyarat Silapasuphakornwong, Chulapong Panichkriangkrai, <u>Parinya Punpongsanon</u>, Masahiro Suzuki, and Kazutake Uehira. 
+		<b>An exploration of color reproduction for inkjet FDM color 3D printing</b>, 
+		<i><a href="https://www.imaging.org/IST/IST/Conferences/EI/EI_2022/Conference/C_COLOR.aspx" target="_blank" rel="noopener">Electronic Imaging (Proceedings of Color Imaging XXVII&#58; Displaying, Processing, Hardcopy, and Applications 2022)</a></i>. 
+		
+		pp. 180&#58;1-180&#58;7,
+		
+		
+		January 2022.
+		
+		
+		
+        
+         
+		<a href="https://doi.org/10.2352/EI.2022.34.15.COLOR-180" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/ymefd6jlitj2hgn/EI_2022_ColorCalibration_silapasuphakornwong.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Pat Pataranutaporn, Valdemar Danry, Joanne Leong, <u>Parinya Punpongsanon</u>, Dan Novy, Pattie Maes, and Misha Sra. 
+		<b>AI-generated Characters for Supporting Personalized Learning and Well-being</b>, 
+		<i><a href="https://www.nature.com/natmachintell/" target="_blank" rel="noopener">Nature Machine Intelligence</a></i>. 
+		
+		Perspective,
+		
+		
+		December 2021.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>IF (2020)&#58; 16.65</strong></span>
+		
+		
+        
+         
+		<a href="https://doi.org/10.1038/s42256-021-00417-9" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/4wzdmny9lrpmtb7/NATMI_2021_Pat_preprint.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://youtu.be/DT04Bopbeso" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Sorashi Kimura, Daisuke Iwai, <u>Parinya Punpongsanon</u>, and Kosuke Sato. 
+		<b>Multifocal Stereoscopic Projection Mapping</b>, 
+		<i><a href="https://www.computer.org/csdl/journal/tg/2025/11" target="_blank" rel="noopener">IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE International Symposium on Mixed and Augmented Reality)</a></i>. 
+		
+		Vol. 27, No. 11, pp. 4256-4266,
+		
+		
+		November 2021.
+		
+		
+		 
+		<span class="badge bg-light"><i class="fa-solid fa-percent"></i><strong>Acceptance Rate 19.46%</strong></span>
+		
+         
+		<span class="badge bg-warning text-dark"><i class="fa-solid fa-award"></i><strong>Best Journal Paper Award</strong></span>
+		
+         
+		<a href="https://doi.org/10.1109/TVCG.2021.3106486" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/v5ura3ibxlmbau3/ISMAR_2021_Kimura.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://youtu.be/I8DGTQnxm38" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Masatoki Sugimoto, Daisuke Iwai, Koki Ishida, <u>Parinya Punpongsanon</u>, and Kosuke Sato. 
+		<b>Directionally Decomposing Structured Light for Projector Calibration</b>, 
+		<i><a href="https://www.computer.org/csdl/journal/tg/2025/11" target="_blank" rel="noopener">IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE International Symposium on Mixed and Augmented Reality)</a></i>. 
+		
+		Vol. 27, No. 11, pp. 4161-4170,
+		
+		
+		November 2021.
+		
+		
+		 
+		<span class="badge bg-light"><i class="fa-solid fa-percent"></i><strong>Acceptance Rate 19.46%</strong></span>
+		
+        
+         
+		<a href="https://doi.org/10.1109/TVCG.2021.3106511" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/y9924fpjb779a2g/ISMAR_2021_Sugimoto.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://youtu.be/TD5G2Qc7BEM" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Motoki Miyoshi, <u>Parinya Punpongsanon</u>, Daisuke Iwai, and Kosuke Sato. 
+		<b>SoftPrint&#58; Investigating Haptic Softness Perception of 3D Printed Soft Object in FDM 3D Printers</b>, 
+		<i><a href="https://library.imaging.org/print4fab/articles/37/1/art00001_1" target="_blank" rel="noopener">Journal of Imaging Science and Technology (Proceedings of Printing for Fabrication 2021)</a></i>. 
+		
+		Vol. 65, No. 4, pp. 40406&#58;1-40406&#58;8(8),
+		
+		
+		July 2021.
+		
+		
+		
+        
+         
+		<a href="https://doi.org/10.2352/J.ImagingSci.Technol.2021.65.4.040406" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/4fm4p1b6kmwkkk6/JIST_2021_SoftPrint_miyoshi_preprint.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://youtu.be/jR5x79BUXTE" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		<u>Parinya Punpongsanon</u>, Daisuke Iwai, and Kosuke Sato. 
+		<b>FleXeen&#58; Visually Manipulating Perceived Fabric Bending Stiffness in Spatial Augmented Reality</b>, 
+		<i><a href="https://www.computer.org/csdl/journal/tg" target="_blank" rel="noopener">IEEE Transactions on Visualization and Computer Graphics</a></i>. 
+		
+		Vol. 26, No. 2, pp. 1433-1439,
+		
+		
+		February 2020.
+		
+		
+		
+        
+         
+		<a href="https://doi.org/10.1109/TVCG.2018.2871044" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/whxjixy6d11kiuw/TVCG_2018_FleXeen_punpongsanon.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://youtu.be/pdsGVWs2BqU" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Santawat Thanyadit, <u>Parinya Punpongsanon</u>, and Ting-Chuen Pong. 
+		<b>Efficient Information Sharing Techniques between Workers of Heterogeneous Tasks in 3D CVE</b>, 
+		<i><a href="https://dl.acm.org/doi/proceedings/10.1145/3462204" target="_blank" rel="noopener">Proceedings of the ACM on Human-Computer Interaction (Proceedings of the 21th ACM Conference on Computer-Supported Cooperative Work &amp; Social Computing)</a></i>. 
+		
+		Vol. 2, No. CSCW, Article No. 172,
+		
+		
+		November 2018.
+		
+		
+		
+        
+         
+		<a href="https://doi.org/10.1145/3274441" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/4hjwrtb5mz2do3a/CSCW_2018_CollaborativeVR_thanyadit.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://youtu.be/QYklJrh9TpQ" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		<u>Parinya Punpongsanon</u>, Emilie Guy, Daisuke Iwai, Kosuke Sato, and Tamy Boubekeur. 
+		<b>Extended LazyNav&#58; Virtual 3D Ground Navigation for Large Displays and Head-Mounted Displays</b>, 
+		<i><a href="https://www.computer.org/csdl/journal/tg" target="_blank" rel="noopener">IEEE Transactions on Visualization and Computer Graphics</a></i>. 
+		
+		Vol. 23, No. 8, pp. 1952-1963,
+		
+		
+		August 2017.
+		
+		
+		
+        
+         
+		<a href="http://dx.doi.org/10.1109/TVCG.2016.2586071" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/l3r9snie2kguohg/TVCG_2017_ExtendedLazyNav_punpongsanon.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		<u>Parinya Punpongsanon</u>, Daisuke Iwai, and Kosuke Sato. 
+		<b>SoftAR&#58; Visually Manipulating Haptic Softness Perception in Spatial Augmented Reality</b>, 
+		<i><a href="https://www.computer.org/csdl/journal/tg" target="_blank" rel="noopener">IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE International Symposium on Mixed and Augmented Reality 2015)</a></i>. 
+		
+		Vol. 21, No. 11, pp. 1279-1288,
+		
+		
+		November 2015.
+		
+		
+		
+         
+		<span class="badge bg-warning text-dark"><i class="fa-solid fa-award"></i><strong>Best Student Research Award</strong></span>
+		
+         
+		<a href="http://dx.doi.org/10.1109/TVCG.2015.2459792" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/7b6k739wvicul64/TVCG_2015_SoftAR_punpongsanon.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://www.youtube.com/watch?v=dVAa5oM4jF4" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		<u>Parinya Punpongsanon</u>, Daisuke Iwai, and Kosuke Sato. 
+		<b>Projection-based Visualization of Tangential Deformation of Nonrigid Surface by Deformation Estimation Using Infrared Texture</b>, 
+		<i><a href="https://link.springer.com/journal/10055" target="_blank" rel="noopener">Virtual Reality</a></i>. 
+		
+		Vol. 19(1), pp. 45-56,
+		
+		
+		March 2015.
+		
+		
+		
+        
+         
+		<a href="http://dx.doi.org/10.1007/s10055-014-0256-y" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/16soil7gjw9msxp/VR_2014_DeforMe_punpongsanon.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+	</div>
+</div>
+<p></p>
+<div class="collapse multi-collapse" id="Paper">
+	<div class="card card-body card-font-small">
+		<h5 class="card-title">Conference Proceedings (Full Papers, Short Papers)</h5>
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Yamato Miyatake, Aoi Yamada, Huaishu Peng and <u>Parinya Punpongsanon</u>. 
+		<b>ChewTect&#58; Designing Temporal Food Texture via Computational Molding</b>, 
+		<i><a href="https://dis.acm.org/2026/" target="_blank" rel="noopener">In Proceedings of the 2026 ACM Designing Interactive Systems Conference (DIS)</a></i>. 
+		
+		pp. 3060-3073,
+		
+		
+		June 2026.
+		
+		
+		 
+		<span class="badge bg-light"><i class="fa-solid fa-percent"></i><strong>Acceptance Rate 21%</strong></span>
+		
+         
+		<span class="badge bg-warning text-dark"><i class="fa-solid fa-award"></i><strong>Honorable Mention Award</strong></span>
+		
+         
+		<a href="https://doi.org/10.1145/3800645.3812893" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		山田蒼, 宮武大和, 雨坂宇宙, 岩井大輔, <u>プンポンサノン パリンヤ</u>. 
+		<b>内部構造を制御した食品の咀嚼音特性に基づく食事摂取量推定</b>, 
+		<i><a href="https://www.ieice.org/jpn_r/activities/taikai/general/2026/index.html" target="_blank" rel="noopener">電子情報通信学会総合大会</a></i>. 
+		
+		H-2-01,
+		
+		
+		2026年3月10日.
+		
+		
+		
+        
+        
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		岡部兼也, 宮武大和, <u>プンポンサノン パリンヤ</u>. 
+		<b>機能推定による自動パラメータ生成を用いた3Dモデル編集の検討</b>, 
+		<i><a href="https://www.ieice.org/jpn_r/activities/taikai/general/2026/index.html" target="_blank" rel="noopener">電子情報通信学会総合大会</a></i>. 
+		
+		H-2-10,
+		
+		
+		2026年3月10日.
+		
+		
+		
+        
+        
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		大澤璃乙, 山田蒼, 岡部兼也, 宮武大和, <u>プンポンサノン パリンヤ</u>. 
+		<b>代替食品における食感と構造改変との関連性に関する研究</b>, 
+		<i><a href="https://www.ieice.org/jpn_r/activities/taikai/general/2026/index.html" target="_blank" rel="noopener">電子情報通信学会総合大会</a></i>. 
+		
+		H-2-20,
+		
+		
+		2026年3月10日.
+		
+		
+		
+        
+        
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		見澤宏紀, 岡部兼也, 山田蒼, 宮武大和, <u>プンポンサノン パリンヤ</u>. 
+		<b>着色要因による食欲変化と味覚への影響 ―クッキー事例として―</b>, 
+		<i><a href="https://www.ieice.org/jpn_r/activities/taikai/general/2026/index.html" target="_blank" rel="noopener">電子情報通信学会総合大会</a></i>. 
+		
+		H-2-21,
+		
+		
+		2026年3月10日.
+		
+		
+		
+        
+        
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Natthaphon Hatsakornkhanachok and <u>Parinya Punpongsanon</u>. 
+		<b>ViWeight&#58; Manipulating Virtual Liquid Weight Perception Using Vibrating Illusion</b>, 
+		<i><a href="https://www.ieee-gcce.org/2025/index.html" target="_blank" rel="noopener">In Proceedings of 2025 IEEE 9th Global Conference on Consumer Electronics (GCCE)</a></i>. 
+		
+		pp. 70-72,
+		
+		
+		September 2025.
+		
+		
+		 
+		<span class="badge bg-light"><i class="fa-solid fa-percent"></i><strong>Acceptance Rate 40%</strong></span>
+		
+        
+         
+		<a href="https://doi.org/10.1109/GCCE65946.2025.11275019" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/scl/fi/tuj5ob9uxbj69rxl3h0b4/GCCE_2025_ViWeight.pdf" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Jiaqi Gu and <u>Parinya Punpongsanon</u>. 
+		<b>Exploratory Study of AR Hand Redirection Using Augmented Virtual Hand</b>, 
+		<i><a href="https://www.ieee-gcce.org/2025/index.html" target="_blank" rel="noopener">In Proceedings of 2025 IEEE 9th Global Conference on Consumer Electronics (GCCE)</a></i>. 
+		
+		pp. 878-880,
+		
+		
+		September 2025.
+		
+		
+		 
+		<span class="badge bg-light"><i class="fa-solid fa-percent"></i><strong>Acceptance Rate 40%</strong></span>
+		
+         
+		<span class="badge bg-warning text-dark"><i class="fa-solid fa-award"></i><strong>Best Presentation Award</strong></span>
+		
+         
+		<a href="https://doi.org/10.1109/GCCE65946.2025.11275247" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/scl/fi/p14ykgotesignadcuffun/GCCE_2025_Ko.pdf" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Ryosei Unoki and <u>Parinya Punpongsanon</u>. 
+		<b>SmellFly&#58; Investigating Olfactory Display in VR Using a Small Drone</b>, 
+		<i><a href="https://www.ieee-gcce.org/2025/index.html" target="_blank" rel="noopener">In Proceedings of 2025 IEEE 9th Global Conference on Consumer Electronics (GCCE)</a></i>. 
+		
+		pp. 172-173,
+		
+		
+		September 2025.
+		
+		
+		 
+		<span class="badge bg-light"><i class="fa-solid fa-percent"></i><strong>Acceptance Rate 40%</strong></span>
+		
+        
+         
+		<a href="https://doi.org/10.1109/GCCE65946.2025.11275234" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/scl/fi/txp6jxpzmxbn6ihel8ukk/GCCE_2025_SmellFly.pdf" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		彭勃, <u>プンポンサノン パリンヤ</u>. 
+		<b>SubtleMove&#58; 微小動作による最小限インタラクション型ナビゲーションに関する研究</b>, 
+		<i><a href="https://www.ieee-gcce.org/2025/index.html" target="_blank" rel="noopener">ヒューマンインタフェースシンポジウム2025</a></i>. 
+		
+		pp. 896-899,
+		
+		
+		2025年9月10日.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>In Japanese</strong></span>
+		
+		
+        
+        
+		
+		<a href="https://www.dropbox.com/scl/fi/stj5x5hx2xjgxbv23xtyb/HIJ_2025_SubtleMove_Bo.pdf" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		遠藤碧海, <u>プンポンサノン パリンヤ</u>. 
+		<b>咀嚼情報と色の情動を利用した摂食行動改善のための拡張視覚化システムの開発</b>, 
+		<i><a href="https://www.ipsj.or.jp/event/taikai/87/index.html" target="_blank" rel="noopener">第87回情報処理学会全国大会</a></i>. 
+		
+		pp. 4&#58;95-4&#58;96,
+		
+		
+		2025年3月.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>In Japanese</strong></span>
+		
+		
+         
+		<span class="badge bg-warning text-dark"><i class="fa-solid fa-award"></i><strong>学会賞奨励賞</strong></span>
+		
+        
+		
+		<a href="https://www.dropbox.com/scl/fi/lazeecoowcdcrtf85rhfd/IPSJ_2025_endo.pdf" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		神尾幸希, <u>プンポンサノン パリンヤ</u>. 
+		<b>食品の電気抵抗情報を用いた可食センサーに関する研究</b>, 
+		<i><a href="https://www.ipsj.or.jp/event/taikai/87/index.html" target="_blank" rel="noopener">第87回情報処理学会全国大会</a></i>. 
+		
+		pp. 4&#58;67-4&#58;68,
+		
+		
+		2025年3月.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>In Japanese</strong></span>
+		
+		
+        
+        
+		
+		<a href="https://www.dropbox.com/scl/fi/tjwn6h7pob5phk19qllra/IPSJ_2025_kamio.pdf" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		松田綾美, <u>プンポンサノン パリンヤ</u>, 岩井大輔, 佐藤宏介. 
+		<b>調理を考慮した食品への情報埋め込みに関する一考察</b>, 
+		<i><a href="https://www.sice.or.jp/org/pattern/" target="_blank" rel="noopener">第28回パターン計測シンポジウム(第108回パターン計測部会研究会)</a></i>. 
+		
+		
+		2023年11月.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>In Japanese</strong></span>
+		
+		
+        
+         
+		<a href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202402275616649541" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/scl/fi/k56a2muaxui9a0c13njkk/SICE_2023_matsuda.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		石塚裕己, 鈴木智大, 佐々木大輔, <u>プンポンサノン パリンヤ</u>. 
+		<b>自己修復性材料片からソフトロボットを構築する Wizard bits の提案</b>, 
+		<i><a href="https://robomech.org/2025/" target="_blank" rel="noopener">ロボティクス・メカトロニクス講演会</a></i>. 
+		
+		
+		2023年6月.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>In Japanese</strong></span>
+		
+		
+        
+        
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		牧篤司, <u>プンポンサノン パリンヤ</u>, 岩井大輔, 佐藤宏介. 
+		<b>食体験変容のための投影型ARによる食品動的質感変調に関する研究</b>, 
+		<i><a href="https://sci23.iscie.or.jp/" target="_blank" rel="noopener">第67回システム制御情報学会研究発表講演会</a></i>. 
+		
+		pp. 338-341,
+		
+		
+		2023年5月.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>In Japanese</strong></span>
+		
+		
+        
+        
+		
+		<a href="https://www.dropbox.com/s/8ydsuua4lsf920e/SCI_2023_Maki.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		松元龍馬, <u>プンポンサノン パリンヤ</u>, 岩井大輔, 佐藤宏介. 
+		<b>OST-HMDを用いた幽体ハンド食事支援システム</b>, 
+		<i><a href="https://sci23.iscie.or.jp/" target="_blank" rel="noopener">第67回システム制御情報学会研究発表講演会</a></i>. 
+		
+		pp. 328-331,
+		
+		
+		2023年5月.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>In Japanese</strong></span>
+		
+		
+        
+        
+		
+		<a href="https://www.dropbox.com/s/sz7sk6n4olbo29r/SCI_2023_Matsumoto.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Zhong Shengze, <u>プンポンサノン パリンヤ</u>, 岩井大輔, 佐藤宏介. 
+		<b>Structure Design with Text-Guided Stylization</b>, 
+		<i><a href="https://sci23.iscie.or.jp/" target="_blank" rel="noopener">第67回システム制御情報学会研究発表講演会</a></i>. 
+		
+		pp. 202-203,
+		
+		
+		2023年5月.
+		
+		
+		
+        
+        
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		松田綾美, <u>プンポンサノン パリンヤ</u>, 岩井大輔, 佐藤宏介. 
+		<b>柔らかい食品上への情報埋め込みシステムの開発</b>, 
+		<i><a href="https://www.ipsj.or.jp/event/taikai/85/index.html" target="_blank" rel="noopener">第85回情報処理学会全国大会</a></i>. 
+		
+		pp. 4&#58;137-4&#58;138,
+		
+		
+		2023年3月.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>In Japanese</strong></span>
+		
+		
+        
+        
+		
+		<a href="https://www.dropbox.com/s/kbay4jjy97mc2uy/IPSJT_2023_matsuda.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Yamamoto Miyatake, <u>Parinya Punpongsanon</u>, Daisuke Iwai, Kosuke Sato. 
+		<b>interiqr&#58; Unobtrusive Edible Tags using Food 3D Printing</b>, 
+		<i><a href="https://uist.acm.org/uist2022/" target="_blank" rel="noopener">In Proceedings of the ACM Symposium on User Interface Software and Technology (UIST) 2022</a></i>. 
+		
+		pp. 1-11,
+		
+		
+		October 2022.
+		
+		
+		 
+		<span class="badge bg-light"><i class="fa-solid fa-percent"></i><strong>Acceptance Rate 26.3%</strong></span>
+		
+        
+         
+		<a href="https://doi.org/10.1145/3526113.3545669" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/0v4rypppd5t4pc8/UIST_2022_Interiqr_Miyatake.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://youtu.be/vAMmxEroSzs" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		松田綾美, <u>プンポンサノン パリンヤ</u>, 岩井大輔, 佐藤宏介. 
+		<b>センサ内蔵スマートテーブルウェアの構築とロボットアームによるフィー ドバックの検討</b>, 
+		<i><a href="https://sci22.iscie.or.jp/" target="_blank" rel="noopener">第66回システム制御情報学会研究発表講演会</a></i>. 
+		
+		pp. 981-983,
+		
+		
+		2022年5月.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>In Japanese</strong></span>
+		
+		
+         
+		<span class="badge bg-warning text-dark"><i class="fa-solid fa-award"></i><strong>学会賞奨励賞</strong></span>
+		
+        
+		
+		<a href="https://www.dropbox.com/s/a8x4g0c6z5ggpzr/SCI_2022_matsuda.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		宮武大和, <u>プンポンサノン パリンヤ</u>, 岩井大輔, 佐藤宏介. 
+		<b>3Dプリント食品内部への情報埋め込み</b>, 
+		<i><a href="https://www.ipsj.or.jp/event/taikai/84/index.html" target="_blank" rel="noopener">第84回情報処理学会全国大会</a></i>. 
+		
+		pp. 4&#58;189-4&#58;190,
+		
+		
+		2022年3月.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>In Japanese</strong></span>
+		
+		
+        
+        
+		
+		<a href="https://www.dropbox.com/s/ttkcrce1s1yz6ln/IPSJT_2022_miyatake.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		堀悠太郎, <u>プンポンサノン パリンヤ</u>, 岩井大輔, 佐藤宏介. 
+		<b>サーモクロミック材と情報コードをRGB-Cストライプ構造化した表面色制御</b>, 
+		<i><a href="https://www.ipsj.or.jp/event/taikai/84/index.html" target="_blank" rel="noopener">第84回情報処理学会全国大会</a></i>. 
+		
+		pp. 3&#58;143-3&#58;144,
+		
+		
+		2022年3月.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>In Japanese</strong></span>
+		
+		
+        
+        
+		
+		<a href="https://www.dropbox.com/s/sd8un04d7v76csr/IPSJT_2022_hori.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Naoya Yoshimura, Yushi Sato, Yuta Kageyama, Jun Murao, Satoshi Yagi, <u>Parinya Punpongsanon</u>. 
+		<b>Hugmon&#58; Exploration of Affective Movements for Hug Interaction using Tensegrity Robot</b>, 
+		<i><a href="https://humanrobotinteraction.org/2022/toc.html" target="_blank" rel="noopener">In Companion Proceedings of ACM/IEEE International Conference on Human-Robot Interaction (HRI) 2022</a></i>. 
+		
+		pp. 1105-1109,
+		
+		
+		March 2022.
+		
+		
+		
+        
+         
+		<a href="https://dl.acm.org/doi/10.5555/3523760.3523944" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/atfele5h28cnyz9/HRI_2022_Hugmon_Naoya.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://youtu.be/deNWUUbrSNM" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Shengze Zhong, <u>Parinya Punpongsanon</u>, Daisuke Iwai, and Kosuke Sato. 
+		<b>A Simple Calibration of Material Constitutive Model for FDM 3D Printers</b>, 
+		<i><a href="https://sig4dff.org/conference/2021/proceeding/" target="_blank" rel="noopener">In Proceedings of Conference on 4D and Functional Fabrication (4DFF) 2021</a></i>. 
+		
+		pp. 29-31,
+		
+		
+		October 2021.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>In Japanese</strong></span>
+		
+		
+        
+         
+		<a href="https://sig4dff.org/conference/2021/proceeding/" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/ewq1u4z6fe3zaaa/4DFF_2021_Shengze.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		<u>Parinya Punpongsanon</u>, Hiroki Ishizuka. 
+		<b>EdiSensor&#58; Facilitating Food Electricity for Eating Habits Analysis</b>, 
+		<i><a href="https://www.ieee-lifetech.org/2021/" target="_blank" rel="noopener">In Proceedings of 2021 IEEE 3rd Global Conference on Life Sciences and Technologies (LifeTech)</a></i>. 
+		
+		pp. 108-109,
+		
+		
+		March 2021.
+		
+		
+		
+         
+		<span class="badge bg-warning text-dark"><i class="fa-solid fa-award"></i><strong>Outstanding Paper Award</strong></span>
+		
+         
+		<a href="https://doi.org/10.1109/LifeTech52111.2021.9391948" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/6v5e4347dpugi93/LifeTech_2021_Punpongsanon.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Motoki Miyoshi, <u>Parinya Punpongsanon</u>, Daisuke Iwai, Kosuke Sato. 
+		<b>Investigation of Soft Display using Digital Fabrication and Phase-change Material</b>, 
+		<i><a href="https://www.ieee-lifetech.org/2021/" target="_blank" rel="noopener">In Proceedings of 2021 IEEE 3rd Global Conference on Life Sciences and Technologies (LifeTech)</a></i>. 
+		
+		pp. 513-514,
+		
+		
+		March 2021.
+		
+		
+		
+         
+		<span class="badge bg-warning text-dark"><i class="fa-solid fa-award"></i><strong>Outstanding Paper Award</strong></span>
+		
+         
+		<a href="https://doi.org/10.1109/LifeTech52111.2021.9391833" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/whnugz148yr2gdj/LifeTech_2021_Miyoshi.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Haruki Takahashi, <u>Parinya Punpongsanon</u>, Jeeeun Kim. 
+		<b>Programmable Filament&#58; Printed Filaments for Multi-material 3D Printing</b>, 
+		<i><a href="https://uist.acm.org/uist2020/" target="_blank" rel="noopener">In Proceedings of ACM Symposium on User Interface Software and Technology (UIST) 2020</a></i>. 
+		
+		pp. 1209-1221,
+		
+		
+		October 2020.
+		
+		
+		 
+		<span class="badge bg-light"><i class="fa-solid fa-percent"></i><strong>Acceptance Rate 21.5%</strong></span>
+		
+         
+		<span class="badge bg-warning text-dark"><i class="fa-solid fa-award"></i><strong>Honorable Mention Award</strong></span>
+		
+         
+		<a href="https://doi.org/10.1145/3379337.3415863" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/c1mlp6fq7szsqsf/UIST_2020_ProgrammableFilament_haruki.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://www.youtube.com/watch?v=XkZ5qyRDW4Y" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Liyuan Duan, Haruka Matsukura, <u>Parinya Punpongsanon</u>, Takefumi Hiraki, Daisuke Iwai, Kosuke Sato. 
+		<b>Adaptive Visualization of Gas Distribution Using Augmented Reality Glasses</b>, 
+		<i><a href="https://www.ieee-gcce.org/2020/" target="_blank" rel="noopener">In Proceedings of 2020 IEEE 9th Global Conference on Consumer Electronics (GCCE)</a></i>. 
+		
+		pp. 658-659,
+		
+		
+		October 2020.
+		
+		
+		
+         
+		<span class="badge bg-warning text-dark"><i class="fa-solid fa-award"></i><strong>Excellent Student Paper Award</strong></span>
+		
+         
+		<a href="https://doi.org/10.1109/GCCE50665.2020.9291811" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/wgcp8yzhpdiqh1s/GCCE_2020_duan.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://youtu.be/G5Rn1ThXUKE" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Ying-Ju Lin, <u>Parinya Punpongsanon</u>, Xin Wen, Daisuke Iwai, Kosuke Sato, Marianna Obrist, Stefanie Mueller. 
+		<b>FoodFab&#58; Creating Food Perception Illusions using Food 3D Printing</b>, 
+		<i><a href="https://chi2020.acm.org/" target="_blank" rel="noopener">In Proceedings of ACM SIGCHI Conference on Human Factors in Computing Systems (CHI) 2020</a></i>. 
+		
+		pp. 294&#58;1-294&#58;13,
+		
+		
+		April 2020.
+		
+		
+		 
+		<span class="badge bg-light"><i class="fa-solid fa-percent"></i><strong>Acceptance Rate 24.3%</strong></span>
+		
+         
+		<span class="badge bg-warning text-dark"><i class="fa-solid fa-award"></i><strong>Best Presentation Award (Asian CHI Symposium)</strong></span>
+		
+         
+		<a href="https://doi.org/10.1145/3313831.3376421" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/wstggg847r24pd6/CHI_2020_FoodFab_lin.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://youtu.be/kBojJIUhHS8" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Tinglin Duan, <u>Parinya Punpongsanon</u>, Sheng Jia, Daisuke Iwai, Kosuke Sato, Konstantinos N. Plataniotis. 
+		<b>Remote Environment Exploration with Drone Agent and Haptic Force Feedback</b>, 
+		<i><a href="https://aivr.science.uu.nl/2019/CFP-AIVR2019_2019-09-04.pdf" target="_blank" rel="noopener">In Proceedings of IEEE International Conference on Artificial Intelligence &amp; Virtual Reality (AIVR) 2019</a></i>. 
+		
+		pp. 167-170,
+		
+		
+		December 2019.
+		
+		
+		 
+		<span class="badge bg-light"><i class="fa-solid fa-percent"></i><strong>Acceptance Rate 31.3%</strong></span>
+		
+        
+         
+		<a href="https://doi.org/10.1109/AIVR46125.2019.00034" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/9hegg0bcp3zptpn/AIVR_2019_Drone_francis.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+		<a href="https://www.dropbox.com/s/40hw8dyjj7xm594/presentation_IEEE_AIVR_2019_Drone_francis.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-code"></i></a> 
+		
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Yuhua Jin, Isabel Qamar, Michael Wessely, Aradhana Adhikari, Katarina Bulovic, <u>Parinya Punpongsanon</u>, Stefanie Mueller. 
+		<b>Photo-Chromeleon&#58; Re-Programmable Multi-Color Textures Using Photochromic Dyes</b>, 
+		<i><a href="https://uist.acm.org/uist2019/" target="_blank" rel="noopener">In Proceedings of ACM Symposium on User Interface Software and Technology (UIST) 2019</a></i>. 
+		
+		pp. 701-712,
+		
+		
+		October 2019.
+		
+		
+		 
+		<span class="badge bg-light"><i class="fa-solid fa-percent"></i><strong>Acceptance Rate 24.4%</strong></span>
+		
+         
+		<span class="badge bg-warning text-dark"><i class="fa-solid fa-award"></i><strong>Best Paper Award, Best Talk Award</strong></span>
+		
+         
+		<a href="https://doi.org/10.1145/3332165.3347905" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="http://groups.csail.mit.edu/hcie/files/research-projects/photochromeleon/2019-uist-photochromeleon-paper.pdf" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://www.youtube.com/watch?v=rGnAAJEBFUU" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Santawat Thanyadit, <u>Parinya Punpongsanon</u>, Ting-Chuen Pong. 
+		<b>ObserVAR&#58; Visualization System for Observing Virtual Reality Users using Augmented Reality</b>, 
+		<i><a href="https://ismar2019.ismar.net/" target="_blank" rel="noopener">In Proceedings of IEEE International Symposium on Mixed and Augmented Reality (ISMAR) 2019</a></i>. 
+		
+		pp. 386-396,
+		
+		
+		October 2019.
+		
+		
+		 
+		<span class="badge bg-light"><i class="fa-solid fa-percent"></i><strong>Acceptance Rate 25.6%</strong></span>
+		
+        
+         
+		<a href="https://doi.org/10.1109/ISMAR.2019.00023" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/df9bvaiaxwjcnw4/ismar_2019_observar_thanyadit.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://youtu.be/uDVf6QtCLiQ" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		三好幹, <u>プンポンサノン・パリンヤ</u>, 岩井大輔, 佐藤宏介. 
+		<b>3Dプリンタ出力に対して知覚される硬軟度操作のための表面微細形状と内部構造設計</b>, 
+		<i><a href="https://sci19.iscie.or.jp/" target="_blank" rel="noopener">第63回システム制御情報学会研究発表講演会</a></i>. 
+		
+		pp. 1203-1207,
+		
+		
+		2019年5月.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>In Japanese</strong></span>
+		
+		
+         
+		<span class="badge bg-warning text-dark"><i class="fa-solid fa-award"></i><strong>学会賞奨励賞</strong></span>
+		
+         
+		<a href="https://ci.nii.ac.jp/naid/40021912225/" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		森田耕平, 田辺育暉, 佐藤優志, <u>プンポンサノン・パリンヤ</u>, 松倉悠, 岩井大輔, 佐藤宏介. 
+		<b>頭部方向を用いた投影型拡張仮想手の操作範囲の拡張</b>, 
+		<i><a href="https://sci19.iscie.or.jp/" target="_blank" rel="noopener">第63回システム制御情報学会研究発表講演会</a></i>. 
+		
+		pp. 1375-1381,
+		
+		
+		2019年5月.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>In Japanese</strong></span>
+		
+		
+        
+         
+		<a href="https://ci.nii.ac.jp/naid/40021912531/" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		佐藤優志, 田辺育暉, 森田耕平, <u>プンポンサノン・パリンヤ</u>, 松倉悠, 岩井大輔, 佐藤宏介. 
+		<b>投影バーチャルハンドの疑似触覚フィードバックによる接触感呈示</b>, 
+		<i><a href="https://sci19.iscie.or.jp/" target="_blank" rel="noopener">第63回システム制御情報学会研究発表講演会</a></i>. 
+		
+		pp. 1367-1374,
+		
+		
+		2019年5月.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>In Japanese</strong></span>
+		
+		
+         
+		<span class="badge bg-warning text-dark"><i class="fa-solid fa-award"></i><strong>学会賞奨励賞</strong></span>
+		
+         
+		<a href="https://ci.nii.ac.jp/naid/40021912520/" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Martin Nisser, Junyi Zhu, Tianye Chen, Katarina Bulovic, <u>Parinya Punpongsanon</u>, Stefanie Mueller. 
+		<b>Sequential Support&#58; 3D Printing Dissolvable Support Material for Time-Dependent Mechanisms</b>, 
+		<i><a href="https://tei.acm.org/2019/" target="_blank" rel="noopener">In Proceedings of ACM Annual Conference in Tangible, Embedded, and Embodied Interaction (TEI) 2019</a></i>. 
+		
+		pp. 669-676,
+		
+		
+		March 2019.
+		
+		
+		 
+		<span class="badge bg-light"><i class="fa-solid fa-percent"></i><strong>Acceptance Rate 31%</strong></span>
+		
+        
+         
+		<a href="https://doi.org/10.1145/3294109.3295630" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="http://groups.csail.mit.edu/hcie/files/research-projects/sequential-support/2019-TEI-SequentialSupport-paper.pdf" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://www.youtube.com/watch?v=T-22KOGFLoQ&amp;t=0s" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Tinglin Duan, <u>Parinya Punpongsanon</u>, Daisuke Iwai, Kosuke Sato. 
+		<b>FlyingHand&#58; Extending the Range of Haptic Feedback on Virtual Hand using Drone-based Object Recognition</b>, 
+		<i><a href="https://sa2018.siggraph.org/" target="_blank" rel="noopener">In Proceedings of ACM SIGGRAPH Asia 2018&#58; Technical Briefs</a></i>. 
+		
+		Article 28,
+		
+		
+		December 2018.
+		
+		
+		 
+		<span class="badge bg-light"><i class="fa-solid fa-percent"></i><strong>Acceptance Rate 30%</strong></span>
+		
+        
+         
+		<a href="https://doi.org/10.1145/3283254.3283258" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/4gfnmzv0t2x005r/SA_2018_FlyingHand_francis.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://youtu.be/c_y5MIAgVI8" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		<u>Parinya Punpongsanon</u>, Xin Wen, David Kim, Stefanie Mueller. 
+		<b>ColorMod&#58; Recoloring 3D Printed Objects using Photochromic Inks</b>, 
+		<i><a href="https://chi2018.acm.org/" target="_blank" rel="noopener">In Proceedings of ACM SIGCHI Conference on Human Factors in Computing Systems (CHI) 2018</a></i>. 
+		
+		pp. 213&#58;1-213&#58;12,
+		
+		
+		April 2018.
+		
+		
+		 
+		<span class="badge bg-light"><i class="fa-solid fa-percent"></i><strong>Acceptance Rate 25.7%</strong></span>
+		
+        
+         
+		<a href="https://doi.org/10.1145/3173574.3173787" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="http://groups.csail.mit.edu/hcie/files/research-projects/colormod/2018-chi-colormod-paper.pdf" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://youtu.be/F9FxWZ9IKBA" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Emilie Guy, <u>Parinya Punpongsanon</u>, Daisuke Iwai, Kosuke Sato, and Tamy Boubekeur. 
+		<b>LazyNav&#58; 3D Ground Navigation with Non-Critical Body Parts</b>, 
+		<i><a href="https://ieeevr.org/2015/index.html" target="_blank" rel="noopener">In Proceedings of IEEE Symposium on 3D User Interfaces (3DUI) 2015</a></i>. 
+		
+		pp. 43-50,
+		
+		
+		March 2015.
+		
+		
+		
+         
+		<span class="badge bg-warning text-dark"><i class="fa-solid fa-award"></i><strong>Best Paper Award</strong></span>
+		
+         
+		<a href="http://dx.doi.org/10.1109/3DUI.2015.7131725" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/znir2zhupvuv92f/3DUI_2015_LazyNav_guy.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://youtu.be/Y6zgFUl01Mo" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		<u>Parinya Punpongsanon</u>, Daisuke Iwai, and Kosuke Sato. 
+		<b>Projection-based Mixed Reality for Deformable Surfaces</b>, 
+		<i><a href="http://ypcex.naist.jp/kjmr2013/" target="_blank" rel="noopener">The 6th Korea-Japan Workshop on Mixed Reality (KJMR2013)</a></i>. 
+		
+		
+		February 2013.
+		
+		
+		
+         
+		<span class="badge bg-warning text-dark"><i class="fa-solid fa-award"></i><strong>Best Presentation Award</strong></span>
+		
+        
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		<u>Parinya Punpongsanon</u>, Daisuke Iwai, and Kosuke Sato. 
+		<b>表面変形のビジュアルトラッキングによる粘弾性曲面上での射影に基づく複合現実感</b>, 
+		<i><a href="https://www.sice.jp/division/meas/pattern/pattern_old/" target="_blank" rel="noopener">第88回パターン計測シンポジウム, 計測自動制御学会</a></i>. 
+		
+		pp. 35-40,
+		
+		
+		2012年12月.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>In Japanese</strong></span>
+		
+		
+        
+         
+		<a href="http://jglobal.jst.go.jp/public/20090422/201302272895929403#jgid201302272895929403" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/au663o44q4kg57v/SICE_2012_DeforMe_punpongsanon.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Suriyong Lertkulvanich, and <u>Parinya Punpongsanon</u>. 
+		<b>English Composition game on the computer using a Natural Language Processing through online learning</b>, 
+		<i><a href="" target="_blank" rel="noopener">In Proceedings of the 4th TCU International e-Learning Conference (IEC2012)</a></i>. 
+		
+		
+		June 2012.
+		
+		
+		
+        
+        
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+	</div>
+</div>
+<p></p>
+<div class="collapse multi-collapse" id="Poster">
+	<div class="card card-body card-font-small">
+		<h5 class="card-title">Conference Proceedings (Talks, Posters and Demonstration)</h5>
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Kohei Yanagi and <u>Parinya Punpongsanon</u>. 
+		<b>TeleFormation&#58; Join Socially Interacting with Comfortable for Shared Virtual Environment using F-Formation</b>, 
+		<i><a href="https://ieeevr.org/2026/program/posters/" target="_blank" rel="noopener">In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces (VR) 2026</a></i>. 
+		
+		XXX,
+		
+		
+		March 2026.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Poster</strong></span>
+		
+		 
+		<span class="badge bg-light"><i class="fa-solid fa-percent"></i><strong>Acceptance Rate 66.2%</strong></span>
+		
+        
+        
+		
+        
+        
+		<a href="https://youtu.be/P8MXEitdVKE" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Yamato Miyatake and <u>Parinya Punpongsanon</u>. 
+		<b>An Exploratory Study on Edible Conductive Materials Using Water and Oil-based Gels for Human-Food Interaction</b>, 
+		<i><a href="https://dl.acm.org/doi/proceedings/10.1145/3746059" target="_blank" rel="noopener">In Proceedings of the Adjunct Publication of ACM Symposium on User Interface Software and Technology (UIST) 2025</a></i>. 
+		
+		Article No. 129,
+		
+		
+		September 2025.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Poster</strong></span>
+		
+		
+        
+         
+		<a href="https://doi.org/10.1145/3746058.3758423" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/scl/fi/k26akd1clecwch3ktjkw1/UIST_2025_Olegel_miyatake.pdf" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Yamato Miyatake, huaishu Peng and <u>Parinya Punpongsanon</u>. 
+		<b>Towards Personalized Food Texture through Internal Structure with 3D Printed Silicone Molds</b>, 
+		<i><a href="https://dl.acm.org/doi/proceedings/10.1145/3746059" target="_blank" rel="noopener">In Proceedings of the Adjunct Publication of ACM Symposium on User Interface Software and Technology (UIST) 2025</a></i>. 
+		
+		Article No. 173,
+		
+		
+		September 2025.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Poster</strong></span>
+		
+		
+        
+         
+		<a href="https://doi.org/10.1145/3746058.3758407" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/scl/fi/g4gfmz101srspn49tj9n9/UIST_2025_ChewTect_miyatake.pdf" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Bo Peng and <u>Parinya Punpongsanon</u>. 
+		<b>SubtleNav&#58; A Preliminary Study on Minimal Interaction for Navigation Using Subtle Motion</b>, 
+		<i><a href="https://www.ieee-gcce.org/2025/index.html" target="_blank" rel="noopener">In Proceedings of the 2025 IEEE 14th Global Conference on Consumer Electronics (GCCE)</a></i>. 
+		
+		pp. 265-266,
+		
+		
+		September 2025.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Poster</strong></span>
+		
+		
+        
+         
+		<a href="https://doi.org/10.1109/GCCE65946.2025.11275305" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/scl/fi/9bu291tm236vb5jq2z6fz/GCCE_2025_SubtleNav.pdf" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Yamato Miyatake, <u>Parinya Punpongsanon</u>. 
+		<b>An Exploratory Study on Fabricating of Unobtrusive Edible Tags</b>, 
+		<i><a href="https://asia.siggraph.org/2024/" target="_blank" rel="noopener">In Proceedings of ACM SIGGRAPH Asia 2024 Poster</a></i>. 
+		
+		Article No. 51,
+		
+		
+		2024.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Poster</strong></span>
+		
+		
+        
+         
+		<a href="https://doi.org/10.1145/3681756.3697910" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/scl/fi/p9o6e68m0b3ohpoti5utd/SA_2024_Miyatake.pdf?rlkey=s3kpwrhb5wdg0ihf66tatnc7x&amp;st=lsrxpitn&amp;dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		淺井魁将, <u>プンポンサノン・パリンヤ</u>. 
+		<b>感情認識とヒト観察によるアバターの感情性の調査</b>, 
+		<i><a href="https://conference.vrsj.org/ac2024/" target="_blank" rel="noopener">第29回日本バーチャルリアリティ学会大会論文集</a></i>. 
+		
+		2A1-09,
+		
+		
+		2024年9月.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>In Japanese</strong></span>
+		
+		
+        
+         
+		<a href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202502214327983120" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/scl/fi/ibtbxs01l16vankdvylds/VRSJ_2024_asai.pdf" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		鵜木亮成, <u>プンポンサノン・パリンヤ</u>. 
+		<b>VR環境との同期のため嗅覚ドローンの飛行経路に関する探索的研究</b>, 
+		<i><a href="https://conference.vrsj.org/ac2024/" target="_blank" rel="noopener">第29回日本バーチャルリアリティ学会大会論文集</a></i>. 
+		
+		1D1-09,
+		
+		
+		2024年9月.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>In Japanese</strong></span>
+		
+		
+        
+         
+		<a href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202502290399490561" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/scl/fi/zgh04ohjc43ylznelbmdx/VRSJ_2024_unoki.pdf" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Yuto Umetsu, <u>Parinya Punpongsanon</u>, and Takefumi Hiraki. 
+		<b>InfiniteShader&#58; Color Changeable 3D Printed Objects using Bi-Stable Thermochromic Materials</b>, 
+		<i><a href="https://sa2022.siggraph.org/" target="_blank" rel="noopener">In Proceedings of ACM SIGGRAPH Asia 2022&#58; Technical Communications and Poster</a></i>. 
+		
+		Article No. 38,
+		
+		
+		2022.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Poster</strong></span>
+		
+		
+        
+         
+		<a href="https://doi.org/10.1145/3550082.3564209" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/yjyhix2aps58jm5/SA_2022_InfiniteShader_Umetsu.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		<u>Parinya Punpongsanon</u>, Yamamoto Miyatake, Daisuke Iwai, and Kosuke Sato. 
+		<b>Demonstration of interiqr&#58; Unobtrusive Edible Tags using Food 3D Printing</b>, 
+		<i><a href="https://uist.acm.org/uist2022/" target="_blank" rel="noopener">In Proceedings of the Adjunct Publication of ACM Symposium on User Interface Software and Technology (UIST) 2022</a></i>. 
+		
+		pp. 1-2,
+		
+		
+		October 2022.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Demonstration</strong></span>
+		
+		
+        
+         
+		<a href="https://doi.org/10.1145/3526114.3558630" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Valdemar Danry, Joanne Leong, Pat Pataranutaporn, Pulkit Tandon, Yimeng Liu, Roy Shilkrot, <u>Parinya Punpongsanon</u>, Tsachy Weissman, Pattie Maes, Misha Sra. 
+		<b>AI-Generated Characters&#58; Putting Deepfakes to Good Use</b>, 
+		<i><a href="https://www.media.mit.edu/events/chi-2022-deepfakes/" target="_blank" rel="noopener">Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing Systems (CHI 2022)</a></i>. 
+		
+		pp. 1-5,
+		
+		
+		2022.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Workshop</strong></span>
+		
+		
+        
+         
+		<a href="https://doi.org/10.1145/3491101.3503736" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/67p91dqgiqkdccc/CHI_2022_EA_AI_pat.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Piyarat Silapasuphakornwong, <u>Parinya Punpongsanon</u>, Chulapong Panichkriangkrai, Suchitra Sueeprasan, Kazutake Uehira. 
+		<b>Color Reproduction Framework for Inkjet FDM 3D Printers</b>, 
+		<i><a href="https://diglib.eg.org/bitstream/handle/10.2312/egp20211027/poster1004_005-006.pdf?sequence=2&amp;isAllowed=y" target="_blank" rel="noopener">In Proceedings of the 42nd Annual Conference of the European Association for Computer Graphics (EUROGRAPHICS) 2021</a></i>. 
+		
+		
+		2021.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Poster</strong></span>
+		
+		
+        
+         
+		<a href="https://doi.org/10.2312/egp.20211027" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/0v9oitghuif40pd/EG_2021_ColorFDM_silapasuphakornwong.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		堀 悠太郎, 平木 剛史, <u>プンポンサノン・パリンヤ</u>, 岩井 大輔, 川原 圭博, 佐藤 宏介. 
+		<b>双安定性サーモクロミックインクの選択的加熱を用いた造形後に表面色・模様を制御可能な立体物造形手法</b>, 
+		<i><a href="https://www.interaction-ipsj.org/proceedings/2021/data/bib/2P01.html" target="_blank" rel="noopener">インタラクション2021</a></i>. 
+		
+		ページ 662-667,
+		
+		
+		2021年2月.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>In Japanese, Poster</strong></span>
+		
+		
+        
+        
+		
+		<a href="https://www.interaction-ipsj.org/proceedings/2021/data/pdf/2P01.pdf" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Pat Pataranutaporn, Ali Shtarbanov, Glenn Fernandes, Jingwen Li, <u>Parinya Punpongsanon</u>, Joe Paradiso, and Pattie Maes. 
+		<b>Wearable Sanitizer&#58; Design and Implementation of an Open-source, On-body Sanitizer for a Post-Pandemic</b>, 
+		<i><a href="https://sa2020.siggraph.org/" target="_blank" rel="noopener">In Proceedings of ACM SIGGRAPH Asia 2020&#58; Emerging Technologies (eTech)</a></i>. 
+		
+		Article No. 1,
+		
+		
+		2020.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Demonstration</strong></span>
+		
+		
+        
+         
+		<a href="https://dl.acm.org/doi/10.1145/3415255.3422897" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/gs5ecte3wbvye3r/SA_2020_WearableSanitizer_pat.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Santawat Thanyadit, <u>Parinya Punpongsanon</u>, and Ting-Chuen Pong. 
+		<b>Demonstration of ObserVAR&#58; Visualization System for Observing Virtual Reality Users using Augmented Reality</b>, 
+		<i><a href="https://sa2020.siggraph.org/" target="_blank" rel="noopener">In Proceedings of ACM SIGGRAPH Asia 2020&#58; Extended Reality (XR)</a></i>. 
+		
+		Article No. 13,
+		
+		
+		2020.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Demonstration</strong></span>
+		
+		
+        
+         
+		<a href="https://dl.acm.org/doi/10.1145/3415256.3421495" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/a83fu2vh1cximl5/SA_2020_DemoObserVAR_thanyadit.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Santawat Thanyadit, <u>Parinya Punpongsanon</u>, Thammathip Piumsomboon, and Ting-Chuen Pong. 
+		<b>Substituting Teleportation Visualization for Collaborative Virtual Environments</b>, 
+		<i><a href="https://sui.acm.org/2020" target="_blank" rel="noopener">In Proceedings of 2020 ACM Symposium on Spatial User Interaction (SUI)</a></i>. 
+		
+		Article No. 31,
+		
+		
+		2020.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Poster</strong></span>
+		
+		
+         
+		<span class="badge bg-warning text-dark"><i class="fa-solid fa-award"></i><strong>Best Poster Award</strong></span>
+		
+         
+		<a href="https://doi.org/10.1145/3385959.3422698" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/a7f4w9zq504aogp/SUI_2020_Teleporatory__thanyadit.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://youtu.be/FaYiqoB6dSg" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		<u>Parinya Punpongsanon</u>, Ying-Ju Lin, Xin Wen, Daisuke Iwai, Kosuke Sato, Marianna Obrist, and Stefanie Mueller. 
+		<b>Demonstration of FoodFab&#58; Creating Food Perceptual Illusions using Food 3D Printing</b>, 
+		<i><a href="https://chi2020.acm.org/" target="_blank" rel="noopener">Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (CHI 2020)</a></i>. 
+		
+		pp. 16&#58;1-16&#58;4,
+		
+		
+		April 2020.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Demonstration</strong></span>
+		
+		
+        
+         
+		<a href="https://doi.org/10.1145/3334480.3383144" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/lhi21ktk2eoo0fg/CHI_2020_Demonstration_FoodFab_punpongsanon.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://youtu.be/kBojJIUhHS8" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Motoki Miyoshi, <u>Parinya Punpongsanon</u>, Daisuke Iwai, and Kosuke Sato. 
+		<b>Preliminary Study on Surface Texture to Manipulate perceived Softness of 3D Printed Objects</b>, 
+		<i><a href="https://conference.vrsj.org/icat-egve2019/" target="_blank" rel="noopener">In Proceedings of International Conference on Artificial Reality and Telexistence with Eurographics Symposium on Virtual Environments (ICAT-EGVE) 2019</a></i>. 
+		
+		pp. 17-18,
+		
+		
+		September 2019.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Poster</strong></span>
+		
+		
+        
+         
+		<a href="http://dx.doi.org/10.2312/egve.20191296" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/budpxsskev8m1li/ICAT_2019_SoftPrint_motoki.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Santawat Thanyadit, <u>Parinya Punpongsanon</u>, and Ting-Chuen Pong. 
+		<b>Investigating Visualization Techniques for Observing a Group of Virtual Reality Users Using Augmented Reality</b>, 
+		<i><a href="https://ieeevr.org/2019/" target="_blank" rel="noopener">In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces (VR) 2019</a></i>. 
+		
+		pp. 1189-1190,
+		
+		
+		March 2019.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Poster</strong></span>
+		
+		
+        
+         
+		<a href="https://doi.org/10.1109/VR.2019.8798123" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/32gg8s04syogaww/VR_2019_santawat.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Kosuke Hiratani, Daisuke Iwai, <u>Parinya Punpongsanon</u>, and Kosuke Sato. 
+		<b>Shadowless Projector&#58; Suppressing Shadows in Projection Mapping with Micro Mirror Array Plate</b>, 
+		<i><a href="https://ieeevr.org/2019/" target="_blank" rel="noopener">In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces (VR) 2019</a></i>. 
+		
+		pp. 1309-1310,
+		
+		
+		March 2019.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Demonstration</strong></span>
+		
+		
+         
+		<span class="badge bg-warning text-dark"><i class="fa-solid fa-award"></i><strong>Best Research Demonstration Runner-up Award</strong></span>
+		
+         
+		<a href="https://doi.org/10.1109/VR.2019.8798245" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/yiickw760ickvbb/VR_2019_hiratani.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://www.youtube.com/watch?v=xrKRMNlvkVg" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		Naruki Tanabe, Yushi Sato, Kohei Morita, Michiya Inagaki, Yuichi Fujino, <u>Parinya Punpongsanon</u>, Haruka Matsukura, Daisuke Iwai, and Kosuke Sato. 
+		<b>fARFEEL&#58; Providing Haptic Sensation of Touched Objects Using Visuo-Haptic Feedback</b>, 
+		<i><a href="https://ieeevr.org/2019/" target="_blank" rel="noopener">In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces (VR) 2019</a></i>. 
+		
+		pp. 1355-1356,
+		
+		
+		March 2019.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Demonstration</strong></span>
+		
+		
+        
+         
+		<a href="https://doi.org/10.1109/VR.2019.8798195" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/ed6tupk9xmnresb/VR_2019_fARFEEL_tanabe.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://www.youtube.com/watch?v=WekmX3iYCRI" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		<u>Parinya Punpongsanon</u>, Xin Wen, David Kim, and Stefanie Mueller. 
+		<b>ColorMod&#58; Demonstration of Recoloring 3D Printed Objects using Photochromic Inks</b>, 
+		<i><a href="https://chi2018.acm.org/" target="_blank" rel="noopener">Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems (CHI) 2018</a></i>. 
+		
+		D320,
+		
+		
+		April 2018.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Demonstration</strong></span>
+		
+		
+        
+         
+		<a href="https://doi.org/10.1145/3170427.3186507" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/c5whrzek3y66pew/CHI_2018_EA_ColorMod_punpongsanon.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://www.youtube.com/watch?v=ZwdvzUFEZe0" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		<u>Parinya Punpongsanon</u>, Emilie Guy, Tamy Boubekeur, Daisuke Iwai, and Kosuke Sato. 
+		<b>Ground Navigation in 3D Scenes using Simple Body Motions</b>, 
+		<i><a href="http://icategve14.uni-bremen.de/resources/ICAT-EGVE_CfP.pdf" target="_blank" rel="noopener">In Proceedings of International Conference on Artificial Reality and Telexistence with Eurographics Symposium on Virtual Environments (ICAT-EGVE) 2014</a></i>. 
+		
+		pp. 19-20,
+		
+		
+		December 2014.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Demonstration</strong></span>
+		
+		
+        
+         
+		<a href="http://dx.doi.org/10.2312/ve.20141377" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/3tygn6ymdqdr40n/ICAT_2014_LazyNav_punpongsanon.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		<u>Parinya Punpongsanon</u>, Daisuke Iwai, and Kosuke Sato. 
+		<b>A Preliminary Study on Altering Surface Softness Perception using Augmented Color and Deformation</b>, 
+		<i><a href="https://ismar2014.vgtc.org/" target="_blank" rel="noopener">In Proceedings of IEEE International Symposium on Mixed and Augmented Reality (ISMAR) 2014</a></i>. 
+		
+		pp. 301-302,
+		
+		
+		September 2014.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Poster</strong></span>
+		
+		
+        
+         
+		<a href="http://dx.doi.org/10.1109/ISMAR.2014.6948460" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/ywu34qa1rcg5u3r/ISMAR_2014_SoftAR_punpongsanon.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://www.youtube.com/watch?v=X0-M1rbA-Zw&amp;t=4s" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		<u>Parinya Punpongsanon</u>, Daisuke Iwai, Kosuke Sato, and Shinsaku Hiura. 
+		<b>Altering Surface Softness Perception in Spatial Augmented Reality by Visually Superimposing Projection Appearance</b>, 
+		<i><a href="http://shitsukan.jp/sites/default/files/sympoposter.pdf" target="_blank" rel="noopener">International Symposium on Future of SHITSUKAN research</a></i>. 
+		
+		
+		July 2014.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Poster</strong></span>
+		
+		
+        
+        
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		<u>Parinya Punpongsanon</u>, Daisuke Iwai, and Kosuke Sato. 
+		<b>Projection-based Visualization of Viscoelastic Surfaces Deformation using Infrared Vision Technique</b>, 
+		<i><a href="http://tsaj.org/tjia2013/" target="_blank" rel="noopener">In Proceedings of 6th Thailand-Japan International Academic Conference (TJIA)</a></i>. 
+		
+		
+		November 2013.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Poster</strong></span>
+		
+		
+        
+        
+		
+        
+        
+    </div>
+</div>
+
+
+
+        
+            <div class="row mb-4">
+    <div class="col-sm-12">
+		<u>Parinya Punpongsanon</u>, Daisuke Iwai, and Kosuke Sato. 
+		<b>DeforMe&#58; projection-based visualization of deformable surfaces using invisible textures</b>, 
+		<i><a href="https://sa2013.siggraph.org/" target="_blank" rel="noopener">In Proceedings of ACM SIGGRAPH Asia 2013&#58; Emerging Technologies (e-Tech)</a></i>. 
+		
+		Article 8,
+		
+		
+		November 2013.
+		
+		 
+		<span class="badge bg-light"><i class="fas fa-quote-left  pr-1 fa-fw"></i><strong>Demonstration</strong></span>
+		
+		
+        
+         
+		<a href="https://doi.org/10.1145/2542284.2542292" target="_blank" rel="noopener"><i class="fa-regular fa-paper-plane"></i></a> 
+		
+		
+		<a href="https://www.dropbox.com/s/7tdfrgqfz6vtfhn/SA_2013_DeforMe_punpongsanon.pdf?dl=0" target="_blank" rel="noopener"><i class="fa-regular fa-file-pdf"></i></a>
+		
+        
+        
+		<a href="https://www.youtube.com/watch?v=i3U93QTfzlg" target="_blank" rel="noopener">
+		<i class="fa-brands fa-youtube"></i></a> 
+		
+    </div>
+</div>
+
+
+
+        
+	</div>
+</div>
+
+<!-- Activities section -->
+
+<hr />
+
+<div class="row" id="activities">
+	<div class="col-12">
+		<h2 clss="mb-5"><i class="hgi hgi-stroke hgi-presentation-online"></i> Professional Activities</h2>
+	</div>
+	
+	<div class="col-sm-12">
+		<div class="card bg-light mb-3">
+			<div class="card-body card-font-small">
+				<h5 class="card-title">Invited Talks</h5>
+				<div class="row mb-4">
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2025/12/12</span>
+	<a href="https://www.ieice-sis.org/?p=2482" target="_blank" rel="noopener">
+		電子情報通信学会 スマートインフォメディアシステム研究会 
+	</a> 
+	名城大学
+	<i class="fa-solid fa-angle-right"></i>
+	"XRにおける知覚・インタラクション・共同作業の人間拡張"
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2025/10/30</span>
+	<a href="https://www.vsat.jp/" target="_blank" rel="noopener">
+		第12回視覚科学技術コンソーシアム 
+	</a> 
+	TKP大宮ビジネスセンター
+	<i class="fa-solid fa-angle-right"></i>
+	"視覚認識とデジタルファブリケーション"
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2025/05/23</span>
+	<a href="https://www.signal.co.jp/" target="_blank" rel="noopener">
+		日本信号 (NIPPON SIGNAL) 第60回出張講義 
+	</a> 
+	久喜事業所
+	<i class="fa-solid fa-angle-right"></i>
+	"ドローンとの感覚認識研究"
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2020/04/28</span>
+	<a href="https://sigchi.jp/event/chi2020-japan-chapter/" target="_blank" rel="noopener">
+		CHI2020 - Japan Chapter local meeting 
+	</a> 
+	Virtual event
+	<i class="fa-solid fa-angle-right"></i>
+	"FoodFab&#58; Creating Food Perception Illusions using Food 3D Printing"
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2020/06/30</span>
+	<a href="https://dl.acm.org/doi/10.1145/3411763.3441317" target="_blank" rel="noopener">
+		CHI 2020 Smell, taste and tempurature 
+	</a> 
+	Virtual event
+	<i class="fa-solid fa-angle-right"></i>
+	"FoodFab&#58; Creating Food Perception Illusions using Food 3D Printing"
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2019/09/02</span>
+	<a href="https://www.his.gr.jp/sympo/his2019.html" target="_blank" rel="noopener">
+		Human Interface Symposium 2019 
+	</a> 
+	Kyoto, Japan
+	<i class="fa-solid fa-angle-right"></i>
+	"My Research Paper Submission Experience at CHI2018 and UIST2019"
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2019/03/25</span>
+	<a href="http://ieeevr.org/2019/" target="_blank" rel="noopener">
+		IEEE VR 2019 
+	</a> 
+	Osaka, Japan
+	<i class="fa-solid fa-angle-right"></i>
+	"FleXeen&#58; Visually Manipulating Perceived Fabric Bending Stiffness in Spatial Augmented Reality"
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2018/12/12</span>
+	<a href="https://sigchi.jp/symposium/2018/" target="_blank" rel="noopener">
+		ACM SIGCHI Asian Symposium 2018 
+	</a> 
+	Sendai, Japan
+	<i class="fa-solid fa-angle-right"></i>
+	"Providing Target Haptics Sensation to Everyday Objects&#58; From Digital to Physical Reality"
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2016/08/01</span>
+	<a href="https://sites.google.com/site/miru2016hamamatsu/program#IS1" target="_blank" rel="noopener">
+		MIRU 2016 
+	</a> 
+	Shizuoka, Japan
+	<i class="fa-solid fa-angle-right"></i>
+	"SoftAR&#58; Visually Manipulating Haptic Softness Perception in Spatial Augmented Reality"
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2016/07/24</span>
+	<a href="http://s2016.siggraph.org/" target="_blank" rel="noopener">
+		ACM SIGGRAPH 2016&#58; IEEE TVCG Special Session on VR/AR 
+	</a> 
+	Anaheim, USA
+	<i class="fa-solid fa-angle-right"></i>
+	"SoftAR&#58; Visually Manipulating Haptic Softness Perception in Spatial Augmented Reality"
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2015/09/09</span>
+	<a href="https://vrsj.org/events/schedule/y2015/" target="_blank" rel="noopener">
+		VRSJ 2015&#58; 世界を目指せ！ ― トップコンファレンス採択論文 紹介 
+	</a> 
+	Tokyo, Japan
+	<i class="fa-solid fa-angle-right"></i>
+	"LazyNav&#58; 3D Ground Navigation with Non-Critical Body Parts"
+</div>
+
+
+				
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="card bg-light mb-3">
+			<div class="card-body card-font-small">
+				<h5 class="card-title">Funding</h5>
+				
+					<div class="row mb-4">
+	<div class="col-sm-12">
+		<span class="text-secondary">[May 2023 - Mar 2025]</span>
+		<br />
+		<a href="https://www.riec.tohoku.ac.jp/ja/nation-wide/" target="_blank" rel="noopener">RIEC Nation-wide Cooperative Research Projects</a>
+		<br />
+		人工知能による表情やジェスチャーを通じた非言語コミュニケーションの強化 (Project No. R05/A32)
+	</div>
+</div>
+
+
+			<!--
+			<b></b>, 
+			<i><a href="" target="_blank" rel="noopener"></a></i>. 
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			-->
+<!--
+	</div>
+</div>
+-->
+				
+					<div class="row mb-4">
+	<div class="col-sm-12">
+		<span class="text-secondary">[Apr 2023 - Mar 2026]</span>
+		<br />
+		<a href="https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-23K11198/" target="_blank" rel="noopener">JSPS Grants-in-Aid for Scientific Research (Scientific Research C)</a>
+		<br />
+		基盤C/デジタルファブリケーションを利用した食品へのデータ埋め込みに関する研究 (Project No. 23K11198）
+	</div>
+</div>
+
+
+			<!--
+			<b></b>, 
+			<i><a href="" target="_blank" rel="noopener"></a></i>. 
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			-->
+<!--
+	</div>
+</div>
+-->
+				
+					<div class="row mb-4">
+	<div class="col-sm-12">
+		<span class="text-secondary">[Oct 2022 - Sep 2023]</span>
+		<br />
+		<a href="https://www.nidec.com/jp/nagamori-f/subsidy/winner/2015.html" target="_blank" rel="noopener">NAGAMORI Foundation Award</a>
+		<br />
+		研究助成/Development of Haptic Thermal Perception Device for VR Controller using Flexible Thermoelectric Material
+	</div>
+</div>
+
+
+			<!--
+			<b></b>, 
+			<i><a href="" target="_blank" rel="noopener"></a></i>. 
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			-->
+<!--
+	</div>
+</div>
+-->
+				
+					<div class="row mb-4">
+	<div class="col-sm-12">
+		<span class="text-secondary">[Apr 2022 - Mar 2025]</span>
+		<br />
+		<a href="https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-22H01447/" target="_blank" rel="noopener">JSPS Grants-in-Aid for Scientific Research (Scientific Research B)</a>
+		<br />
+		基盤B/ポリマー光造形と知覚処理機構を融合したヒトに迫る質感認識能力を有するソフトハンド (Project No. 22H01447/Co-Investigator)
+	</div>
+</div>
+
+
+			<!--
+			<b></b>, 
+			<i><a href="" target="_blank" rel="noopener"></a></i>. 
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			-->
+<!--
+	</div>
+</div>
+-->
+				
+					<div class="row mb-4">
+	<div class="col-sm-12">
+		<span class="text-secondary">[Oct 2021 - Sep 2022]</span>
+		<br />
+		<a href="https://www.nidec.com/jp/nagamori-f/subsidy/winner/2015.html" target="_blank" rel="noopener">NAGAMORI Foundation Award</a>
+		<br />
+		研究助成/Development of Haptics Display that Simulate Liquid Material Properties using Electromagnet
+	</div>
+</div>
+
+
+			<!--
+			<b></b>, 
+			<i><a href="" target="_blank" rel="noopener"></a></i>. 
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			-->
+<!--
+	</div>
+</div>
+-->
+				
+					<div class="row mb-4">
+	<div class="col-sm-12">
+		<span class="text-secondary">[Dec 2020 - Mar 2023]</span>
+		<br />
+		<a href="https://www.jst.go.jp/kisoken/act-x/index.html" target="_blank" rel="noopener">JST ACT-X (AI powered Research Innovation)</a>
+		<br />
+		Computational Food Textures for Enhancing Eating Experience using Food 3D Printer and AI
+	</div>
+</div>
+
+
+			<!--
+			<b></b>, 
+			<i><a href="" target="_blank" rel="noopener"></a></i>. 
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			-->
+<!--
+	</div>
+</div>
+-->
+				
+					<div class="row mb-4">
+	<div class="col-sm-12">
+		<span class="text-secondary">[Oct 2020 - Sep 2022]</span>
+		<br />
+		<a href="http://mrl.es.osaka-u.ac.jp/" target="_blank" rel="noopener">Osaka University Multidisciplinary Research Laboratory</a>
+		<br />
+		共同研究/フード3Dプリンターと人工知能を使用して食事体験を向上させる計算フードテクスチャ
+	</div>
+</div>
+
+
+			<!--
+			<b></b>, 
+			<i><a href="" target="_blank" rel="noopener"></a></i>. 
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			-->
+<!--
+	</div>
+</div>
+-->
+				
+					<div class="row mb-4">
+	<div class="col-sm-12">
+		<span class="text-secondary">[Oct 2020 - Sep 2021]</span>
+		<br />
+		<a href="https://www.nidec.com/jp/nagamori-f/subsidy/report/2020.html" target="_blank" rel="noopener">NAGAMORI Foundation Award</a>
+		<br />
+		研究助成/Development of 3D Printed Soft Actuators for Haptics Display by Varying the Materials and Air Pressure
+	</div>
+</div>
+
+
+			<!--
+			<b></b>, 
+			<i><a href="" target="_blank" rel="noopener"></a></i>. 
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			-->
+<!--
+	</div>
+</div>
+-->
+				
+					<div class="row mb-4">
+	<div class="col-sm-12">
+		<span class="text-secondary">[Apr 2019 - Mar 2021]</span>
+		<br />
+		<a href="https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-19K20321/" target="_blank" rel="noopener">JSPS Grants-in-Aid for Scientific Research (Early-Career Scientists)</a>
+		<br />
+		若手研究/3Dプリンタの柔らかさ表現能力を拡張する計算論的ファブリケーション研究 (Project No. 19K20321）
+	</div>
+</div>
+
+
+			<!--
+			<b></b>, 
+			<i><a href="" target="_blank" rel="noopener"></a></i>. 
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			-->
+<!--
+	</div>
+</div>
+-->
+				
+					<div class="row mb-4">
+	<div class="col-sm-12">
+		<span class="text-secondary">[Oct 2018 - Sep 2019]</span>
+		<br />
+		<a href="http://mrl.es.osaka-u.ac.jp/" target="_blank" rel="noopener">Osaka University Multidisciplinary Research Laboratory</a>
+		<br />
+		個人研究/色の変化できる素材を使って日常物の持続性を高める研究
+	</div>
+</div>
+
+
+			<!--
+			<b></b>, 
+			<i><a href="" target="_blank" rel="noopener"></a></i>. 
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			-->
+<!--
+	</div>
+</div>
+-->
+				
+					<div class="row mb-4">
+	<div class="col-sm-12">
+		<span class="text-secondary">[Apr 2016 - Mar 2018]</span>
+		<br />
+		<a href="https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-16J00049/" target="_blank" rel="noopener">JSPS Specially Promoted Research (DC2/PD)</a>
+		<br />
+		特別研究員奨励費/身体および接触対象への映像重畳投影が触質感知覚に及ぼす影響の解明 (Project No. 16J00049）
+	</div>
+</div>
+
+
+			<!--
+			<b></b>, 
+			<i><a href="" target="_blank" rel="noopener"></a></i>. 
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			-->
+<!--
+	</div>
+</div>
+-->
+				
+					<div class="row mb-4">
+	<div class="col-sm-12">
+		<span class="text-secondary">[Dec 2012 - Feb 2013]</span>
+		<br />
+		<a href="" target="_blank" rel="noopener">Student Dispatch Program (Short-term Visiting Researcher)</a>
+		<br />
+		Funding by Graduate School of Engineering Science, Osaka University
+	</div>
+</div>
+
+
+			<!--
+			<b></b>, 
+			<i><a href="" target="_blank" rel="noopener"></a></i>. 
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			-->
+<!--
+	</div>
+</div>
+-->
+				
+					<div class="row mb-4">
+	<div class="col-sm-12">
+		<span class="text-secondary">[Oct 2011 - Sep 2016]</span>
+		<br />
+		<a href="" target="_blank" rel="noopener">MEXT Scholarship</a>
+		<br />
+		Scholarship by the Ministry of Education, Culture, Sports, Science and Technology of Japan (MEXT)
+	</div>
+</div>
+
+
+			<!--
+			<b></b>, 
+			<i><a href="" target="_blank" rel="noopener"></a></i>. 
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			-->
+<!--
+	</div>
+</div>
+-->
+				
+					<div class="row mb-4">
+	<div class="col-sm-12">
+		<span class="text-secondary">[Oct 2008 - Sep 2009]</span>
+		<br />
+		<a href="" target="_blank" rel="noopener">JASSO Scholarship</a>
+		<br />
+		Scholarship by the Japan Student Services Organization, Ministry of Education, Culture, Sports, Science and Technology of Japan
+	</div>
+</div>
+
+
+			<!--
+			<b></b>, 
+			<i><a href="" target="_blank" rel="noopener"></a></i>. 
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			-->
+<!--
+	</div>
+</div>
+-->
+				
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="card bg-light mb-3">
+			<div class="card-body card-font-small">
+				<h5 class="card-title">Awards</h5>
+				
+					<!--
+<div class="github-card" data-filter="">
+    <div data-url=""></div>
+</div>
+-->
+
+<div class="row mb-4">
+	<div class="col-sm-12">
+		<a href="https://www.ieee-gcce.org/2025/awards.html" target="_blank" rel="noopener">IEEE GCCE 2025 Best Presentation Award</a>
+		<br />
+		Jiaqi Gu and Parinya Punpongsanon, "Exploratory Study of AR Hand Redirection Using Augmented Virtual Hand", IEEE 2025 Global Conference on Consumer Electronics (GCCE), 2025
+	</div>
+</div>
+
+				
+					<!--
+<div class="github-card" data-filter="">
+    <div data-url=""></div>
+</div>
+-->
+
+<div class="row mb-4">
+	<div class="col-sm-12">
+		<a href="https://www.ipsj.or.jp/award/taikaigakusei.html" target="_blank" rel="noopener">2025年度学会賞奨励賞</a>
+		<br />
+		遠藤碧海, プンポンサノン・パリンヤ, “咀嚼情報と色の情動を利用した摂食行動改善のための拡張視覚化システムの開発”, 第87回情報処理学会全国大会
+	</div>
+</div>
+
+				
+					<!--
+<div class="github-card" data-filter="">
+    <div data-url=""></div>
+</div>
+-->
+
+<div class="row mb-4">
+	<div class="col-sm-12">
+		<a href="https://sci22.iscie.or.jp/award/" target="_blank" rel="noopener">2022年度学会賞奨励賞</a>
+		<br />
+		松田綾美, 宮武大和, プンポンサノン・パリンヤ, 岩井大輔, 佐藤宏介, “センサ内蔵スマートテーブルウェアの構築とロボットアームによるフィー ドバックの検討”, 第66回 システム制御情報学会研究発表講演会
+	</div>
+</div>
+
+				
+					<!--
+<div class="github-card" data-filter="">
+    <div data-url=""></div>
+</div>
+-->
+
+<div class="row mb-4">
+	<div class="col-sm-12">
+		<a href="" target="_blank" rel="noopener">IEEE ISMAR 2021 Best Journal Paper Award</a>
+		<br />
+		Sorashi Kimura, Daisuke Iwai, Parinya Punpongsanon, and Kosuke Sato. “Multifocal Stereoscopic Projection Mapping”, IEEE International Symposium on Mixed and Augmented Reality (ISMAR), 2021
+	</div>
+</div>
+
+				
+					<!--
+<div class="github-card" data-filter="">
+    <div data-url=""></div>
+</div>
+-->
+
+<div class="row mb-4">
+	<div class="col-sm-12">
+		<a href="http://www.ieee-lifetech.org/2021/awards.html" target="_blank" rel="noopener">IEEE LifeTech 2021 Outstanding Paper Awards for Oral Presentation</a>
+		<br />
+		Parinya Punpongsanon, and Hiroki Ishizuka. “EdiSensor&#58; Facilitating Food Electricity for Eating Habits Analysis”, IEEE 3rd Global Conference on Life Sciences and Technologies (LifeTech), 2021
+	</div>
+</div>
+
+				
+					<!--
+<div class="github-card" data-filter="">
+    <div data-url=""></div>
+</div>
+-->
+
+<div class="row mb-4">
+	<div class="col-sm-12">
+		<a href="https://sui.acm.org/2020/program-posters" target="_blank" rel="noopener">ACM SUI 2020 Best Poster Award</a>
+		<br />
+		Santawat Thanyadit, Parinya Punpongsanon, Thammathip Piumsomboon, and Ting-Chuen Pong. “Substituting Teleportation Visualization for Collaborative Virtual Environments”, ACM Symposium on Spatial User Interaction (SUI), 2020
+	</div>
+</div>
+
+				
+					<!--
+<div class="github-card" data-filter="">
+    <div data-url=""></div>
+</div>
+-->
+
+<div class="row mb-4">
+	<div class="col-sm-12">
+		<a href="https://uist.acm.org/uist2020/" target="_blank" rel="noopener">ACM UIST 2020 Honorable Mention Award</a>
+		<br />
+		Haruki Takahashi, Parinya Punpongsanon, and Jeeeun Kim, “Programmable Filament&#58; Printed Filaments for Multi-material 3D Printing”, ACM Symposium on User Interface Software and Technology (UIST), 2020
+	</div>
+</div>
+
+				
+					<!--
+<div class="github-card" data-filter="">
+    <div data-url=""></div>
+</div>
+-->
+
+<div class="row mb-4">
+	<div class="col-sm-12">
+		<a href="http://www.ieee-gcce.org/2020/index.html" target="_blank" rel="noopener">IEEE GCCE 2020 Excellent Student Paper Award</a>
+		<br />
+		Liyuan Duan, Haruka Matsukura, Parinya Punpongsanon, Takefumi Hiraki, Daisuke Iwai, and Kosuke Sato, “Adaptive Visualization of Gas Distribution Using Augmented Reality Glasses”, IEEE 9th Global Conference on Consumer Electronics (GCCE), 2020
+	</div>
+</div>
+
+				
+					<!--
+<div class="github-card" data-filter="">
+    <div data-url=""></div>
+</div>
+-->
+
+<div class="row mb-4">
+	<div class="col-sm-12">
+		<a href="https://asian-chi.github.io/2020/awards/" target="_blank" rel="noopener">Asian CHI Symposium 2020 Best Presentation Award (Showcase)</a>
+		<br />
+		Parinya Punpongsanon, Ying-Ju Lin, Xin Wen, Daisuke Iwai, Kosuke Sato, Marianna Obrist, and Stefanie Mueller, “FoodFab&#58; Creating Food Perception Illusions using Food 3D Printing”
+	</div>
+</div>
+
+				
+					<!--
+<div class="github-card" data-filter="">
+    <div data-url=""></div>
+</div>
+-->
+
+<div class="row mb-4">
+	<div class="col-sm-12">
+		<a href="https://sci19.iscie.or.jp/award/" target="_blank" rel="noopener">2019年度学会賞奨励賞</a>
+		<br />
+		佐藤優志，田辺育暉，森田耕平，プンポンサノンパリンヤ，松倉悠，岩井大輔，佐藤宏介， “投影バーチャルハンドにおける疑似触覚フィードバックによる接触感呈示”，第63回システム制御情報学会研究発表講演会
+	</div>
+</div>
+
+				
+					<!--
+<div class="github-card" data-filter="">
+    <div data-url=""></div>
+</div>
+-->
+
+<div class="row mb-4">
+	<div class="col-sm-12">
+		<a href="https://sci19.iscie.or.jp/award/" target="_blank" rel="noopener">2019年度学会賞奨励賞</a>
+		<br />
+		三好幹, プンポンサノン パリンヤ, 岩井大輔, 佐藤宏介, “3Dプリンタ出力に対して知覚される硬軟度操作のための表面微細形状と内部構造設計”, 第63回システム制御情報学会研究発表講演会
+	</div>
+</div>
+
+				
+					<!--
+<div class="github-card" data-filter="">
+    <div data-url=""></div>
+</div>
+-->
+
+<div class="row mb-4">
+	<div class="col-sm-12">
+		<a href="https://uist.acm.org/uist2019/" target="_blank" rel="noopener">ACM UIST 2019 Best Paper Award</a>
+		<br />
+		Yuhua Jin, Isabel Qamar, Michael Wessely, Aradhana Adhikari, Katarina Bulovic, Parinya Punpongsanon, and Stefanie Mueller, “Photo-Chromeleon&#58; Re-Programmable Multi-Color Textures Using Photochromic Dyes”, ACM Symposium on User Interface Software and Technology (UIST), 2019
+	</div>
+</div>
+
+				
+					<!--
+<div class="github-card" data-filter="">
+    <div data-url=""></div>
+</div>
+-->
+
+<div class="row mb-4">
+	<div class="col-sm-12">
+		<a href="https://uist.acm.org/uist2019/" target="_blank" rel="noopener">ACM UIST 2019 Best Talk Award</a>
+		<br />
+		Yuhua Jin, Isabel Qamar, Michael Wessely, Aradhana Adhikari, Katarina Bulovic, Parinya Punpongsanon, and Stefanie Mueller, “Photo-Chromeleon&#58; Re-Programmable Multi-Color Textures Using Photochromic Dyes”, ACM Symposium on User Interface Software and Technology (UIST), 2019
+	</div>
+</div>
+
+				
+					<!--
+<div class="github-card" data-filter="">
+    <div data-url=""></div>
+</div>
+-->
+
+<div class="row mb-4">
+	<div class="col-sm-12">
+		<a href="https://photos.app.goo.gl/PR2FsqQVbDnNQGvh7" target="_blank" rel="noopener">IEEE VR 2019 Best Research Demonstration Runner-up Award</a>
+		<br />
+		Kosuke Hiratani, Daisuke Iwai, Parinya Punpongsanon, and Kosuke Sato, “Shadowless Projector#58; Suppressing Shadows in Projection Mapping with Micro Mirror Array Plate”, IEEE Conference in Virtual Reality and 3D User Interfaces (VR), 2019
+	</div>
+</div>
+
+				
+					<!--
+<div class="github-card" data-filter="">
+    <div data-url=""></div>
+</div>
+-->
+
+<div class="row mb-4">
+	<div class="col-sm-12">
+		<a href="http://www.ieee-jp.org/section/kansai/activity/members/pdf/annual2017.pdf" target="_blank" rel="noopener">IEEE Kansai Section Best Student Research Award 2016</a>
+		<br />
+		Student Research award at IEEE Kansai Section 2016
+	</div>
+</div>
+
+				
+					<!--
+<div class="github-card" data-filter="">
+    <div data-url=""></div>
+</div>
+-->
+
+<div class="row mb-4">
+	<div class="col-sm-12">
+		<a href="https://uist.acm.org/uist2016/schedule#awards" target="_blank" rel="noopener">ACM UIST 2016 Best Student Volunteer Award</a>
+		<br />
+		Student Volunteers award at the 29th ACM User Interface Software and Technology Symposium 2016
+	</div>
+</div>
+
+				
+					<!--
+<div class="github-card" data-filter="">
+    <div data-url=""></div>
+</div>
+-->
+
+<div class="row mb-4">
+	<div class="col-sm-12">
+		<a href="http://www.3dui.org/2015/" target="_blank" rel="noopener">IEEE 3DUI 2015 Best Paper Award</a>
+		<br />
+		Emilie Guy, Parinya Punpongsanon, Daisuke Iwai, Kosuke Sato, Tamy Boubekeur, “LazyNav&#58; 3D Ground Navigation with Non-Critical Body Parts”, IEEE Symposium on 3D User Interfaces (3DUI), 2015
+	</div>
+</div>
+
+				
+					<!--
+<div class="github-card" data-filter="">
+    <div data-url=""></div>
+</div>
+-->
+
+<div class="row mb-4">
+	<div class="col-sm-12">
+		<a href="" target="_blank" rel="noopener">Highest Commendation for Volunteer Services SIGGRAPH Asia 2014</a>
+		<br />
+		Student Volunteers award of the 7th ACM SIGGRAPH Asia 2014
+	</div>
+</div>
+
+				
+					<!--
+<div class="github-card" data-filter="">
+    <div data-url=""></div>
+</div>
+-->
+
+<div class="row mb-4">
+	<div class="col-sm-12">
+		<a href="http://ypcex.naist.jp/kjmr2013/" target="_blank" rel="noopener">KJMR 2013 Best Presentation Award</a>
+		<br />
+		Parinya Punpongsanon, Daisuke Iwai, and Kosuke Sato, “Projection-based Mixed Reality for Deformable Surfaces,” Korea-Japan Workshop on Mixed Reality, 2013
+	</div>
+</div>
+
+				
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-12">
+		<div class="card bg-light mb-3">
+			<div class="card-body card-font-small">
+				<h5 class="card-title">Academic Services</h5>
+				<div class="row mb-4">
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2026</span>
+	<a href="https://scf.acm.org/2026/organizers.html" target="_blank" rel="noopener">
+		Demo Co-chairs 
+		<i class="fa-regular fa-share-from-square"></i>
+	</a> 
+	The 11th annual ACM Symposium on Computational Fabrication 2026, Tokyo, Japan
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2026</span>
+	<a href="https://aivr.science.uu.nl/2026/" target="_blank" rel="noopener">
+		Registration Chair 
+		<i class="fa-regular fa-share-from-square"></i>
+	</a> 
+	The 8th IEEE conference on AI and Extended and Virtual Reality 2026, Osaka, Japan
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2025</span>
+	<a href="https://www.ieee-gcce.org/2025/index.html" target="_blank" rel="noopener">
+		Session Chair (User Interfaces) 
+		<i class="fa-regular fa-share-from-square"></i>
+	</a> 
+	The 2025 IEEE 14th Global Conference on Consumer Electronics (GCCE) 2025, Osaka, Japan
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2025</span>
+	<a href="https://ieeevr.org/2025/committees/conference-committee/" target="_blank" rel="noopener">
+		Tutorial Co-chairs 
+		<i class="fa-regular fa-share-from-square"></i>
+	</a> 
+	The 2025 IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR), Saint-Malo, France
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2022</span>
+	<a href="https://sui.acm.org/2022/organization" target="_blank" rel="noopener">
+		Poster Chair 
+		<i class="fa-regular fa-share-from-square"></i>
+	</a> 
+	ACM Spatial User Interaction (SUI) 2022, Virtual
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2021</span>
+	<a href="https://www.frontiersin.org/research-topics/15338/supernatural-enhancements-of-perception-interaction-and-collaboration-in-mixed-reality" target="_blank" rel="noopener">
+		Guest Editor 
+		<i class="fa-regular fa-share-from-square"></i>
+	</a> 
+	Frontier Virtual Reality (2021) Supernatural Enhancements of Perception, Interaction, and Collaboration in Mixed Reality
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2021</span>
+	<a href="https://vrst.acm.org/vrst2021/organizers/" target="_blank" rel="noopener">
+		Program Chair 
+		<i class="fa-regular fa-share-from-square"></i>
+	</a> 
+	The 27th ACM Symposium on Virtual Reality Software and Technology (VRST) 2021, Osaka, Japan
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2021</span>
+	<a href="http://www.ieee-lifetech.org/2021/index.html" target="_blank" rel="noopener">
+		Session Chair (Healthcare Technologies) 
+		<i class="fa-regular fa-share-from-square"></i>
+	</a> 
+	The 2021 IEEE 3rd Global Conference on Life Sciences and Technologies (LifeTech) 2021, Nara, Japan
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2019</span>
+	<a href="https://cf-collaborator.github.io/cscw-aws2019/" target="_blank" rel="noopener">
+		Web Chair 
+		<i class="fa-regular fa-share-from-square"></i>
+	</a> 
+	ACM CSCW Asia Winter School 2019, Kyoto, Japan
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2018</span>
+	<a href="https://computationalardisplays2018.github.io/" target="_blank" rel="noopener">
+		Workshop Co-Organizer 
+		<i class="fa-regular fa-share-from-square"></i>
+	</a> 
+	ACM ISS'18 Workshop on Computational Augmented Reality Displays 2018, Tokyo, Japan
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2018</span>
+	<a href="https://iss.acm.org/2018/organization/" target="_blank" rel="noopener">
+		Doctoral Consortium Co-Chair 
+		<i class="fa-regular fa-share-from-square"></i>
+	</a> 
+	ACM International Conference on Interactive Surfaces and Spaces (ISS) 2018, Tokyo, Japan
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2017</span>
+	<a href="http://scf.acm.org/" target="_blank" rel="noopener">
+		Local Arrangements Chair 
+		<i class="fa-regular fa-share-from-square"></i>
+	</a> 
+	Symposium on Computational Fabrication (SCF) 2017, Cambridge, USA
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2017</span>
+	<a href="http://scf.acm.org/" target="_blank" rel="noopener">
+		Local Arrangements Chair 
+		<i class="fa-regular fa-share-from-square"></i>
+	</a> 
+	SIGCHI Summer School on Computational Fabrication and Smart Matter 2017, Cambridge, USA
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2017</span>
+	<a href="https://chi2017.acm.org/program/?tab=chi2017-schedule&amp;slot=5_10_17_11_30_12_50&amp;session=paper_66&amp;day=Wednesday" target="_blank" rel="noopener">
+		Session Chair (Experiences with Virtual Reality) 
+		<i class="fa-regular fa-share-from-square"></i>
+	</a> 
+	ACM Conference on Human Factors in Computing Systems (CHI) 2017, Denver, USA
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2017</span>
+	<a href="https://uist.acm.org/uist2017/" target="_blank" rel="noopener">
+		Documentations Chair 
+		<i class="fa-regular fa-share-from-square"></i>
+	</a> 
+	ACM User Interface Software and Technology Symposium (UIST) 2017, Quebec City, Canada
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2016</span>
+	<a href="http://sui-symposium.org/" target="_blank" rel="noopener">
+		AV Chair 
+		<i class="fa-regular fa-share-from-square"></i>
+	</a> 
+	ACM Symposium on Spatial User Interaction (SUI) 2016, Tokyo, Japan
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2015</span>
+	<a href="http://20th.vrsj.org/" target="_blank" rel="noopener">
+		Visual Design and Web Chair 
+		<i class="fa-regular fa-share-from-square"></i>
+	</a> 
+	The 20th Anniversary of The Virtual Reality Society of Japan
+</div>
+
+
+				
+					<div class="col-sm-12">
+	<span class="text-secondary">2015</span>
+	<a href="http://www.ic-at.org/2015/" target="_blank" rel="noopener">
+		Chief Graphics Designer 
+		<i class="fa-regular fa-share-from-square"></i>
+	</a> 
+	The 25th International Conference on Artificial Reality and Telexistence and Symposium on Virtual Environments (ICAT-EGVE) 2015, Kyoto, Japan
+</div>
+
+
+				
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="card bg-light mb-3">
+			<div class="card-body card-font-small">
+				<h6 class="card-title">Program Committee member</h6>
+				<div class="row mb-4">
+				
+					<div class="col-sm-12">
+	<a href="https://chi2025.acm.org/for-authors/presenting/papers/selecting-a-subcommittee#Design" target="_blank" rel="noopener">ACM CHI</a> 
+	2025 (Design area), 2022 (Design area), 2021 (Design area)
+</div>
+
+				
+					<div class="col-sm-12">
+	<a href="" target="_blank" rel="noopener">ACM DIS</a> 
+	2026 (Artifact area)
+</div>
+
+				
+					<div class="col-sm-12">
+	<a href="https://tei.acm.org/2021/participate/work-in-progress/" target="_blank" rel="noopener">ACM TEI</a> 
+	2021 (WIP)
+</div>
+
+				
+					<div class="col-sm-12">
+	<a href="https://asia.siggraph.org/2025/about-the-event/siggraph-asia-2025-committee/emerging-technologies-committee/" target="_blank" rel="noopener">ACM SIGGRAPH Asia (Emerging Technologies Track)</a> 
+	2025, 2024, 2023, 2021, 2020, 2018, 2017
+</div>
+
+				
+					<div class="col-sm-12">
+	<a href="https://sui.acm.org/2024/" target="_blank" rel="noopener">ACM SUI</a> 
+	2024, 2023, 2022
+</div>
+
+				
+					<div class="col-sm-12">
+	<a href="https://uist.acm.org/uist2020/organizers.html" target="_blank" rel="noopener">ACM UIST</a> 
+	2020
+</div>
+
+				
+					<div class="col-sm-12">
+	<a href="https://vrst.acm.org/" target="_blank" rel="noopener">ACM VRST</a> 
+	2026
+</div>
+
+				
+					<div class="col-sm-12">
+	<a href="" target="_blank" rel="noopener">ICAT-EGVE</a> 
+	2018, 2017
+</div>
+
+				
+					<div class="col-sm-12">
+	<a href="https://www.ieeeismar.net/2025/committee/international-program/" target="_blank" rel="noopener">IEEE ISMAR</a> 
+	2025 (IPC), 2024 (IPC, Conference Track)
+</div>
+
+				
+					<div class="col-sm-12">
+	<a href="https://www.dropbox.com/s/bm7ngalnaw4digh/IEEE-VR-2020-program-comittee.pdf?dl=0" target="_blank" rel="noopener">IEEE VR</a> 
+	2026 (IPC), 2020 (IPC, Conference Track)
+</div>
+
+				
+					<div class="col-sm-12">
+	<a href="https://www.computer.org/csdl/journal/tg/about/107398?title=Editorial%20Board&amp;periodical=IEEE%20Transactions%20on%20Visualization%20and%20Computer%20Graphics" target="_blank" rel="noopener">IEEE TVCG</a> 
+	Associate Editor (since 2026)
+</div>
+
+				
+					<div class="col-sm-12">
+	<a href="https://icxr.net/2026/index.html" target="_blank" rel="noopener">ICXR</a> 
+	2026
+</div>
+
+				
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="card bg-light mb-3">
+			<div class="card-body card-font-small">
+				<h6 class="card-title">Peer Review activities</h6>
+				<div class="row mb-4">
+				
+					<div class="col-sm-12">
+	<span class="font-italic">Wiley Advanced Science</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2026
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">Springer IJIDeM</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2023
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">Elsevier Computer &amp; Graphics</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2024, 2023, 2021, 2019
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">MDPI sensors</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2020, 2019
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">APMAR</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2022, 2020, 2019
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">ACM CSCW</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2020, 2018
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">ACM CHI</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2026, 2025, 2024, 2023, 2022, 2021, 2020, 2018, 2017
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">ACM DIS</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2026, 2023, 2022
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">ACM HRI</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2020, 2017
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">ACM ISS</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2026, 2025, 2023, 2022, 2020, 2019, 2018
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">ACM TEI</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2026, 2024, 2021, 2019, 2018
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">ACM SIGGRAPH</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2026, 2022, 2020, 2019
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">ACM SIGGRAPH Asia</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2022, 2021, 2020, 2018, 2017, 2016
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">ACM SUI</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2024, 2021, 2018, 2016
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">ACM UIST</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2026, 2025, 2024, 2021, 2020, 2019, 2018, 2017, 2016
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">ACM VRST</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2023, 2022, 2021, 2019, 2018, 2017, 2016
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">ACM IMWUT</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2026, 2023, 2022
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">IEEE TOH</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2026, 2022, 2020, 2019
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">IEEE VR</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">IEEE ISMAR</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2026, 2025, 2024, 2023, 2022, 2021, 2020, 2018, 2017, 2016
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">IEEE TVCG</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2025, 2024, 2023, 2022, 2020
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">IEEE WHC</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2019
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">ICAT-EGVE</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2022, 2020, 2018, 2017
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">INTERACT</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2022, 2021, 2019
+</div>
+
+				
+					<div class="col-sm-12">
+	<span class="font-italic">TVRSJ</span>
+	<i class="fa-solid fa-angle-right"></i>
+	2024, 2023
+</div>
+
+				
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Employment section -->
+
+<hr />
+
+<div class="row" id="employment">
+    <div class="col-12">
+        <h4 clss="mb-5"><i class="fa-regular fa-building"></i> Employment and Education History</h4>
+		<p></p>
+    </div>
+	
+	<div class="col-sm-6">
+		<div class="card mb-3">
+			<div class="card-body card-font-small">
+				<h5 class="card-title">Employment History</h5>
+				
+					<div class="row">
+	<div class="col-sm-2">
+		<img class="img-fluid" src="assets/img/logo_saitama_university.jpg" alt="Gradaute School of Science and Engineering, Saitama University" />
+	</div>
+	<div class="col-sm-10">
+		<span class="font-weight-bold">Associate Professor</span>
+		<br />
+		<i><a href="http://www.ics.saitama-u.ac.jp/" target="_blank" rel="noopener">Gradaute School of Science and Engineering, Saitama University</a></i>
+		<br />
+		Apr 2023 <i class="fa-solid fa-angle-right"></i> Present
+		<br />
+		Fabrication, Interaction and Perception Laboratory as a Principle Investigator
+		<p></p>
+	</div>
+</div>
+				
+					<div class="row">
+	<div class="col-sm-2">
+		<img class="img-fluid" src="assets/img/logo_osaka_university.jpg" alt="Graduate School of Engineering Science, The University of Osaka" />
+	</div>
+	<div class="col-sm-10">
+		<span class="font-weight-bold">Assistant Professor</span>
+		<br />
+		<i><a href="https://www.es.osaka-u.ac.jp/en/" target="_blank" rel="noopener">Graduate School of Engineering Science, The University of Osaka</a></i>
+		<br />
+		Apr 2021 <i class="fa-solid fa-angle-right"></i> Mar 2023
+		<br />
+		Prof. Kosuke Sato Laboratory (Augmented Reality, Haptic Perception, Digital Fabrication)
+		<p></p>
+	</div>
+</div>
+				
+					<div class="row">
+	<div class="col-sm-2">
+		<img class="img-fluid" src="assets/img/logo_osaka_university.jpg" alt="Institute for Advanced Co-Creation Studies, The University of Osaka" />
+	</div>
+	<div class="col-sm-10">
+		<span class="font-weight-bold">Assistant Professor</span>
+		<br />
+		<i><a href="http://iacs.osaka-u.ac.jp/en/" target="_blank" rel="noopener">Institute for Advanced Co-Creation Studies, The University of Osaka</a></i>
+		<br />
+		Jan 2019 <i class="fa-solid fa-angle-right"></i> Mar 2021
+		<br />
+		Prof. Kosuke Sato Laboratory (Augmented Reality, Haptic Perception, Digital Fabrication)
+		<p></p>
+	</div>
+</div>
+				
+					<div class="row">
+	<div class="col-sm-2">
+		<img class="img-fluid" src="assets/img/logo_osaka_university.jpg" alt="Graduate School of Engineering Science, The University of Osaka" />
+	</div>
+	<div class="col-sm-10">
+		<span class="font-weight-bold">Assistant Professor</span>
+		<br />
+		<i><a href="https://www.es.osaka-u.ac.jp/en/" target="_blank" rel="noopener">Graduate School of Engineering Science, The University of Osaka</a></i>
+		<br />
+		Apr 2018 <i class="fa-solid fa-angle-right"></i> Dec 2018
+		<br />
+		Prof. Kosuke Sato Laboratory (Augmented Reality, Haptic Perception, Digital Fabrication)
+		<p></p>
+	</div>
+</div>
+				
+					<div class="row">
+	<div class="col-sm-2">
+		<img class="img-fluid" src="assets/img/logo_mit_csail.jpg" alt="HCI Engineering Group, MIT CSAIL" />
+	</div>
+	<div class="col-sm-10">
+		<span class="font-weight-bold">Postdoctoral Associate</span>
+		<br />
+		<i><a href="https://hcie.csail.mit.edu/" target="_blank" rel="noopener">HCI Engineering Group, MIT CSAIL</a></i>
+		<br />
+		Jan 2017 <i class="fa-solid fa-angle-right"></i> Mar 2018
+		<br />
+		Prof. Stefanie Mueller Laboratory (Personal Fabrication, 3D Printing, HCI)
+		<p></p>
+	</div>
+</div>
+				
+					<div class="row">
+	<div class="col-sm-2">
+		<img class="img-fluid" src="assets/img/logo_jsps.jpg" alt="Japan Society for the Promotion of Science" />
+	</div>
+	<div class="col-sm-10">
+		<span class="font-weight-bold">Postdoctoral Fellow</span>
+		<br />
+		<i><a href="https://www.jsps.go.jp/english/e-fellow/" target="_blank" rel="noopener">Japan Society for the Promotion of Science</a></i>
+		<br />
+		Oct 2016 <i class="fa-solid fa-angle-right"></i> Mar 2018
+		<br />
+		Prof. Stefanie Mueller Laboratory (Personal Fabrication, 3D Printing, HCI)
+		<p></p>
+	</div>
+</div>
+				
+					<div class="row">
+	<div class="col-sm-2">
+		<img class="img-fluid" src="assets/img/logo_telecom_paristech.jpg" alt="Computer Graphics Group, TSI, Telecom ParisTech (ENST), University Paris-Saclay" />
+	</div>
+	<div class="col-sm-10">
+		<span class="font-weight-bold">Visiting Researcher</span>
+		<br />
+		<i><a href="https://www.tsi.telecom-paristech.fr/cg/" target="_blank" rel="noopener">Computer Graphics Group, TSI, Telecom ParisTech (ENST), University Paris-Saclay</a></i>
+		<br />
+		Dec 2013 <i class="fa-solid fa-angle-right"></i> Feb 2014
+		<br />
+		Prof. Tamy Boubekeur Laboratory (Natural Interaction Interfaces and Systems)
+		<p></p>
+	</div>
+</div>
+				
+					<div class="row">
+	<div class="col-sm-2">
+		<img class="img-fluid" src="assets/img/logo_kiatnakin_bank.jpg" alt="Kiatnakin Bank Public Limited Company" />
+	</div>
+	<div class="col-sm-10">
+		<span class="font-weight-bold">Programmer Analysis</span>
+		<br />
+		<i><a href="https://www.kiatnakin.co.th/" target="_blank" rel="noopener">Kiatnakin Bank Public Limited Company</a></i>
+		<br />
+		Jun 2010 <i class="fa-solid fa-angle-right"></i> Sep 2011
+		<br />
+		Core Banking Systems (Data Management), Information System Department
+		<p></p>
+	</div>
+</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="card mb-3">
+			<div class="card-body card-font-small">
+				<h5 class="card-title">Education History</h5>
+				
+					<div class="row">
+	<div class="col-sm-2">
+		<img class="img-fluid" src="assets/img/logo_osaka_university.jpg" alt="Graduate School of Engineering Science, The University of Osaka" />
+	</div>
+	<div class="col-sm-10">
+		<span class="font-weight-bold">Ph.D in Engineering</span>
+		<br />
+		<i><a href="https://www.sens.sys.es.osaka-u.ac.jp/" target="_blank" rel="noopener">Graduate School of Engineering Science, The University of Osaka</a></i>
+		<br />
+		Oct 2013 <i class="fa-solid fa-angle-right"></i> Sep 2016
+		<br />
+		
+		Advisor: Prof. Daisuke Iwai and Prof. Kosuke Sato
+		<br />
+		
+		
+		Thesis: <a href="http://hdl.handle.net/11094/59626" target="_blank" rel="noopener">Spatial Augmented Reality for Deformable Objects</a>
+		
+		<p></p>
+	</div>
+</div>
+				
+					<div class="row">
+	<div class="col-sm-2">
+		<img class="img-fluid" src="assets/img/logo_osaka_university.jpg" alt="Graduate School of Engineering Science, The University of Osaka" />
+	</div>
+	<div class="col-sm-10">
+		<span class="font-weight-bold">Master of Engineering</span>
+		<br />
+		<i><a href="https://www.sens.sys.es.osaka-u.ac.jp/" target="_blank" rel="noopener">Graduate School of Engineering Science, The University of Osaka</a></i>
+		<br />
+		Oct 2011 <i class="fa-solid fa-angle-right"></i> Sep 2013
+		<br />
+		
+		Advisor: Prof. Daisuke Iwai and Prof. Kosuke Sato
+		<br />
+		
+		
+		Thesis: <a href="" target="_blank" rel="noopener">Projection-based Mixed Reality for Deformable Surfaces using Infrared Textures</a>
+		
+		<p></p>
+	</div>
+</div>
+				
+					<div class="row">
+	<div class="col-sm-2">
+		<img class="img-fluid" src="assets/img/logo_university_of_fukui.jpg" alt="Electrical Engineering, School of Engineering, University of Fukui" />
+	</div>
+	<div class="col-sm-10">
+		<span class="font-weight-bold">Exchange Student</span>
+		<br />
+		<i><a href="https://www.u-fukui.ac.jp/eng/" target="_blank" rel="noopener">Electrical Engineering, School of Engineering, University of Fukui</a></i>
+		<br />
+		Oct 2008 <i class="fa-solid fa-angle-right"></i> Sep 2009
+		<br />
+		
+		
+		Thesis: <a href="" target="_blank" rel="noopener">Natural Language Processing and Artificial Intelligence</a>
+		
+		<p></p>
+	</div>
+</div>
+				
+					<div class="row">
+	<div class="col-sm-2">
+		<img class="img-fluid" src="assets/img/logo_kmutt.jpg" alt="Applied Computer Science in Multimedia, Information Technology, Faculty of Education and Industrial Engineering, King Mongkut’s University of Technology Thonburi" />
+	</div>
+	<div class="col-sm-10">
+		<span class="font-weight-bold">Bachelor of Science</span>
+		<br />
+		<i><a href="https://cit.kmutt.ac.th/cit3/index.html" target="_blank" rel="noopener">Applied Computer Science in Multimedia, Information Technology, Faculty of Education and Industrial Engineering, King Mongkut’s University of Technology Thonburi</a></i>
+		<br />
+		May 2006 <i class="fa-solid fa-angle-right"></i> Apr 2010
+		<br />
+		
+		Advisor: Prof. Suriyong Lertkulvanich
+		<br />
+		
+		
+		Thesis: <a href="" target="_blank" rel="noopener">English Composition game on the computer using a Natural Language Processing</a>
+		
+		<p></p>
+	</div>
+</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Footer section -->
+
+<div>‎</div>
+<hr />
+
+<footer class="pt-2 my-md-2 pt-md-">
+    <div class="row justify-content-center">
+        <div class="col-7 col-md text-left align-self-center">
+            <p class="h6">© Parinya Punpongsanon, <span id="currentYear"></span></p>
+        </div>
+		<!--
+        <div class="col col-md text-right">
+            
+                <img class="mr+4" src="assets/img/xxx.png" data-canonical-src="assets/img/xxx.png" alt="" width="60"/>
+            
+        </div>
+		-->
+    </div>
+    <p></p>
+</footer>
+
+
+        </div>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.8/js/bootstrap.min.js"></script>
+        <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>-->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+		
+        <!-- Isotope JS -->
+		<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+        <!-- OwlCarousel2 JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+        <!-- Axios JS -->
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+		<!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+		<!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+    </body>
+</html>
