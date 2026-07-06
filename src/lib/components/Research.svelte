@@ -109,13 +109,18 @@
 					</div>
 
 					{#if project['abstract-less']}
-						<u><b><i>Abstract</i></b>:</u>
-						{@html project['abstract-less']}{#if expanded[project._id]}{@html project['abstract-more']}{/if}
-						{#if project['abstract-more']}
-							<button class="see-more" onclick={() => (expanded[project._id] = !expanded[project._id])}>
-								{expanded[project._id] ? '... See Less' : '... See More'}
-							</button>
-						{/if}
+						<p class="project-abstract">
+							<u><b><i>Abstract</i></b>:</u>
+							{@html project['abstract-less']}{#if expanded[project._id]}{@html project['abstract-more']}{/if}
+							{#if project['abstract-more']}
+								<button
+									class="see-more"
+									onclick={() => (expanded[project._id] = !expanded[project._id])}
+								>
+									{expanded[project._id] ? '... See Less' : '... See More'}
+								</button>
+							{/if}
+						</p>
 					{/if}
 				</div>
 			</article>

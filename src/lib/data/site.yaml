@@ -5,6 +5,7 @@ icon: assets/img/parinya_icon.png
 # ---- SEO ----
 url: https://punpongsanon.info/          # canonical site root (keep the trailing slash)
 tagline: Associate Professor at Saitama University  # appended to the browser tab title
+page-title: Parinya Punpongsanon, Ph.D.  # exact <title> for the browser tab (overrides title/tagline)
 description: >-
   Parinya Punpongsanon is an Associate Professor at Saitama University and
   Principal Investigator of the Fabrication, Interaction, and Perception (FIP)

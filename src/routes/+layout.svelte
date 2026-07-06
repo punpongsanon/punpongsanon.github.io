@@ -9,7 +9,8 @@
 
 	// Absolute URLs for canonical / social / structured data.
 	const baseUrl = site.url ?? '/';
-	const pageTitle = site.tagline ? `${site.title} — ${site.tagline}` : site.title;
+	const pageTitle =
+		site['page-title'] ?? (site.tagline ? `${site.title} — ${site.tagline}` : site.title);
 	const absImage = new URL(site.image, baseUrl).href;
 
 	// schema.org Person structured data.

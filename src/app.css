@@ -292,8 +292,8 @@ nav.topnav {
 	align-items: flex-start;
 }
 .project-media {
-	flex: 0 0 34%;
-	max-width: 34%;
+	flex: 0 0 28%;
+	max-width: 28%;
 }
 .project-media img {
 	width: 100%;
@@ -308,6 +308,11 @@ nav.topnav {
 }
 .project-body b {
 	color: var(--text);
+}
+.project-abstract {
+	margin: 0.35rem 0 0;
+	text-align: justify;
+	font-size: 0.82rem;
 }
 .project-links {
 	margin: 0.35rem 0;
@@ -368,6 +373,9 @@ nav.topnav {
 	gap: 0.75rem;
 	font-size: 0.82rem;
 }
+.pub-item {
+	text-align: justify;
+}
 .pub-item b {
 	color: var(--text);
 }
@@ -415,6 +423,9 @@ nav.topnav {
 	display: flex;
 	flex-direction: column;
 	gap: 0.5rem;
+}
+.activity-list.awards-list > div {
+	text-align: justify;
 }
 .activity-list.inline-dates .date {
 	color: var(--muted);

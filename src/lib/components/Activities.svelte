@@ -44,7 +44,7 @@
 
 		<div class="activity-block">
 			<h5 class="group-title">Awards</h5>
-			<div class="activity-list">
+			<div class="activity-list awards-list">
 				{#each awards as a}
 					<div>
 						<a href={a.url} target="_blank" rel="noopener">{@html a.awarding}</a><br />
