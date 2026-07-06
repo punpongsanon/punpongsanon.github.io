@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:koyama.xyz)",
+      "Bash(bundle exec *)",
+      "Bash(npm --version)",
+      "Bash(set -e)",
+      "Bash(mkdir -p src/lib/data src/lib/components src/routes static)",
+      "Bash(mv _data/about.yaml _data/research.yaml _data/publication.yaml _data/activities.yaml _data/employment.yaml _data/footer.yaml src/lib/data/)",
+      "Bash(mv assets *)",
+      "Bash(cp CNAME static/CNAME)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(rm -rf _layouts _sections _libs _site .jekyll-cache styles js _data)",
+      "Bash(rm -f _config.yml Gemfile Gemfile.lock index.md note.txt CNAME)"
+    ]
+  }
+}

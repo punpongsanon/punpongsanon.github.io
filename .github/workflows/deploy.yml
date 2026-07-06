@@ -3,14 +3,30 @@ on:
   push:
     branches:
       - dev
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: jeffreytse/jekyll-deploy-action@v0.6.0
+
+      - uses: actions/setup-node@v4
         with:
-          provider: 'github'
-          token: ${{ secrets.GITHUB_TOKEN }} # Built-in token
-          branch: 'build' # Target branch
-          jekyll_src: './'
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run build
+
+      - name: Deploy to Pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          publish_branch: build
+          cname: punpongsanon.info
