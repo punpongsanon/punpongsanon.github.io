@@ -85,7 +85,7 @@
 					<div>
 						<span class="font-italic"><i>{@html r.conference}</i></span>
 						<i class="fa-solid fa-angle-right"></i>
-						{r.year}
+						<span class="review-year">{r.year}</span>
 					</div>
 				{/each}
 			</div>

@@ -1,3 +1,16 @@
 title: Parinya Punpongsanon
 info: /pa rin ya/
 icon: assets/img/parinya_icon.png
+
+# ---- SEO ----
+url: https://punpongsanon.info/          # canonical site root (keep the trailing slash)
+tagline: Associate Professor at Saitama University  # appended to the browser tab title
+description: >-
+  Parinya Punpongsanon is an Associate Professor at Saitama University and
+  Principal Investigator of the Fabrication, Interaction, and Perception (FIP)
+  Laboratory. His research spans human-computer interaction (HCI), extended
+  reality (xR), human perception, and digital fabrication.
+keywords: Parinya Punpongsanon, Saitama University, human-computer interaction, HCI, extended reality, xR, augmented reality, pseudo-haptics, human perception, digital fabrication, FIP Lab
+image: assets/img/parinya.jpg            # used for social share previews
+job-title: Associate Professor
+affiliation: Saitama University
