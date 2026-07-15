@@ -80,7 +80,7 @@
 
 					<div class="project-links">
 						{#if project.doi}<a href={project.doi} target="_blank" rel="noopener" title="DOI"
-								><i class="fa-brands fa-researchgate"></i></a
+								><i class="ai ai-doi"></i></a
 							>{/if}
 						{#if project.pdf}<a href={project.pdf} target="_blank" rel="noopener" title="PDF"
 								><i class="fa-regular fa-file-pdf"></i></a

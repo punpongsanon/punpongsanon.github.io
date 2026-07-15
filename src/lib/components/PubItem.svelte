@@ -28,7 +28,7 @@
 
 	<span class="pub-links">
 		{#if item.doi}<a href={item.doi} target="_blank" rel="noopener" title="DOI"
-				><i class="fa-regular fa-paper-plane"></i></a
+				><i class="ai ai-doi"></i></a
 			>{/if}
 		{#if item.pdf}<a href={item.pdf} target="_blank" rel="noopener" title="PDF"
 				><i class="fa-regular fa-file-pdf"></i></a
