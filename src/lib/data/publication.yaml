@@ -11,7 +11,8 @@ journal_list:
     demo:
     doi: https://doi.org/10.1016/j.afres.2026.102242
     remark: 
-    accept_rate: IF (2025)&#58; 5.4
+    accept_rate:
+    impact_factor: 5.4 (2025)
     prize: 
 
   - title: EateryTag&#58; Investigating Unobtrusive Edible Tags using Digital Food Fabrication
@@ -206,9 +207,10 @@ journal_list:
     code: 
     demo: https://youtu.be/DT04Bopbeso
     doi: https://doi.org/10.1038/s42256-021-00417-9
-    remark: IF (2020)&#58; 16.65
-    accept_rate: 
-    prize: 
+    remark:
+    accept_rate:
+    impact_factor: 16.65 (2020)
+    prize:
     
   - title: Multifocal Stereoscopic Projection Mapping
     event: IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE International Symposium on Mixed and Augmented Reality)
@@ -400,7 +402,7 @@ paper_list:
     pages: pp. 70-72
     date: September 2025
     team: Natthaphon Hatsakornkhanachok and <u>Parinya Punpongsanon</u>
-    pdf: https://www.dropbox.com/scl/fi/tuj5ob9uxbj69rxl3h0b4/GCCE_2025_ViWeight.pdf
+    pdf: https://www.dropbox.com/scl/fi/tuj5ob9uxbj69rxl3h0b4/GCCE_2025_ViWeight.pdf?rlkey=cm281dhiyqh0t7vfs9hn7lh5p&st=xwpjztvd&dl=0
     code: 
     demo:
     doi: https://doi.org/10.1109/GCCE65946.2025.11275019
@@ -414,7 +416,7 @@ paper_list:
     pages: pp. 878-880
     date: September 2025
     team: Jiaqi Gu and <u>Parinya Punpongsanon</u>
-    pdf: https://www.dropbox.com/scl/fi/p14ykgotesignadcuffun/GCCE_2025_Ko.pdf
+    pdf: https://www.dropbox.com/scl/fi/p14ykgotesignadcuffun/GCCE_2025_Ko.pdf?rlkey=mqg8udi9nnyw7apt2vl73u77q&st=6ashxxow&dl=0
     code: 
     demo:
     doi: https://doi.org/10.1109/GCCE65946.2025.11275247
@@ -428,7 +430,7 @@ paper_list:
     pages: pp. 172-173
     date: September 2025
     team: Ryosei Unoki and <u>Parinya Punpongsanon</u>
-    pdf: https://www.dropbox.com/scl/fi/txp6jxpzmxbn6ihel8ukk/GCCE_2025_SmellFly.pdf
+    pdf: https://www.dropbox.com/scl/fi/txp6jxpzmxbn6ihel8ukk/GCCE_2025_SmellFly.pdf?rlkey=g7zljg1sivtma27gjt9929tnu&st=6iel52qy&dl=0
     code: 
     demo:
     doi: https://doi.org/10.1109/GCCE65946.2025.11275234
@@ -442,7 +444,7 @@ paper_list:
     pages: pp. 896-899
     date: 2025年9月10日
     team: 彭勃, <u>プンポンサノン パリンヤ</u>
-    pdf: https://www.dropbox.com/scl/fi/stj5x5hx2xjgxbv23xtyb/HIJ_2025_SubtleMove_Bo.pdf
+    pdf: https://www.dropbox.com/scl/fi/stj5x5hx2xjgxbv23xtyb/HIJ_2025_SubtleMove_Bo.pdf?rlkey=3rt3i6kv9rgy8rgnusbzvctbc&st=bpo2dnph&dl=0
     code: 
     demo:
     doi: 
@@ -456,7 +458,7 @@ paper_list:
     pages: pp. 4&#58;95-4&#58;96
     date: 2025年3月
     team: 遠藤碧海, <u>プンポンサノン パリンヤ</u>
-    pdf: https://www.dropbox.com/scl/fi/lazeecoowcdcrtf85rhfd/IPSJ_2025_endo.pdf
+    pdf: https://www.dropbox.com/scl/fi/lazeecoowcdcrtf85rhfd/IPSJ_2025_endo.pdf?rlkey=3pq7zto3pjldw459vtd7b1htg&st=mufhrpj0&dl=0
     code: 
     demo:
     doi: 
@@ -470,7 +472,7 @@ paper_list:
     pages: pp. 4&#58;67-4&#58;68
     date: 2025年3月
     team: 神尾幸希, <u>プンポンサノン パリンヤ</u>
-    pdf: https://www.dropbox.com/scl/fi/tjwn6h7pob5phk19qllra/IPSJ_2025_kamio.pdf
+    pdf: https://www.dropbox.com/scl/fi/tjwn6h7pob5phk19qllra/IPSJ_2025_kamio.pdf?rlkey=p1fbk8rsxvd74p6en0ixfok8q&st=qmhirsq4&dl=0
     code: 
     demo:
     doi: 
@@ -484,7 +486,7 @@ paper_list:
     pages: 
     date: 2023年11月
     team: 松田綾美, <u>プンポンサノン パリンヤ</u>, 岩井大輔, 佐藤宏介
-    pdf: https://www.dropbox.com/scl/fi/k56a2muaxui9a0c13njkk/SICE_2023_matsuda.pdf?dl=0
+    pdf: https://www.dropbox.com/scl/fi/k56a2muaxui9a0c13njkk/SICE_2023_matsuda.pdf?rlkey=uer2kixrlkbmll5t1gtvb3yft&st=0iouv1oq&dl=0
     code: 
     demo:
     doi: https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202402275616649541
@@ -920,7 +922,7 @@ poster_list:
     pages: Article No. 129
     date: September 2025
     team: Yamato Miyatake and <u>Parinya Punpongsanon</u>
-    pdf: https://www.dropbox.com/scl/fi/k26akd1clecwch3ktjkw1/UIST_2025_Olegel_miyatake.pdf
+    pdf: https://www.dropbox.com/scl/fi/k26akd1clecwch3ktjkw1/UIST_2025_Olegel_miyatake.pdf?rlkey=txo592g3c5glvddelr10lsl4j&st=k4hr3w2t&dl=0
     code: 
     demo: 
     doi: https://doi.org/10.1145/3746058.3758423
@@ -934,7 +936,7 @@ poster_list:
     pages: Article No. 173
     date: September 2025
     team: Yamato Miyatake, huaishu Peng and <u>Parinya Punpongsanon</u>
-    pdf: https://www.dropbox.com/scl/fi/g4gfmz101srspn49tj9n9/UIST_2025_ChewTect_miyatake.pdf
+    pdf: https://www.dropbox.com/scl/fi/g4gfmz101srspn49tj9n9/UIST_2025_ChewTect_miyatake.pdf?rlkey=t4v2fmfab5o7jqy0uxdgewlfe&st=1rll7dns&dl=0
     code: 
     demo: 
     doi: https://doi.org/10.1145/3746058.3758407
@@ -948,7 +950,7 @@ poster_list:
     pages:  pp. 265-266
     date: September 2025
     team: Bo Peng and <u>Parinya Punpongsanon</u>
-    pdf: https://www.dropbox.com/scl/fi/9bu291tm236vb5jq2z6fz/GCCE_2025_SubtleNav.pdf
+    pdf: https://www.dropbox.com/scl/fi/9bu291tm236vb5jq2z6fz/GCCE_2025_SubtleNav.pdf?rlkey=3nm6qfv9ewr8hdjex4s4j3568&st=pnt3a3e6&dl=0
     code: 
     demo: 
     doi: https://doi.org/10.1109/GCCE65946.2025.11275305
@@ -976,7 +978,7 @@ poster_list:
     pages: 2A1-09
     date: 2024年9月
     team: 淺井魁将, <u>プンポンサノン・パリンヤ</u>
-    pdf: https://www.dropbox.com/scl/fi/ibtbxs01l16vankdvylds/VRSJ_2024_asai.pdf
+    pdf: https://www.dropbox.com/scl/fi/ibtbxs01l16vankdvylds/VRSJ_2024_asai.pdf?rlkey=jmctsf6w0dvd1ldrxa5mlv1q1&st=c688apss&dl=0
     code: 
     demo: 
     doi: https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202502214327983120
@@ -990,7 +992,7 @@ poster_list:
     pages: 1D1-09
     date: 2024年9月
     team: 鵜木亮成, <u>プンポンサノン・パリンヤ</u>
-    pdf: https://www.dropbox.com/scl/fi/zgh04ohjc43ylznelbmdx/VRSJ_2024_unoki.pdf
+    pdf: https://www.dropbox.com/scl/fi/zgh04ohjc43ylznelbmdx/VRSJ_2024_unoki.pdf?rlkey=h93fumysyvaecrcenq7chcyqj&st=e0um47d1&dl=0
     code: 
     demo: 
     doi: https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202502290399490561

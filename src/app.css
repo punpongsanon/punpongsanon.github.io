@@ -376,6 +376,9 @@ nav.topnav {
 .pub-item {
 	text-align: justify;
 }
+.pub-list-sm {
+	font-size: 0.72rem;
+}
 .pub-item b {
 	color: var(--text);
 }

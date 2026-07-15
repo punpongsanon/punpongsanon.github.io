@@ -75,7 +75,7 @@
 	{#if show('posters') && posters.length}
 		<div class="pub-group">
 			<h5 class="group-title">Conference Proceedings (Talks, Posters and Demonstration)</h5>
-			<div class="pub-list">
+			<div class="pub-list pub-list-sm">
 				{#each posters as item}<PubItem {item} />{/each}
 			</div>
 		</div>

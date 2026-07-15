@@ -12,7 +12,13 @@
 		<span class="badge"><i class="fas fa-quote-left"></i><strong>{@html item.remark}</strong></span>
 	{/if}
 	{#if item.accept_rate}
-		<span class="badge"><i class="fa-solid fa-percent"></i><strong>{@html item.accept_rate}</strong
+		<span class="badge"><i class="fa-solid fa-percent"></i><strong
+				>Acceptance rate {@html item.accept_rate}</strong
+			></span>
+	{/if}
+	{#if item.impact_factor}
+		<span class="badge"><i class="fa-solid fa-chart-line"></i><strong
+				>Impact factor {@html item.impact_factor}</strong
 			></span>
 	{/if}
 	{#if item.prize}
