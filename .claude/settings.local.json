@@ -13,7 +13,12 @@
       "Bash(npm run *)",
       "Bash(rm -rf _layouts _sections _libs _site .jekyll-cache styles js _data)",
       "Bash(rm -f _config.yml Gemfile Gemfile.lock index.md note.txt CNAME)",
-      "PowerShell(npm outdated)"
+      "PowerShell(npm outdated)",
+      "Bash(curl -s -o /dev/null -w 'HTTP %{http_code} -> %{redirect_url}\\\\n' -I \"https://punpongsanon.github.io/\" --max-time 20)",
+      "Bash(curl -s -o /dev/null -w 'HTTP %{http_code} -> %{redirect_url}\\\\n' -I \"http://punpongsanon.info/\" --max-time 20)",
+      "Bash(curl -s -o /dev/null -w 'HTTP %{http_code} -> %{redirect_url}\\\\n' -I \"https://punpongsanon.info\" --max-time 20)",
+      "Bash(curl -s -o /dev/null -w 'HTTP %{http_code} -> %{redirect_url}\\\\n' -I \"https://www.punpongsanon.info/\" --max-time 20)",
+      "Bash(curl -s -w '\\\\nHTTP %{http_code}\\\\n' \"https://punpongsanon.info/index.html\" --max-time 20)"
     ]
   }
 }
