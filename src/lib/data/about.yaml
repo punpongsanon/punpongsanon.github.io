@@ -2,6 +2,7 @@
 name: Parinya Punpongsanon, Ph.D.
 profile-pic: assets/img/parinya.jpg
 pronunciation: /pa rin ya/
+pronunciation-ja: /プンポンサノン パリンヤ/
 ##pronunciation-emoji: 🎧
 
 # emoji indicator
@@ -33,7 +34,14 @@ first-paragraph: I am an Associate Professor at the <hightlight>Graduate School 
 
 second-paragraph: I am also the Principal Investigator of the <a href="https://www.fip.ics.saitama-u.ac.jp/" target="_blank" rel="noopener">Fabrication, Interaction, and Perception Laboratory</a>, where our lab interest in the research across the personal interaction and interactive systems in HCI.
 
+# about me (Japanese / 自己紹介) — shown when the intro language toggle is set to 日本語
+first-paragraph-ja: <a href="https://www.saitama-u.ac.jp/rikogaku/" target="_blank" rel="noopener">埼玉大学大学院理工学研究科</a> / <a href="https://www.ics.saitama-u.ac.jp/" target="_blank" rel="noopener">数理電子情報専攻</a>
+
+second-paragraph-ja: <a href="https://www.fip.ics.saitama-u.ac.jp/" target="_blank" rel="noopener">Fabrication, Interaction, and Perception 研究室</a> 准教授 (PI)<br>HCI（ヒューマン・コンピュータ・インタラクション）における個人のインタラクションやインタラクティブシステムに関する研究に取り組んでいます。
+
 research-introduction: <code>Contact Information</code> Graduate School of Science and Engineering, Building for Research and Project, 8F, 805-2 (255 SHIMO-OKUBO, Sakura-ku, Saitama 338-8570, Japan). <code>email</code> parinya[at]mail.saitama-u.ac.jp
+
+research-introduction-ja: <code>連絡先</code> 〒338-8570 埼玉県さいたま市桜区下大久保255 総合研究棟8階805-2号室<br><code>eメール</code> parinya[at]mail.saitama-u.ac.jp
 
 research-interests:
 

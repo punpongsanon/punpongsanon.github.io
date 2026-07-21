@@ -1,8 +1,24 @@
 <script>
 	import about from '$lib/data/about.yaml';
 	import { asset } from '$lib/asset.js';
+	import { lang } from '$lib/lang.svelte.js';
 
 	const interests = about['research-interests'] ?? [];
+
+	// Swap only the self-introduction paragraphs; fall back to English if a
+	// Japanese variant is missing.
+	const firstPara = $derived(
+		(lang.current === 'ja' && about['first-paragraph-ja']) || about['first-paragraph']
+	);
+	const secondPara = $derived(
+		(lang.current === 'ja' && about['second-paragraph-ja']) || about['second-paragraph']
+	);
+	const introText = $derived(
+		(lang.current === 'ja' && about['research-introduction-ja']) || about['research-introduction']
+	);
+	const pronunciation = $derived(
+		(lang.current === 'ja' && about['pronunciation-ja']) || about.pronunciation
+	);
 </script>
 
 <header class="profile" id="about">
@@ -12,12 +28,12 @@
 
 	<div class="profile-intro">
 		<h1>{about.name}</h1>
-		{#if about.pronunciation}
-			<p class="pronunciation">{about.pronunciation}</p>
+		{#if pronunciation}
+			<p class="pronunciation">{pronunciation}</p>
 		{/if}
 
-		<p>{@html about['first-paragraph']}</p>
-		<p>{@html about['second-paragraph']}</p>
+		<p>{@html firstPara}</p>
+		<p>{@html secondPara}</p>
 
 		<div class="social-icons">
 			{#if about.scholar}
@@ -45,7 +61,7 @@
 </header>
 
 <div class="codebox">
-	{@html about['research-introduction']}
+	{@html introText}
 	{#if interests.length}
 		<div class="interests">
 			{#each interests as interest}
