@@ -166,13 +166,13 @@ nav.topnav {
 	background: transparent;
 }
 .lang-opt {
-	padding: 1px 7px;
+	padding: 2px 9px;
 	border: none;
 	background: transparent;
 	color: var(--muted);
 	font-family: inherit;
-	font-size: 0.68rem;
-	line-height: 1.45;
+	font-size: 0.8rem;
+	line-height: 1.5;
 	cursor: pointer;
 }
 .lang-opt:hover {
