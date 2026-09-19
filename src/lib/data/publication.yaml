@@ -901,17 +901,30 @@ paper_list:
     prize:
 
 poster_list:
-
+  - title: VR環境における顔面アクションユニットを用いた感情認識手法
+    event: 第31回日本バーチャルリアリティ学会大会論文集
+    event-web: https://conference.vrsj.org/ac2026/
+    pages: 2C2-09
+    date: 2026年9月
+    team: 淺井魁将, <u>プンポンサノン・パリンヤ</u>
+    pdf: https://www.dropbox.com/scl/fi/khcgr9z3pd4mkuce3j2ia/VRSJ_2026_asai.pdf?rlkey=er4hp0ysw8r6guiimzkdsunbd&st=q2q0g7y7&dl=0
+    code: 
+    demo: 
+    doi: 
+    remark: In Japanese
+    accept_rate: 
+    prize: 
+    
   - title: TeleFormation&#58; Join Socially Interacting with Comfortable for Shared Virtual Environment using F-Formation
     event: In Proceedings of IEEE Conference on Virtual Reality and 3D User Interfaces (VR) 2026
     event-web: https://ieeevr.org/2026/program/posters/
-    pages: XXX
+    pages: 1129-1130
     date: March 2026
     team: Kohei Yanagi and <u>Parinya Punpongsanon</u>
     pdf: 
     code: 
     demo: https://youtu.be/P8MXEitdVKE
-    doi: 
+    doi: https://doi.org/10.1109/VRW70859.2026.00239
     remark: Poster
     accept_rate: 66.2%
     prize: 
