@@ -1,5 +1,4 @@
 journal_list:
-
   - title: TastePrint&#58; A 3D food printing system for layer-wise taste distribution via airbrushed liquid seasoning
     event: Applied Food Research
     event-web: https://www.sciencedirect.com/journal/applied-food-research
@@ -325,6 +324,47 @@ journal_list:
     prize: 
     
 paper_list:
+  - title: Fracty&#58; Classifying Infill Patterns of 3D-Printed Food from Fracture Sounds
+    event: In Proceedings of the 11th ACM Symposium on Computational Fabrication (SCF 2026)
+    event-web: https://scf.acm.org/2026/
+    pages: pp. XX-XX
+    date: December 2026
+    team: Aoi Yamada, Yamato Miyatake, Takashi Amesaka, Daisuke Iwai and <u>Parinya Punpongsanon</u>
+    pdf: 
+    code: 
+    demo: 
+    doi: https://doi.org/10.1145/3828611.3845635
+    remark: 
+    accept_rate: 
+    prize: 
+
+  - title: OlfaDrone&#58; Characterizing Odor and Airflow Perception in a Drone-Based Olfactory Display for XR
+    event: Lecture Notes in Computer Science (Extended Reality, ICXR 2026)
+    event-web: https://icxr.net/2026/
+    pages: pp. XX-XX
+    date: November 2026
+    team: Ryosei Unoki, Natthaphon Hatsakornkhanachok and <u>Parinya Punpongsanon</u>
+    pdf: 
+    code: 
+    demo: https://www.youtube.com/watch?v=Dv1Hs96r-ss
+    doi: 
+    remark: 
+    accept_rate: 
+    prize: 
+
+  - title: How Much Delay Goes Unnoticed? Quantifying Perceptual Latency Threshold across Multimodalities in Virtual Reality
+    event: Lecture Notes in Computer Science (Extended Reality, ICXR 2026)
+    event-web: https://icxr.net/2026/
+    pages: pp. XX-XX
+    date: November 2026
+    team: Natthaphon Hatsakornkhanachok and <u>Parinya Punpongsanon</u>
+    pdf: 
+    code: 
+    demo: https://www.youtube.com/watch?v=3PEJFviQxus
+    doi: 
+    remark: 
+    accept_rate: 
+    prize: 
 
   - title: ChewTect&#58; Designing Temporal Food Texture via Computational Molding
     event: In Proceedings of the 2026 ACM Designing Interactive Systems Conference (DIS)
@@ -334,7 +374,7 @@ paper_list:
     team: Yamato Miyatake, Aoi Yamada, Huaishu Peng and <u>Parinya Punpongsanon</u>
     pdf: 
     code: 
-    demo:
+    demo: https://www.youtube.com/watch?v=FeYSJ0UXZRQ
     doi: https://doi.org/10.1145/3800645.3812893
     remark: 
     accept_rate: 21%
@@ -901,6 +941,48 @@ paper_list:
     prize:
 
 poster_list:
+  - title: Proportion-Domain Watermarks for 3D Printed Objects
+    event: In Adjunct Proceedings of the 11th ACM Symposium on Computational Fabrication (SCF 2026)
+    event-web: https://scf.acm.org/2026/
+    pages: pp. XX-XX
+    date: December 2026
+    team: Myo Thant Aung and <u>Parinya Punpongsanon</u>
+    pdf: 
+    code: 
+    demo: 
+    doi: https://doi.org/10.1145/3828643.3858279
+    remark: 
+    accept_rate: 
+    prize: 
+
+  - title: Demonstration of Fracty&#58; Classifying Infill Patterns of 3D-Printed Food from Fracture Sounds
+    event: In Adjunct Proceedings of the 11th ACM Symposium on Computational Fabrication (SCF 2026)
+    event-web: https://scf.acm.org/2026/
+    pages: pp. XX-XX
+    date: December 2026
+    team: Aoi Yamada, Yamato Miyatake, Takashi Amesaka, Daisuke Iwai and <u>Parinya Punpongsanon</u>
+    pdf: 
+    code: 
+    demo: 
+    doi: https://doi.org/10.1145/3828643.3858027
+    remark: 
+    accept_rate: 61%
+    prize: 
+
+  - title: Toward Dynamic Physical–Virtual Perceptual Alignment on OST-HMDs Using Shadow-Boundary Halos
+    event: In Proceedings of the 32nd ACM Symposium on Virtual Reality Software and Technology (VRST 2026)
+    event-web: https://vrst.acm.org/2026/
+    pages: pp. XX-XX
+    date: November 2026
+    team: Aoi Kondoh, Yamato Miyatake and <u>Parinya Punpongsanon</u>
+    pdf: 
+    code: 
+    demo: 
+    doi: https://doi.org/10.1145/3822517.3849950
+    remark: 
+    accept_rate: 
+    prize: 
+
   - title: VR環境における顔面アクションユニットを用いた感情認識手法
     event: 第31回日本バーチャルリアリティ学会大会論文集
     event-web: https://conference.vrsj.org/ac2026/
