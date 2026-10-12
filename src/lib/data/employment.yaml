@@ -1,13 +1,22 @@
 employment_list:
 
-  - place: Gradaute School of Science and Engineering, Saitama University
+  - place: Graduate School of Science and Engineering, Saitama University
     url: http://www.ics.saitama-u.ac.jp/
     position: Associate Professor
     from: Apr 2023
     to: Present
     location: Saitama, Japan
-    desc: Fabrication, Interaction and Perception Laboratory as a Principle Investigator
+    desc: Fabrication, Interaction and Perception Laboratory as a Principal Investigator
     logo: assets/img/logo_saitama_university.jpg
+
+  - place: Graduate School of Engineering Science, The University of Osaka
+    url: https://www.es.osaka-u.ac.jp/en/
+    position: Specially Appointed Associate Professor
+    from: Oct 2026
+    to: Present (Concurrent, until Sep 2031)
+    location: Toyonaka, Japan
+    desc: Prof. Daisuke Iwai Laboratory (xR Group)
+    logo: assets/img/logo_osaka_university.jpg
     
   - place: Graduate School of Engineering Science, The University of Osaka
     url: https://www.es.osaka-u.ac.jp/en/
