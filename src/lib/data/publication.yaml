@@ -324,20 +324,6 @@ journal_list:
     prize: 
     
 paper_list:
-  - title: Fracty&#58; Classifying Infill Patterns of 3D-Printed Food from Fracture Sounds
-    event: In Proceedings of the 11th ACM Symposium on Computational Fabrication (SCF 2026)
-    event-web: https://scf.acm.org/2026/
-    pages: pp. XX-XX
-    date: December 2026
-    team: Aoi Yamada, Yamato Miyatake, Takashi Amesaka, Daisuke Iwai and <u>Parinya Punpongsanon</u>
-    pdf: 
-    code: 
-    demo: 
-    doi: https://doi.org/10.1145/3828611.3845635
-    remark: 
-    accept_rate: 
-    prize: 
-
   - title: OlfaDrone&#58; Characterizing Odor and Airflow Perception in a Drone-Based Olfactory Display for XR
     event: Lecture Notes in Computer Science (Extended Reality, ICXR 2026)
     event-web: https://icxr.net/2026/
