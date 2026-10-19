@@ -941,20 +941,6 @@ poster_list:
     accept_rate: 
     prize: 
 
-  - title: Demonstration of Fracty&#58; Classifying Infill Patterns of 3D-Printed Food from Fracture Sounds
-    event: In Adjunct Proceedings of the 11th ACM Symposium on Computational Fabrication (SCF 2026)
-    event-web: https://scf.acm.org/2026/
-    pages: pp. XX-XX
-    date: December 2026
-    team: Aoi Yamada, Yamato Miyatake, Takashi Amesaka, Daisuke Iwai and <u>Parinya Punpongsanon</u>
-    pdf: 
-    code: 
-    demo: 
-    doi: https://doi.org/10.1145/3828643.3858027
-    remark: 
-    accept_rate: 61%
-    prize: 
-
   - title: Toward Dynamic Physical–Virtual Perceptual Alignment on OST-HMDs Using Shadow-Boundary Halos
     event: In Proceedings of the 32nd ACM Symposium on Virtual Reality Software and Technology (VRST 2026)
     event-web: https://vrst.acm.org/2026/
