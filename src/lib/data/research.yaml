@@ -12,6 +12,26 @@ categories:
 
 projects:
 
+  - title: OlfaDrone&#58; Characterizing Odor and Airflow Perception in a Drone-Based Olfactory Display for XR
+    system-name: 
+    gif: assets/research/ICXR_2026_OlfaDrone.png
+    conference: ICXR 2026
+    conference-web: https://icxr.net/2026/
+    status: 
+    authors: Ryosei Unoki, Natthaphon Hatsakornkhanachok, <u>Parinya Punpongsanon</u>.
+    doi: 
+    pdf: https://www.dropbox.com/scl/fi/a7bg9yz9cx36kwoi2zsh0/ICXR_2026_OlfaDrone_unoki.pdf?rlkey=7cvpm78dagj74kan7p1vsnnhg&st=gfbmr2x1&dl=0
+    code: 
+    demo: 
+    slides: 
+    talk: 
+    poster:
+    project-web: https://fip.ics.saitama-u.ac.jp/OlfaDrone/
+    abstract-less: Olfactory presentation has been used to enhance immersion in virtual environments (VEs). Traditionally, odor stimuli are delivered either by attaching an odor-emitting device directly to a headset or by installing a fixed device on the ground. However, these methods can reduce immersion because of added physical burden or limited spatial flexibility when the user moves.
+    abstract-more: We propose a drone-based olfactory presentation system in which an odor-emitting module is mounted on a small flying drone. Our approach removes the need for wearable hardware while enabling spatially adaptive odor delivery, overcoming the limitations of both wearable and fixed olfactory display systems. We investigated how the drone can synchronize with the user’s movement so that odor is delivered before the user reaches the target position, just as the drone begins to depart. 
+    tag: 
+    category: xR
+
   - title: ChewTect&#58; Designing Temporal Food Texture via Computational Molding
     system-name: 
     gif: assets/research/DIS_2026_ChewTect.png
