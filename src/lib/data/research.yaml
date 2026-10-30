@@ -12,6 +12,26 @@ categories:
 
 projects:
 
+  - title: TastePrint&#58; A 3D Food Printing System for Layer-wise Taste Distribution via Airbrushed Liquid Seasoning
+    system-name:
+    gif: assets/research/SCF_2026_TastePrint.jpg
+    conference: Applied Food Research, (Demo at ACM SCF 2026)
+    conference-web:
+    status:
+    authors: Yamato Miyatake, <u>Parinya Punpongsanon</u>.
+    doi: https://doi.org/10.1016/j.afres.2026.102242
+    pdf: https://fip.ics.saitama-u.ac.jp/TastePrint/static/pdf/TastePrint_AFR2026.pdf
+    code:
+    demo:
+    slides:
+    talk:
+    poster:
+    project-web: https://fip.ics.saitama-u.ac.jp/TastePrint/
+    abstract-less: 3D food printing enables the customization of food shapes and textures, but typically produces uniform taste profiles due to the limited diversity of printable materials. We present TastePrint, a 3D food printing system that achieves layer-wise spatial taste distribution by dynamically applying liquid seasonings with a programmable airbrush during fabrication. The system integrates (1) a graphical user interface (GUI) that allows users to import 3D models, slice them into layers, and specify seasoning channels, spray positions, and intensities, and (2) a customized 3D food printer equipped with a multi-nozzle spray mechanism.
+    abstract-more: We evaluated the system through technical experiments quantifying spray resolution and deposition accuracy, a minimal sensory discrimination study on taste localization, and an exploratory formative user-feedback study involving three home cooks. The spray-resolution model achieved R&#178; = 0.86, and the spray-amount model achieved R&#178; = 0.99. The filter-paper calibration showed broad consistency with measurements obtained on edible mashed-potato samples. In the sensory discrimination study, participants identified the centralized seasoning pattern as more localized in 27 of 40 trials (67.5%). These findings indicate that TastePrint can provide repeatable hardware-level control over seasoning placement and quantity while offering initial evidence that spatial taste arrangement can remain perceptually meaningful after fabrication.
+    tag:
+    category: digital fabrication
+
   - title: How Much Delay Goes Unnoticed? Quantifying Perceptual Latency Thresholds Across Multimodalities in Virtual Reality
     system-name:
     gif: assets/research/ICXR_2026_Deception.jpg
