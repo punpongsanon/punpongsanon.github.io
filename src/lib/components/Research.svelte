@@ -3,7 +3,12 @@
 	import { asset } from '$lib/asset.js';
 
 	const categories = research.categories ?? [];
-	const projects = (research.projects ?? []).map((p, i) => ({ ...p, _id: i }));
+	// A project may belong to one or more categories; normalize to an array.
+	const projects = (research.projects ?? []).map((p, i) => ({
+		...p,
+		_id: i,
+		_cats: Array.isArray(p.category) ? p.category : p.category != null ? [p.category] : []
+	}));
 	const perPage = 5;
 
 	let filter = $state('*');
@@ -11,7 +16,7 @@
 	let expanded = $state({});
 
 	const filtered = $derived(
-		filter === '*' ? projects : projects.filter((p) => p.category === filter)
+		filter === '*' ? projects : projects.filter((p) => p._cats.includes(filter))
 	);
 	const totalPages = $derived(Math.max(1, Math.ceil(filtered.length / perPage)));
 	const paged = $derived(filtered.slice((page - 1) * perPage, page * perPage));

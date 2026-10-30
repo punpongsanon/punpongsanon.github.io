@@ -18,7 +18,14 @@
       "Bash(curl -s -o /dev/null -w 'HTTP %{http_code} -> %{redirect_url}\\\\n' -I \"http://punpongsanon.info/\" --max-time 20)",
       "Bash(curl -s -o /dev/null -w 'HTTP %{http_code} -> %{redirect_url}\\\\n' -I \"https://punpongsanon.info\" --max-time 20)",
       "Bash(curl -s -o /dev/null -w 'HTTP %{http_code} -> %{redirect_url}\\\\n' -I \"https://www.punpongsanon.info/\" --max-time 20)",
-      "Bash(curl -s -w '\\\\nHTTP %{http_code}\\\\n' \"https://punpongsanon.info/index.html\" --max-time 20)"
+      "Bash(curl -s -w '\\\\nHTTP %{http_code}\\\\n' \"https://punpongsanon.info/index.html\" --max-time 20)",
+      "Bash(curl -s -L --max-time 60 -o \"static/assets/research/ICXR_2026_Deception.jpg\" \"https://fip.ics.saitama-u.ac.jp/Deception/static/images/fig1-setup.jpg\")",
+      "Bash(command -v magick convert python python3)",
+      "Bash(python -c \"import PIL; print\\('PIL', PIL.__version__\\)\")",
+      "Bash(python3 -c \"import PIL; print\\('PIL', PIL.__version__\\)\")",
+      "Bash(python -m pip install --quiet Pillow)",
+      "Bash(python -c \"import PIL; print\\('Pillow', PIL.__version__\\)\")",
+      "Bash(cd \"D:/web/punpongsanon.github.io\" && cp \"C:/Users/punpo/AppData/Local/Temp/claude/D--web-punpongsanon-github-io/f5b87358-9df4-4b6a-a406-d3abc8084b6d/images/1.png\" static/_crop_src.png && ls -la static/_crop_src.png)"
     ]
   }
 }

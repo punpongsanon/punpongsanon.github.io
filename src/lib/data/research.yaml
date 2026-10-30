@@ -12,6 +12,28 @@ categories:
 
 projects:
 
+  - title: How Much Delay Goes Unnoticed? Quantifying Perceptual Latency Thresholds Across Multimodalities in Virtual Reality
+    system-name:
+    gif: assets/research/ICXR_2026_Deception.jpg
+    conference: ICXR 2026
+    conference-web: https://icxr.net/2026/
+    status:
+    authors: Natthaphon Hatsakornkhanachok, <u>Parinya Punpongsanon</u>.
+    doi:
+    pdf: https://fip.ics.saitama-u.ac.jp/Deception/static/pdf/ICXR2026_HowMuchDelay.pdf
+    code:
+    demo:
+    slides:
+    talk:
+    poster:
+    project-web: https://fip.ics.saitama-u.ac.jp/Deception/
+    abstract-less: In virtual reality (VR), delays between a user's action and sensory feedback disrupt immersion and responsiveness, yet careful budgeting can expand rather than degrade VR's design. We quantify perceptual latency thresholds across three modalities (lighting, sound, rotation) using a fixed-staircase procedure with ternary judgments (N = 20) to estimate the Point of Subjective Simultaneity (PSS) and Temporal Binding Window (TBW).
+    abstract-more: Sound showed the smallest unnoticed delay, rotation the largest, and thresholds differed significantly by modality. Extending to a conventional display revealed no platform differences, indicating thresholds are governed by sensorimotor engagement rather than immersion, yielding latency guidelines for VR application.
+    tag:
+    category:
+      - xR
+      - human perception
+
   - title: OlfaDrone&#58; Characterizing Odor and Airflow Perception in a Drone-Based Olfactory Display for XR
     system-name: 
     gif: assets/research/ICXR_2026_OlfaDrone.png
